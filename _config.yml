@@ -10,6 +10,10 @@ author :
   feedburner : false
 
 markdown: rdiscount
+markdown: kramdown
+
+rdiscount: 
+  extensions: [ generate_toc ]
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
