@@ -21,6 +21,9 @@ html, body {
 div > p {
   text-indent: 1em;
 }
+div.alert p {
+  text-indent: 0;
+}
 
 /* The white background content wrapper */
 .content {
