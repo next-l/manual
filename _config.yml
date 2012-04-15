@@ -12,6 +12,9 @@ author :
 markdown: rdiscount
 markdown: kramdown
 
+kramdown:
+  toc_levels: 1..2
+
 rdiscount: 
   extensions: [ generate_toc ]
 
