@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Enju インストールマニュアル（VMWare Player編）
+title: Next-L Enju インストールマニュアル（VMWare Player編）
 title_short: インストールマニュアル
 tagline: Ver1.00 (2011-11-11)
 group: navigation
