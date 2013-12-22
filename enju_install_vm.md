@@ -33,6 +33,8 @@ group: navigation
 
 後日公開します。
 
+{::comment}別ファイル名候補：setup_other_computer.md{:/comment}
+
 第6章 Enjuのアップデートとデータのパックアップ
 ==============================================
 
