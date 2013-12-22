@@ -12,6 +12,8 @@ group: navigation
 * TOC
 {:toc}
 
+{::comment}----第1章 Enju概要----{:/comment}
+
 {% include enju_introduction.md %}
 
 第2章 Enjuを動作させる方法
