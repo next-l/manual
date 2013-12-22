@@ -121,17 +121,34 @@ VirtualBoxはOracle社のWebサイトからダウンロードします。
 
 前項でダウンロードしたファイルを実行し，VirtualBoxをインストールします。
 
-1. ダウンロードしたファイルを実行します。  
-   ![](assets/images/image_install_013.png)
-2. ウィザードに従ってVirtualBoxをインストールします。  
-   ![](assets/images/image_install_014.png)
+1. ダウンロードしたファイルを実行します。ウィザードに従ってVirtualBoxをインストールのための設定を開始します。「Next」をクリックします。
 
-   <div class="alert alert-info">
-   ウィザードの途中，「ショートカットを作成するかどうか」「ソフトウェアの更新を確認するかどうか」「ユーザーエクスペリエンス改善プログラムに協力するか」などの確認画面が表示されることがある。いずれも「続行」を指定すればよい。
-   </div>
-3. コンピュータを再起動します。  
+   ![](assets/images/image_install_013.png)
+   
+3. 特に変更する必要はありませんので，このまま「Next」をクリックします
+
+   ![](assets/images/image_install_014.png)
+   
+4. 特に変更する必要はありませんので，このまま「Next」をクリックします
+
+   ![](assets/images/image_install_014-2.png)
+   
+5. (以降のセットアップ時にネットワークが一時的に切れる警告です。)「Yes」をクリックします
+ 
+   ![](assets/images/image_install_014-3.png)
+
+6. インストールを開始します。「Install」をクリックします。
+
+   ![](assets/images/image_install_014-4.png)
+   
+7. インストールが終了しました。「Finish」をクリックします。
+
    ![](assets/images/image_install_015.png)
 
+8. VitualBoxが起動しました
+
+   ![](assets/images/image_install_015-2.png)
+   
 <div class="alert alert-info">
-【Memo】VirtualBoxのインストールはCドライブに行います。フォルダーをはじめとする設定項目は任意ですが，デフォルトのままインストールを実行しても構いません。
+【Memo】フォルダーをはじめとする設定項目は任意ですが，デフォルトのままインストールを実行しても構いません。
 </div>
