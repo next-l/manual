@@ -109,28 +109,14 @@ VirtualBox用に用意された Next-L Enju仮想マシンには，64bit版と32
 
 ### ■VirtualBoxのダウンロード
 
-VirtualBoxはOracle社のWebサイトからダウンロードします。ダウンロードURLは登録後にメールで送付されるため，メールアドレスが必要です。
+VirtualBoxはOracle社のWebサイトからダウンロードします。
 
-1. 以下のVMware社のWebページで［ダウンロード］をクリックします。
-   [http://www.vmware.com/jp/products/player/](http://www.vmware.com/jp/products/player/)  
+1. 以下のWebページで［Downloads］をクリックします。
+   [https://www.virtualbox.org/](https://www.virtualbox.org/)  
    ![](assets/images/image_install_008.png)
-2. 必要な情報を入力し，登録を行います。  
+2. 以下のWebページでx86/amd64のリンクをクリックするとダウンロードが開始します(Windows7「VirtualBox 4.3.6 for Windows hosts」の横のx86/amd64をクリックします)。保存する場所がどこであるのかわかりにくいことがあるので注意してください。  
    ![](assets/images/image_install_009.png)
-3. 登録したメールアドレスに対してダウンロードURLが送信されます。  
-   ![](assets/images/image_install_010.png)
-4. 受信したURLを開き，登録したメールアドレスを入力して［続行］をクリックします。  
-   ![](assets/images/image_install_011.png)
-
-   <div class="alert alert-info">
-   場合によってはメールアドレスの指定を求められないこともある。
-   </div>
-5. VirtualBoxのWindowsプロダクトをダウンロードします。保存する場所がどこであるのかわかりにくいことがあるので注意してください。  
-   ![](assets/images/image_install_012.png)
-
-   <div class="alert alert-info">
-   画面表示は，「Binaries」が「VirtualBox」であったりと多少異なることがある。
-   </div>
-
+   
 ### ■VirtualBoxのインストール
 
 前項でダウンロードしたファイルを実行し，VirtualBoxをインストールします。
