@@ -61,4 +61,11 @@ VirtualBoxを用いた場合，その上で動作するゲストOSを各環境�
 
 VirtualBoxを使ったEnjuのインストールは以下の手順で行います。
 
-![VirtualBoxによるEnjuインストールの手順概要](assets/images/image_install_003.png)
+1. 動作環境の確認
+2. VirtualBoxのダウンロード
+3. VirtualBoxのインストール
+4. Enju仮想マシンのダウンロード
+5. Enju仮想マシンのインストール
+6. Enju仮想マシンの動作確認
+7. Enju仮想マシンのネットワーク設定
+8. Enju仮想マシンの起動
