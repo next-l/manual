@@ -10,19 +10,23 @@ Enjuのインストールに必要なパッケージは，すべてネットワ�
 
 Enjuは，以下のURLで最新版が提供されています。インストールする環境に合わせ，必要なパッケージをダウンロードします。
 
-* [http://www.next-l.jp/download/vm/](http://www.next-l.jp/download/vm/)
+* [http://www.next-l.jp/?page=VM](http://www.next-l.jp/?page=VM)
 
 ![](assets/images/image_install_016.png)
 
-#### 64bit版のEnju仮想マシンを利用する場合
+### ■ ファイル名
 
-WindowsコンピュータにインストールしたVirtualBox上で64bit版のEnju仮想マシンをインストールする場合，「 64bit版Enju仮想マシン 」をダウンロードしてください。ダウンロードするファイルは，以下のファイル名です。
+ダウンロードするファイルは，以下のファイル名です。
 
-    enju_leaf_x.x.x_vmware.zip
+    enju_leaf_x.x.x_virtualbox.zip
+
 
 <div class="alert alert-info">
 【Memo】<code>x.x.x</code> にはバージョン番号が表示されます。複数のパッケージが存在する場合は，最新バージョンを利用してください。
 </div>
+
+
+{::comment}
 
 #### 32bit版のEnju仮想マシンを利用する場合
 
@@ -33,6 +37,8 @@ WindowsコンピュータにインストールしたVirtualBox上で32bit版のE
 <div class="alert alert-info">
 【Memo】<code>x.x.x</code> にはバージョン番号が表示されます。複数のパッケージが存在する場合は，最新バージョンを利用してください。
 </div>
+
+{:/comment}
 
 ### ■パッケージの展開
 
@@ -49,18 +55,16 @@ Enju仮想マシンは，ダウンロードしたパッケージを展開して�
 VirtualBoxを起動し，Enju仮想マシンを開く環境を設定します。
 
 1. VirtualBoxを起動します。
-2. 使用許諾に同意します。  
-   ![](assets/images/image_install_025.png)
-3. ［仮想マシンを開く］をクリックします。  
+2. ［仮想マシン］→［追加(A)］をクリックします。  
    ![](assets/images/image_install_026.png)
 4. 前項で展開したフォルダーを選択します。
-5. 「enju_ubuntu_xxxx.vmx」を選択します。  
+5. 「enju_xxxx_xxxx.vbox」を選択し，「開く」をクリックします。  
    ![](assets/images/image_install_027.png)
 
    <div class="alert alert-info">
    ファイル名はEnju仮想マシンのバージョンによって異なります。
    </div>
-6. ［Enju_Ubuntu_xxxx］をクリックして，［ファイル］−［Playerの環境設定］を選択します。  
+6. ★★★ここから先は改訂作業中です★★★［enju_xxxx_xxxx］をクリックして，［ファイル］−［Playerの環境設定］を選択します。  
    ![](assets/images/image_install_028.png)
 7. ［閉じるときの動作］を選択します。
    * Enju仮想マシンのウィンドウを閉じるときの動作を選択します。選択する項目は任意です。
@@ -98,7 +102,7 @@ VMwareがEnju仮想マシンに割り当てるメモリ量などの動作環境�
    * ネットワークアダプタ：［NAT］を選択
 4. ［OK］をクリックします。  
    ![](assets/images/image_install_031.png)
-
+   
 4-4 Enju仮想マシンの起動
 ------------------------
 
