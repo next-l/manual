@@ -28,8 +28,6 @@ Enjuは，利用者同士のコミュニケーション機能も搭載されて�
 * メッセージの送信
 * メッセージのログの一覧表示・印刷
 
-{% include enju_setup/enju_introduction.md %}
-
 {% include enju_setup/role.md %}
 
 {% include enju_setup/login.md %}
