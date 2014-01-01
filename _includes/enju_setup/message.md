@@ -40,7 +40,7 @@ Enjuのメッセージ機能を利用して，利用者にメッセージを送�
 1. ［アカウント］の左にあるメールアイコンをクリックします。
    ![メッセージの削除](assets/images/image_initial_012.png)
 2. 削除したいメッセージのチェックボックスにチェックを入れ，［メッセージを削除する］ボタンをクリックします。
-   ![削除メッセージの選択](assets/images/image_initial_010.png)
+   ![削除メッセージの選択](assets/images/image_initial_012_2.png)
 
    <div class="alert alert-info">
    【Memo】削除できるのは自分宛のメッセージだけです。削除可能なメッセージにのみ，チェックボックスが表示されます。
