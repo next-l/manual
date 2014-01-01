@@ -12,7 +12,7 @@
 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
    ![システムの設定](assets/images/image_system_setup.png)
 2. ［貸出状態］をクリックします。  
-   ![分類型の設定](assets/images/image_initial_014.png)
+   ![分類型の設定](assets/images/image_system_setup_library.png)
 3. 設定したい項目の［編集］をクリックします。  
    ![貸出状態の編集](assets/images/image_initial_058.png)  
 

@@ -16,7 +16,7 @@
 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
    ![システムの設定](assets/images/image_system_setup.png)
 2. ［書店］をクリックします。  
-   ![システムの設定](assets/images/image_initial_014.png)
+   ![システムの設定](assets/images/image_system_setup_library.png)
 3. ［図書館の管理］メニューから［システムの設定］を選択します。
 4. ［検索エンジン］をクリックします。
 5. 右メニューの［検索エンジンの新規作成］をクリックします。

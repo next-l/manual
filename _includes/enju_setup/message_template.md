@@ -17,7 +17,7 @@
 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
    ![システムの設定](assets/images/image_system_setup.png)
 2. ［メッセージテンプレート］をクリックします。  
-   ![メッセージテンプレートの設定](assets/images/image_initial_014.png)
+   ![メッセージテンプレートの設定](assets/images/image_system_setup_library.png)
 3. 設定したい項目の［編集］をクリックします。  
    ![メッセージテンプレートの編集](assets/images/image_initial_042.png)  
 

@@ -13,7 +13,7 @@
 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
    ![システムの設定](assets/images/image_system_setup.png)
 2. ［催し物の種類］をクリックします。  
-   ![催し物の種類設定](assets/images/image_initial_014.png)
+   ![催し物の種類設定](assets/images/image_system_setup_library.png)
 3. 右メニューの［催し物の種類の新規作成］をクリックします。  
    ![催し物の種類の新規作成](assets/images/image_initial_033.png)  
 

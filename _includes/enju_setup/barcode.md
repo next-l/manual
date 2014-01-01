@@ -10,7 +10,7 @@
 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
    ![システムの設定](assets/images/image_system_setup.png)
 2. ［バーコード］をクリックします。  
-   ![バーコードの設定](assets/images/image_initial_014.png)
+   ![バーコードの設定](assets/images/image_system_setup_library.png)
 3. 右メニューの［バーコードの新規作成］をクリックします。  
    ![バーコードの新規作成](assets/images/image_initial_046.png)
 

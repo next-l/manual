@@ -13,7 +13,7 @@
 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
    ![システムの設定](assets/images/image_system_setup.png)
 2. ［分類］をクリックします。  
-   ![分類の設定](assets/images/image_initial_014.png)
+   ![分類の設定](assets/images/image_system_setup_library.png)
 3. 右メニューの［分類の新規作成］をクリックします。  
    ![分類の新規作成](assets/images/image_initial_054.png)  
 
