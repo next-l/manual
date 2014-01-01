@@ -19,7 +19,7 @@
 ### ■設定方法
 
 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
-   ![「システムの設定」を選択](assets/images/image_initial_013.jpg)
+   ![「システムの設定」を選択](assets/images/image_system_setup.png)
 2. ［図書館全体の設定］をクリックします。  
    ![「図書館全体の設定」を選択](assets/images/image_initial_014.png)
 3. ［編集］をクリックします。  
@@ -34,7 +34,7 @@
    <div class="alert alert-info">
    【Memo】［表示名］の前には，日本語名ならば「ja:」，英語名ならば「en:」というように，言語がわかるように先頭に文字を付記します。
    </div>
-5. ［図書館全体の設定を更新］ボタンをクリックして，設定内容を更新します。  
+5. ［更新］ボタンをクリックして，設定内容を更新します。  
    ![設定項目の入力](assets/images/image_initial_017.png)
 6. 設定が登録され，［図書館全体の設定の表示］画面が表示されます。  
    ![設定項目の入力](assets/images/image_initial_018.png)
