@@ -9,7 +9,7 @@
 
 ### ■設定方法
 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
-   ![システムの設定](assets/images/image_initial_013.jpg)
+   ![システムの設定](assets/images/image_system_setup.png)
 2. ［資料の形態］をクリックします。  
    ![資料の形態の設定](assets/images/image_initial_014.png)
 3. 右メニューの［資料の形態の作成］をクリックします。

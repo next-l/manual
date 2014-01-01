@@ -13,7 +13,7 @@
 ### ■設定方法
 
 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
-   ![システムの設定](assets/images/image_initial_013.jpg)
+   ![システムの設定](assets/images/image_system_setup.png)
 2. ［本棚］をクリックします。  
    ![「本棚」を選択](assets/images/image_initial_022.png)
 3. ［本棚の新規作成］をクリックします。  

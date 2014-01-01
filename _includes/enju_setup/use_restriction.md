@@ -10,7 +10,7 @@
 ### ■設定方法
 
 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
-   ![システムの設定](assets/images/image_initial_013.jpg)
+   ![システムの設定](assets/images/image_system_setup.png)
 2. ［利用制限］をクリックします。  
    ![利用制限の設定](assets/images/image_initial_066.png)
 3. 設定したい項目の［編集］をクリックします。  

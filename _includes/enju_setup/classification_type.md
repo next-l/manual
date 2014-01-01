@@ -10,7 +10,7 @@
 ### ■設定方法
 
 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
-   ![システムの設定](assets/images/image_initial_013.jpg)
+   ![システムの設定](assets/images/image_system_setup.png)
 2. ［分類型］をクリックします。  
    ![分類型の設定](assets/images/image_initial_014.png)
 3. 右メニューの［分類型の新規作成］をクリックします。  

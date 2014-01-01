@@ -10,7 +10,7 @@
 ### ■設定方法
 
 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
-   ![システムの設定](assets/images/image_initial_013.jpg)
+   ![システムの設定](assets/images/image_system_setup.png)
 2. ［資料の関係の種類］をクリックします。  
    ![資料間の関係の設定](assets/images/image_initial_066.png)
 3. 右メニューの［資料の関係の種類の新規作成］をクリックします。  

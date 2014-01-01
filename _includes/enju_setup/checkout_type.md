@@ -10,7 +10,7 @@
 ### ■設定方法
 
 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
-   ![システムの設定](assets/images/image_initial_013.jpg)
+   ![システムの設定](assets/images/image_system_setup.png)
 2. ［貸出区分］をクリックします。  
    ![貸出区分の設定](assets/images/image_initial_014.png)
 3. 右メニューの［貸出区分の新規作成］をクリックします。  
