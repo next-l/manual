@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Next-L Enju初期設定マニュアル(VMware Player編)
+title: Next-L Enju初期設定マニュアル(VirtualBox編)
 title_short: 初期設定マニュアル
 tagline: Ver1.0.1(2011-12-20)
 group: navigation
