@@ -3,6 +3,15 @@
 
 Enjuは，以下の手順で，Enjuのソースコードが公開されているGitHubから変更されたファイルを取り込み最新版にすることができます。
 
+### ■Enjuの停止
+
+1. vagrant@precise64:~$ に続いて以下のコマンドを入力します。
+
+       sudo service apache2 stop
+       sudo service simplesolr stop
+
+   vagrant のパスワード入力が求められたら，パスワードを打ち込んでください(画面には出力されません)。
+       
 ### ■最新ソースコードの取り込み
 
 1. vagrant@precise64:~$ に続いて以下のコマンドを入力します。
@@ -27,22 +36,11 @@ Enjuは，以下の手順で，Enjuのソースコードが公開されている
 
    各種の処理が行われ，メッセージが出力されます。時間もかかります。
 
-### ■コンピュータを再起動します。
+### ■Enjuを再起動
 
 1. vagrant@precise64:~$ または vagrant@precise64:~/enju$ に続いて以下のコマンドを入力します。
 
-       sudo shutdown -r now
+       sudo service apache2 restart
+       sudo service simplesolr restart
 
    vagrant のパスワード入力が求められたら，パスワードを打ち込んでください(画面には出力されません)。
-
-### ■起動後の処理
-
-1. 再起動して，ユーザ名とパスワードの入力が求められますので，ユーザー名( vagrant )と，前に変更したパスワードを入力してログインしてください。  
-   ![](assets/images/image_install_034.png)
-
-2. enju@enju:~$ に続いて以下のコマンドを入力します。
-
-       $ sudo /etc/init.d/tomcat restart
-       $ sudo /etc/init.d/apache restart
-
-   enju のパスワード入力が求められたら，パスワードを打ち込んでください(画面には出力されません)。
