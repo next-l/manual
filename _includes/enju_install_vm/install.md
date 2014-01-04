@@ -212,33 +212,6 @@ Enju仮想マシンの設定時に，ネットワークアダプタを「 NAT(�
 
 {:/comment}
 
-4-5 Enjuの起動
---------------
-
-Enjuを起動します。
-
-1. vagrant@precise64:~$ に続いて以下のコマンドを入力してenjuディレクトリに移動します。
-
-       cd enju
-       
-![](assets/images/image_install_078_1.png)
-
-1. vagrant@precise64:~/enju$ に続いて以下のコマンドを入力し，solrを起動します。
-
-       rake sunspot:solr:start RAILS_ENV=production
-
-![](assets/images/image_install_078_2.png)
-
-1. vagrant@precise64:~/enju$ に続いて以下のコマンドを入力し，railsを起動します。
-
-       rails s -e production
-
-![](assets/images/image_install_078_3.png)
-
-2. 画面上に何か文字列が表示されただけで，本当に正しく動いているのかどうかわかりにくいですが，正しく動いている場合でも上記のようになります。
-
-   **VirtualBox上でNext-L Enjuが動作している間，VirtualBoxは閉じてはいけません。もし，画面上で邪魔だと感じる場合は，アイコン化(最小化)した状態としておいてください。**
-
 4-6 Enjuが正しく起動されているかの確認
 ------------------------------------------------
 
@@ -263,9 +236,7 @@ Next-L Enjuが正しく起動したかどうかは，サーバ上だけではわ
 
 Enjuサーバを終了(シャットダウン)させる場合には，正しい手順でのシャットダウンを行う必要があり，VirtualBoxをいきなり終了させたり，PCの電源ボタンを押すなどして強制終了させると，使用中のデータベースファイルが壊れて，再起動できなくなるなどの問題が発生する可能性があります。
 
-1. 「Ctrl」キーを押しながら「c」としてEnjuを停止します。
-       
-2. vagrant@precise64:~/enju$ に続いて以下のコマンドを入力します。
+1. vagrant@precise64:~/enju$ に続いて以下のコマンドを入力します。
 
        sudo shutdown -h now
 
@@ -280,6 +251,5 @@ Enjuサーバをシャットダウンするタイミングは，図書館の運�
 2. 「4-3 Enju仮想マシンの起動」の1~6を実行してEnju仮想マシンを起動してください。
 3. 起動して，ユーザ名とパスワードの入力が求められますので，ユーザー名( vagrant )と，前に変更したパスワードを入力してログインしてください。  
    ![](assets/images/image_install_034.png)
-4. 「4-5 Enjuの起動」を実行してください。
 
 これで，再度Enjuサーバが利用できるようになりました。
