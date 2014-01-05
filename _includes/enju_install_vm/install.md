@@ -148,15 +148,11 @@ Enju仮想マシンを起動し，Ubuntuにログインします。
 
    ![](assets/images/image_install_034_1.png)
    
-3. Ubuntuのプロンプトが表示されていることを確認します。      
-
-   ![](assets/images/image_install_034_3.png)
-   
-3. 入力を仮想マシンに切り替わっていることを右下を見て確認します。緑の矢印となっていれば切り替っています。
+3. Ubuntuのプロンプトが表示されていることを確認します。また，入力が仮想マシンに切り替わっていることを右下を見て確認します。![](assets/images/image_install_right_ctrl_m.png)（緑の矢印）となっていれば切り替っています。
 
    ![](assets/images/image_install_034_4.png)
    
-4. 入力を仮想マシンに切り替わっていないときは、右の［Ctrl］を押し，［キャプチャー］をクリックして入力を仮想マシンに切り替えます。
+4. ![](assets/images/image_install_right_ctrl_g.png)（グレーの矢印）となっている場合は、右の［Ctrl］キーを押し入力を仮想マシンに切り替えます。「仮想マシンの画面を・・・」という画面が出た場合は，「次回からこのメッセージを表示しない」にチェックをし，［キャプチャー］をクリックします。
 
    ![](assets/images/image_install_034_2.png)
 
