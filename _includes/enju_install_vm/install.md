@@ -184,21 +184,20 @@ Enju仮想マシンを起動し，Ubuntuにログインします。
 
 1. コンピュータに接続しているキーボードの種類によって， enju@enju:~$ に続いて以下のコマンドを入力します。
 
-   * 日本語キーボード：
-         sudo loadkeys jp
-   * 英語キーボード　：
-         sudo loadkeys us
+       sudo loadkeys jp
 
-   enju のパスワード入力が求められますので，パスワードを打ち込んでください(画面には出力されません)。
+<div class="alert alert-info">
+【Memo】英語キーボードの場合は「sudo loadkeys us」としてください。
+</div>
 
-2. パスワードの入力をうながされた場合は，パスワード（初期パスワード：vagrant）を入力します。  
+   パスワードの入力をうながされた場合は，パスワード（初期パスワード：vagrant）を入力します。  
 
    ![](assets/images/image_install_036.png)
-
+   
 <div class="alert alert-info">
 場合によっては，「<code>unknown charset unicode - ignoreing charset request</code>」などと表示され，キーボード上の配置が変更されないこともあるようです。ただし，サーバ上で記号を使うすることがなければ，大きな問題はありませんので，そのまま続けてください。ただし，キーボードの記号(!"#$%&'()など)が正しく入力されていない状況では，次項のパスワード中には記号は含めないようにしてください。
 </div>
-
+  
 ### ■パスワードの変更
 
 初期ユーザー名「vagrant」に対するパスワードを変更します。
