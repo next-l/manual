@@ -14,7 +14,7 @@ Enjuは，以下のURLで最新版が提供されています。インストー�
 
 * [http://www.next-l.jp/?page=VM](http://www.next-l.jp/?page=VM)
 
-![](assets/images/image_install_016.png)
+![Enjuパッケージの提供場所](assets/images/image_install_016.png)
 
 ### ■ ファイル名
 
@@ -48,19 +48,19 @@ Enju仮想マシンは，ダウンロードしたパッケージを展開して�
 
 1. Enjuをインストールするフォルダーを作成します。
 
-   ![](assets/images/image_install_017.png)
+   ![Enjuをインストールするフォルダーを作成](assets/images/image_install_017.png)
    
 2. ダウンロードした zip ファイルパッケージを上記のフォルダにコピーして展開します。
 
-   ![](assets/images/image_install_018.png)
+   ![zip ファイルパッケージを展開](assets/images/image_install_018.png)
    
 3. 展開したフォルダを開きます。  
 
-   ![](assets/images/image_install_018_2.png)
+   ![展開したフォルダを開く](assets/images/image_install_018_2.png)
    
 4. Enju仮想マシンのファイル名を確認します。xxxx.vboxです(ここの例ではvagrant_default_1388636385395_61088.vbox)。xxxxの部分は変わります。  
 
-   ![](assets/images/image_install_018_3.png)
+   ![Enju仮想マシンのファイル名を確認](assets/images/image_install_018_3.png)
 
 4-2 VirtualBoxを開く
 -----------------------
@@ -70,11 +70,11 @@ VirtualBoxを起動し，Enju仮想マシンを開きます。
 1. VirtualBoxを起動します。
 2. ［仮想マシン］→［追加(A)］をクリックします。  
 
-   ![](assets/images/image_install_026.png)
+   ![［仮想マシン］→［追加(A)］をクリック](assets/images/image_install_026.png)
    
 3. 前項で展開し確認した「xxxx.vbox」を選択し，「開く」をクリックします。  
 
-   ![](assets/images/image_install_027.png)
+   ![「xxxx.vbox」を選択し，「開く」をクリック](assets/images/image_install_027.png)
 
    <div class="alert alert-info">
    ファイル名xxxx.vboxはダウンロードしたファイルを展開したときに確認したファイル名になります。
@@ -82,7 +82,7 @@ VirtualBoxを起動し，Enju仮想マシンを開きます。
 
 4. Enju仮想マシンが開きました。
 
-   ![](assets/images/image_install_028.png)
+   ![Enju仮想マシンが開く](assets/images/image_install_028.png)
 
 {::comment}
 
@@ -139,22 +139,22 @@ Enju仮想マシンを起動し，Ubuntuにログインします。
 
 1. ［xxxx］(例：vagrant_default_1388...)をクリックして，［起動(T)］をクリックします。
 
-   ![](assets/images/image_install_032.png)
+   ![［起動(T)］をクリック](assets/images/image_install_032.png)
    
    <div class="alert alert-info">
    上で開いたファイル xxxx.vboxのxxxxの部分になります。
    </div>
 2. ウィンドウが起動し、 Ubuntuの起動がはじまります(少し時間がかかります)。「キーボードの自動キャプチャ・・・」「現在のビデオモードでは・・・」というウインドウが出ますので，右の［×］をクリックします。                      
 
-   ![](assets/images/image_install_034_1.png)
+   ![右の［×］をクリック](assets/images/image_install_034_1.png)
    
 3. Ubuntuのプロンプトが表示されていることを確認します。また，入力が仮想マシンに切り替わっていることを右下を見て確認します。![](assets/images/image_install_right_ctrl_m.png)（緑の矢印）となっていれば切り替っています。
 
-   ![](assets/images/image_install_034_4.png)
+   ![右下を見て確認](assets/images/image_install_034_4.png)
    
 4. ![](assets/images/image_install_right_ctrl_g.png)（グレーの矢印）となっている場合は、右の［Ctrl］キーを押し入力を仮想マシンに切り替えます。「仮想マシンの画面を・・・」という画面が出た場合は，「次回からこのメッセージを表示しない」にチェックをし，［キャプチャー］をクリックします。
 
-   ![](assets/images/image_install_034_2.png)
+   ![チェックして［キャプチャー］をクリック](assets/images/image_install_034_2.png)
 
    <div class="alert alert-info">
    VirtualBoxの画面にマウスカーソルをあわせてクリックするだけでも仮想マシンに切替ができる場合もあります。
@@ -163,11 +163,11 @@ Enju仮想マシンを起動し，Ubuntuにログインします。
    * 初期ユーザー名　：　vagrant
    * 初期パスワード　：　vagrant  
 
-      ![](assets/images/image_install_034.png)
+      ![初期ユーザー名，初期パスワードでログイン](assets/images/image_install_034.png)
       
 6. ログインし，プロンプトが表示されていることを確認します。  
 
-   ![](assets/images/image_install_035.png)
+   ![プロンプトが表示されていることを確認](assets/images/image_install_035.png)
    
 
 <div class="alert alert-info">
@@ -192,7 +192,7 @@ Enju仮想マシンを起動し，Ubuntuにログインします。
 
    パスワードの入力をうながされた場合は，パスワード（初期パスワード：vagrant）を入力します。  
 
-   ![](assets/images/image_install_036.png)
+   ![キーボードの種類を登録](assets/images/image_install_036.png)
    
 <div class="alert alert-info">
 場合によっては，「<code>unknown charset unicode - ignoreing charset request</code>」などと表示され，キーボード上の配置が変更されないこともあるようです。ただし，サーバ上で記号を使うすることがなければ，大きな問題はありませんので，そのまま続けてください。ただし，キーボードの記号(!"#$%&'()など)が正しく入力されていない状況では，次項のパスワード中には記号は含めないようにしてください。
@@ -208,7 +208,7 @@ Enju仮想マシンを起動し，Ubuntuにログインします。
 
 2. 現在のパスワード，新しいパスワード，新しいパスワード（確認）の順に入力します。  
 
-   ![](assets/images/image_install_037.png)
+   ![現在のパスワード，新しいパスワード，新しいパスワード（確認）の順に入力](assets/images/image_install_037.png)
 
 ### ■IPアドレスの確認
 
@@ -220,7 +220,7 @@ Enju仮想マシンを起動し，Ubuntuにログインします。
 
    etho (または eth1)のところに書かれている inet addr: の値をメモします。以下の画面では，<code>192.168.11.9</code>です。  
 
-      ![](assets/images/image_install_041.png)
+      ![inet addr: の値をメモ](assets/images/image_install_041.png)
 
    <div class="alert alert-info">
    もし，画面が流れていって，読めない場合には <kbd>ifconfig | more</kbd> と入力してください。
@@ -245,11 +245,11 @@ Next-L Enjuが正しく起動したかどうかは，サーバ上だけではわ
 
 1. ホストOS(Windows)に制御を戻します。
    右「Ctrl」キーを押します。
-   ウィンドウ右下の矢印が![](assets/images/image_install_right_ctrl_g.png)（グレーの矢印）のようにグレー色になります。
+   ウィンドウ右下の矢印が![グレーの矢印](assets/images/image_install_right_ctrl_g.png)（グレーの矢印）のようにグレー色になります。
 2. ブラウザからアクセスします。Windows上でWebブラウザを立ち上げます。
 3. アドレス欄に，上の「■IPアドレスの確認」で確認したIPアドレスを使って「http://仮想マシンのIPアドレス」（例 ```http://192.168.11.9``` ブラウザによっては ```192.168.11.9``` でも可）と入力してください。
 
-![](assets/images/image_install_078_4.png)
+![http://仮想マシンのIPアドレス](assets/images/image_install_078_4.png)
        
 これで，同じPC上からも，また別のマシンからもEnjuサーバに対してアクセスすることが可能になりました。このようにアクセスしても正しく画面が表示されない場合には，何らかの設定ミスがあると思われますので，再度インストールしなおしてください。
 
@@ -272,11 +272,11 @@ Enju仮想マシンをシャットダウンするタイミングは，図書館�
 
 1. VirtualBoxが終了していた場合，再度VirtualBoxを起動してください。  
 
-   ![](assets/images/image_install_079.png)
+   ![VirtualBox](assets/images/image_install_079.png)
    
 2. 「4-3 Enju仮想マシンの起動とログイン」の1~6を実行してEnju仮想マシンを起動してください。
 3. 起動して，ユーザ名とパスワードの入力が求められますので，ユーザー名( vagrant )と，前に変更したパスワードを入力してログインしてください。  
 
-   ![](assets/images/image_install_034.png)
+   ![ユーザ名とパスワードの入力](assets/images/image_install_034.png)
 
 これで，再度Enju仮想マシンおよびEnjuが利用できるようになりました。
