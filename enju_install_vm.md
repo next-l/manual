@@ -40,7 +40,7 @@ group: navigation
 
 {% include enju_install_vm/FAQ.md %}{::comment}第9章 トラブルシューティング{:/comment}
 
-{% include enju_install_vm/appendix.md %}{::comment}Appendix{:/comment}
+{::comment} enju_install_vm/appendix.md Appendix{:/comment}
 
     ide1:0.present = "TRUE"
     ide1:0.fileName = "/Users/kosuke/Downloads/ubuntu-10.04-server-amd64.iso"
