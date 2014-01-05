@@ -125,16 +125,18 @@ VirtualBox用に用意された Next-L Enju仮想マシンには，64bit版と32
 3-2 VirtualBoxのダウンロードとインストール
 ----------------------------------------------
 
+ここでは Windows の場合を説明しますが，Mac，Linuxなど様々なOS上で動きます。
+
 ### ■VirtualBoxのダウンロード
 
 VirtualBoxはOracle社のWebサイトからダウンロードします。
 
-1. 以下のWebページで［Downloads］をクリックします。
+1. 次のWebページで［Downloads］をクリックします。
    [https://www.virtualbox.org/](https://www.virtualbox.org/)
    
    ![virtualboxのWebページで［Downloads］をクリック](assets/images/image_install_008.png)
    
-2. 以下のWebページで［x86/amd64］のリンクをクリックするとダウンロードが開始します(Windows7「VirtualBox 4.3.6 for Windows hosts」の横のx86/amd64をクリックします)。保存する場所がどこであるのかわかりにくいことがあるので注意してください。
+2. 「VirtualBox 4.3.6 for Windows hosts」の横の［x86/amd64］のリンクをクリックするとダウンロードが開始します。保存する場所がどこであるのかわかりにくいことがあるので注意してください。
 
    ![［x86/amd64］のリンクをクリック](assets/images/image_install_009.png)
    
