@@ -114,7 +114,7 @@ VirtualBoxはOracle社のWebサイトからダウンロードします。
 1. 以下のWebページで［Downloads］をクリックします。
    [https://www.virtualbox.org/](https://www.virtualbox.org/)  
    ![](assets/images/image_install_008.png)
-2. 以下のWebページでx86/amd64のリンクをクリックするとダウンロードが開始します(Windows7「VirtualBox 4.3.6 for Windows hosts」の横のx86/amd64をクリックします)。保存する場所がどこであるのかわかりにくいことがあるので注意してください。  
+2. 以下のWebページで［x86/amd64］のリンクをクリックするとダウンロードが開始します(Windows7「VirtualBox 4.3.6 for Windows hosts」の横のx86/amd64をクリックします)。保存する場所がどこであるのかわかりにくいことがあるので注意してください。  
    ![](assets/images/image_install_009.png)
    
 ### ■VirtualBoxのインストール
