@@ -80,6 +80,10 @@ VirtualBoxを起動し，Enju仮想マシンを開きます。
    ファイル名xxxx.vboxはダウンロードしたファイルを展開したときに確認したファイル名になります。
    </div>
 
+4. Enju仮想マシンが開きました。
+
+   ![](assets/images/image_install_028.png)
+
 {::comment}
 
 6. ［enju_xxxx_xxxx］をクリックして，［ファイル］−［Playerの環境設定］を選択します。  
@@ -140,11 +144,7 @@ Enju仮想マシンを起動し，Ubuntuにログインします。
    <div class="alert alert-info">
    上で開いたファイル xxxx.vboxのxxxxの部分になります。
    </div>
-2. ウィンドウが起動し、 Ubuntuの起動がはじまります(少し時間がかかります)。プロンプトが表示されます。
-
-   ![](assets/images/image_install_034_0.png)
-   
-3. ［×］をクリックします。                      
+2. ウィンドウが起動し、 Ubuntuの起動がはじまります(少し時間がかかります)。「キーボードの自動キャプチャ・・・」「現在のビデオモードでは・・・」というウインドウが出ますので，右の［×］をクリックします。                      
 
    ![](assets/images/image_install_034_1.png)
    
