@@ -62,10 +62,10 @@ Enju仮想マシンは，ダウンロードしたパッケージを展開して�
 
    ![](assets/images/image_install_018_3.png)
 
-4-2 VirtualBoxの設定
+4-2 VirtualBoxを開く
 -----------------------
 
-VirtualBoxを起動し，Enju仮想マシンを開く環境を設定します。
+VirtualBoxを起動し，Enju仮想マシンを開きます。
 
 1. VirtualBoxを起動します。
 2. ［仮想マシン］→［追加(A)］をクリックします。  
