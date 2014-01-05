@@ -11,7 +11,7 @@ Enjuを実行させるために，Project Next-LではGitHub上でソースコ�
 1. Enjuを動作させるのに必要な各種ミドルウェアやモジュール群をインストールし，Enjuのプログラムを実行
 2. **VirtualBoxがインストールされたコンピュータに，VirtualBox用のEnju仮想マシンを読み込み仮想マシン内でEnjuを実行**
 
-![Enjuを動作させる方法](assets/images/image_install_002.png)
+![Enjuを動作させる方法](assets/images/image_install_002.png "Enjuを動作させる方法")
 
 各図書館の状況や開発形態によって，これらの手法から最適な手法を選択することが必要となります。
 
@@ -27,13 +27,13 @@ Enjuを実行させるために，Project Next-LではGitHub上でソースコ�
 
 まず，第4章において，簡便にNext-L Enjuを利用する手法として，１台のコンピュータ上のみでNext-L Enjuを利用する(同じコンピュータ上でサーバとクライアントの両方を動作させる)方法について述べます。もちろん，使用するコンピュータはデスクトップではなくノートブックでも問題ありません。 
 
-![1台のコンピュータでEnjuを動作させる](assets/images/image_install_000.png)
+![1台のコンピュータでEnjuを動作させる](assets/images/image_install_000.png "1台のコンピュータでEnjuを動作させる")
 
 さらに第5章において，設定したNext-L Enjuをネットワークを介して別のコンピュータからも利用する方法について説明していきます。
 
 Next-L Enjuがインストールされたサーバコンピュータにクライアントコンピュータから接続して利用する際，クライアントコンピュータからはブラウザーソフトを利用してNext-L Enjuのデータにアクセスします。したがってクライアントコンピュータのOSは問わず，またEnjuの動作はクライアントコンピュータの環境に依存しません。
 
-![Next-L Enjuの利用イメージ](assets/images/image_install_001.png)
+![Next-L Enjuの利用イメージ](assets/images/image_install_001.png "Next-L Enjuの利用イメージ")
 
 2-2 VirtualBoxについて
 ------------------
