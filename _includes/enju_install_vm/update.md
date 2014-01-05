@@ -16,6 +16,10 @@ Enjuは，以下の手順で，Enjuのソースコードが公開されている
        
 ### ■最新ソースコードの取り込み
 
+現在，準備中です。
+
+{::comment}
+
 1. vagrant@precise64:~$ に続いて以下のコマンドを入力します。
 
        cd enju
@@ -37,6 +41,8 @@ Enjuは，以下の手順で，Enjuのソースコードが公開されている
        rake db:migrate RAILS_ENV=production
 
    各種の処理が行われ，メッセージが出力されます。時間もかかります。
+
+{:/comment}
 
 ### ■Enjuを再起動
 
