@@ -1,3 +1,5 @@
+{::comment} misc.md {:/comment}
+
 第8章 その他
 ==============
 

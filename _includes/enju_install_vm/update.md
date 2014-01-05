@@ -1,3 +1,5 @@
+{::comment} update.md {:/comment}
+
 第6章 Enjuのアップデート
 ========================
 

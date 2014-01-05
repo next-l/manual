@@ -1,3 +1,5 @@
+{::comment} enju_introduction.md {:/comment}
+	
 第1章 Enju概要
 ==============
 
