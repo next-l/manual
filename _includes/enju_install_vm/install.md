@@ -50,7 +50,7 @@ Enju仮想マシンは，ダウンロードしたパッケージを展開して�
 
    ![](assets/images/image_install_017.png)
    
-2. ダウンロードした zip ファイルパッケージを展開します。
+2. ダウンロードした zip ファイルパッケージを上記のフォルダにコピーして展開します。
 
    ![](assets/images/image_install_018.png)
    
