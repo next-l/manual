@@ -2,7 +2,6 @@
 layout: page
 title: Next-L Enju 運用マニュアル
 title_short: 運用マニュアル
-tagline: Ver1.01
 group: navigation
 ---
 本マニュアルは、オープンソース統合図書館システム　Enjuの運用について、説明しています。図書館員が、Enjuを使い、図書に関する各種の作業をするときにお読みください。
@@ -84,13 +83,9 @@ Enjuは、利用者同士のコミュニケーション機能も搭載されて�
 第5章 雑誌の受入をする
 ======================
 
-Enjuを使い、雑誌の受入に関して、次のような作業が行えます。
-
-* 雑誌を登録する
-* 雑誌の各号を登録する
-
 {% include  enju_operation/create_serials.md %}
 {% include  enju_operation/create_serials_manifestation.md %}
+
 第6章 貸出・返却・予約を処理する
 ================================
 

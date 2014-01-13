@@ -2,7 +2,6 @@
 layout: page
 title: Next-L Enju初期設定マニュアル(VirtualBox編)
 title_short: 初期設定マニュアル
-tagline: Ver1.0.1(2011-12-20)
 group: navigation
 ---
 本マニュアルは，オープンソース統合図書館システム　Enju　のシステム設定について，説明しています。管理者がEnjuを使うために，システム設定をするときにお読みください。
