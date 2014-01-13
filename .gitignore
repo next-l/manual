@@ -1,2 +1,7 @@
 *~
 _site
+*.dvi
+*.out
+*.log
+*.aux
+*.toc
