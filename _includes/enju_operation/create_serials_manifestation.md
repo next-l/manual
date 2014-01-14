@@ -8,11 +8,11 @@
 
    ![雑誌・定期刊行物](assets/images/serials_add_manifestation.png)
    
-2. 登録したい雑誌（シリーズ）をクリックします。
+2. 登録したい雑誌（シリーズ）をクリックします(ここでの例は「週刊朝日」)。
 
    ![雑誌・定期刊行物の一覧](assets/images/serials_manifestations.png)
    
-3. 登録したい雑誌（シリーズ）の右メニュー上部の［資料の新規作成］をクリックします。
+3. 右メニュー上部の［資料の新規作成］をクリックします。
 
    ![資料の新規作成](assets/images/serials_series_parent.png)
    
