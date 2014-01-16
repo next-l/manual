@@ -16,7 +16,7 @@
    
 3. 右メニュー上部の［資料の新規作成］をクリックします。
 
-   ![資料の新規作成](assets/images/serials_series_parent.png)
+   ![資料の新規作成](assets/images/serials_series_parent_add.png)
    
 3. シリーズ名や原題などは雑誌マスタの情報がコピーされるので、巻数や号など追加で必要な情報を入力します(例：通号に「121」を入力)。
 
