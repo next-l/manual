@@ -27,7 +27,7 @@ Enjuへの雑誌登録を行う際はこれらの基本的な仕組みを理解�
    ![定期刊行物の記述を作成](assets/images/image_operation_155.png)
 3. 「シリーズ情報」内の「シリーズ名」等を入力し(シリーズ名は基本的には原題と同じものを入力します)、「マスタ」にチェックを入れます。
    ![定期刊行物の雑誌マスタを作成](assets/images/serials_add_master.png)
-4. 最下部にある「登録する」ボタンをクリックします。
+4. 最下部にある「更新する」ボタンをクリックします。
    ![定期刊行物の雑誌マスタに登録](assets/images/serials_add_master_2.png)
 5. 雑誌タイトル単位のシリーズ情報が作成されます。
    ![定期刊行物の雑誌マスタ](assets/images/serials_master.png)
