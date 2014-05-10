@@ -18,7 +18,7 @@
 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
    ![システムの設定](assets/images/image_system_setup.png)
 2. ［利用者グループ］をクリックします。  
-   ![「利用者グループ」を選択](assets/images/image_system_setup_library.png)
+   ![「利用者グループ」を選択](assets/images/image_initial_025_0.png)
 3. ［利用者グループの新規作成］をクリックします。  
    ![利用者グループを作成](assets/images/image_initial_025.png)
 
