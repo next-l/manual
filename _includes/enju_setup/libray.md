@@ -22,7 +22,7 @@
 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
    ![「システムの設定」を選択](assets/images/image_system_setup.png)  
 2. ［図書館］をクリックします。  
-   ![「図書館全体の設定」を選択](assets/images/image_system_setup_library.png)  
+   ![「図書館全体の設定」を選択](assets/images/image_initial_019_0.png)  
 3. ［図書館の新規作成］をクリックします。  
    ![図書館の新規作成](assets/images/image_initial_019.png)
 
