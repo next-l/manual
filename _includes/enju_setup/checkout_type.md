@@ -12,14 +12,13 @@
 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
    ![システムの設定](assets/images/image_system_setup.png)
 2. ［貸出区分］をクリックします。  
-   ![貸出区分の設定](assets/images/image_system_setup_library.png)
+   ![貸出区分の設定](assets/images/image_initial_027_0.png)
 3. 右メニューの［貸出区分の新規作成］をクリックします。  
    ![システムの設定](assets/images/image_initial_027.png)  
 
    <div class="alert alert-info">
    【Memo】入力済みの貸出区分の設定内容を変更する場合は［編集］を，削除する場合は［削除］をクリックします。一覧表示の表示順序を変更するには，表の1列目に表示されている↑または↓をクリックして行を入れ替えます。
    </div>
-4. 設定項目に必要事項を入力します。
-5. ［貸出区分を作成］ボタンをクリックして，設定内容を登録します。  
+4. 設定項目に必要事項を入力、［貸出区分を作成］ボタンをクリックして，設定内容を登録します。  
    ![貸出区分の作成](assets/images/image_initial_028.png)
 
