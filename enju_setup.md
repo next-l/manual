@@ -27,11 +27,11 @@ Enjuは，利用者同士のコミュニケーション機能も搭載されて�
 * メッセージの送信
 * メッセージのログの一覧表示・印刷
 
-{% include enju_setup/role.md %}
+{::comment}2-1{:/comment}{% include enju_setup/role.md %}
 
-{% include enju_setup/login.md %}
+{::comment}2-2{:/comment}{% include enju_setup/login.md %}
 
-{% include enju_setup/message.md %}
+{::comment}2-3{:/comment}{% include enju_setup/message.md %}
 
 第3章　図書館のシステム設定を行う
 =================================
@@ -48,33 +48,33 @@ Enjuの利用を始めるにあたり，図書館のシステム設定として�
 * 検索エンジン
 * バーコード
 
-{% include enju_setup/library_group.md %}
+{::comment}3-1{:/comment}{% include enju_setup/library_group.md %}
 
-{% include enju_setup/libray.md %}
+{::comment}3-2{:/comment}{% include enju_setup/libray.md %}
 
-{% include enju_setup/shelf.md %}
+{::comment}3-3{:/comment}{% include enju_setup/shelf.md %}
 
-{% include enju_setup/user_group.md %}
+{::comment}3-4{:/comment}{% include enju_setup/user_group.md %}
 
-{% include enju_setup/checkout_type.md %}
+{::comment}3-5{:/comment}{% include enju_setup/checkout_type.md %}
 
-{% include enju_setup/user_group_checkout_type.md %}
+{::comment}3-6{:/comment}{% include enju_setup/user_group_checkout_type.md %}
 
-{% include enju_setup/carrier_type_has_checkout_type.md %}
+{::comment}3-7{:/comment}{% include enju_setup/carrier_type_has_checkout_type.md %}
 
-{% include enju_setup/event_category.md %}
+{::comment}3-8{:/comment}{% include enju_setup/event_category.md %}
 
-{% include enju_setup/event_import.md %}
+{::comment}3-9{:/comment}{% include enju_setup/event_import.md %}
 
-{% include enju_setup/bookstore.md %}
+{::comment}3-10{:/comment}{% include enju_setup/bookstore.md %}
 
-{% include enju_setup/message_template.md %}
+{::comment}3-11{:/comment}{% include enju_setup/message_template.md %}
 
-{% include enju_setup/search_engine.md %}
+{::comment}3-12{:/comment}{% include enju_setup/search_engine.md %}
 
-{% include enju_setup/barcode.md %}
+{::comment}3-13{:/comment}{% include enju_setup/barcode.md %}
 
-{% include enju_setup/config_misc.md %}
+{::comment}3-14{:/comment}{% include enju_setup/config_misc.md %}
 
 第4章　件名のシステム設定を行う
 ===============================
@@ -86,15 +86,15 @@ Enjuの利用を始めるにあたり，件名のシステム設定として，�
 * 分類
 * 分類型
 
-{% include enju_setup/subject.md %}
+{::comment}4-1{:/comment}{% include enju_setup/subject.md %}
 
-{% include enju_setup/subject_type.md %}
+{::comment}4-2{:/comment}{% include enju_setup/subject_type.md %}
 
-{% include enju_setup/subject_heading_type.md %}
+{::comment}4-3{:/comment}{% include enju_setup/subject_heading_type.md %}
 
-{% include enju_setup/classification.md %}
+{::comment}4-4{:/comment}{% include enju_setup/classification.md %}
 
-{% include enju_setup/classification_type.md %}
+{::comment}4-5{:/comment}{% include enju_setup/classification_type.md %}
 
 4-6 その他の機能
 ----------------
@@ -118,17 +118,17 @@ Enjuの利用を始めるにあたり，形態・状態等に関するシステ�
 * 発行頻度の編集作成
 * 資料の関係の種類の作成
 
-{% include enju_setup/carrier_type.md %}
+{::comment}5-1{:/comment}{% include enju_setup/carrier_type.md %}
 
-{% include enju_setup/ciculaion_status.md %}
+{::comment}5-2{:/comment}{% include enju_setup/ciculaion_status.md %}
 
-{% include enju_setup/language.md %}
+{::comment}5-3{:/comment}{% include enju_setup/language.md %}
 
-{% include enju_setup/use_restriction.md %}
+{::comment}5-4{:/comment}{% include enju_setup/use_restriction.md %}
 
-{% include enju_setup/frequency.md %}
+{::comment}5-5{:/comment}{% include enju_setup/frequency.md %}
 
-{% include enju_setup/manifestation_relationship_type.md %}
+{::comment}5-6{:/comment}{% include enju_setup/manifestation_relationship_type.md %}
 
 5-7 その他の機能
 ----------------
