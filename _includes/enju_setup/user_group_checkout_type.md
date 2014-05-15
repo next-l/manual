@@ -20,14 +20,14 @@
 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
    ![システムの設定](assets/images/image_system_setup.png)
 2. ［利用者グループと貸出区分の関係］をクリックします。  
-   ![利用者グループと貸出区分の関係の設定](assets/images/image_system_setup_library.png)
+   ![利用者グループと貸出区分の関係の設定](assets/images/image_initial_029_0.png)
 3. 右メニューの［利用者グループと貸出区分の関係の新規作成］をクリックします。  
    ![利用者グループと貸出区分の関係](assets/images/image_initial_029.png)
 
    <div class="alert alert-info">
    【Memo】入力済みの設定内容を変更する場合は［編集］を，削除する場合は［削除］をクリックします。
    </div>
-4. 設定項目に必要事項を入力します。
-5. ［利用者グループと貸出区分の関係を作成］ボタンをクリックして，設定内容を登録します。  
-   ![利用者グループと貸出区分の関係](assets/images/image_initial_030.jpg)
+4. 設定項目に必要事項を入力し、
+   ［利用者グループと貸出区分の関係を作成］ボタンをクリックして，設定内容を登録します。  
+   ![利用者グループと貸出区分の関係](assets/images/image_initial_030.png)
 
