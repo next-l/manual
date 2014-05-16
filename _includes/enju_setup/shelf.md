@@ -22,7 +22,7 @@
    <div class="alert alert-info">
    【Memo】入力済みの本棚の設定内容を変更する場合は，［編集］をクリックします。</div>
 4. 設定項目に必要事項を入力し，
-   ［本棚を作成］ボタンをクリックして，設定内容を登録します。  
+   ［登録する］ボタンをクリックして，設定内容を登録します。  
    ![本棚の作成](assets/images/image_initial_024.png)
 
    <div class="alert alert-info">
