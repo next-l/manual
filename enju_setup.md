@@ -50,7 +50,7 @@ Enjuの利用を始めるにあたり，図書館のシステム設定として�
 
 {::comment}3-1{:/comment}{% include enju_setup/library_group.md %}
 
-{::comment}3-2{:/comment}{% include enju_setup/libray.md %}
+{::comment}3-2{:/comment}{% include enju_setup/library.md %}
 
 {::comment}3-3{:/comment}{% include enju_setup/shelf.md %}
 
