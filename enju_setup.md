@@ -66,15 +66,17 @@ Enjuの利用を始めるにあたり，図書館のシステム設定として�
 
 {::comment}3-9{:/comment}{% include enju_setup/event_import.md %}
 
-{::comment}3-10{:/comment}{% include enju_setup/bookstore.md %}
+{::comment}3-10{:/comment}{% include enju_setup/budget_type.md %}
 
-{::comment}3-11{:/comment}{% include enju_setup/message_template.md %}
+{::comment}3-11{:/comment}{% include enju_setup/bookstore.md %}
 
-{::comment}3-12{:/comment}{% include enju_setup/search_engine.md %}
+{::comment}3-12{:/comment}{% include enju_setup/message_template.md %}
 
-{::comment}3-13{:/comment}{% include enju_setup/barcode.md %}
+{::comment}3-13{:/comment}{% include enju_setup/search_engine.md %}
 
-{::comment}3-14{:/comment}{% include enju_setup/config_misc.md %}
+{::comment}3-14{:/comment}{% include enju_setup/barcode.md %}
+
+{::comment}3-15{:/comment}{% include enju_setup/config_misc.md %}
 
 第4章　件名のシステム設定を行う
 ===============================
