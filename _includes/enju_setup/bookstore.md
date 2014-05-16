@@ -16,7 +16,7 @@
 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
    ![システムの設定](assets/images/image_system_setup.png)
 2. ［書店］をクリックします。  
-   ![書店の設定](assets/images/image_system_setup_library.png)
+   ![書店の設定](assets/images/image_initial_038_0.png)
 3. 右メニューの［書店の新規作成］をクリックします。  
    ![書店の新規作成](assets/images/image_initial_038.png)
 
@@ -24,7 +24,7 @@
    【Memo】入力済みの設定内容を変更する場合は，表の最終列に表示されている［![編集](assets/images/image_initial_039.jpg)］を，削除する場合は［![削除](assets/images/image_initial_040.jpg) ］をクリックします。
 一覧表示の表示順序を変更するには，表の1列目に表示されている↑または↓をクリックして行を入れ替えます。
    </div>
-4. 設定項目に必要事項を入力します。
-5. ［書店を作成］ボタンをクリックして，設定内容を登録します。  
-   ![新規書店の作成](assets/images/image_initial_041.jpg)
+4. 設定項目に必要事項を入力し、
+   ［登録する］ボタンをクリックして，設定内容を登録します。  
+   ![新規書店の作成](assets/images/image_initial_041.png)
 
