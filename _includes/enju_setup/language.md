@@ -12,13 +12,13 @@
 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
    ![システムの設定](assets/images/image_system_setup.png)
 2. ［言語］をクリックします。  
-   ![言語の設定](assets/images/image_system_setup_library.png)
+   ![言語の設定](assets/images/image_initial_060_0.png)
 3. 設定したい項目の［編集］をクリックします。  
    ![言語の編集](assets/images/image_initial_060.png)  
 
    <div class="alert alert-info">【Memo】一覧の表示順序を変更するには，表の1列目に表示されている↑または↓をクリックして行を入れ替えます。</div>
 
-4. 設定項目に必要事項を入力します。
-5. ［言語を更新］ボタンをクリックして，設定内容を更新します。  
+4. 設定項目に必要事項を入力し、
+   ［更新する］ボタンをクリックして，設定内容を更新します。  
    ![言語の更新](assets/images/image_initial_061.png)  
 
