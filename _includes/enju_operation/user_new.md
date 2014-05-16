@@ -14,13 +14,13 @@
 1. ［図書館の管理］メニューから［利用者の管理］を選択します。  
    ![利用者の管理](assets/images/image_operation_user.png)
 2. 右メニューの［利用者の新規作成］をクリックします。  
-   ![利用者の新規作成](assets/images/image_operation_031.jpg)
+   ![利用者の新規作成](assets/images/image_operation_031.png)
 3. 必要事項を入力して［利用者を登録する（取り消しはできません）］ボタンをクリックします。  
-   ![利用者を登録する](assets/images/image_operation_033.jpg)
+   ![利用者を登録する](assets/images/image_operation_033.png)
 
    <div class="alert alert-info" markdown="1">【Memo】「*」のマークが付いた項目は入力必須項目です。また、登録の取り消しはできません。取り消しを行いたい場合は、利用者の削除を行います。（参照：[3-5 利用者を削除する](#span3-5-)）
    </div>
 
 4. 利用者が作成され、仮パスワードが発行されます。  
-   ![仮パスワードが発行](assets/images/image_operation_034.jpg)
+   ![仮パスワードが発行](assets/images/image_operation_034.png)
 
