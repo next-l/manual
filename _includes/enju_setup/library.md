@@ -30,13 +30,10 @@
    【Memo】入力済みの本棚の設定内容を変更する場合は，［<i class="icon-pencil"> </i> 編集］をクリックします。
    </div>
 
-4. 設定項目に必要事項を入力します。  
+4. 設定項目に必要事項を入力し、[登録する]ボタンをクリックして，設定内容を登録します。  
    ![設定項目の入力](assets/images/image_initial_020.png)
 
    <div class="alert alert-info">
    【Memo】「＊」のマークが付いた項目は入力必須項目です。
    </div>
-
-5. ［図書館を作成］ボタンをクリックして，設定内容を登録します。  
-   ![図書館の作成](assets/images/image_initial_021.png)
 
