@@ -12,13 +12,13 @@
 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
    ![システムの設定](assets/images/image_system_setup.png)
 2. ［利用制限］をクリックします。  
-   ![利用制限の設定](assets/images/image_initial_066.png)
+   ![利用制限の設定](assets/images/image_initial_062_0.png)
 3. 設定したい項目の［編集］をクリックします。  
    ![利用制限の編集](assets/images/image_initial_062.png)  
 
    <div class="alert alert-info">【Memo】一覧の表示順序を変更するには，表の1列目に表示されている↑または↓をクリックして行を入れ替えます。</div>
 
-4. 設定項目に必要事項を入力します。
-5. ［利用制限を更新］ボタンをクリックして，設定内容を更新します。  
+4. 設定項目に必要事項を入力し、
+   ［更新する］ボタンをクリックして，設定内容を更新します。  
    ![利用制限の更新](assets/images/image_initial_063.png)  
 
