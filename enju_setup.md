@@ -74,7 +74,7 @@ Enjuの利用を始めるにあたり，図書館のシステム設定として�
 
 {::comment}3-13{:/comment}{% include enju_setup/search_engine.md %}
 
-{::comment}3-14{:/comment}{% include enju_setup/barcode.md %}
+{::comment} enju_setup/barcode.md {:/comment}
 
 {::comment}3-15{:/comment}{% include enju_setup/config_misc.md %}
 
