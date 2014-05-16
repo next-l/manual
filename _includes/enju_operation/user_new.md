@@ -12,7 +12,7 @@
 * 利用者番号	利用者番号を入力（自動採番する設定も可能）
 
 1. ［図書館の管理］メニューから［利用者の管理］を選択します。  
-   ![利用者の管理](assets/images/image_operation_029.jpg)
+   ![利用者の管理](assets/images/image_operation_user.png)
 2. 右メニューの［利用者の新規作成］をクリックします。  
    ![利用者の新規作成](assets/images/image_operation_031.jpg)
 3. 必要事項を入力して［利用者を登録する（取り消しはできません）］ボタンをクリックします。  

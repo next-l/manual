@@ -18,7 +18,7 @@
 * 注記	注記
 
 1. ［図書館の管理］メニューから［利用者の管理］を選択します。  
-   ![利用者の管理](assets/images/image_operation_048.jpg)
+   ![利用者の管理](assets/images/image_operation_user.png)
 2. 属性を変更したいユーザの［プロフィールの編集］をクリックします。  
    ![プロフィールの編集](assets/images/image_operation_050.jpg)
 3. 姓、名などを編集します。  

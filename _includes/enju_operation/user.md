@@ -4,7 +4,7 @@
 利用者の一覧を、画面上で表示し、印刷することができます。
 
 1. ［図書館の管理］メニューから［利用者の管理］を選択します。  
-   ![利用者の管理](assets/images/image_operation_067.jpg)
+   ![利用者の管理](assets/images/image_operation_user.png)
 2. 利用者一覧が表示されます。  
    必要に応じて印刷します。  
    ![利用者一覧](assets/images/image_operation_068.jpg)

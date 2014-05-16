@@ -26,7 +26,7 @@ Enjuでは、利用者カードと資料のバーコードを読み込むこと�
 ### ■利用者カードを忘れた利用者に資料を貸し出す
 
 1. ［図書館の管理］メニューから［利用者の管理］を選択します。  
-   ![利用者の管理](assets/images/image_operation_166.jpg)
+   ![利用者の管理](assets/images/image_operation_user.png)
 2. ユーザ名を検索語として入力し［検索］をクリックします。  
    ![検索](assets/images/image_operation_168.jpg)
 3. 該当するユーザの［アカウント情報の編集］をクリックします。  

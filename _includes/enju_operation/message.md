@@ -6,7 +6,7 @@ Enjuのメッセージ機能を利用して、利用者にメッセージを送�
 ### ■メッセージを送信する
 
 1. ［図書館の管理］メニューから［利用者の管理］を選択します。  
-   ![利用者の管理](assets/images/image_operation_013.png)
+   ![利用者の管理](assets/images/image_operation_user.png)
 2. メッセージを送りたいユーザのユーザ名をクリックします。  
    ![ユーザ名をクリック](assets/images/image_operation_015.png)
 

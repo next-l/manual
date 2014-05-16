@@ -21,7 +21,7 @@
 </table>
 
 1. ［図書館の管理］メニューから［利用者の管理］を選択します。  
-   ![利用者の管理](assets/images/image_operation_043.jpg)
+   ![利用者の管理](assets/images/image_operation_user.png)
 2. 属性を変更したい利用者の［アカウント情報の編集］をクリックします。  
    ![アカウント情報の編集](assets/images/image_operation_045.jpg)
 

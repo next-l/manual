@@ -6,7 +6,7 @@
 ### ■利用者情報を削除する
 
 1. ［図書館の管理］メニューから［利用者の管理］を選択します。  
-   ![利用者の管理](assets/images/image_operation_055.jpg)
+   ![利用者の管理](assets/images/image_operation_user.png)
 2. 削除したい利用者の［アカウント情報の編集］をクリックします。  
    ![アカウント情報の編集](assets/images/image_operation_057.jpg)
 3. 右メニューの［削除］をクリックします。  
