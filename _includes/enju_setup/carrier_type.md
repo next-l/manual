@@ -11,8 +11,10 @@
 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
    ![システムの設定](assets/images/image_system_setup.png)
 2. ［資料の形態］をクリックします。  
-   ![資料の形態の設定](assets/images/image_system_setup_library.png)
+   ![資料の形態の設定](assets/images/image_carrier_type.png)
 3. 右メニューの［資料の形態の作成］をクリックします。
-4. 設定項目に必要事項を入力します。
-5. ［資料の形態の作成］ボタンをクリックして，設定内容を登録します。
+   ![資料の形態の設定](assets/images/image_carrier_type_1.png)
+4. 設定項目に必要事項を入力し、
+   ［登録する］ボタンをクリックして，設定内容を登録します。
+   ![資料の形態の設定](assets/images/image_carrier_type_2.png)
 
