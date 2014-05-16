@@ -17,14 +17,14 @@
 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
    ![システムの設定](assets/images/image_system_setup.png)
 2. ［メッセージテンプレート］をクリックします。  
-   ![メッセージテンプレートの設定](assets/images/image_system_setup_library.png)
+   ![メッセージテンプレートの設定](assets/images/image_initial_042_0.png)
 3. 設定したい項目の［編集］をクリックします。  
    ![メッセージテンプレートの編集](assets/images/image_initial_042.png)  
 
    <div class="alert alert-info">
    【Memo】一覧表示の表示順序を変更するには，表の1列目に表示されている↑または↓をクリックして行を入れ替えます。
    </div>
-4. 設定項目に必要事項を入力します。
-5. ［メッセージテンプレートを更新］ボタンをクリックして，設定内容を更新します。  
+4. 設定項目に必要事項を入力し、
+   ［更新する］ボタンをクリックして，設定内容を更新します。  
    ![メッセージテンプレートの更新](assets/images/image_initial_043.png)  
 
