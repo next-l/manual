@@ -32,10 +32,10 @@ TSV形式のファイルには，次のフィールドとそれに対応した�
 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
    ![システムの設定](assets/images/image_system_setup.png)
 2. ［催し物ファイルのインポートの新規作成］をクリックします。  
-   ![催し物ファイルのインポート](assets/images/image_system_setup_library.png)
-3. ［参照］をクリックします。  
-   ![催し物ファイルの参照](assets/images/image_initial_036.png)
+   ![催し物ファイルのインポート](assets/images/image_initial_036_0.png)
+3. ［ファイルを選択］をクリックします。  
+   ![催し物ファイルを選択](assets/images/image_initial_036.png)
 4. インポートしたいファイルを指定し，［開く］をクリックします。
-5. ［催し物ファイルのインポートの新規作成］ボタンをクリックして，データをインポートします。  
-   ![催し物ファイルの指定](assets/images/image_initial_036.png)
+5. ［登録する］ボタンをクリックして，データをインポートします。  
+   ![催し物ファイルの指定](assets/images/image_initial_036_2.png)
 
