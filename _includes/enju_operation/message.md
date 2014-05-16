@@ -6,37 +6,37 @@ Enjuのメッセージ機能を利用して、利用者にメッセージを送�
 ### ■メッセージを送信する
 
 1. ［図書館の管理］メニューから［利用者の管理］を選択します。  
-   ![利用者の管理](assets/images/image_operation_013.jpg)
+   ![利用者の管理](assets/images/image_operation_013.png)
 2. メッセージを送りたいユーザのユーザ名をクリックします。  
-   ![ユーザ名をクリック](assets/images/image_operation_015.jpg)
+   ![ユーザ名をクリック](assets/images/image_operation_015.png)
 
    <div class="alert alert-info">【Memo】［検索語］にユーザ名や利用者番号を入力して、ユーザを検索することもできます。
    </div>
 
 3. 右メニューの［メッセージを送信する］をクリックします。  
-   ![メッセージを送信する](assets/images/image_operation_017.jpg)
+   ![メッセージを送信する](assets/images/image_operation_017.png)
 4. 件名、本文を入力し、［メッセージを送信する］ボタンをクリックします。  
-   ![メッセージ送信](assets/images/image_operation_018.jpg)
+   ![メッセージ送信](assets/images/image_operation_018.png)
 
 ### ■受信したメッセージを読む
 
 1. ［アカウント］の左にあるメールアイコンをクリックします。  
-   ![メールアイコンをクリック](assets/images/image_operation_020.jpg)
+   ![メールアイコンをクリック](assets/images/image_operation_020.png)
 
    <div class="alert alert-info">【Memo】未読メッセージがある場合は、メールアイコンの右に未読のメッセージ数が表示されるので、それをクリックすることもできます。
    </div>
 
 2. 読みたいメッセージの件名をクリックします。  
-   ![件名をクリック](assets/images/image_operation_022.jpg)
+   ![件名をクリック](assets/images/image_operation_022.png)
 3. メッセージの内容が表示されます。返信したい場合は、右メニューの［メッセージに返信する］をクリックします。  
-   ![メッセージに返信する](assets/images/image_operation_024.jpg)
+   ![メッセージに返信する](assets/images/image_operation_024.png)
  
 ### ■メッセージを削除する
 
 1. ［アカウント］の左にあるメールアイコンをクリックします。  
-   ![メッセージを削除する](assets/images/image_operation_026.jpg)
+   ![メッセージを削除する](assets/images/image_operation_026.png)
 2. 削除したいメッセージのチェックボックスにチェックを入れ、［メッセージを削除する］ボタンをクリックします。  
-   ![メッセージ削除](assets/images/image_operation_027.jpg)
+   ![メッセージ削除](assets/images/image_operation_027.png)
 
    <div class="alert alert-info">【Memo】削除できるのは自分宛のメッセージだけです。削除可能なメッセージにのみ、チェックボックスが表示されます。
    </div>
