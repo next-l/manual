@@ -13,13 +13,13 @@
 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
    ![システムの設定](assets/images/image_system_setup.png)
 2. ［分類］をクリックします。  
-   ![分類の設定](assets/images/image_system_setup_library.png)
+   ![分類の設定](assets/images/image_initial_054_0.png)
 3. 右メニューの［分類の新規作成］をクリックします。  
    ![分類の新規作成](assets/images/image_initial_054.png)  
 
    <div class="alert alert-info">【Memo】入力済みの設定内容を変更する場合は［編集］を，削除する場合は［削除］をクリックします。</div>
 
-4. 設定項目に必要事項を入力します。
-5. ［分類を作成］ボタンをクリックして，設定内容を登録します。  
+4. 設定項目に必要事項を入力し、
+   ［登録する］ボタンをクリックして，設定内容を登録します。  
    ![分類の作成](assets/images/image_initial_055.png)  
 
