@@ -7,5 +7,5 @@
    ![利用者の管理](assets/images/image_operation_user.png)
 2. 利用者一覧が表示されます。  
    必要に応じて印刷します。  
-   ![利用者一覧](assets/images/image_operation_068.jpg)
+   ![利用者一覧](assets/images/image_operation_068.png)
  
