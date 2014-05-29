@@ -192,12 +192,12 @@ file:///200011g.jpg　等
 ### ■ISBNコードを入力して1件ずつ登録する
 
 1. ［資料の受入］メニューから［ISBNを入力する］を選択します。  
-   ![ISBNを入力する](assets/images/image_operation_106.jpg)
-2. ISBNコードを入力し、［インポートのリクエストを作成］をクリックします。  
-   ![インポートのリクエストを作成](assets/images/image_operation_108.jpg)
+   ![ISBNを入力する](assets/images/image_operation_106.png)
+2. ISBNコードを入力し、［登録する］をクリックします。  
+   ![インポートのリクエストを作成](assets/images/image_operation_108.png)
 3. 「インポートのリクエストは正常に作成されました。」と表示され、登録が完了します。  
-   ![登録完了](assets/images/image_operation_109.jpg)
+   ![登録完了](assets/images/image_operation_109.png)
 
-<div class="alert alert-info">【Memo】右メニューの［インポートのリクエストの一覧］をクリックすると、リクエストが作成されているのを確認できます。
+<div class="alert alert-info">【Memo】[資料の受入] -> [ISBNを入力する]の画面の右メニューの［インポートのリクエストの一覧］をクリックすると、リクエストが作成されているのを確認できます。
 </div>
 
