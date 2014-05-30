@@ -32,19 +32,17 @@
 ### ■手動で登録する
 
 1. ［資料の受入］メニューから［手動で登録する］を選択します。  
-   ![手動で登録する](assets/images/image_operation_096.jpg)
-2. 原題のほか必要な項目を入力します。  
-   ![原題のほか必要な項目を入力](assets/images/image_operation_098.jpg)
-3. 入力が終了したら、［資料を作成］ボタンをクリックします。  
-   ![資料を作成](assets/images/image_operation_100.jpg)
+   ![手動で登録する](assets/images/image_operation_096.png)
+2. 原題のほか必要な項目を入力し、[登録する]ボタンをクリックします。
+   ![原題のほか必要な項目を入力し登録](assets/images/image_operation_100.png)
 
 	<div class="alert alert-info">【Memo】「*」のマークが付いた項目は入力必須項目です。
 	</div>
 
 4. 「資料は正常に作成されました。」のメッセージが表示され、図書が登録されます。
+  ![原題のほか必要な項目を入力し登録](assets/images/image_operation_100_2.png)
 
-
-### ■ISBNコードを入力して1件ずつ登録する
+# ■ISBNコードを入力して1件ずつ登録する
 
 1. ［資料の受入］メニューから［ISBNを入力する］を選択します。
    ![ISBNを入力する](assets/images/image_operation_106.png)
