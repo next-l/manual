@@ -36,6 +36,25 @@
 
 4. 「資料は正常に作成されました。」のメッセージが表示され、図書が登録されます。
 
+
+### ■ISBNコードを入力して1件ずつ登録する
+
+1. ［資料の受入］メニューから［ISBNを入力する］を選択します。
+   ![ISBNを入力する](assets/images/image_operation_106.png)
+2. ISBNコードを入力し、［登録する］をクリックします。
+   ![インポートのリクエストを作成](assets/images/image_operation_108.png)
+3. 「インポートのリクエストは正常に作成されました。」と表示され、登録が完了しま>す。
+   ![登録完了](assets/images/image_operation_109.png)
+
+### ■ISBNコードで入力した書誌情報を一覧表示する
+
+1. [資料の受入］メニューから［ISBNを入力する］を選択します。
+   ![ISBNを入力する](assets/images/image_operation_106.png)
+2. 右メニューの［ISBNインポートリクエストの一覧］を選択します。
+   ![ISBNインポートリクエストの一覧](assets/images/image_operation_109_2.png)
+3. ISBNインポートのリクエストの一覧が表示されます。[状態]の列をみれば、登録状況>がわかります。[完了]となっていれば、登録されたことを示します。[失敗]や[処理待ち]は登録されていません。
+   ![ISBNインポートリクエストの一覧表示](assets/images/image_operation_109_3.png)
+
 <div class="alert alert-success" markdown="1">
 <h4 class="alert-heading">【Column】TSVファイルの作り方</h4>
 1行目に、それぞれの項目に関わるフィールド名を（できれば " " で囲って）指定します。
@@ -188,22 +207,4 @@ file:///200011g.jpg　等
 
 ![内部的に存在するもの](assets/images/image_operation_104.png)
 </div>
-
-### ■ISBNコードを入力して1件ずつ登録する
-
-1. ［資料の受入］メニューから［ISBNを入力する］を選択します。  
-   ![ISBNを入力する](assets/images/image_operation_106.png)
-2. ISBNコードを入力し、［登録する］をクリックします。  
-   ![インポートのリクエストを作成](assets/images/image_operation_108.png)
-3. 「インポートのリクエストは正常に作成されました。」と表示され、登録が完了します。  
-   ![登録完了](assets/images/image_operation_109.png)
-
-### ■ISBNコードで入力した書誌情報を一覧表示する
-
-1. [資料の受入］メニューから［ISBNを入力する］を選択します。
-   ![ISBNを入力する](assets/images/image_operation_106.png)
-2. 右メニューの［ISBNインポートリクエストの一覧］を選択します。
-   ![ISBNインポートリクエストの一覧](assets/images/image_operation_109_2.png)
-3. ISBNインポートのリクエストの一覧が表示されます。[状態]の列をみれば、登録状況がわかります。[完了]となっていれば、登録されたことを示します。[失敗]や[処理待ち]は登録されていません。
-   ![ISBNインポートリクエストの一覧表示](assets/images/image_operation_109_3.png)
 
