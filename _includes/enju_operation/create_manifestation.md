@@ -206,12 +206,5 @@ file:///200011g.jpg　等
 
 ![CD/DVDの場合](assets/images/image_operation_102.png)
 
-### ■定期刊行物の場合
-
-![定期刊行物の場合](assets/images/image_operation_103.png)
-
-内部的に存在するもの  
-
-![内部的に存在するもの](assets/images/image_operation_104.png)
 </div>
 

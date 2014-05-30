@@ -85,6 +85,7 @@ Enjuは、利用者同士のコミュニケーション機能も搭載されて�
 
 {::comment}5-1{:/comment}{% include  enju_operation/create_serials.md %}
 {::comment}5-2{:/comment}{% include  enju_operation/create_serials_manifestation.md %}
+{::comment}5-3{:/comment}{% include  enju_operation/create_serials_import.md %}
 
 第6章 貸出・返却・予約を処理する
 ================================
