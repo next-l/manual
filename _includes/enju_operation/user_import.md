@@ -4,7 +4,7 @@
 既存の利用者データがファイルで存在する場合は、インポートと呼ぶ読み込みを行い、利用者情報に取り込めます。インポートするには、あらかじめファイルをTSV形式で作成しておく必要があります。
 
 1. ［図書館の管理］メニューから［インポート］を選択します。  
-   ![利用者の管理](assets/images/image_operation_import_user.png)
+   ![利用者の管理](assets/images/image_operation_import.png)
 2. ［利用者］をクリックします。  
    ![利用者のTSVファイルからのインポート](assets/images/image_operation_037.png)
 3.  右メニューの[利用者のインポート用ファイルの新規作成]を選択します。
