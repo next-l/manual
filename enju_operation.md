@@ -75,7 +75,7 @@ Enjuは、利用者同士のコミュニケーション機能も搭載されて�
 
 {::comment}4-1{:/comment}{% include  enju_operation/order.md %}
 {::comment}4-2{:/comment}{% include  enju_operation/create_manifestation.md %}
-{::comment}4-3{:/comment}{% include  enju_operation/create_item %}
+{::comment}4-3{:/comment}{% include  enju_operation/create_item.md %}
 {::comment}4-4{:/comment}{% include  enju_operation/delete_item.md %}
 {::comment}4-5{:/comment}{% include  enju_operation/list_new_item.md %}
 {::comment}4-6{:/comment}{% include  enju_operation/create_web_page.md %}
