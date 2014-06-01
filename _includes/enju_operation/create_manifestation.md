@@ -52,7 +52,7 @@
 ### ■手動で資料を登録する
 
 1. ［資料の受入］メニューから［手動で登録する］を選択します。
-   ![手動で登録する](assets/images/image_operation_096.png)
+   ![手動で登録する](assets/images/image_operation_input_manually_manifestation.png)
 2. 原題のほか必要な項目を入力し、[登録する]ボタンをクリックします。
    ![原題のほか必要な項目を入力し登録](assets/images/image_operation_100.png)
 
