@@ -40,9 +40,9 @@
 ### ■所蔵情報を一覧表示する
 
 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
-   ![システムの設定](assets/images/image_operation_122.jpg)
+   ![システムの設定](assets/images/image_operation_system_setup.png)
 2. ［資料］グループの［全ての所蔵情報］をクリックします。  
-   ![全ての所蔵情報](assets/images/image_operation_124.jpg)
+   ![全ての所蔵情報](assets/images/image_operation_124.png)
 3. 所蔵情報の一覧が表示されます。  
-   ![所蔵情報の一覧](assets/images/image_operation_125.jpg)
+   ![所蔵情報の一覧](assets/images/image_operation_125.png)
 
