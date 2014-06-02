@@ -1,36 +1,38 @@
 6-3 予約を受け付ける
 --------------------
 
-予約は利用者自身で行うのが主ですが、図書館員が予約を受け付けることもできます。
+予約は利用者自身で行うのが主ですが、図書館員が利用者の予約を受け付けることもできます。
 
 ### ■予約を新規作成する
 
 1. ［貸出・返却・予約］メニューから［予約の一覧］を選択します。  
-   ![予約の一覧](assets/images/image_operation_189.jpg)
+   ![予約の一覧](assets/images/image_operation_reserve.png)
 2. 右メニューの［予約の新規作成］をクリックします。  
-   ![予約の新規作成](assets/images/image_operation_191.jpg)
+   ![予約の新規作成](assets/images/image_operation_191.png)
 3. 予約したい本の名前を検索語に入力し、［検索］をクリックします。  
-   ![検索](assets/images/image_operation_193.jpg)
+   ![検索](assets/images/image_operation_193.png)
 4. 予約したい本が検索されたら、［予約］をクリックします。  
-   ![予約](assets/images/image_operation_195.jpg)
-5. 予約の内容を確認し、［作成］ボタンをクリックします。  
-   ![作成](assets/images/image_operation_197.jpg)
+   ![予約](assets/images/image_operation_195.png)
+5. 予約者の利用者番号等を入力し、［登録する］ボタンをクリックします。  
+   ![作成](assets/images/image_operation_197.png)
+5. 「予約が正常に作成されました」と表示され、予約が作成されます。
+   ![作成](assets/images/image_operation_197_2.png)
  
 ### ■予約の一覧を表示・印刷する
 
 1. ［貸出・返却・予約］メニューから［予約の一覧］を選択します。  
-   ![予約の一覧](assets/images/image_operation_198.jpg)
+   ![予約の一覧](assets/images/image_operation_reserve.png)
 2. 予約の一覧が表示されます。一覧を印刷したい場合は、右メニューの［CSV］をクリックしてCSVファイルを保存し、必要に応じてCSVファイルを印刷します。  
-   ![CSV](assets/images/image_operation_200.jpg)
+   ![CSV](assets/images/image_operation_200.png)
  
 ### ■予約の変更・取消をする
 
 1. ［貸出・返却・予約］メニューから［予約の一覧］を選択します。  
-   ![予約の一覧](assets/images/image_operation_201.jpg)
-2. 編集したい場合は予約の編集マークを、削除したい場合は削除マークをクリックします。  
-   ![予約の編集マーク等](assets/images/image_operation_202.jpg)
+   ![予約の一覧](assets/images/image_operation_reserve.png)
+2. 編集したい場合は予約の[編集]を、削除したい場合は[削除]をクリックします。  
+   ![予約の編集等](assets/images/image_operation_202.png)
 3. 編集する場合は、有効期限などを変更して［予約を更新］ボタンをクリックします。  
-   ![予約を更新](assets/images/image_operation_203.jpg)
+   ![予約を更新](assets/images/image_operation_203.png)
  
 ### ■利用者に予約資料の到着を連絡する
 
