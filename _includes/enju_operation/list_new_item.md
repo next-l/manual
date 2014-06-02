@@ -4,7 +4,7 @@
 Enjuでは、新着資料の一覧を表示することができます。
 
 1. トップページの［新着資料］をクリックします。  
-	![新着資料](assets/images/image_operation_133.jpg)
+	![新着資料](assets/images/image_operation_133.png)
 2. 新着資料の一覧が表示されます。  
-   ![新着資料の一覧](assets/images/image_operation_134.jpg)
+   ![新着資料の一覧](assets/images/image_operation_134.png)
 
