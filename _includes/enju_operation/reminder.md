@@ -4,7 +4,7 @@
 資料の返却が遅れているユーザを一覧表示し、メールや電話で督促の連絡をすることができます。
 
 1. ［貸出・返却・予約］メニューから［貸出履歴］をクリックします。  
-   ![貸出履歴](assets/images/image_operation_204.jpg)
+   ![貸出履歴](assets/images/image_operation_checkout_log.png)
 2. 右メニューの［全ての貸出］をクリックします。  
    ![全ての貸出](assets/images/image_operation_206.jpg)
 3. 右メニューの［延滞］をクリックします。  

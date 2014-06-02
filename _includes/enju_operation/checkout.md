@@ -51,7 +51,7 @@ Enjuでは、利用者カードと資料のバーコードを読み込むこと�
 ### ■貸出中の資料の一覧を表示する
 
 1. ［貸出・返却・予約］メニューから［貸出履歴］を選択します。  
-   ![貸出履歴](assets/images/image_operation_178.png)
+   ![貸出履歴](assets/images/image_operation_checkout_log.png)
 2. 貸出中の資料の一覧が表示されます。  
    ![貸出中の資料の一覧](assets/images/image_operation_181.png)
 
