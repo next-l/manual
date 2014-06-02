@@ -5,17 +5,15 @@
 
 1. ［貸出・返却・予約］メニューから［貸出履歴］をクリックします。  
    ![貸出履歴](assets/images/image_operation_checkout_log.png)
-2. 右メニューの［全ての貸出］をクリックします。  
-   ![全ての貸出](assets/images/image_operation_206.jpg)
 3. 右メニューの［延滞］をクリックします。  
-   ![延滞](assets/images/image_operation_207.jpg)
+   ![延滞](assets/images/image_operation_207.png)
 4. 何日延滞している人に督促の連絡をしたいのかにより、延滞日数に数値を入力して［検索］ボタンをクリックします。  
-   ![延滞日数に数値を入力](assets/images/image_operation_209.jpg)
+   ![延滞日数に数値を入力](assets/images/image_operation_209.png)
 
 	<div class="alert alert-info">【Memo】たとえば、延滞日数に「7」と入力すると、1週間以上延滞している資料のみに絞り込まれます。
 	</div>
 
 5. メールで督促の連絡をする人にチェックをして、［メールを送信］をクリックします。
 6. 必要に応じて右メニューの［CSV］をクリックしてCSVファイルを保存し、ユーザの希望している連絡方法に従って督促の連絡をします。  
-   ![CSVファイルを保存](assets/images/image_operation_210.jpg)
+   ![CSVファイルを保存](assets/images/image_operation_210.png)
 
