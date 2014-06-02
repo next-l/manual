@@ -19,25 +19,27 @@ group: navigation
 
 {% include enju_install_vm/install.md %} {::comment}第4章 Enjuのインストール{:/comment}
 
-第5章 他のコンピュータからの利用設定
+{% include enju_install_vm/module.md %} {::comment}第5章 モジュールの追加{:/comment}
+
+第6章 他のコンピュータからの利用設定
 ====================================
 
 後日公開します。
 
 {::comment}別ファイル名候補：setup_other_computer.md{:/comment}
 
-{% include enju_install_vm/update.md %}{::comment}第6章 Enjuのアップデート{:/comment}
+{% include enju_install_vm/update.md %}{::comment}第7章 Enjuのアップデート{:/comment}
 
-第7章 データのバックアップ
+第8章 データのバックアップ
 ========================
 
 後日公開します。
 
 {::comment}別ファイル名候補：backup.md{:/comment}
 
-{% include enju_install_vm/misc.md %} {::comment}第8章 その他{:/comment}
+{% include enju_install_vm/misc.md %} {::comment}第9章 その他{:/comment}
 
-{% include enju_install_vm/FAQ.md %}{::comment}第9章 トラブルシューティング{:/comment}
+{% include enju_install_vm/FAQ.md %}{::comment}第10章 トラブルシューティング{:/comment}
 
 {::comment} enju_install_vm/appendix.md Appendix{:/comment}
 
