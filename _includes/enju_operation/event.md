@@ -17,9 +17,94 @@ Enjuでは、図書館で行われるさまざまな催し物を登録し、カ�
 ### ■催し物のデータをインポートする
 
 1. ［開館日と催し物］メニューから［インポート］を選択します。  
-   ![インポート](assets/images/image_operation_220.jpg)
-2. ［参照］ボタンをクリックしてインポートしたいファイルを選択し、［催し物ファイルのインポートを作成］ボタンをクリックします。  
-   ![催し物ファイルのインポートを作成](assets/images/image_operation_222.jpg)
-3. 「催し物ファイルのインポートは正常に作成されました。」のメッセージが表示され、催し物のデータがインポートされます。  
-   ![催し物ファイルのインポート](assets/images/image_operation_223.jpg)
+   ![インポート](assets/images/image_operation_220.png)
+2. ［ファイルを選択］ボタンをクリックしてインポートしたいファイルを選択します。  
+   ![催し物ファイルのの選択](assets/images/image_operation_222_1.png)
+3. 編集モードの[作成]を選択し、［登録する］ボタンをクリックします。
+   ![催し物ファイルのインポートを作成](assets/images/image_operation_222_2.png)
+4. 「催し物のインポート用ファイルは正常に作成されました。」のメッセージが表示され、催し物のデータがインポート準備が整います。  
+   ![催し物ファイルのインポート](assets/images/image_operation_223.png)
+
+<div class="alert alert-success">
+  <h4 class="alert-heading">【Column】TSVファイルの作り方</h4>
+  <p>TSVファイルとは、項目をタブで区切ったテキストファイルです。Enjuで利用するTSVファイルでは、1行目にそれぞれの項目に関わるフィールド名を指定します。フィールド名および値は原則として &ldquo; &ldquo; で囲みます。
+フィールド名とその意味については次の通りです。</p>
+
+  <table class="table table-bordered table-condensed table-striped">
+    <caption>開館日や催し物などの情報に関わる項目</caption>
+    <thead>
+      <tr>
+        <th>必須/任意</th>
+        <th>フィールド名</th>
+        <th>データ形式</th>
+        <th>内容</th>
+        <th>未入力の場合（確認中）</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>任意</td>
+        <td>id</td>
+        <td>int</td>
+        <td>ID(更新・削除では必須？)</td>
+        <td>自動設定</td>
+      </tr>
+      <tr>
+        <td>必須</td>
+        <td>name</td>
+        <td>utf8</td>
+        <td>名前（イベントの名称）</td>
+        <td>エラー</td>
+      </tr>
+      <tr>
+        <td>任意</td>
+        <td>category</td>
+        <td>ascii</td>
+        <td>催し物の種類（閉館日はclosed）</td>
+        <td>unknown</td>
+      </tr>
+      <tr>
+        <td>任意</td>
+        <td>library</td>
+        <td>ascii</td>
+        <td>図書館</td>
+        <td>？</td>
+      </tr>
+      <tr>
+        <td>任意</td>
+        <td>start_at</td>
+        <td>ISO8601</td>
+        <td>開始時刻（例：2014-06-24 15:00:00 +0900）</td>
+        <td>？</td>
+      </tr>
+      <tr>
+         <td>任意</td>
+         <td>end_at</td>
+         <td>ISO8601</td>
+         <td>終了時刻（例：2014-06-24 15:00:00 +0900）</td>
+         <td>？</td></tr>
+      <tr>
+         <td>任意</td>
+         <td>all_day</td>
+         <td>真偽</td>
+         <td>終日かどうか</td>
+         <td>FALSE</td>
+      </tr>
+      <tr>
+         <td>任意</td>
+         <td>note</td>
+         <td>utf8</td>
+         <td>注記</td>
+         <td>未設定</td>
+      </tr>
+      <tr>
+         <td>任意</td>
+         <td>dummy</td>
+         <td>utf8</td>
+         <td>ダミー行（なにかを書いていると無視する行）</td>
+         <td>未設定</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
