@@ -6,9 +6,9 @@ Enjuでは、図書館で行われるさまざまな催し物を登録し、カ�
 ### ■手動で催し物を登録する
 
 1. ［開館日と催し物］メニューから［全ての催し物］を選択します。  
-   ![全ての催し物](assets/images/image_operation_211.jpg)
+   ![全ての催し物](assets/images/image_operation_event.png)
 2. 右メニューの［開催日と催し物の新規作成］をクリックします。  
-   ![開催日と催し物の新規作成](assets/images/image_operation_213.jpg)
+   ![開催日と催し物の新規作成](assets/images/image_operation_213.png)
 3. 催し物の種類で「unknown」を選択し、名前や開始時刻、終了時刻などを設定して、［開催日と催し物の新規作成］ボタンをクリックします。  
    ![開催日と催し物の新規作成](assets/images/image_operation_218.jpg)
 4. 「開館日と催し物は正常に作成されました。」のメッセージが表示され、休館日が登録されます。  
