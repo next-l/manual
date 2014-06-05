@@ -133,7 +133,7 @@ Enjuでは、休館日の登録に関して、次のような機能がありま�
 {::comment}7-1{:/comment}{% include  enju_operation/holiday.md %}
 {::comment}7-2{:/comment}{% include  enju_operation/event.md %}
 {::comment}7-3{:/comment}{% include  enju_operation/calendar.md %}
-{::comment}7-4{:/comment}{% include  enju_operation/reference.md %}
+{::comment}8-1,8-2{:/comment}{% include  enju_operation/reference.md %}
 第9章 資料を検索する
 ====================
 
@@ -157,4 +157,4 @@ Enjuではさまざまなバーコード印刷機能やブックマークなど�
 * ブックマークを活用する
 
 {::comment}12-1{:/comment}{% include  enju_operation/print.md %}
-{::comment}12-1{:/comment}{% include  enju_operation/bookmark.md %}
+{::comment}12-2{:/comment}{% include  enju_operation/bookmark.md %}
