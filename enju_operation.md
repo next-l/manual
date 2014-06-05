@@ -133,7 +133,7 @@ Enjuでは、休館日の登録に関して、次のような機能がありま�
 {::comment}7-1{:/comment}{% include  enju_operation/holiday.md %}
 {::comment}7-2{:/comment}{% include  enju_operation/event.md %}
 {::comment}7-3{:/comment}{% include  enju_operation/calendar.md %}
-{::comment}8-1,8-2{:/comment}{% include  enju_operation/reference.md %}
+{::comment}8-1,2{:/comment}{% include  enju_operation/reference.md %}
 第9章 資料を検索する
 ====================
 
@@ -146,8 +146,8 @@ Enjuを利用した資料の検索方法には、演算子やフィールド名�
 {::comment}9-1{:/comment}{% include  enju_operation/simple_search.md %}
 {::comment}9-2{:/comment}{% include  enju_operation/advanced_search.md %}
 {::comment}9-3{:/comment}{% include  enju_operation/search_query.md %}
-{::comment}9-4{:/comment}{% include  enju_operation/inventory.md %}
-{::comment}9-5{:/comment}{% include  enju_operation/statistics.md %}
+{::comment}10-1,2{:/comment}{% include  enju_operation/inventory.md %}
+{::comment}11-1,2,3{:/comment}{% include  enju_operation/statistics.md %}
 第12章 印刷その他の機能を利用する
 =================================
 
