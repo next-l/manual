@@ -36,7 +36,7 @@
  
 ### ■利用者に予約資料の到着を連絡する
 
-<div class="alert alert-info">【Memo】Next-L Enju Leaf 1.1.0.rc9 以前のバージョンではこの機能は未装です。Next-L Enju Leaf x.x.x.x 以降のバージョンからあります。
+<div class="alert alert-info">【Memo】Next-L Enju Leaf 1.1.0.rc9 以前のバージョンではこの機能は未実装です(開発予定はあります）。
 </div>
 
 1. その日に返却された予約資料の一覧を表示します。
