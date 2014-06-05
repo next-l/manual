@@ -3,6 +3,9 @@
 
 資料の返却が遅れているユーザを一覧表示し、メールや電話で督促の連絡をすることができます。
 
+<div class="alert alert-info">【Memo】Next-L Enju Leaf 1.1.0.rc9 以前のバージョ>ンではメールの督促を送る機能は未実装です(開発予定はあります）。
+</div>
+
 1. ［貸出・返却・予約］メニューから［貸出履歴］をクリックします。  
    ![貸出履歴](assets/images/image_operation_checkout_log.png)
 3. 右メニューの［延滞］をクリックします。  
