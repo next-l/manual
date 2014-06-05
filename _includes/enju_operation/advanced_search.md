@@ -4,7 +4,7 @@
 条件を詳しく指定して、資料を検索することもできます。
 
 1. トップページの［（条件を詳しく指定して検索）］をクリックします。  
-   ![（条件を詳しく指定して検索）クリック](assets/images/image_operation_245.jpg)
+   ![（条件を詳しく指定して検索）クリック](assets/images/image_operation_245.png)
 2. 複数の条件を指定して［検索］ボタンをクリックします。  
-   ![複数の条件を指定](assets/images/image_operation_246.jpg)
+   ![複数の条件を指定](assets/images/image_operation_246.png)
 
