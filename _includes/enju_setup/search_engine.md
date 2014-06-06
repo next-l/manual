@@ -28,3 +28,6 @@
    ［登録する］ボタンをクリックして，設定内容を登録します。
    ![検索エンジンの設定](assets/images/image_search_engine_input.png)
 
+	<div class="alert alert-info">
+【Memo】CiNii Booksの登録例（検索語がflowerであれば：http://ci.nii.ac.jp/books/search?q=flower&format=html というリクエストになる）を示しています。
+	</div>
