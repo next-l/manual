@@ -21,7 +21,7 @@
    ![書店の新規作成](assets/images/image_initial_038.png)
 
    <div class="alert alert-info" markdown="1">
-   【Memo】入力済みの設定内容を変更する場合は，表の最終列に表示されている［![編集](assets/images/image_initial_039.jpg)］を，削除する場合は［![削除](assets/images/image_initial_040.jpg) ］をクリックします。
+   【Memo】入力済みの設定内容を変更する場合は，表の最終列に表示されている[編集]を，削除する場合は[削除]をクリックします。
 一覧表示の表示順序を変更するには，表の1列目に表示されている↑または↓をクリックして行を入れ替えます。
    </div>
 4. 設定項目に必要事項を入力し、
