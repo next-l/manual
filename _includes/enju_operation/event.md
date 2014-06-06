@@ -16,6 +16,8 @@ Enjuでは、図書館で行われるさまざまな催し物を登録し、カ�
 
 ### ■催し物のデータをインポートする
 
+既存のデータファイルを指定して読み込む「インポート」を行うと，一度に複数のデータを登録することができます。インポートするには，あらかじめデータファイルをTSV形式で作成しておきます。
+
 1. ［開館日と催し物］メニューから［インポート］を選択します。  
    ![インポート](assets/images/image_operation_220.png)
 2. ［ファイルを選択］ボタンをクリックしてインポートしたいファイルを選択します。  
@@ -31,8 +33,8 @@ Enjuでは、図書館で行われるさまざまな催し物を登録し、カ�
 	</div>
 
 <div class="alert alert-success">
-  <h4 class="alert-heading">【Column】TSVファイルの作り方</h4>
-  <p>TSVファイルとは、項目をタブで区切ったテキストファイルです。Enjuで利用するTSVファイルでは、1行目にそれぞれの項目に関わるフィールド名を指定します。フィールド名および値は原則として &ldquo; &ldquo; で囲みます。
+  <h4 class="alert-heading">【Column】TSV形式のデータファイルの作り方</h4>
+  <p>TSV形式のデータファイル（TSVファイル）とは、項目をタブで区切ったテキストファイルです。Enjuで利用するTSVファイルでは、1行目にそれぞれの項目に関わるフィールド名を指定します。フィールド名および値は原則として &ldquo; &ldquo; で囲みます。
 フィールド名とその意味については次の通りです。</p>
 
   <table class="table table-bordered table-condensed table-striped">
@@ -111,5 +113,45 @@ Enjuでは、図書館で行われるさまざまな催し物を登録し、カ�
       </tr>
     </tbody>
   </table>
+  
+  <table class="table table-bordered table-condensed table-striped">
+    <caption>＊設定例</caption>
+    <tbody>
+      <tr>
+        <td>"name"      </td>
+        <td>"category"</td>
+        <td>"library"</td>
+        <td>"start_at"</td>
+        <td>"end_at"</td>
+        <td>"dummy"</td></tr>
+      <tr>
+        <td>"名前（イベントの名称）：必須"</td>
+        <td>"催し物の種類"</td> 
+        <td>"図書館"</td>
+        <td>"開始時刻"</td>
+        <td>"終了時刻"</td>
+        <td>この行は読み込まれません</td></tr>
+      <tr>
+        <td>"おはなし会"  </td>
+        <td>"story_telling"     </td>
+        <td>"kiri"</td>
+        <td>"2009-04-05"</td>
+        <td>"2009-04-05"</td>
+        <td>　</td></tr>
+      <tr>
+        <td>"蔵書点検"  </td>
+        <td></td>
+        <td>"tachibana"</td>
+        <td>"2009-04-01"</td>
+        <td>"2009-04-03"</td>
+        <td>　</td></tr>
+      <tr>
+        <td>"休館日"    </td>
+        <td>"closed"         </td>
+        <td>"tachibana"</td>
+        <td>"2011-04-01"</td>
+        <td>"2011-04-03"</td>
+        <td>　</td></tr>
+    </tbody>
+  </table>
 </div>
-
