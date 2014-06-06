@@ -17,9 +17,11 @@
    ![資料の形態と貸出区分の関係の設定](assets/images/image_initial_031_0.png)
 3. 右メニューの［資料の形態と貸出区分の関係の新規作成］をクリックします。  
    ![資料の形態と貸出区分の関係の新規作成](assets/images/image_initial_031.png)
-<div class="alert alert-info">
+
+	<div class="alert alert-info">
    【Memo】入力済みの設定内容を変更する場合は［編集］を，削除する場合は［削除］をクリックします。
-   </div>
+	</div>
+
 4. 設定項目に必要事項を入力し、
    ［登録する]ボタンをクリックして，設定内容を登録します。  
    ![資料の形態と貸出区分の関係の作成](assets/images/image_initial_032.png)
