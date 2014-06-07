@@ -31,3 +31,17 @@
 	<div class="alert alert-info">
 【Memo】CiNii Booksの登録例（検索語がflowerであれば：http://ci.nii.ac.jp/books/search?q=flower&format=html というリクエストになる）を示しています。
 	</div>
+
+5. 以下はその他の検索エンジンの設定例です。
+
+* 名前: NDL Search
+    * URL: http://iss.ndl.go.jp/
+    * ベースURL: http://iss.ndl.go.jp/books
+    * HTTPメソッド: get
+    * クエリパラメータ: any
+* 名前: amazon.co.jp
+    * URL: http://www.amazon.co.jp/
+    * ベースURL: http://www.amazon.co.jp/s?
+    * HTTPメソッド: get
+    * クエリパラメータ: field-keywords
+    * 追加のパラメータ: url=search-alias=aps
