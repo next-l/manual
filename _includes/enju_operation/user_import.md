@@ -61,7 +61,7 @@ TSVファイルとは、項目をタブで区切ったテキストファイル�
 <td>未設定</td>
 </tr>
 <tr>
-<td>email</td><td>ascii</td><td>メールアドレス：2つ以上入力したい場合は備考（note）に書くしかない</td><td>未設定</td>
+<td>email</td><td>ascii</td><td>メールアドレス：2つ以上入力したい場合は注記（note）に書くしかない</td><td>未設定</td>
 </tr>
 <tr>
 <td>library</td><td>code</td><td>所属図書館</td>
