@@ -68,12 +68,10 @@ TSVファイルとは、項目をタブで区切ったテキストファイル�
 <td>web</td>
 </tr>
 <tr>
-<td>user_group</td><td>code</td><td>利用者グループ</td>
-<td>First_group</td>
+<td>user_group</td><td>code</td><td>利用者グループ</td><td>First group ※1</td>
 </tr>
 <tr>
-<td>locale</td><td>code</td><td>（使用）言語(日本語の場合：ja,　英語の場合：en)</td>
-<td>ja</td>
+<td>locale</td><td>code</td><td>（使用）言語(日本語の場合：ja,　英語の場合：en) ※2</td><td>ja ※3</td>
 </tr>
 <tr>
 <td>role</td><td>code</td><td>権限（Guest, User, Librarian, Administrator ）</td>
@@ -93,6 +91,23 @@ TSVファイルとは、項目をタブで区切ったテキストファイル�
 </tr>
 </tbody>
 </table>
+
+※1 "First group"の[名前]を変更した場合は異なります。
+一度ダミーのデータを登録してみて、お確かめください。
+利用者のグループの[名前]については初期設定マニュアルの「3-4 利用者グループを設定する」を参照ください。
+
+※2 環境によっては異なることがあります。
+使用できるものに何があるかは、以下のコマンドでわかります。
+
+<pre>
+    $ cd enju
+    $ rails c production
+    irb> I18n.available_locales.map{|l| l.to_s}
+    => ["en", "ja"]
+</pre>
+
+※3　環境によっては異なることがあります。
+一度ダミーのデータを登録してみてお確かめください。
 
 {::comment}
 ### ■個人情報に関わる項目
