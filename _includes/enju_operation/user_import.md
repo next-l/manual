@@ -49,7 +49,7 @@ TSVファイルとは、項目をタブで区切ったテキストファイル�
 </thead>
 <tbody>
 <tr>
-<td>username</td><td>ascii</td><td>ユーザー名（入力必須）</td><td>（インポートが「失敗」になる）</td>
+<td>username</td><td>ascii</td><td>ユーザ名（入力必須）</td><td>（インポートが「失敗」になる）</td>
 </tr>
 <tr>
 <td>password</td><td>ascii</td><td>パスワード（入力推奨）：登録しなければ、登録
