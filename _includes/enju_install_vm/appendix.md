@@ -1,4 +1,5 @@
 {::comment} appendix.md {:/comment}
+<a name="appendix" />
 
 Appendix
 ========

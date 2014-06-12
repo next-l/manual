@@ -11,7 +11,11 @@ group: navigation
 * TOC
 {:toc}
 
+<a name="1" />
+
 {% include  enju_introduction.md %}
+
+<a name="2" />
 
 第2章 Enjuを利用する
 ====================
@@ -30,6 +34,9 @@ Enjuは、利用者同士のコミュニケーション機能も搭載されて�
 {::comment}2-1{:/comment}{% include  enju_operation/role.md %}
 {::comment}2-2{:/comment}{% include  enju_operation/login.md %}
 {::comment}2-3{:/comment}{% include  enju_operation/message.md %}
+
+<a name="3" />
+
 第3章 利用者情報を管理する
 ==========================
 
@@ -55,6 +62,9 @@ Enjuは、利用者同士のコミュニケーション機能も搭載されて�
 {::comment}3-5{:/comment}{% include  enju_operation/user_delete.md %}
 {::comment}3-6{:/comment}{% include  enju_operation/user_search.md %}
 {::comment}3-7{:/comment}{% include  enju_operation/user.md %}
+
+<a name="4" />
+
 第4章 図書の受入をする
 ======================
 
@@ -80,12 +90,17 @@ Enjuは、利用者同士のコミュニケーション機能も搭載されて�
 {::comment}4-5{:/comment}{% include  enju_operation/list_new_item.md %}
 {::comment}4-6{:/comment}{% include  enju_operation/create_web_page.md %}
 {::comment}4-7{:/comment}{% include  enju_operation/add_image.md %}
+
+<a name="5" />
+
 第5章 雑誌の受入をする
 ======================
 
 {::comment}5-1{:/comment}{% include  enju_operation/create_serials.md %}
 {::comment}5-2{:/comment}{% include  enju_operation/create_serials_manifestation.md %}
 {::comment}5-3{:/comment}{% include  enju_operation/create_serials_import.md %}
+
+<a name="6" />
 
 第6章 貸出・返却・予約を処理する
 ================================
@@ -117,6 +132,9 @@ Enjuでは、図書の貸出・返却・予約の処理が行えます。次の�
 {::comment}6-3{:/comment}{% include  enju_operation/reserve.md %}
 {::comment}6-4{:/comment}{% include  enju_operation/reminder.md %}
 {::comment}6-5{:/comment}{% include  enju_operation/ill.md %}
+
+<a name="7" />
+
 第7章 休館日と催し物を登録する
 ==============================
 
@@ -133,7 +151,11 @@ Enjuでは、休館日の登録に関して、次のような機能がありま�
 {::comment}7-1{:/comment}{% include  enju_operation/holiday.md %}
 {::comment}7-2{:/comment}{% include  enju_operation/event.md %}
 {::comment}7-3{:/comment}{% include  enju_operation/calendar.md %}
+
 {::comment}8-1,2{:/comment}{% include  enju_operation/reference.md %}
+
+<a name="9" />
+
 第9章 資料を検索する
 ====================
 
@@ -146,8 +168,13 @@ Enjuを利用した資料の検索方法には、演算子やフィールド名�
 {::comment}9-1{:/comment}{% include  enju_operation/simple_search.md %}
 {::comment}9-2{:/comment}{% include  enju_operation/advanced_search.md %}
 {::comment}9-3{:/comment}{% include  enju_operation/search_query.md %}
+
 {::comment}10-1,2{:/comment}{% include  enju_operation/inventory.md %}
+
 {::comment}11-1,2,3{:/comment}{% include  enju_operation/statistics.md %}
+
+<a name="12" />
+
 第12章 印刷その他の機能を利用する
 =================================
 

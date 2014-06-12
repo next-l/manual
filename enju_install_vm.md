@@ -21,6 +21,8 @@ group: navigation
 
 {% include enju_install_vm/module.md %} {::comment}第5章 モジュールの追加{:/comment}
 
+<a name="6" />
+
 第6章 他のコンピュータからの利用設定
 ====================================
 
@@ -29,6 +31,8 @@ group: navigation
 {::comment}別ファイル名候補：setup_other_computer.md{:/comment}
 
 {% include enju_install_vm/update.md %}{::comment}第7章 Enjuのアップデート{:/comment}
+
+<a name="8" />
 
 第8章 データのバックアップ
 ========================

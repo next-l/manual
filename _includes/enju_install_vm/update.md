@@ -1,4 +1,5 @@
 {::comment} update.md {:/comment}
+<a name="7" />
 
 第7章 Enjuのアップデート
 ========================

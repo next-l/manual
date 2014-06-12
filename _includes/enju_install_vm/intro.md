@@ -1,4 +1,5 @@
 {::comment} intro.md {:/comment}
+<a name="2" />
 
 第2章 Enjuを動作させる方法
 ========================

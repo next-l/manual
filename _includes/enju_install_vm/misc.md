@@ -1,4 +1,5 @@
 {::comment} misc.md {:/comment}
+<a name="9" />
 
 第9章 その他
 ==============
