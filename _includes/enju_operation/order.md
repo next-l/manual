@@ -10,7 +10,9 @@
 1. ［図書館の管理］メニューから［発注リスト］を選択します。  
    ![発注リスト](assets/images/image_operation_070.jpg)
 
-	<div class="alert alert-info">【Memo】もし、[発注リスト]がない場合は、[enju_purchase_request]モジュールをインストール必要があります。インストール方法についてはインストールマニュアルの「モジュールの追加」の章を参照ください。</div>
+	<div class="alert alert-info" markdown="1">
+【Memo】もし、[発注リスト]がない場合は、[enju_purchase_request]モジュールをインストール必要があります。インストール方法についてはインストールマニュアルの「[第5章 モジュールの追加](enju_install_vm.html#5)」の章を参照ください。
+	</div>
 
 2. 右メニューの［発注リストの新規作成］をクリックします。  
    ![発注リストの新規作成](assets/images/image_operation_072.jpg)
