@@ -5,7 +5,9 @@
 
 Enjuを利用するには、まずシステムにログインします。
 
-### ■ログインする
+<a name="2-2-1" />
+
+### 2-2-1 ログインする
 
 1. Enjuにアクセスし、［ログイン］をクリックします。  
    ![Enju初期画面](assets/images/image_operation_003.png)
@@ -18,7 +20,9 @@ Enjuを利用するには、まずシステムにログインします。
 3. 自分のアカウントでログインされていることを確認します。  
    ![Enjuログイン中](assets/images/image_operation_007.png)
 
-### ■ログアウトする
+<a name="2-2-2" />
+
+### 2-2-2 ログアウトする
 
 1. ［ログアウト］をクリックします。  
    ![Enjuログアウト](assets/images/image_operation_009.png)
