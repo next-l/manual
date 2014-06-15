@@ -10,11 +10,24 @@ Enjuは，以下の手順で，Enjuのソースコードが公開されている
 
 ### 7-1 Enjuの停止
 
+使用している仮想マシンによって停止方法が異なります。
+
 1. vagrant@precise64:~$ に続いて以下のコマンドを入力します。
+    * 2014年1月2日作成の仮想マシンの場合 (vagrant_default_1388636385395_61088.vbox)
 
-       sudo service apache2 stop
-       sudo service simplesolr stop
+          sudo service apache2 stop
+          sudo service simplesolr stop
 
+    * 2014年6月xx日作成の仮想マシン以降の場合 (vagrant_defaultxxxxxxxxxxxxxxxxx.vbox)
+
+          sudo stop enju_leaf
+
+		<div class="alert alert-info" markdown="1">
+【Memo】 Enju WS参加者のみ該当（2014年5月時点の仮想マシンでのみ必要）
+
+          rake sunspot:solr:stop
+
+		</div>
    vagrant のパスワード入力が求められたら，パスワードを打ち込んでください(画面には出力されません)。
 
 <a name="7-2" />
@@ -43,9 +56,23 @@ Enjuは，以下の手順で，Enjuのソースコードが公開されている
 
 ### 7-3 Enjuを再起動
 
-1. vagrant@precise64:~$ または vagrant@precise64:~/enju$ に続いて以下のコマンドを入力します。
+使用している仮想マシンによって再起動方法が異なります。
 
-       sudo service apache2 restart
-       sudo service simplesolr restart
+1. vagrant@precise64:~$ または vagrant@precise64:~/enju$ に続いて以下のコマンドを入力します。
+    * 2014年1月2日作成の仮想マシンの場合 (vagrant_default_1388636385395_61088.vbox)
+
+          sudo service apache2 restart
+          sudo service simplesolr restart
+
+    * 2014年6月xx日作成の仮想マシン以降の場合 (vagrant_defaultxxxxxxxxxxxxxxxxx.vbox)
+
+          sudo start enju_leaf
+
+		<div class="alert alert-info" markdown="1">
+【Memo】 Enju WS参加者のみ該当（2014年5月時点の仮想マシンでのみ必要）
+
+          rake sunspot:solr:start
+
+		</div>
 
    vagrant のパスワード入力が求められたら，パスワードを打ち込んでください(画面には出力されません)。
