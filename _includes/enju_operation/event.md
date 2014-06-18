@@ -63,7 +63,7 @@ Enjuでは、図書館で行われるさまざまな催し物を登録し、カ�
         <td>任意</td>
         <td>id</td>
         <td>int</td>
-        <td>ID(更新・削除では必須？)</td>
+        <td>ID(更新・削除では必須)</td>
         <td>自動設定</td>
       </tr>
       <tr>
@@ -71,7 +71,7 @@ Enjuでは、図書館で行われるさまざまな催し物を登録し、カ�
         <td>name</td>
         <td>utf8</td>
         <td>名前（イベントの名称）</td>
-        <td>エラー</td>
+        <td>インポートが「失敗」になる</td>
       </tr>
       <tr>
         <td>任意</td>
@@ -85,27 +85,27 @@ Enjuでは、図書館で行われるさまざまな催し物を登録し、カ�
         <td>library</td>
         <td>ascii</td>
         <td>図書館</td>
-        <td>？</td>
+        <td>web</td>
       </tr>
       <tr>
-        <td>任意</td>
+        <td>必須</td>
         <td>start_at</td>
         <td>ISO8601</td>
-        <td>開始時刻（例：2014-06-24 15:00:00 +0900）</td>
-        <td>？</td>
+        <td>開始時刻（例：2014-06-24 15:00:00 +0900 もしくは 2014-06-24）、all_dayがTRUEの場合は時刻が無視される。FALSEの場合に時刻がなければ00:00になる</td>
+        <td>インポートが「失敗」になる</td>
       </tr>
       <tr>
-         <td>任意</td>
+         <td>必須</td>
          <td>end_at</td>
          <td>ISO8601</td>
-         <td>終了時刻（例：2014-06-24 15:00:00 +0900）</td>
-         <td>？</td></tr>
+         <td>終了時刻（例：2014-06-24 15:00:00 +0900 もしくは 2014-06-24）、all_dayがTRUEの場合時刻は無視される。FALSEの場合、時刻がなければ23:59になる。</td>
+         <td>インポートが「失敗」になる</td></tr>
       <tr>
          <td>任意</td>
          <td>all_day</td>
          <td>真偽</td>
-         <td>終日かどうか</td>
-         <td>FALSE</td>
+         <td>TRUE or FALSE 終日かどうか</td>
+         <td>TRUE</td>
       </tr>
       <tr>
          <td>任意</td>
@@ -119,7 +119,7 @@ Enjuでは、図書館で行われるさまざまな催し物を登録し、カ�
          <td>dummy</td>
          <td>utf8</td>
          <td>ダミー行（なにかを書いていると無視する行）</td>
-         <td>未設定</td>
+         <td>(読み込む行だと判定される）</td>
       </tr>
     </tbody>
   </table>
@@ -133,27 +133,39 @@ Enjuでは、図書館で行われるさまざまな催し物を登録し、カ�
         <td>"library"</td>
         <td>"start_at"</td>
         <td>"end_at"</td>
+        <td>"all_ay"</td>
         <td>"dummy"</td></tr>
       <tr>
-        <td>"名前（イベントの名称）：必須"</td>
+        <td>必須</td>
+        <td>任意</td>
+        <td>任意</td>
+        <td>必須</td>
+        <td>必須</td>
+        <td>任意</td>
+        <td>任意</td></tr>
+      <tr>
+        <td>"名前（イベントの名称）"</td>
         <td>"催し物の種類"</td> 
         <td>"図書館"</td>
         <td>"開始時刻"</td>
         <td>"終了時刻"</td>
-        <td>この行は読み込まれません</td></tr>
+        <td>"終日"</td>
+        <td>この行はダミー行</td></tr>
       <tr>
         <td>"おはなし会"  </td>
         <td>"story_telling"     </td>
         <td>"kiri"</td>
-        <td>"2009-04-05"</td>
-        <td>"2009-04-05"</td>
+        <td>"2009-04-05 15:00:00 +0900"</td>
+        <td>"2009-04-05 16:00:00 +0900"</td>
+        <td>FALSE</td>
         <td>　</td></tr>
       <tr>
         <td>"蔵書点検"  </td>
         <td></td>
         <td>"tachibana"</td>
         <td>"2009-04-01"</td>
-        <td>"2009-04-03"</td>
+        <td>"2009-04-02"</td>
+        <td>  </td>
         <td>　</td></tr>
       <tr>
         <td>"休館日"    </td>
@@ -161,6 +173,7 @@ Enjuでは、図書館で行われるさまざまな催し物を登録し、カ�
         <td>"tachibana"</td>
         <td>"2011-04-01"</td>
         <td>"2011-04-03"</td>
+        <td>  </td>
         <td>　</td></tr>
     </tbody>
   </table>
