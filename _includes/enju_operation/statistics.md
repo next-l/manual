@@ -27,14 +27,22 @@ Enjuでは、ブックマークの回数の統計を取ることができます�
 1. ［図書館の管理］メニューから［統計］を選択します。  
    ![統計](assets/images/image_operation_statistics.png)
 2. ［ブックマーク回数］をクリックします。  
-   ![ブックマーク回数](assets/images/image_operation_257.jpg)
+   ![ブックマーク回数](assets/images/image_operation_257.png)
+
+	<div class="alert alert-info" markdown="1">
+【Memo】もし、[ブックマーク回数]がない場合は、[enju_bookmark]モジュールを
+インストール必要があります。
+インストール方法についてはインストールマニュアルの
+「[5-2 [enju_bookmark]モジュール（ブックマーク機能）](enju_install_vm.html#5-2)」
+の章を参照ください。
+	</div>
+
 3. 右メニューの［ブックマーク統計の新規作成］をクリックします。  
-   ![ブックマーク統計の新規作成](assets/images/image_operation_259.jpg)
+   ![ブックマーク統計の新規作成](assets/images/image_operation_259.png)
 4. 統計期間を設定して［登録する］をクリックします。  
-   ![ブックマーク統計を作成](assets/images/image_operation_261.jpg)
-5. 「ブックマーク統計は正常に作成されました。」のメッセージが表示され、ブックマーク統計データが作成されます。
-6. 右メニューの［CSV］をクリックし、統計データを保存します。  
-   ![統計データを保存](assets/images/image_operation_263.jpg)
+   ![ブックマーク統計を作成](assets/images/image_operation_261.png)
+5. 「ブックマーク統計は正常に作成されました。」のメッセージが表示され、ブックマーク統計データが作成されます。右メニューの［CSV］をクリックし、統計データを保存します。  
+   ![統計データを保存](assets/images/image_operation_263.png)
 
 <a name="11-2" />
 
