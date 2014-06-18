@@ -5,32 +5,35 @@
 
 頻繁に閲覧する資料は、ブラウザの「ブックマーク」と同様に、Enjuでも「ブックマーク」として登録しておくことができます。
 
+<div class="alert alert-info" markdown="1">【Memo】
+この機能は標準では使えない機能です。この機能を使うためには、インストールマニュアルの「[5-2 [enju_bookmark]モジュール（ブックマーク機能）](enju_install_vm.html#5-2)」を参照してモジュールをインストールする必要があります。
+</div>
+
 <a name="12-2-1" />
 
 ### 12-2-1 ブックマークを追加する
 
-1. ［図書館の管理］メニューの［システムの設定］を選択します。  
-   ![システムの設定](assets/images/image_operation_282.jpg)
-2. ［資料］グループの［資料］をクリックします。  
-   ![資料](assets/images/image_operation_284.jpg)
-3. 検索機能を使うなどして、ブックマークしたい資料を探します。  
-   ![検索機能を使用](assets/images/image_operation_286.jpg)
+3. ブックマークしたい資料を検索します。
+トップページの検索語に登録したい資料のキーワードを入力し、
+［検索］ボタンをクリックします
+   ![検索機能を使用](assets/images/image_operation_286.png)
 4. ブックマークしたい資料をクリックします。  
-   ![ブックマークしたい資料をクリック](assets/images/image_operation_288.jpg)
+   ![ブックマークしたい資料をクリック](assets/images/image_operation_288.png)
 5. 目的の資料を表示し、右メニューの［ブックマークに追加する］をクリックします。  
-   ![ブックマークに追加する](assets/images/image_operation_290.jpg)
-6. 必要に応じてタグなどを入力し、［ブックマークを作成］ボタンをクリックします。  
-   ![ブックマークを作成](assets/images/image_operation_291.jpg)
+   ![ブックマークに追加する](assets/images/image_operation_290.png)
+6. 必要に応じてタグなどを入力し、［登録］ボタンをクリックします。  
+   ![ブックマークを作成](assets/images/image_operation_291.png)
 7. 「ブックマークは正常に作成されました。」のメッセージが表示され、ブックマークが作成されます。
+    ![ブックマークを作成されました](assets/images/image_operation_291_2.png)
 
 <a name="12-2-2" />
 
 ### 12-2-2 ブックマークを表示する
 
 1. トップページの［ブックマーク］をクリックします。  
-   ![ブックマーク](assets/images/image_operation_293.jpg)
+   ![ブックマーク](assets/images/image_operation_bookmark.png)
 2. ブックマークの一覧が表示されます。  
-   ![ブックマーク一覧](assets/images/image_operation_294.jpg)
+   ![ブックマーク一覧](assets/images/image_operation_294.png)
 
 	<div class="alert alert-info">【Memo】ブックマークの数が多い場合は、検索語でブックマークを絞り込むことができます。また、登録されたブックマークを削除したい場合は、［削除］をクリックします。
 	</div>
