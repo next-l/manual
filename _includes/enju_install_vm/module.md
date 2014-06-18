@@ -38,6 +38,13 @@
        enju_leaf
        enju_purchase_request # この行を追加
 
-6. 「[7-3 Enjuを再起動](#7-3)」を実行します。
+6. app/models/user.rb を以下のように編集します。
+
+       class User < ActiveRecord::Base
+         # 中略
+         enju_purchase_request_user_model # この行を追加
+       end
+
+7. 「[7-3 Enjuを再起動](#7-3)」を実行します。
 
 （その他のモジュールについては、後日公開します。）
