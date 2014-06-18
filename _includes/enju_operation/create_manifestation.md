@@ -51,7 +51,7 @@
    ![ISBNを入力する](assets/images/image_operation_106.png)
 2. ISBNコードを入力し、［登録する］をクリックします。
    ![インポートのリクエストを作成](assets/images/image_operation_108.png)
-3. 「インポートのリクエストは正常に作成されました。」と表示され、登録が完了しま>す。
+3. 「インポートのリクエストは正常に作成されました。」と表示され、登録が完了します。
    ![登録完了](assets/images/image_operation_109.png)
 
 <a name="4-2-4" />
