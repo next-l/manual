@@ -7,6 +7,15 @@ Enjuでは、ブックマークレットを利用してWebページやWeb上のP
 
 1. トップページの［ブックマーク］をクリックします。  
    ![ブックマーク](assets/images/image_operation_bookmark.png)
+
+	<div class="alert alert-info" markdown="1">
+【Memo】もし、[ブックマーク]がない場合は、[enju_bookmark]モジュールを
+インストール必要があります。
+インストール方法についてはインストールマニュアルの
+「[5-2 [enju_bookmark]モジュール（ブックマーク機能）](enju_install_vm.html#5-2)」
+の章を参照ください。
+	</div>
+
 2. 右メニューの［図書館のブックマークに追加する］を右クリックし、［お気に入りに追加］をクリックします。  
    ![お気に入りに追加](assets/images/image_operation_138.png)
 
