@@ -32,5 +32,7 @@
 
 {::comment}
    <div class="alert alert-info">【Memo】雑誌の場合、次の号を資料として登録しようとすると、「通号」などのデータが前回のデータを参照して自動的に更新されます。
-   </div>{:/comment}
+   </div>
+
+{:/comment}
  
