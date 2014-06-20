@@ -79,8 +79,11 @@ Enjuは、利用者同士のコミュニケーション機能も搭載されて�
 
 また、図書の受入に際し、次のような機能を利用することもできます。
 
+{::comment}
 * Webページを登録する  
   Webページを資料として受入します
+{:/comment}
+
 * 画像を登録する表紙画像のデータを、受入した図書にリンクさせます。
 
 {::comment}4-1{:/comment}{% include  enju_operation/order.md %}
@@ -89,8 +92,8 @@ Enjuは、利用者同士のコミュニケーション機能も搭載されて�
 {::comment}4-4{:/comment}{% include  enju_operation/accept_item.md %}
 {::comment}4-5{:/comment}{% include  enju_operation/delete_item.md %}
 {::comment}4-6{:/comment}{% include  enju_operation/list_new_item.md %}
-{::comment}4-7{:/comment}{% include  enju_operation/create_web_page.md %}
-{::comment}4-8{:/comment}{% include  enju_operation/add_image.md %}
+{::comment}4-7 old  include  enju_operation/create_web_page.md  {:/comment}
+{::comment}4-7{:/comment}{% include  enju_operation/add_image.md %}
 
 <a name="5" />
 
@@ -186,3 +189,4 @@ Enjuではさまざまなバーコード印刷機能やブックマークなど�
 
 {::comment}12-1{:/comment}{% include  enju_operation/print.md %}
 {::comment}12-2{:/comment}{% include  enju_operation/bookmark.md %}
+
