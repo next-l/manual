@@ -228,24 +228,6 @@ Enju仮想マシンを起動し，Ubuntuにログインします。
 
    ![現在のパスワード，新しいパスワード，新しいパスワード（確認）の順に入力](assets/images/image_install_037.png)
 
-<a name="4-4-3" />
-
-### 4-4-3 IPアドレスの確認
-
-割り当てられたIPアドレスを確認します。
-
-1. vagrant@precise64:~$ に続いて以下のコマンドを入力します。
-
-       ifconfig
-
-   etho (または eth1)のところに書かれている inet addr: の値をメモします。以下の画面では，<code>192.168.11.9</code>です。  
-
-      ![inet addr: の値をメモ](assets/images/image_install_041.png)
-
-   <div class="alert alert-info">
-   もし，画面が流れていって，読めない場合には <kbd>ifconfig | more</kbd> と入力してください。
-   </div>
-
 {::comment}
 
 2. vagrant@precise64:~$ に続いて以下のコマンドを入力します。
@@ -269,10 +251,28 @@ Next-L Enjuが正しく起動したかどうかは，サーバ上だけではわ
    右「Ctrl」キーを押します。
    ウィンドウ右下の矢印が![グレーの矢印](assets/images/image_install_right_ctrl_g.png)（グレーの矢印）のようにグレー色になります。
 2. ブラウザからアクセスします。Windows上でWebブラウザを立ち上げます。
-3. アドレス欄に，上の「■IPアドレスの確認」で確認したIPアドレスを使って「http://仮想マシンのIPアドレス」（例 ```http://192.168.11.9``` ブラウザによっては ```192.168.11.9``` でも可）と入力してください。
+3. アドレス欄に```http://localhost:8080```と入力してください（ブラウザによっては ```localhost:8080``` でも可）。※ 注意！ Enju_Leaf 1.1.0.rc7版の仮想マシンではやり方が異なりますので注意してください。
+![ブラウザで起動の確認](assets/images/image_install_078_4.png)
 
-![http://仮想マシンのIPアドレス](assets/images/image_install_078_4.png)
-       
+	<a name="4-5-rc7" />
+
+	<div class="alert alert-info" markdown="1"> 
+	【Memo】Enju_leaf 1.1.0.rc7 の仮想マシンの場合：
+
+	1. vagrant@precise64:~$ に続いて以下のコマンドを入力し、仮想マシンのIPアドレスを確認します。
+
+	       ifconfig
+
+		etho (または eth1)のところに書かれている inet addr: の値をメモします。以下の画面では，<code>192.168.11.9</code>です。
+		もし，画面が流れていって，読めない場合には ```ifconfig | more``` と入力してください。
+
+		![inet addr: の値をメモ](assets/images/image_install_041.png)
+
+	2. アドレス欄に，上の「■IPアドレスの確認」で確認したIPアドレスを使って「http://仮想マシンのIPアドレス」（例 ```http://192.168.11.9``` ブラウザによっては ```192.168.11.9``` でも可）と入力してください。
+
+		![ブラウザで起動の確認](assets/images/image_install_078_4_rc7.png)
+	</div>
+
 これで，同じPC上からも，また別のマシンからもEnjuサーバに対してアクセスすることが可能になりました。このようにアクセスしても正しく画面が表示されない場合には，何らかの設定ミスがあると思われますので，再度インストールしなおしてください。
 
 <a name="4-6" />
