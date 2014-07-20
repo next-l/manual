@@ -254,6 +254,11 @@ Next-L Enjuが正しく起動したかどうかは，サーバ上だけではわ
 3. アドレス欄に```http://localhost:8080```と入力してください（ブラウザによっては ```localhost:8080``` でも可）。※ 注意！ Enju_Leaf 1.1.0.rc7版の仮想マシンではやり方が異なりますので注意してください。
 ![ブラウザで起動の確認](assets/images/image_install_078_4.png)
 
+	<div class="alert alert-success" markdown="1">
+	【Column】[3-1-3 IPアドレスの確認](#3-1-3) の 6. で確認した「IPv4のアドレス」（例：```192.168.11.9```）でも確認できます。
+	その場合は```http:://IPc4のアドレス:8080```（例：```http://192.168.11.9:8080```）と入力します。
+	</div>
+
 	<a name="4-5-rc7" />
 
 	<div class="alert alert-info" markdown="1"> 
