@@ -1,0 +1,9 @@
+a.active {
+  color: black;
+  font-weight: bolder;
+}
+ul.toc {
+  border: solid 1px gray;
+  padding: 10px;
+  padding-left: 4em;
+}
