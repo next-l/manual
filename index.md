@@ -11,6 +11,7 @@ title: マニュアル一覧
 </div>
 <div class="span4">
 <a href="enju_setup.html" class="btn btn-success btn-large">初期設定マニュアル</a>
+{% include enju_setup/toc.md %}
 </div>
 <div class="span4">
 <a href="enju_operation.html" class="btn btn-primary btn-large">運用マニュアル</a>
