@@ -9,7 +9,7 @@
    ![カレンダー](assets/images/image_operation_224.png)
 2. カレンダーが表示されます。  
    ![カレンダー表示](assets/images/image_operation_225.png)
-
-	<div class="alert alert-info">【Memo】カレンダーの日付部分をクリックすると、「開催日と催し物の新規作成」の画面が開き、開館日や催し物を新規で追加したり編集したりできます。
-	</div>
+   
+   <div class="alert alert-info">【Memo】カレンダーの日付部分をクリックすると、「開催日と催し物の新規作成」の画面が開き、開館日や催し物を新規で追加したり編集したりできます。
+   </div>
 

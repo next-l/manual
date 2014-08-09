@@ -10,9 +10,9 @@
 <li><a {% if page.url == '/enju_operation_5.html' %} class="active" {% endif %} href="enju_operation_5.html">第5章 雑誌の受入をする</a></li>
 <li><a {% if page.url == '/enju_operation_6.html' %} class="active" {% endif %} href="enju_operation_6.html">第6章 貸出・返却・予約を処理する</a></li>
 <li><a {% if page.url == '/enju_operation_7.html' %} class="active" {% endif %} href="enju_operation_7.html">第7章 休館日と催し物を登録する</a></li>
-<li><a {% if page.url == '/enju_operation_7.html' %} class="active" {% endif %} href="enju_operation_8.html">第8章 レファレンスを処理する</a></li>
-<li><a {% if page.url == '/enju_operation_7.html' %} class="active" {% endif %} href="enju_operation_9.html">第9章 資料を検索する</a></li>
-<li><a {% if page.url == '/enju_operation_7.html' %} class="active" {% endif %} href="enju_operation_10.html">第10章 蔵書点検機能を利用する</a></li>
-<li><a {% if page.url == '/enju_operation_7.html' %} class="active" {% endif %} href="enju_operation_11.html">第11章 統計機能を利用する</a></li>
-<li><a {% if page.url == '/enju_operation_7.html' %} class="active" {% endif %} href="enju_operation_12.html">第12章 印刷その他の機能を利用する</a></li>
+<li><a {% if page.url == '/enju_operation_8.html' %} class="active" {% endif %} href="enju_operation_8.html">第8章 レファレンスを処理する</a></li>
+<li><a {% if page.url == '/enju_operation_9.html' %} class="active" {% endif %} href="enju_operation_9.html">第9章 資料を検索する</a></li>
+<li><a {% if page.url == '/enju_operation_10.html' %} class="active" {% endif %} href="enju_operation_10.html">第10章 蔵書点検機能を利用する</a></li>
+<li><a {% if page.url == '/enju_operation_11.html' %} class="active" {% endif %} href="enju_operation_11.html">第11章 統計機能を利用する</a></li>
+<li><a {% if page.url == '/enju_operation_12.html' %} class="active" {% endif %} href="enju_operation_12.html">第12章 印刷その他の機能を利用する</a></li>
 </ul>
