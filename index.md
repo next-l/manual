@@ -15,5 +15,6 @@ title: マニュアル一覧
 </div>
 <div class="span4">
 <a href="enju_operation.html" class="btn btn-primary btn-large">運用マニュアル</a>
+{% include enju_operation/toc.md %}
 </div>
 </div>
