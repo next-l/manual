@@ -23,25 +23,19 @@
 ## Q. VirtualBoxでプロキシ環境でも使用できる方法をおしえてください。
 
 1. https へのアクセスは可能である必要があります。
-2. ~/.profileに以下の2行を追加してください(プロキシのホスト名とポートは適宜変更してください。)
+2. ~/.profileに以下の2行を追加してください。プロキシのホスト名とポートは適宜変更してください。rubygems.orgからgemを取得したり、EnjuがNDLサーチ検索など外部のサービスにアクセスするための設定です。
 
-  ```
-  export http_proxy=http://proxy.example.com:8080
-  export https_proxy=$http_proxy
-  ```
-rubygems.orgからgemを取得したり、EnjuがNDLサーチ検索など外部のサービスにアクセスするための設定です。
+        export http_proxy=http://proxy.example.com:8080
+        export https_proxy=$http_proxy
 
-3. ~/.gitconfig（無ければこのファイルを作成する） に以下を記入してください
+3. ~/.gitconfig（無ければこのファイルを作成する） に以下を記入してください。gitでプロキシを使用するための設定です。
 
-  ```
-  [https]
-          proxy = http://proxy.example.com:8080
-  [http]
-          proxy = http://proxy.example.com:8080
-  [url "https://"]
-          insteadOf = git://
-  ```
-gitでプロキシを使用するための設定です。
+        [https]
+                proxy = http://proxy.example.com:8080
+        [http]
+                proxy = http://proxy.example.com:8080
+        [url "https://"]
+                insteadOf = git://
 
 4. ログアウトしてログインしなおしてください
 5. Enjuを再起動してください（--> [詳細へ](enju_install_vm_7.html#7-3)）
