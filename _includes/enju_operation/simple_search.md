@@ -10,8 +10,8 @@
 2. キーワードに該当する資料が検索されます。詳細を知りたい資料のタイトルをクリックします。  
    ![該当する資料が検索される](assets/images/image_operation_244.png)
 
-	<div class="alert alert-info">【Memo】スペースで区切りながらキーワードを入力すると、複数のキーワードに一致する資料を検索できます。
-	</div>
+   <div class="alert alert-info">【Memo】スペースで区切りながらキーワードを入力すると、複数のキーワードに一致する資料を検索できます。
+   </div>
 3. 資料の詳細が表示されます。
    ![該当する資料の表示](assets/images/image_operation_244_2.png)
 

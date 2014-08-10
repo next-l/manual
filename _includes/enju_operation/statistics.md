@@ -35,7 +35,7 @@ Enjuでは、ブックマークの回数の統計を取ることができます�
 2. ［ブックマーク回数］をクリックします。  
    ![ブックマーク回数](assets/images/image_operation_257.png)
 
-	<div class="alert alert-info" markdown="1">
+   <div class="alert alert-info" markdown="1">
 【Memo】もし、[ブックマーク回数]がない場合は、[enju_bookmark]モジュールを
 インストール必要があります。
 インストール方法についてはインストールマニュアルの
@@ -76,8 +76,8 @@ Enjuでは、利用者別と資料別で貸出の統計を取ることができ�
 6. 今までの利用者別貸出統計の一覧が表示されます。[状態]を見ると処理結果がわかります。[pending]のものは毎日夜中の1:00に統計出力処理を開始します（つまり、結果を得るのは明日後となります）。 完了したものは[completed]と表示されます。結果を表示させたいレコードの[表示]リンクをクリックします。
    ![統計データの一覧](assets/images/image_operation_269_2.png)
 
-	<div class="alert alert-info" markdown="1">【Memo】この画面は 3 の画面と同じです。[図書館の管理]メニューの[統計]をたどり、[利用者の貸出回数]リンクをクリックすればでいつでも行けます。
-	</div>
+   <div class="alert alert-info" markdown="1">【Memo】この画面は 3 の画面と同じです。[図書館の管理]メニューの[統計]をたどり、[利用者の貸出回数]リンクをクリックすればでいつでも行けます。
+   </div>
 
 7. 統計結果が表示されませす。右メニューの［CSV］をクリックし、統計データを保存します。  
    ![統計データを保存](assets/images/image_operation_269_3.png)
@@ -106,10 +106,10 @@ Enjuでは、利用者別と資料別で貸出の統計を取ることができ�
 結果を表示させたいレコードの[表示]リンクをクリックします。
    ![統計データの一覧](assets/images/image_operation_272_3.png)
 
-	<div class="alert alert-info" markdown="1">
+   <div class="alert alert-info" markdown="1">
 【Memo】この画面は 3 の画面と同じです。[図書館の管理]メニューの[統計]をたどり、
 [資料の貸出回数]リンクをクリックすればでいつでも行けます。
-	</div>
+   </div>
 
 7. 統計結果が表示されませす。右メニューの［CSV］をクリックし、統計データを保存します。
    ![統計データを保存](assets/images/image_operation_272_4.png)
@@ -146,10 +146,10 @@ Enjuでは、利用者別と資料別に、予約の統計を取ることがで�
 結果を表示させたいレコードの[表示]リンクをクリックします。
    ![統計データの一覧](assets/images/image_operation_277_2.png)
 
-	<div class="alert alert-info" markdown="1">
+   <div class="alert alert-info" markdown="1">
 【Memo】この画面は 3 の画面と同じです。[図書館の管理]メニューの[統計]をたどり、
 [利用者の予約回数]リンクをクリックすればでいつでも行けます。
-	</div>
+   </div>
 
 7. 統計結果が表示されませす。右メニューの［CSV］をクリックし、統計データを保存します。
    ![統計データを保存](assets/images/image_operation_277_3.png)
@@ -179,10 +179,10 @@ Enjuでは、利用者別と資料別に、予約の統計を取ることがで�
 結果を表示させたいレコードの[表示]リンクをクリックします。
    ![統計データの一覧](assets/images/image_operation_280_3.png)
 
-	<div class="alert alert-info" markdown="1">
+   <div class="alert alert-info" markdown="1">
 【Memo】この画面は 3 の画面と同じです。[図書館の管理]メニューの[統計]をたどり、
 [資料の予約回数]リンクをクリックすればでいつでも行けます。
-	</div>
+   </div>
 
 7. 統計結果が表示されませす。右メニューの［CSV］をクリックし、統計データを保存します。
    ![統計データを保存](assets/images/image_operation_280_4.png) 
