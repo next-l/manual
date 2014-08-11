@@ -7,21 +7,17 @@ group: enju_install_vm
 
 {::comment}module.md{:/comment}
 
-<a name="5" />
-
-第5章 モジュールの追加
-======================
+第5章 モジュールの追加 {#section5}
+==================================
 
 発注リストの作成機能や、Web資料の登録機能などは、Enjuの標準ではインストールされていません。それぞれモジュールをインストールすることでこれらの機能を追加することができます。
 
 この章では、追加できる機能、モジュールのインストール方法について説明します。
 
-<a name="5-1" />
+5-1 [enju_purchase_request]モジュール（発注リスト作成機能） {#section5-1}
+-------------------------------------------------------------------------
 
-5-1 [enju_purchase_request]モジュール（発注リスト作成機能）
----------------------------------
-
-1. 「[7-1 Enjuの停止](enju_install_vm_7.html#7-1)」を実行します。
+1. 「[7-1 Enjuの停止](enju_install_vm_7.html#section7-1)」を実行します。
 2. enju/Gemfile に以下の一行を追加して保存します
 
        gem "enju_purchase_request", '~> 0.1.0.pre9'
@@ -36,7 +32,7 @@ group: enju_install_vm
 
 	</div>
 
-3. 「[7-2 最新ソースコードの取込み](enju_install_vm_7.html#7-2)」を実行します。
+3. 「[7-2 最新ソースコードの取込み](enju_install_vm_7.html#section7-2)」を実行します。
 4. 以下のコマンドを実行します。
 
        $ cd enju
@@ -55,18 +51,16 @@ group: enju_install_vm
          enju_purchase_request_user_model # この行を追加
        end
 
-7. 「[7-3 Enjuを再起動](enju_install_vm_7.html#7-3)」を実行します。
+7. 「[7-3 Enjuを再起動](enju_install_vm_7.html#section7-3)」を実行します。
 
-<a name="5-2" />
-
-5-2 [enju_bookmark]モジュール（ブックマーク機能）
----------------------------------
+5-2 [enju_bookmark]モジュール（ブックマーク機能） {#section5-2}
+---------------------------------------------------------------
 
 <div class="alert alert-info" markdown="1">
 【Memo】このモジュールは現在、開発中です。
 </div>
 
-1. 「[7-1 Enjuの停止](enju_install_vm_7.html#7-1)」を実行します。
+1. 「[7-1 Enjuの停止](enju_install_vm_7.html#section7-1)」を実行します。
 2. enju/Gemfile に以下の一行を追加して保存します
 
        gem "enju_bookmark", '~> 0.1.2.pre13'
@@ -83,7 +77,7 @@ group: enju_install_vm
 
 	</div>
 
-3. 「[7-2 最新ソースコードの取込み](enju_install_vm_7.html#7-2)」を実行します。
+3. 「[7-2 最新ソースコードの取込み](enju_install_vm_7.html#section7-2)」を実行します。
 4. 以下のコマンドを実行します。
 
        $ cd enju
@@ -104,7 +98,7 @@ group: enju_install_vm
          enju_bookmark_user_model # この行を追加
        end
 
-7. 「[7-3 Enjuを再起動](enju_install_vm_7.html#7-3)」を実行します。
+7. 「[7-3 Enjuを再起動](enju_install_vm_7.html#section7-3)」を実行します。
 
 （その他のモジュールについては、後日公開します。）
 {% include enju_install_vm/toc.md %}

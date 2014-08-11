@@ -6,21 +6,20 @@ group: enju_install_vm
 ---
 
 {::comment} FAQ.md {:/comment}
-<a name="10" />
 
-第10章 トラブルシューティング
-==============================
+第10章 トラブルシューティング {#section10}
+===========================================
 
 ## Q. 仮想マシンにsshでアクセスする場合のIPアドレスとポート番号が分かりません。
 
 仮想マシンのバージョンによってやり方が異なります。
 
 1. Next-L Enju Leaf 1.1.0.rc7の場合：
-   * IPアドレス：```ifconfig```で表示されるIPアドレス（--> [詳細へ](enju_install_vm_4.html#4-5-rc7)）
+   * IPアドレス：```ifconfig```で表示されるIPアドレス（--> [詳細へ](enju_install_vm_4.html#section4-5-rc7)）
    * ポート番号：22　（デフォルトのポート番号）
 2. Next-L Enju Leaf 1.1.0.rc12以降の場合：
    * IPアドレス：localhost 
-      * または 「仮想マシンをインストールしたマシン自身のIPアドレス」(--> 参考：[3-1-3 IPアドレスの確認](enju_install_vm_3.html#3-1-3)の 6. のIPv4のアドレス )
+      * または 「仮想マシンをインストールしたマシン自身のIPアドレス」(--> 参考：[3-1-3 IPアドレスの確認](enju_install_vm_3.html#section3-1-3)の 6. のIPv4のアドレス )
    * ポート番号：2222
 
 ## Q. http://localhost:8080 にアクセスしたらすでに使われています？といったエラーがでて起動できません。
@@ -45,7 +44,7 @@ group: enju_install_vm
                 insteadOf = git://
 
 4. ログアウトしてログインしなおしてください
-5. Enjuを再起動してください（--> [詳細へ](enju_install_vm_7.html#7-3)）
+5. Enjuを再起動してください（--> [詳細へ](enju_install_vm_7.html#section7-3)）
 
 ## Q. VT機能が無効になっているというメッセージが表示されます。
 
