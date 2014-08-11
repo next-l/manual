@@ -7,10 +7,8 @@ group: enju_operation
 
 {::comment}11-1,2,3  enju_operation/statistics.md {:/comment}
 
-<a name="11" />
-
-第11章 統計機能を利用する
-=========================
+第11章 統計機能を利用する {#section11}
+======================================
 
 {::comment}
 
@@ -32,167 +30,203 @@ group: enju_operation
 
 {::comment}
 
-<a name="11-x" />
-
-11-x ブックマーク回数の統計を取る
+11-x ブックマーク回数の統計を取る {#section11-x}
 ---------------------------------
 
 Enjuでは、ブックマークの回数の統計を取ることができます。
 
-1. ［図書館の管理］メニューから［統計］を選択します。  
-   ![統計](assets/images/image_operation_statistics.png)
-2. ［ブックマーク回数］をクリックします。  
-   ![ブックマーク回数](assets/images/image_operation_257.png)
+#### 1. ［図書館の管理］メニューから［統計］を選択します。  
 
-   <div class="alert alert-info" markdown="1">
+![統計](assets/images/image_operation_statistics.png)
+
+#### 2. ［ブックマーク回数］をクリックします。  
+
+![ブックマーク回数](assets/images/image_operation_257.png)
+
+<div class="alert alert-info memo" markdown="1">
 【Memo】もし、[ブックマーク回数]がない場合は、[enju_bookmark]モジュールを
 インストール必要があります。
 インストール方法についてはインストールマニュアルの
-「[5-2 [enju_bookmark]モジュール（ブックマーク機能）](enju_install_vm.html#5-2)」
+「[5-2 [enju_bookmark]モジュール（ブックマーク機能）](enju_install_vm.html#section5-2)」
 の章を参照ください。
-	</div>
+</div>
 
-3. 右メニューの［ブックマーク統計の新規作成］をクリックします。  
-   ![ブックマーク統計の新規作成](assets/images/image_operation_259.png)
-4. 統計期間を設定して［登録する］をクリックします。  
-   ![ブックマーク統計を作成](assets/images/image_operation_261.png)
-5. 「ブックマーク統計は正常に作成されました。」のメッセージが表示され、ブックマーク統計データが作成されます。右メニューの［CSV］をクリックし、統計データを保存します。  
-   ![統計データを保存](assets/images/image_operation_263.png)
+#### 3. 右メニューの［ブックマーク統計の新規作成］をクリックします。  
+
+![ブックマーク統計の新規作成](assets/images/image_operation_259.png)
+
+#### 4. 統計期間を設定して［登録する］をクリックします。  
+
+![ブックマーク統計を作成](assets/images/image_operation_261.png)
+
+#### 5. 「ブックマーク統計は正常に作成されました。」のメッセージが表示され、ブックマーク統計データが作成されます。右メニューの［CSV］をクリックし、統計データを保存します。  
+
+![統計データを保存](assets/images/image_operation_263.png)
 
 {:/comment}
 
-<a name="11-1" />
-
-11-1 貸出の統計を取る
----------------------
+11-1 貸出の統計を取る {#section11-1}
+------------------------------------
 
 Enjuでは、利用者別と資料別で貸出の統計を取ることができます。
 
-<a name="11-1-1" />
+### 11-1-1 利用者別貸出統計を取る {#section11-1-1}
 
-### 11-1-1 利用者別貸出統計を取る
+#### 1. ［図書館の管理］メニューから［統計］を選択します。  
 
-1. ［図書館の管理］メニューから［統計］を選択します。  
-   ![統計](assets/images/image_operation_statistics.png)
-2. ［利用者の貸出回数］をクリックします。  
-   ![利用者の貸出回数](assets/images/image_operation_265_0.png)
-3. 右メニューの［利用者別貸出統計の新規作成］をクリックします。  
-   ![利用者別貸出統計の新規作成](assets/images/image_operation_265.png)
-4. 統計期間を設定して［登録する］をクリックします。  
-   ![利用者別貸出統計を作成](assets/images/image_operation_267.png)
-5. 「利用者別貸出統計は正常に作成されました。」のメッセージが表示され、利用者別貸出統計データ作成の準備が整いました（この段階ではまだ、統計データは実際には作成されていません）。右の[利用者別貸出統計の一覧]をクリックします。
-   ![統計データ出力タスク作成完了](assets/images/image_operation_269.png)
-6. 今までの利用者別貸出統計の一覧が表示されます。[状態]を見ると処理結果がわかります。[pending]のものは毎日夜中の1:00に統計出力処理を開始します（つまり、結果を得るのは明日後となります）。 完了したものは[completed]と表示されます。結果を表示させたいレコードの[表示]リンクをクリックします。
-   ![統計データの一覧](assets/images/image_operation_269_2.png)
+![統計](assets/images/image_operation_statistics.png)
 
-   <div class="alert alert-info" markdown="1">【Memo】この画面は 3 の画面と同じです。[図書館の管理]メニューの[統計]をたどり、[利用者の貸出回数]リンクをクリックすればでいつでも行けます。
-   </div>
+#### 2. ［利用者の貸出回数］をクリックします。  
 
-7. 統計結果が表示されませす。右メニューの［CSV］をクリックし、統計データを保存します。  
-   ![統計データを保存](assets/images/image_operation_269_3.png)
+![利用者の貸出回数](assets/images/image_operation_265_0.png)
 
-<a name="11-1-2" />
+#### 3. 右メニューの［利用者別貸出統計の新規作成］をクリックします。  
 
-### 11-1-2 資料別貸出統計を取る
+![利用者別貸出統計の新規作成](assets/images/image_operation_265.png)
 
-1. ［図書館の管理］メニューから［統計］を選択します。  
-   ![統計](assets/images/image_operation_statistics.png)
-2. ［資料の貸出回数］をクリックします。  
-   ![資料の貸出回数](assets/images/image_operation_271_0.png)
-3. 右メニューの［資料別貸出統計の新規作成］をクリックします。  
-   ![資料別貸出統計の新規作成](assets/images/image_operation_271.png)
-4. 統計期間を設定して［登録する］をクリックします。  
-   ![資料別貸出統計を作成](assets/images/image_operation_272.png)
-5. 「資料別貸出統計は正常に作成されました。」のメッセージが表示され、
-資料別貸出統計データ作成の準備が整いました
-（この段階ではまだ、統計データは実際には作成されていません）。
-右の[資料別貸出統計の一覧]をクリックします。
-   ![統計データ出力タスク作成完了](assets/images/image_operation_272_2.png)
-6. 今までの資料別貸出統計の一覧が表示されます。[状態]を見ると処理結果がわかります。
-[pending]のものは毎日夜中の1:00に統計出力処理を開始します
-（つまり、結果を得るのは明日後となります）。
- 完了したものは[completed]と表示されます。
-結果を表示させたいレコードの[表示]リンクをクリックします。
-   ![統計データの一覧](assets/images/image_operation_272_3.png)
+#### 4. 統計期間を設定して［登録する］をクリックします。  
 
-   <div class="alert alert-info" markdown="1">
+![利用者別貸出統計を作成](assets/images/image_operation_267.png)
+
+#### 5. 「利用者別貸出統計は正常に作成されました。」のメッセージが表示され、利用者別貸出統計データ作成の準備が整いました（この段階ではまだ、統計データは実際には作成されていません）。右の[利用者別貸出統計の一覧]をクリックします。
+
+![統計データ出力タスク作成完了](assets/images/image_operation_269.png)
+
+#### 6. 今までの利用者別貸出統計の一覧が表示されます。[状態]を見ると処理結果がわかります。[pending]のものは毎日夜中の1:00に統計出力処理を開始します（つまり、結果を得るのは明日後となります）。 完了したものは[completed]と表示されます。結果を表示させたいレコードの[表示]リンクをクリックします。
+
+![統計データの一覧](assets/images/image_operation_269_2.png)
+
+<div class="alert alert-info memo" markdown="1">【Memo】この画面は 3 の画面と同じです。[図書館の管理]メニューの[統計]をたどり、[利用者の貸出回数]リンクをクリックすればでいつでも行けます。
+</div>
+
+### 7. 統計結果が表示されませす。右メニューの［CSV］をクリックし、統計データを保存します。  
+
+![統計データを保存](assets/images/image_operation_269_3.png)
+
+### 11-1-2 資料別貸出統計を取る {#section11-12}
+
+#### 1. ［図書館の管理］メニューから［統計］を選択します。  
+
+![統計](assets/images/image_operation_statistics.png)
+
+#### 2. ［資料の貸出回数］をクリックします。  
+
+![資料の貸出回数](assets/images/image_operation_271_0.png)
+
+#### 3. 右メニューの［資料別貸出統計の新規作成］をクリックします。  
+
+![資料別貸出統計の新規作成](assets/images/image_operation_271.png)
+
+#### 4. 統計期間を設定して［登録する］をクリックします。  
+
+![資料別貸出統計を作成](assets/images/image_operation_272.png)
+
+#### 5. 「資料別貸出統計は正常に作成されました。」のメッセージが表示され、資料別貸出統計データ作成の準備が整いました（この段階ではまだ、統計データは実際には作成されていません）。右の[資料別貸出統計の一覧]をクリックします。 
+
+![統計データ出力タスク作成完了](assets/images/image_operation_272_2.png)
+
+#### 6. 今までの資料別貸出統計の一覧が表示されます。[状態]を見ると処理結果がわかります。[pending]のものは毎日夜中の1:00に統計出力処理を開始します（つまり、結果を得るのは明日後となります）。完了したものは[completed]と表示されます。結果を表示させたいレコードの[表示]リンクをクリックします。
+   
+![統計データの一覧](assets/images/image_operation_272_3.png)
+
+<div class="alert alert-info memo" markdown="1">
 【Memo】この画面は 3 の画面と同じです。[図書館の管理]メニューの[統計]をたどり、
 [資料の貸出回数]リンクをクリックすればでいつでも行けます。
-   </div>
+</div>
 
-7. 統計結果が表示されませす。右メニューの［CSV］をクリックし、統計データを保存します。
-   ![統計データを保存](assets/images/image_operation_272_4.png)
+#### 7. 統計結果が表示されませす。右メニューの［CSV］をクリックし、統計データを保存します。
 
-<a name="11-2" />
+![統計データを保存](assets/images/image_operation_272_4.png)
 
-11-2 予約の統計を取る
----------------------
+11-2 予約の統計を取る {#section11-2}
+------------------------------------
 
 Enjuでは、利用者別と資料別に、予約の統計を取ることができます。
 
-<a name="11-2-1" />
+### 11-2-1 利用者別予約統計を取る {#section11-2-1}
 
-### 11-2-1 利用者別予約統計を取る
+#### 1. ［図書館の管理］メニューから［統計］を選択します。  
 
-1. ［図書館の管理］メニューから［統計］を選択します。  
-   ![統計](assets/images/image_operation_statistics.png)
-2. ［利用者の予約回数］をクリックします。  
-   ![利用者の予約回数](assets/images/image_operation_274_0.png)
-3. 右メニューの［利用者別予約統計の新規作成］をクリックします。  
-   ![利用者別予約統計の新規作成](assets/images/image_operation_274.png)
-4. 統計期間を設定して［登録する］をクリックします。  
-   ![利用者別予約統計を作成](assets/images/image_operation_275.png)
-5. 「利用者別予約統計は正常に作成されました。」のメッセージが表示され、
+![統計](assets/images/image_operation_statistics.png)
+
+#### 2. ［利用者の予約回数］をクリックします。  
+
+![利用者の予約回数](assets/images/image_operation_274_0.png)
+
+#### 3. 右メニューの［利用者別予約統計の新規作成］をクリックします。  
+
+![利用者別予約統計の新規作成](assets/images/image_operation_274.png)
+
+#### 4. 統計期間を設定して［登録する］をクリックします。  
+
+![利用者別予約統計を作成](assets/images/image_operation_275.png)
+
+#### 5. 「利用者別予約統計は正常に作成されました。」のメッセージが表示され、
 利用者別予約統計データ作成の準備が整いました
 （この段階ではまだ、統計データは実際には作成されていません）。
 右の[利用者別予約統計の一覧]をクリックします。
-   ![統計データ出力タスク作成完了](assets/images/image_operation_277.png)
-6. 今までの利用者別予約統計の一覧が表示されます。
+
+![統計データ出力タスク作成完了](assets/images/image_operation_277.png)
+
+#### 6. 今までの利用者別予約統計の一覧が表示されます。
 [状態]を見ると処理結果がわかります。
 [pending]のものは毎日夜中の1:00に統計出力処理を開始します
 （つまり、結果を得るのは明日後となります）。
  完了したものは[completed]と表示されます。
 結果を表示させたいレコードの[表示]リンクをクリックします。
-   ![統計データの一覧](assets/images/image_operation_277_2.png)
 
-   <div class="alert alert-info" markdown="1">
+![統計データの一覧](assets/images/image_operation_277_2.png)
+
+<div class="alert alert-info memo" markdown="1">
 【Memo】この画面は 3 の画面と同じです。[図書館の管理]メニューの[統計]をたどり、
 [利用者の予約回数]リンクをクリックすればでいつでも行けます。
-   </div>
+</div>
 
-7. 統計結果が表示されませす。右メニューの［CSV］をクリックし、統計データを保存します。
-   ![統計データを保存](assets/images/image_operation_277_3.png)
- 
-<a name="11-2-2" />
+#### 7. 統計結果が表示されませす。右メニューの［CSV］をクリックし、統計データを保存します。
 
-### 11-2-2 資料別予約統計を取る
+![統計データを保存](assets/images/image_operation_277_3.png)
 
-1. ［図書館の管理］メニューから［統計］を選択します。  
-   ![統計](assets/images/image_operation_statistics.png)
-2. ［資料の予約回数］をクリックします。  
-   ![資料の予約回数](assets/images/image_operation_279_0.png)
-3. 右メニューの［資料別予約統計の新規作成］をクリックします。  
-   ![資料別予約統計の新規作成](assets/images/image_operation_279.png)
-4. 統計期間を設定して［登録する］をクリックします。  
-   ![資料別予約統計を作成](assets/images/image_operation_280.png)
-5. 「資料別予約統計は正常に作成されました。」のメッセージが表示され、
+### 11-2-2 資料別予約統計を取る {#section11-2-2}
+
+#### 1. ［図書館の管理］メニューから［統計］を選択します。  
+
+![統計](assets/images/image_operation_statistics.png)
+
+#### 2. ［資料の予約回数］をクリックします。  
+
+![資料の予約回数](assets/images/image_operation_279_0.png)
+
+#### 3. 右メニューの［資料別予約統計の新規作成］をクリックします。  
+
+![資料別予約統計の新規作成](assets/images/image_operation_279.png)
+
+#### 4. 統計期間を設定して［登録する］をクリックします。  
+
+![資料別予約統計を作成](assets/images/image_operation_280.png)
+
+#### 5. 「資料別予約統計は正常に作成されました。」のメッセージが表示され、
 資料別予約統計データ作成の準備が整いました
 （この段階ではまだ、統計データは実際には作成されていません）。
 右の[資料別予約統計の一覧]をクリックします。
-   ![統計データ出力タスク作成完了](assets/images/image_operation_280_2.png)
-6. 今までの資料別予約統計の一覧が表示されます。
+
+![統計データ出力タスク作成完了](assets/images/image_operation_280_2.png)
+
+#### 6. 今までの資料別予約統計の一覧が表示されます。
 [状態]を見ると処理結果がわかります。
 [pending]のものは毎日夜中の1:00に統計出力処理を開始します
 （つまり、結果を得るのは明日後となります）。
  完了したものは[completed]と表示されます。
 結果を表示させたいレコードの[表示]リンクをクリックします。
-   ![統計データの一覧](assets/images/image_operation_280_3.png)
 
-   <div class="alert alert-info" markdown="1">
+![統計データの一覧](assets/images/image_operation_280_3.png)
+
+<div class="alert alert-info memo" markdown="1">
 【Memo】この画面は 3 の画面と同じです。[図書館の管理]メニューの[統計]をたどり、
 [資料の予約回数]リンクをクリックすればでいつでも行けます。
-   </div>
+</div>
 
-7. 統計結果が表示されませす。右メニューの［CSV］をクリックし、統計データを保存します。
-   ![統計データを保存](assets/images/image_operation_280_4.png) 
+#### 7. 統計結果が表示されませす。右メニューの［CSV］をクリックし、統計データを保存します。
+
+![統計データを保存](assets/images/image_operation_280_4.png) 
+
 {% include enju_operation/toc.md %}
