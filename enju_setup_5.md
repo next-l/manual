@@ -17,17 +17,199 @@ Enjuの利用を始めるにあたり，形態・状態等に関するシステ�
 * 発行頻度の編集作成
 * 資料の関係の種類の作成
 
-{::comment}5-1{:/comment}{% include enju_setup/carrier_type.md %}
+{::comment}5-1 enju_setup/carrier_type.md {:/comment}
 
-{::comment}5-2{:/comment}{% include enju_setup/ciculaion_status.md %}
+{::comment}5-2 enju_setup/ciculaion_status.md {:/comment}
 
-{::comment}5-3{:/comment}{% include enju_setup/language.md %}
+{::comment}5-3 enju_setup/language.md {:/comment}
 
-{::comment}5-4{:/comment}{% include enju_setup/use_restriction.md %}
+{::comment}5-4 enju_setup/use_restriction.md {:/comment}
 
-{::comment}5-5{:/comment}{% include enju_setup/frequency.md %}
+{::comment}5-5 enju_setup/frequency.md {:/comment}
 
-{::comment}5-6{:/comment}{% include enju_setup/manifestation_relationship_type.md %}
+{::comment}5-6 enju_setup/manifestation_relationship_type.md {:/comment}
+
+
+<a name="5-1" />
+
+5-1 資料の形態を作成する
+------------------------
+
+<a name="5-1-1" />
+
+### 5-1-1 設定項目
+
+* 名前：資料の形態を入力します。
+* 表示名：画面に表示する名称を入力します。
+* 注記：注意事項や特記事項などを入力します。
+
+<a name="5-1-2" />
+
+### 5-1-2 設定方法
+1. ［図書館の管理］メニューから［システムの設定］を選択します。  
+   ![システムの設定](assets/images/image_system_setup.png)
+2. ［資料の形態］をクリックします。  
+   ![資料の形態の設定](assets/images/image_carrier_type.png)
+3. 右メニューの［資料の形態の作成］をクリックします。
+   ![資料の形態の設定](assets/images/image_carrier_type_1.png)
+4. 設定項目に必要事項を入力し、
+   ［登録する］ボタンをクリックして，設定内容を登録します。
+   ![資料の形態の設定](assets/images/image_carrier_type_2.png)
+
+<a name="5-2" />
+
+5-2 貸出状態を編集作成する
+--------------------------
+
+<a name="5-2-1" />
+
+### 5-2-1 設定項目
+
+* 名前：資料の形態を入力します。
+* 表示名：画面に表示する名称を入力します。
+* 注記：注意事項や特記事項などを入力します。
+
+<a name="5-2-2" />
+
+### 5-2-2 設定方法
+
+1. ［図書館の管理］メニューから［システムの設定］を選択します。  
+   ![システムの設定](assets/images/image_system_setup.png)
+2. ［貸出状態］をクリックします。  
+   ![分類型の設定](assets/images/image_initial_058_0.png)
+3. 設定したい項目の［編集］をクリックします。  
+   ![貸出状態の編集](assets/images/image_initial_058.png)  
+
+   <div class="alert alert-info">【Memo】一覧の表示順序を変更するには，表の1列目に表示されている↑または↓をクリックして行を入れ替えます。</div>
+
+4. 設定項目に必要事項を入力し、
+   ［更新する］ボタンをクリックして，設定内容を更新します。  
+   ![貸出状態を更新](assets/images/image_initial_059.png)  
+
+<a name="5-3" />
+
+5-3 言語を編集する
+------------------
+
+<a name="5-3-1" />
+
+### 5-3-1 設定項目
+
+* ネイティブ名：ネイティブ名を入力します。
+* 表示名：画面に表示する名称を入力します。
+* 注記：注意事項や特記事項などを入力します。
+
+<a name="5-3-2" />
+
+### 5-3-2 設定方法
+
+1. ［図書館の管理］メニューから［システムの設定］を選択します。  
+   ![システムの設定](assets/images/image_system_setup.png)
+2. ［言語］をクリックします。  
+   ![言語の設定](assets/images/image_initial_060_0.png)
+3. 設定したい項目の［編集］をクリックします。  
+   ![言語の編集](assets/images/image_initial_060.png)  
+
+   <div class="alert alert-info">【Memo】一覧の表示順序を変更するには，表の1列目に表示されている↑または↓をクリックして行を入れ替えます。</div>
+
+4. 設定項目に必要事項を入力し、
+   ［更新する］ボタンをクリックして，設定内容を更新します。  
+   ![言語の更新](assets/images/image_initial_061.png)  
+
+<a name="5-4" />
+
+5-4 利用制限を編集する
+----------------------
+
+<a name="5-4-1" />
+
+### 5-4-1 設定項目
+
+* 名前：利用制限を入力します。
+* 表示名：画面に表示する名称を入力します。（入力必須）
+* 注記：注意事項や特記事項などを入力します。
+
+<a name="5-4-2" />
+
+### 5-4-2 定方法
+
+1. ［図書館の管理］メニューから［システムの設定］を選択します。  
+   ![システムの設定](assets/images/image_system_setup.png)
+2. ［利用制限］をクリックします。  
+   ![利用制限の設定](assets/images/image_initial_062_0.png)
+3. 設定したい項目の［編集］をクリックします。  
+   ![利用制限の編集](assets/images/image_initial_062.png)  
+
+   <div class="alert alert-info">【Memo】一覧の表示順序を変更するには，表の1列目に表示されている↑または↓をクリックして行を入れ替えます。</div>
+
+4. 設定項目に必要事項を入力し、
+   ［更新する］ボタンをクリックして，設定内容を更新します。  
+   ![利用制限の更新](assets/images/image_initial_063.png)  
+
+<a name="5-5" />
+
+5-5 発行頻度を編集する
+----------------------
+
+<a name="5-5-1" />
+
+### 5-5-1 設定項目
+
+* 名前：発行頻度を入力します。
+* 表示名：画面に表示する名称を入力します。
+* 注記：注意事項や特記事項などを入力します。
+
+<a name="5-5-2" />
+
+### 5-5-2 設定方法
+
+1. ［図書館の管理］メニューから［システムの設定］を選択します。  
+   ![システムの設定](assets/images/image_system_setup.png)
+2. ［発行頻度］をクリックします。  
+   ![発行頻度の設定](assets/images/image_initial_064_0.png)
+3. 設定したい項目の［編集］をクリックします。  
+   ![発行頻度の編集](assets/images/image_initial_064.png)
+
+   <div class="alert alert-info">【Memo】一覧の表示順序を変更するには，表の1列目に表示されている↑または↓をクリックして行を入れ替えます。</div>
+
+4. 設定項目に必要事項を入力し、
+   ［更新する］ボタンをクリックして，設定内容を更新します。
+   ![発行頻度の更新](assets/images/image_initial_065.png)  
+
+   <div class="alert alert-info">【Memo】設定のない発行頻度は，［Other］を利用します。</div>
+
+<a name="5-6" />
+
+5-6 資料の関係の種類を作成する
+------------------------------
+
+<a name="5-6-1" />
+
+### 5-6-1 設定項目
+
+* 名前：資料の関係の種類を入力する。
+* 表示名：画面に表示する名称を入力します。
+* 注記：注意事項や特記事項などを入力します。
+
+<a name="5-6-2" />
+
+### 5-6-2 設定方法
+
+1. ［図書館の管理］メニューから［システムの設定］を選択します。  
+   ![システムの設定](assets/images/image_system_setup.png)
+2. ［資料の関係の種類］をクリックします。  
+   ![資料間の関係の設定](assets/images/image_initial_067_0.png)
+3. 右メニューの［資料の関係の種類の新規作成］をクリックします。  
+   ![資料間の関係の編集](assets/images/image_initial_067.png)
+
+   <div class="alert alert-info">
+   【Memo】入力済みの設定内容を変更する場合は［編集］を，削除する場合は［削除］をクリックします。  
+   一覧の表示順序を変更するには，表の1列目に表示されている↑または↓をクリックして行を入れ替えます。</div>
+
+4. 設定項目に必要事項を入力し、
+   ［登録する］ボタンをクリックして，設定内容を登録します。  
+   ![利資料間の関係の作成](assets/images/image_initial_068.png)
+
 
 <a name="5-7" />
 

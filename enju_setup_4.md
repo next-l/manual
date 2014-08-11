@@ -15,15 +15,176 @@ Enjuの利用を始めるにあたり，件名のシステム設定として，�
 * 分類
 * 分類型
 
-{::comment}4-1{:/comment}{% include enju_setup/subject.md %}
+{::comment}4-1 enju_setup/subject.md {:/comment}
 
-{::comment}4-2{:/comment}{% include enju_setup/subject_type.md %}
+{::comment}4-2 enju_setup/subject_type.md {:/comment}
 
-{::comment}4-3{:/comment}{% include enju_setup/subject_heading_type.md %}
+{::comment}4-3 enju_setup/subject_heading_type.md {:/comment}
 
-{::comment}4-4{:/comment}{% include enju_setup/classification.md %}
+{::comment}4-4 enju_setup/classification.md {:/comment}
 
-{::comment}4-5{:/comment}{% include enju_setup/classification_type.md %}
+{::comment}4-5 enju_setup/classification_type.md {:/comment}
+
+
+<a name="4-1" />
+
+4-1 件名を設定する
+------------------
+
+<a name="4-1-1" />
+
+### 4-1-1 設定項目
+
+* 件名の種類：▼をクリックして一覧から選びます。
+ここで表示されるリストは，「[4-2 件名の種類を設定する](#4-2)」で設定します。
+* 用語：件名に利用する用語を入力します。
+* 注記：注意事項や特記事項などを入力します。
+
+<a name="4-1-2" />
+
+### 4-1-2 設定方法
+
+1. ［図書館の管理］メニューから［システムの設定］を選択します。  
+   ![システムの設定](assets/images/image_system_setup.png)
+2. ［件名］をクリックします。  
+   ![件名の設定](assets/images/image_initial_048_0.png)
+3. 右メニューの［件名の新規作成］をクリックします。  
+   ![件名の新規作成](assets/images/image_initial_048.png)  
+
+   <div class="alert alert-info">
+   【Memo】入力済みの設定内容を変更する場合は，［編集］をクリックします。
+   </div>
+4. 設定項目に必要事項を入力し、
+   ［登録する］ボタンをクリックして，設定内容を登録します。  
+   ![件名の作成](assets/images/image_initial_049.png)  
+5. 「件名は正常に作成されました」と表示され、件名が作成されます。   
+![件名の作成](assets/images/image_initial_049_2.png)  
+
+<a name="4-2" />
+
+4-2 件名の種類を設定する
+------------------------
+
+<a name="4-2-1" />
+
+### 4-2-1 設定項目
+
+* 名前：件名の名称を入力します。
+* 表示名：画面に表示する名称を入力します。
+* 注記：注意事項や特記事項などを入力します。
+
+<a name="4-2-2" />
+
+### 4-2-2 設定方法
+
+1. ［図書館の管理］メニューから［システムの設定］を選択します。  
+   ![システムの設定](assets/images/image_system_setup.png)
+2. ［件名の種類］をクリックします。  
+   ![件名の種類の設定](assets/images/image_initial_050_0.png)
+3. 右メニューの［件名の種類の新規作成］をクリックします。  
+   ![件名の種類の新規作成](assets/images/image_initial_050.png)  
+
+   <div class="alert alert-info">
+   【Memo】入力済みの設定内容を変更する場合は［編集］を，削除する場合は［削除］をクリックします。  
+   一覧の表示順序を変更するには，表の1列目に表示されている↑または↓をクリックして行を入れ替えます。
+   </div>
+4. 設定項目に必要事項を入力し、
+   ［登録する］ボタンをクリックして，設定内容を登録します。  
+   ![件名の種類の作成](assets/images/image_initial_051.png)  
+<a name="4-3" />
+
+4-3 件名標目の種類を設定する
+----------------------
+
+<a name="4-3-1" />
+
+### 4-3-1 設定項目
+
+* 名前：件名標目を入力します。
+* 表示名：画面に表示する名称を入力します。
+* 注記：注意事項や特記事項などを入力します。
+
+<a name="4-3-2" />
+
+### 4-3-2 設定方法
+
+1. ［図書館の管理］メニューから［システムの設定］を選択します。  
+   ![システムの設定](assets/images/image_system_setup.png)
+2. ［件名標目の種類］をクリックします。  
+   ![件名標目の種類の設定](assets/images/image_initial_052_0.png)
+3. 右メニューの［件名標目の種類の新規作成］をクリックします。  
+   ![件名標目の種類の新規作成](assets/images/image_initial_052.png)  
+
+   <div class="alert alert-info">
+   【Memo】入力済みの設定内容を変更する場合は［編集］を，削除する場合は［削除］をクリックします。  
+   一覧の表示順序を変更するには，表の1列目に表示されている↑または↓をクリックして行を入れ替えます。
+   </div>
+4. 設定項目に必要事項を入力し、
+  ［登録する］ボタンをクリックして，設定内容を登録します。  
+   ![件名標目の種類の作成](assets/images/image_initial_053.png)  
+
+<a name="4-4" />
+
+4-4 分類を設定する
+-------------------
+
+<a name="4-4-1" />
+
+### 4-4-1 設定項目
+
+* カテゴリー：カテゴリーを入力します。
+* 注記：注意事項や特記事項などを入力します。
+* 分類：▼をクリックし，リストから選択します。  
+  ここで表示されるリストは，「[4-5 分類の種類を設定する](#4-5)」で設定します。
+
+<a name="4-4-2" />
+
+### 4-4-2 設定方法
+
+1. ［図書館の管理］メニューから［システムの設定］を選択します。  
+   ![システムの設定](assets/images/image_system_setup.png)
+2. ［分類］をクリックします。  
+   ![分類の設定](assets/images/image_initial_054_0.png)
+3. 右メニューの［分類の新規作成］をクリックします。  
+   ![分類の新規作成](assets/images/image_initial_054.png)  
+
+   <div class="alert alert-info">【Memo】入力済みの設定内容を変更する場合は［編集］を，削除する場合は［削除］をクリックします。</div>
+
+4. 設定項目に必要事項を入力し、
+   ［登録する］ボタンをクリックして，設定内容を登録します。  
+   ![分類の作成](assets/images/image_initial_055.png)  
+
+<a name="4-5" />
+
+4-5 分類の種類を設定する
+--------------------
+
+<a name="4-5-1" />
+
+### 4-5-1 設定項目
+
+* 名前：分類の種類を入力します。
+* 表示名：画面に表示する名称を入力します。
+* 注記：注意事項や特記事項などを入力します。
+
+<a name="4-5-2" />
+
+### 4-5-2 設定方法
+
+1. ［図書館の管理］メニューから［システムの設定］を選択します。  
+   ![システムの設定](assets/images/image_system_setup.png)
+2. ［分類の種類］をクリックします。  
+   ![分類iの種類の設定](assets/images/image_initial_056_0.png)
+3. 右メニューの［分類型の新規作成］をクリックします。  
+   ![分類型の新規作成](assets/images/image_initial_056.png)  
+
+   <div class="alert alert-info">【Memo】入力済みの設定内容を変更する場合は［編集］を，削除する場合は［削除］をクリックします。  
+   一覧の表示順序を変更するには，表の1列目に表示されている↑または↓をクリックして行を入れ替えます。</div>
+
+4. 設定項目に必要事項を入力し、
+   ［登録する］ボタンをクリックして，設定内容を登録します。  
+   ![分類型の作成](assets/images/image_initial_057.png)  
+
 
 <a name="4-6" />
 
