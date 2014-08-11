@@ -17,65 +17,69 @@ Enjuは，以下の手順で，Enjuのソースコードが公開されている
 
 使用している仮想マシンによって停止方法が異なります。
 
-1. vagrant@precise64:~$ に続いて以下のコマンドを入力します。
-    * 2014年1月2日作成の仮想マシンの場合 (vagrant_default_1388636385395_61088.vbox)
+### 1. vagrant@precise64:~$ に続いて以下のコマンドを入力します。
 
-          sudo service apache2 stop
-          sudo service simplesolr stop
+* 2014年1月2日作成の仮想マシンの場合 (vagrant_default_1388636385395_61088.vbox)
 
-    * 2014年6月xx日作成の仮想マシン以降の場合 (vagrant_defaultxxxxxxxxxxxxxxxxx.vbox)
+	sudo service apache2 stop
+	sudo service simplesolr stop
 
-          sudo stop enju_leaf
+* 2014年6月xx日作成の仮想マシン以降の場合 (vagrant_defaultxxxxxxxxxxxxxxxxx.vbox)
 
-		<div class="alert alert-info" markdown="1">
+	sudo stop enju_leaf
+
+<div class="alert alert-info memo" markdown="1">
 【Memo】 Enju WS参加者のみ該当（2014年5月時点の仮想マシンでのみ必要）
 
-          rake sunspot:solr:stop
+	rake sunspot:solr:stop
 
-		</div>
-   vagrant のパスワード入力が求められたら，パスワードを打ち込んでください(画面には出力されません)。
+</div>
+
+vagrant のパスワード入力が求められたら，パスワードを打ち込んでください(画面には出力されません)。
 
 ### 7-2 最新ソースコードの取り込み {#section7-2}
 
-1. vagrant@precise64:~$ に続いて以下のコマンドを入力します。
+#### 1. vagrant@precise64:~$ に続いて以下のコマンドを入力します。
 
-       cd enju
+	cd enju
 
-2. vagrant@precise64:~/enju$ に続いて以下のコマンドを入力します。
+#### 2. vagrant@precise64:~/enju$ に続いて以下のコマンドを入力します。
 
-       bundle update
+	bundle update
 
-   各種の処理が行われ，メッセージが出力されます。作業にはしばらく時間かかります。
+各種の処理が行われ，メッセージが出力されます。作業にはしばらく時間かかります。
 
 {::comment}
-3. バージョンごとのアップデート手順が指定されている場合、 vagrant@precise64:~/enju$ に続いて、指定された手順でコマンドを実行します。
+#### 3. バージョンごとのアップデート手順が指定されている場合、 vagrant@precise64:~/enju$ に続いて、指定された手順でコマンドを実行します。
 
-       rake db:migrate RAILS_ENV=production
+	rake db:migrate RAILS_ENV=production
 
-   各種の処理が行われ，メッセージが出力されます。作業にはしばらく時間がかかります。
+各種の処理が行われ，メッセージが出力されます。作業にはしばらく時間がかかります。
 {:/comment}
 
 ### 7-3 Enjuを再起動 {#section7-3}
 
 使用している仮想マシンによって再起動方法が異なります。
 
-1. vagrant@precise64:~$ または vagrant@precise64:~/enju$ に続いて以下のコマンドを入力します。
-    * 2014年1月2日作成の仮想マシンの場合 (vagrant_default_1388636385395_61088.vbox)
+#### 1. vagrant@precise64:~$ または vagrant@precise64:~/enju$ に続いて以下のコマンドを入力します。
 
-          sudo service apache2 restart
-          sudo service simplesolr restart
+* 2014年1月2日作成の仮想マシンの場合 (vagrant_default_1388636385395_61088.vbox)
 
-    * 2014年6月xx日作成の仮想マシン以降の場合 (vagrant_defaultxxxxxxxxxxxxxxxxx.vbox)
+	sudo service apache2 restart
+	sudo service simplesolr restart
 
-          sudo start enju_leaf
+* 2014年6月xx日作成の仮想マシン以降の場合 (vagrant_defaultxxxxxxxxxxxxxxxxx.vbox)
 
-		<div class="alert alert-info" markdown="1">
+	sudo start enju_leaf
+
+<div class="alert alert-info memo" markdown="1">
 【Memo】 Enju WS参加者のみ該当（2014年5月時点の仮想マシンでのみ必要）
 
-          rake sunspot:solr:start
+	rake sunspot:solr:start
 
-		</div>
+</div>
 
-   vagrant のパスワード入力が求められたら，パスワードを打ち込んでください(画面には出力されません)。
+vagrant のパスワード入力が求められたら，パスワードを打ち込んでください(画面には出力されません)。
+
 {% include enju_install_vm/toc.md %}
 

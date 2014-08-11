@@ -28,23 +28,25 @@ group: enju_install_vm
 
 ## Q. VirtualBoxでプロキシ環境でも使用できる方法をおしえてください。
 
-1. https へのアクセスは可能である必要があります。
-2. ~/.profileに以下の2行を追加してください。プロキシのホスト名とポートは適宜変更してください。rubygems.orgからgemを取得したり、EnjuがNDLサーチ検索など外部のサービスにアクセスするための設定です。
+#### 1. https へのアクセスは可能である必要があります。
 
-        export http_proxy=http://proxy.example.com:8080
-        export https_proxy=$http_proxy
+#### 2. ~/.profileに以下の2行を追加してください。プロキシのホスト名とポートは適宜変更してください。rubygems.orgからgemを取得したり、EnjuがNDLサーチ検索など外部のサービスにアクセスするための設定です。
 
-3. ~/.gitconfig（無ければこのファイルを作成する） に以下を記入してください。gitでプロキシを使用するための設定です。
+	export http_proxy=http://proxy.example.com:8080
+	export https_proxy=$http_proxy
 
-        [https]
-                proxy = http://proxy.example.com:8080
-        [http]
-                proxy = http://proxy.example.com:8080
-        [url "https://"]
-                insteadOf = git://
+#### 3. ~/.gitconfig（無ければこのファイルを作成する） に以下を記入してください。gitでプロキシを使用するための設定です。
 
-4. ログアウトしてログインしなおしてください
-5. Enjuを再起動してください（--> [詳細へ](enju_install_vm_7.html#section7-3)）
+	[https]
+		proxy = http://proxy.example.com:8080
+	[http]
+		proxy = http://proxy.example.com:8080
+	[url "https://"]
+		insteadOf = git://
+
+#### 4. ログアウトしてログインしなおしてください
+
+#### 5. Enjuを再起動してください（--> [詳細へ](enju_install_vm_7.html#section7-3)）
 
 ## Q. VT機能が無効になっているというメッセージが表示されます。
 
@@ -59,12 +61,9 @@ Virtualization Technology機能を有効にしても，VirtualBoxを再起動し
 以下を確認してください。
 
 1. 「仮想マシン(M)」→「追加(A))」を押していますか。
-
-   「追加(A)」を押すと，「仮想マシンファイルを選択」というウィンドウが開いて，ファイルを選択することができるようにならないでしょうか？
-
+   * 「追加(A)」を押すと，「仮想マシンファイルを選択」というウィンドウが開いて，ファイルを選択することができるようにならないでしょうか？
 2. 正しい場所を選択していますか。
-
-   配布されているzipファイルを展開した時に作成されるフォルダを選択してください。展開したフォルダが見つからない場合は，zipファイルを展開するということ自体が正しくできているかどうか確認してください。
+   * 配布されているzipファイルを展開した時に作成されるフォルダを選択してください。展開したフォルダが見つからない場合は，zipファイルを展開するということ自体が正しくできているかどうか確認してください。
 
 ## Q. ネットワークの設定で，IPアドレスの割り当てが正常に行われません。
 

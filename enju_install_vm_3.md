@@ -34,31 +34,34 @@ group: enju_install_vm
 
 Windowsが64ビット版であるか，メモリ容量をシステムのプロパティで確認します。※32bit版でも動くかとおもいますが，検証できていません
 
-1. ［スタート］ボタンをクリックし，［コンピュータ］を右クリックします。
-2. ［プロパティ］をクリックします。
+#### 1. ［スタート］ボタンをクリックし，［コンピュータ］を右クリックします。
 
-   ![［スタート］ボタンをクリックし，［コンピュータ］を右クリックします](assets/images/image_install_004.png)
+#### 2. ［プロパティ］をクリックします。
+
+![［スタート］ボタンをクリックし，［コンピュータ］を右クリックします](assets/images/image_install_004.png)
    
-3. 以下の項目を確認します。
-   * システムの種類 : 64bitのオペレーティングシステム
-   * 実装メモリ　　 : 使用可能容量が 2.00GB 以上
+#### 3. 以下の項目を確認します。
+
+* システムの種類 : 64bitのオペレーティングシステム
+* 実装メモリ　　 : 使用可能容量が 2.00GB 以上
    
-   ![コンピュータのプロパティ画面から動作環境を確認します](assets/images/image_install_005.png)
+![コンピュータのプロパティ画面から動作環境を確認します](assets/images/image_install_005.png)
 
 ### 3-1-2 ハードディスク空き容量の確認 {#section3-1-2}
 
 Enju仮想マシンのインストールと動作に必要なハードディスクの空き容量を確認します。
 
-1. ［スタート］ボタンをクリックし，［コンピュータ］を選択します。
+#### 1. ［スタート］ボタンをクリックし，［コンピュータ］を選択します。
 
-   ![［スタート］ボタンをクリックし，［コンピュータ］を選択します](assets/images/image_install_006.png)
+![［スタート］ボタンをクリックし，［コンピュータ］を選択します](assets/images/image_install_006.png)
    
-2. 以下の項目を確認します。  
-   * ドライブの空き容量 : 25.0GB以上を推奨
-   
-   ![ハードディスクの空き容量の確認](assets/images/image_install_007.png)
+#### 2. 以下の項目を確認します。  
 
-<div class="alert alert-info">
+* ドライブの空き容量 : 25.0GB以上を推奨
+   
+![ハードディスクの空き容量の確認](assets/images/image_install_007.png)
+
+<div class="alert alert-info memo">
 <span class="label label-info">Memo</span>
 ハードディスクに必要な空き容量は，蔵書規模により異なります。25.0GBは蔵書が20 万件の規模を想定しています。これよりも蔵書規模が大きい場合は，より多くの容量が必要となります。
 </div>
@@ -67,35 +70,35 @@ Enju仮想マシンのインストールと動作に必要なハードディス�
 
 ホストOSのIPアドレスを確認します。
 
-1. ［スタート］ボタンをクリックし，［コントロールパネル］を選択します。
+#### 1. ［スタート］ボタンをクリックし，［コントロールパネル］を選択します。
 
-   ![［スタート］ボタンをクリックし，［コントロールパネル］を選択](assets/images/image_install_019.png)
+![［スタート］ボタンをクリックし，［コントロールパネル］を選択](assets/images/image_install_019.png)
    
-2. ［ネットワークとインターネット］をクリックします。
+#### 2. ［ネットワークとインターネット］をクリックします。
 
-   ![［ネットワークとインターネット］をクリック](assets/images/image_install_020.png)
+![［ネットワークとインターネット］をクリック](assets/images/image_install_020.png)
    
-3. ［ネットワークと共有センター］をクリックします。
+#### 3. ［ネットワークと共有センター］をクリックします。
 
-   ![［ネットワークと共有センター］をクリック](assets/images/image_install_021.png)
+![［ネットワークと共有センター］をクリック](assets/images/image_install_021.png)
    
-4. ［アクティブネットワークの表示］で［ローカルエリア接続］または［ワイヤレスネットワーク接続］をクリックします。
+#### 4. ［アクティブネットワークの表示］で［ローカルエリア接続］または［ワイヤレスネットワーク接続］をクリックします。
 
-   ![［アクティブネットワークの表示］で［ローカルエリア接続］または［ワイヤレスネットワーク接続］をクリック](assets/images/image_install_022.png)
+![［アクティブネットワークの表示］で［ローカルエリア接続］または［ワイヤレスネットワーク接続］をクリック](assets/images/image_install_022.png)
    
-5. ［詳細］をクリックします。
+#### 5. ［詳細］をクリックします。
 
-   ![［詳細］をクリック](assets/images/image_install_023.png)
+![［詳細］をクリック](assets/images/image_install_023.png)
    
-6. 表示された画面で，以下の情報をメモなどに記録します。
+#### 6. 表示された画面で，以下の情報をメモなどに記録します。
 
-   * DHCPの状態
-   * IPv4アドレス
-   * IPv4サブネットマスク
-   * IPv4デフォルトゲートウェイ
-   * IPv4 DNSサーバ
+* DHCPの状態
+* IPv4アドレス
+* IPv4サブネットマスク
+* IPv4デフォルトゲートウェイ
+* IPv4 DNSサーバ
 
-   ![表示された画面で，情報をメモ](assets/images/image_install_024.png)
+![表示された画面で，情報をメモ](assets/images/image_install_024.png)
 
 {::comment}
    
@@ -129,7 +132,7 @@ VirtualBox用に用意された Next-L Enju仮想マシンには，64bit版と32
 {:/comment}
 
 3-2 VirtualBoxのダウンロードとインストール {#section3-2}
-----------------------------------------------
+--------------------------------------------------------
 
 ここでは Windows の場合を説明しますが，Mac，Linuxなど様々なOS上で動きます。
 
@@ -137,48 +140,48 @@ VirtualBox用に用意された Next-L Enju仮想マシンには，64bit版と32
 
 VirtualBoxはOracle社のWebサイトからダウンロードします。
 
-1. 次のWebページで［Downloads］をクリックします。
-   [https://www.virtualbox.org/](https://www.virtualbox.org/)
-   
-   ![virtualboxのWebページで［Downloads］をクリック](assets/images/image_install_008.png)
-   
-2. 「VirtualBox 4.3.6 for Windows hosts」の横の［x86/amd64］のリンクをクリックするとダウンロードが開始します。保存する場所がどこであるのかわかりにくいことがあるので注意してください。
+#### 1. 次のWebページで［Downloads］をクリックします。 [https://www.virtualbox.org/](https://www.virtualbox.org/)
 
-   ![［x86/amd64］のリンクをクリック](assets/images/image_install_009.png)
+![virtualboxのWebページで［Downloads］をクリック](assets/images/image_install_008.png)
+   
+#### 2. 「VirtualBox 4.3.6 for Windows hosts」の横の［x86/amd64］のリンクをクリックするとダウンロードが開始します。保存する場所がどこであるのかわかりにくいことがあるので注意してください。
+
+![［x86/amd64］のリンクをクリック](assets/images/image_install_009.png)
 
 ### 3-2-2 VirtualBoxのインストール {#section3-2-2}
 
 前項でダウンロードしたファイルを実行し，VirtualBoxをインストールします。
 
-1. ダウンロードしたファイルを実行します。ウィザードに従ってVirtualBoxをインストールのための設定を開始します。「Next」をクリックします。
+#### 1. ダウンロードしたファイルを実行します。ウィザードに従ってVirtualBoxをインストールのための設定を開始します。「Next」をクリックします。
 
-   ![「Next」をクリック](assets/images/image_install_013.png)
+![「Next」をクリック](assets/images/image_install_013.png)
    
-3. 特に変更する必要はありませんので，このまま「Next」をクリックします
+#### 2. 特に変更する必要はありませんので，このまま「Next」をクリックします
 
-   ![「Next」をクリック](assets/images/image_install_014.png)
+![「Next」をクリック](assets/images/image_install_014.png)
    
-4. 特に変更する必要はありませんので，このまま「Next」をクリックします
+#### 3. 特に変更する必要はありませんので，このまま「Next」をクリックします
 
-   ![「Next」をクリック](assets/images/image_install_014-2.png)
+![「Next」をクリック](assets/images/image_install_014-2.png)
    
-5. (以降のセットアップ時にネットワークが一時的に切れる警告です。)「Yes」をクリックします
+#### 4. (以降のセットアップ時にネットワークが一時的に切れる警告です。)「Yes」をクリックします
  
-   ![「Yes」をクリック](assets/images/image_install_014-3.png)
+![「Yes」をクリック](assets/images/image_install_014-3.png)
 
-6. インストールを開始します。「Install」をクリックします。
+#### 5. インストールを開始します。「Install」をクリックします。
 
-   ![「Install」をクリック](assets/images/image_install_014-4.png)
+![「Install」をクリック](assets/images/image_install_014-4.png)
    
-7. インストールが終了しました。「Finish」をクリックします。
+#### 6. インストールが終了しました。「Finish」をクリックします。
 
-   ![「Finish」をクリック](assets/images/image_install_015.png)
+![「Finish」をクリック](assets/images/image_install_015.png)
 
-8. VitualBoxが起動しました
+#### 7. VitualBoxが起動しました
 
-   ![VitualBoxが起動](assets/images/image_install_015-2.png)
+![VitualBoxが起動](assets/images/image_install_015-2.png)
    
-<div class="alert alert-info">
+<div class="alert alert-info memo">
 【Memo】フォルダーをはじめとする設定項目は任意ですが，デフォルトのままインストールを実行しても構いません。
 </div>
+
 {% include enju_install_vm/toc.md %}
