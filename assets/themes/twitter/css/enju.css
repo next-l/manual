@@ -7,3 +7,7 @@ ul.toc {
   padding: 10px;
   padding-left: 4em;
 }
+div.memo {
+  margin-left: 2em;
+  margin-right: 2em;
+}

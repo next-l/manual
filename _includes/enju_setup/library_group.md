@@ -33,7 +33,7 @@
   
 ![図書館名の編集](assets/images/image_initial_015.png)
 
-<div class="alert alert-info" style="margin-left:2em;margin-right:2em">
+<div class="alert alert-info memo">
 【Memo】インストール直後は，仮の図書館名が入っています。［編集］をクリックして，情報を変更します。
 </div>
 
@@ -41,7 +41,7 @@
 
 ![設定項目の入力](assets/images/image_initial_016.png)  
 
-<div class="alert alert-info">
+<div class="alert alert-info memo">
 【Memo】［表示名］の前には，日本語名ならば「ja:」，英語名ならば「en:」というように，言語がわかるように先頭に文字を付記します。
 </div>
 
@@ -53,7 +53,7 @@
 
 ![設定項目の入力](assets/images/image_initial_018.png)
 
-<div class="alert alert-info">
+<div class="alert alert-info memo">
 【Memo】さらに編集を加える場合は，右メニューの［編集］をクリックします。
 </div>
 
