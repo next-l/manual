@@ -21,28 +21,39 @@
 
 ### 3-1-2 設定方法
 
-1. ［図書館の管理］メニューから［システムの設定］を選択します。  
-   ![「システムの設定」を選択](assets/images/image_system_setup.png)
-2. ［図書館全体の設定］をクリックします。  
-   ![「図書館全体の設定」を選択](assets/images/image_initial_014.png)
-3. ［編集］をクリックします。  
-   ![図書館名の編集](assets/images/image_initial_015.png)
+#### 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
 
-   <div class="alert alert-info">
-   【Memo】インストール直後は，仮の図書館名が入っています。［編集］をクリックして，情報を変更します。
-   </div>
-4. 設定項目に必要事項を入力します。
-   ![設定項目の入力](assets/images/image_initial_016.png)  
+![「システムの設定」を選択](assets/images/image_system_setup.png)
 
-   <div class="alert alert-info">
-   【Memo】［表示名］の前には，日本語名ならば「ja:」，英語名ならば「en:」というように，言語がわかるように先頭に文字を付記します。
-   </div>
-5. ［更新］ボタンをクリックして，設定内容を更新します。  
-   ![設定項目の入力](assets/images/image_initial_017.png)
-6. 設定が登録され，［図書館全体の設定の表示］画面が表示されます。  
-   ![設定項目の入力](assets/images/image_initial_018.png)
+#### 2. ［図書館全体の設定］をクリックします。
+  
+![「図書館全体の設定」を選択](assets/images/image_initial_014.png)
 
-   <div class="alert alert-info">
-   【Memo】さらに編集を加える場合は，右メニューの［編集］をクリックします。
-   </div>
+#### 3. ［編集］をクリックします。
+  
+![図書館名の編集](assets/images/image_initial_015.png)
+
+<div class="alert alert-info" style="margin-left:2em;margin-right:2em">
+【Memo】インストール直後は，仮の図書館名が入っています。［編集］をクリックして，情報を変更します。
+</div>
+
+#### 4. 設定項目に必要事項を入力します。
+
+![設定項目の入力](assets/images/image_initial_016.png)  
+
+<div class="alert alert-info">
+【Memo】［表示名］の前には，日本語名ならば「ja:」，英語名ならば「en:」というように，言語がわかるように先頭に文字を付記します。
+</div>
+
+#### 5. ［更新］ボタンをクリックして，設定内容を更新します。 
+ 
+![設定項目の入力](assets/images/image_initial_017.png)
+
+#### 6. 設定が登録され，［図書館全体の設定の表示］画面が表示されます。  
+
+![設定項目の入力](assets/images/image_initial_018.png)
+
+<div class="alert alert-info">
+【Memo】さらに編集を加える場合は，右メニューの［編集］をクリックします。
+</div>
 
