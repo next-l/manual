@@ -8,6 +8,8 @@ group: enju_operation
 第4章 図書の受入をする {#section4}
 ==================================
 
+{:toc}
+
 図書の受入では、次のような作業を行えます。
 
 * 図書を発注する
@@ -615,6 +617,65 @@ Enjuでは、画像（図書の表紙など）を登録し、資料に関連づ�
 ![画像ファイル](assets/images/image_operation_151_6.png)
 
 <div class="alert alert-info memo" markdown="1">【Memo】設定内容を変更する場合は［編集］を，削除する場合は［削除］をクリックします。[添付先]のリンクをたどれば、添付した資料の「資料の表示」画面にいきます。[ファイル名]をクリックすると画像ファイルが閲覧できます。
+</div>
+
+4-8 書誌と所蔵のエクスポートをする {#section4-8}
+-------------------------------------------------
+
+登録されている全ての資料の書誌や所蔵情報をTSVとしてエクスポートすることができます。
+
+#### 1. ［図書館の管理］メニューから［エクスポート］を選択します。  
+
+![エクスポート](assets/images/image_operation_export.png)
+
+#### 2. [書誌と所蔵のエクスポート]リンクをクリックします。
+
+![書誌と所蔵のエクスポート](assets/images/image_operation_export_bib_1.png)
+
+#### 3. 右メニューの[書誌と所蔵のエクスポートの新規作成]リンクをクリックします。
+
+![書誌と所蔵のエクスポートの新規作成](assets/images/image_operation_export_bib_2.png)
+
+#### 4. [エクスポート]ボタンをクリックします。
+
+![エクスポート](assets/images/image_operation_export_bib_3.png)
+
+#### 5. 「書誌と所蔵のエクスポート処理は正常に作成されました」のメッセージが表示され、書誌と所蔵のデータエクスポートの準備が整いました。右の[書誌と所蔵のエクスポートの一覧]をクリックします。 
+
+![エクスポートの表示](assets/images/image_operation_export_bib_4.png)
+
+#### 6. 今までのエクスポート結果の一覧が表示されます。[状態]を見ると処理結果がわかります。エクスポートが完了したものは[完了]と表示されます。[開始]のものは現在、実行中です。エクスポート完了時にはEnjuのメッセージ機能にてお知らせします（＊＊＊というメッセージが送られてきます）。
+
+![エクスポート結果の一覧表示](assets/images/image_operation_export_bib_5.png)
+
+<div class="alert alert-info memo">【Memo】この画面は[図書館の管理]メニュー->[エクスポート]->[書誌と所蔵のエクスポート]とすればいつでも閲覧できます。</div> 
+
+#### 7. ファイル名のリンクから作成されたTSVファイルをダウンロードすることができます。
+
+![エクスポートファイルのダウンロード](assets/images/image_operation_export_bib_6.png)
+
+<div class="alert alert-success memo" markdown="1">
+<h4 class="alert-heading">【Column】TSVファイル</h4>
+
+次の項目が入っています(Enju Leaf 1.1.0.rc13)。
+
+* manifestation_id: 書誌ID
+* original_title: 原題
+* creator: 著者
+* publisher: 出版者
+* pub_date: 出版日
+* price: 価格
+* isbn： ISBN
+* item_identifier: 所蔵情報ID
+* call_number: 請求記号
+* item_price: 購入価格
+* acquired_at: 受入日
+* bookstore: 書店
+* budget_type: 予算種別
+* circulation_status: 貸出状態
+* shelf: 本棚
+* library: 図書館
+
 </div>
 
 {% include enju_operation/toc.md %}
