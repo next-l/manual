@@ -180,7 +180,7 @@ Enjuでは、図書館で行われるさまざまな催し物を登録し、カ�
          <td>all_day</td>
          <td>真偽</td>
          <td>TRUE or FALSE 終日かどうか</td>
-         <td>TRUE</td>
+         <td>FALSE</td>
       </tr>
       <tr>
          <td>任意</td>
