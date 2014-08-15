@@ -5,6 +5,9 @@ title_short: 第7章 休館日と催し物を登録する
 group: enju_operation
 ---
 
+* Contents
+{:toc}
+
 第7章 休館日と催し物を登録する {#section7}
 ==========================================
 
