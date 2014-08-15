@@ -1,6 +1,6 @@
 {% if page.url != '/enju_operation.html' and page.url != '/index.html' %}
 <ul class="toc">
-<li><a href="enju_operation.html">初期設定マニュアル</a></li>
+<li><a href="enju_operation.html">運用マニュアル</a></li>
 {% endif %}
 <ul>
 <li><a {% if page.url == '/enju_operation_1.html' %} class="active" {% endif %} href="enju_operation_1.html">第1章 Enju概要</a></li>
