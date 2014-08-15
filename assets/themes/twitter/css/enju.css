@@ -5,14 +5,15 @@ a.active {
 ul.toc {
   border: solid 1px gray;
   padding: 10px;
-  padding-left: 4em;
+  padding-left: 2em;
+  margin-left: 0px;
 }
 ul#markdown-toc {
   float: right;
   border: solid 1px gray;
   padding: 10px;
   padding-left: 2em;
-  max-width: 22em;
+  max-width: 25em;
 }
 div.memo {
   margin-left: 2em;
@@ -25,6 +26,8 @@ div.memo {
   -webkit-transition: opacity 0.2s ease-in-out 0.1s;
   -moz-transition: opacity 0.2s ease-in-out 0.1s;
   -ms-transition: opacity 0.2s ease-in-out 0.1s;
+  margin-left: 5px;
+  font-size: smaller;
 }
 
 h2, h3, h4, h5, h6 {
