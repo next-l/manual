@@ -66,7 +66,7 @@
       id = $el.attr('id');
       icon = '<span class="fa fa-link"></span>';
       if (id) {
-        return $el.prepend($("<a />").addClass("header-link").attr("href", "#" + id).html(icon));
+        return $el.append($("<a />").addClass("header-link").attr("href", "#" + id).html(icon));
       }
     });
   });
