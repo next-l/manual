@@ -5,6 +5,9 @@ title_short: 第9章 資料を検索する
 group: enju_operation
 ---
 
+* Contents
+{:toc}
+
 第9章 資料を検索する {#section9}
 ================================
 

@@ -5,6 +5,9 @@ title_short: 第7章 その他
 group: enju_setup
 ---
 
+* Contents
+{:toc}
+
 第7章 その他 {#section7}
 ========================
 

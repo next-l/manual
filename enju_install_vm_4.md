@@ -5,6 +5,8 @@ title_short: 第4章 Enjuのインストール
 group: enju_install_vm
 ---
 
+* Contents
+{:toc}
 {::comment} install.md {:/comment}
 
 4章 Enjuのインストール(スタンドアロンで動作させる)  {#section4}

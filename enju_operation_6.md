@@ -5,6 +5,9 @@ title_short: 第6章 貸出・返却・予約を処理する
 group: enju_operation
 ---
 
+* Contents
+{:toc}
+
 第6章 貸出・返却・予約を処理する {#section6}
 ============================================
 

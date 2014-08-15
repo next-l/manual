@@ -5,6 +5,9 @@ title_short: 第6章 資料に関するシステム設定を行う
 group: enju_setup
 ---
 
+* Contents
+{:toc}
+
 第6章 資料に関するシステム設定を行う
 ================
 

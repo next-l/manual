@@ -5,6 +5,8 @@ title_short: 第5章 モジュールの追加
 group: enju_install_vm
 ---
 
+* Contents
+{:toc}
 {::comment}module.md{:/comment}
 
 第5章 モジュールの追加 {#section5}

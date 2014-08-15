@@ -5,6 +5,9 @@ title_short: 第5章 雑誌の受入をする
 group: enju_operation
 ---
 
+* Contents
+{:toc}
+
 第5章 雑誌の受入をする
 ======================
 

@@ -5,6 +5,8 @@ title_short: 第8章 レファレンスを処理する
 group: enju_operation
 ---
 
+* Contents
+{:toc}
 {::comment}8-1,2  enju_operation/reference.md {:/comment}
 
 第8章 レファレンスを処理する {#section8}

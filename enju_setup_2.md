@@ -5,6 +5,9 @@ title_short: 第2章 Enjuを利用する
 group: enju_setup
 ---
 
+* Contents
+{:toc}
+
 第2章 Enjuを利用する {#section2}
 ================================
 

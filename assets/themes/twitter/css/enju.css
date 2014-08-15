@@ -7,6 +7,13 @@ ul.toc {
   padding: 10px;
   padding-left: 4em;
 }
+ul#markdown-toc {
+  float: right;
+  border: solid 1px gray;
+  padding: 10px;
+  padding-left: 2em;
+  max-width: 22em;
+}
 div.memo {
   margin-left: 2em;
   margin-right: 2em;

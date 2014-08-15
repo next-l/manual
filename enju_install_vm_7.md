@@ -5,8 +5,9 @@ title_short: 第7章 Enjuのアップデート
 group: enju_install_vm
 ---
 
+* Contents
+{:toc}
 {::comment} update.md {:/comment}
-
 
 第7章 Enjuのアップデート {#section7}
 ====================================

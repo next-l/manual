@@ -5,6 +5,8 @@ title_short: 第2章 Enjuを動作させる方法
 group: enju_install_vm
 ---
 
+* Contents
+{:toc}
 {::comment} intro.md {:/comment}
 
 第2章 Enjuを動作させる方法 {#section2}

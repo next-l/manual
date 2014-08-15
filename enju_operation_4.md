@@ -5,6 +5,9 @@ title_short: 第4章 図書の受入をする
 group: enju_operation
 ---
 
+* Contents
+{:toc}
+
 第4章 図書の受入をする {#section4}
 ==================================
 

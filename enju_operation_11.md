@@ -5,6 +5,8 @@ title_short: 第11章 統計機能を利用する
 group: enju_operation
 ---
 
+* Contents
+{:toc}
 {::comment}11-1,2,3  enju_operation/statistics.md {:/comment}
 
 第11章 統計機能を利用する {#section11}
