@@ -22,16 +22,10 @@ div.memo {
 
 /* http://ben.balter.com/2014/03/13/pages-anchor-links/ */
 .header-link {
-  opacity: 0;
-  -webkit-transition: opacity 0.2s ease-in-out 0.1s;
-  -moz-transition: opacity 0.2s ease-in-out 0.1s;
-  -ms-transition: opacity 0.2s ease-in-out 0.1s;
+  opacity: 0.4;
   margin-left: 5px;
-  font-size: smaller;
-}
-
-h2, h3, h4, h5, h6 {
-  position: relative;
+  font-size: small;
+  vertical-align: super;
 }
 h2:hover .header-link,
 h3:hover .header-link,
@@ -40,4 +34,3 @@ h5:hover .header-link,
 h6:hover .header-link {
   opacity: 1;
 }
-

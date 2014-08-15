@@ -64,7 +64,7 @@
       var $el, icon, id;
       $el = $(el);
       id = $el.attr('id');
-      icon = '<span class="fa fa-link"></span>';
+      icon = '<i title="Permalink to this section" class="fa fa-share-alt"></i>';
       if (id) {
         return $el.append($("<a />").addClass("header-link").attr("href", "#" + id).html(icon));
       }
