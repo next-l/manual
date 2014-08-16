@@ -174,6 +174,8 @@ group: enju_operation
 
 ### 4-2-3 ISBNコードを入力して1件ずつ登録する {#section4-2-3}
 
+ISBNコードから国立国会図書館のデータを参照して、資料を登録します。
+
 #### 1. ［資料の受入］メニューから［ISBNを入力する］を選択します。
 
 ![ISBNを入力する](assets/images/image_operation_106.png)
