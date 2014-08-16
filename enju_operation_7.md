@@ -211,7 +211,7 @@ Enjuでは、図書館で行われるさまざまな催し物を登録し、カ�
         <td>"library"</td>
         <td>"start_at"</td>
         <td>"end_at"</td>
-        <td>"all_ay"</td>
+        <td>"all_day"</td>
         <td>"note"</td>
         <td>"dummy"</td></tr>
       <tr>
