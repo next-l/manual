@@ -208,7 +208,18 @@ NDLサーチ(国立国会図書館サーチ http://iss.ndl.go.jp/)で検索し�
 
 ![登録完了](assets/images/image_operation_109_ndl.png)
 
-### 4-2-5 手動で資料を登録する {#section4-2-5}
+### 4-2-5 を米国議会図書館を検索して1件ずつ登録する {#section4-2-5}
+
+米国議会図書館（http://catalog.loc.gov/）の蔵書を検索した資料を
+登録することができます。ISBNやキーワードなどで検索できます。
+
+#### 1. ［資料の受入］メニューから［米国議会図書館検索によるインポート］を選択します。
+
+![米国議会図書館検索によるインポート](assets/images/image_operation_loc_1.png)
+
+#### 2. 以降は、[4-2-4 NDLサーチを検索して1件ずつ登録する](#4-2-4) の 2 ～ 4の手順と同様です。
+
+### 4-2-6 手動で資料を登録する {#section4-2-6}
 
 #### 1. ［資料の受入］メニューから［手動で登録する］を選択します。
 
@@ -230,7 +241,7 @@ NDLサーチ(国立国会図書館サーチ http://iss.ndl.go.jp/)で検索し�
 1行目に、それぞれの項目に関わるフィールド名を（できれば " " で囲って）指定します。
 フィールド名とその意味については次の通りです。
 
-### 4-2-6 TSVファイルの作り方：図書の場合 {#section4-2-6}
+### 4-2-7 TSVファイルの作り方：図書の場合 {#section4-2-7}
 
 <table class="table table-bordered table-condensed table-striped">
 <caption>図書のフィールド項目名と対応する内容</caption>
@@ -365,7 +376,7 @@ file:///200011g.jpg　等
 </tbody>
 </table>
 
-### 4-2-7 TSVファイルの作りかた：CD/DVDの場合 {#section4-2-7}
+### 4-2-8 TSVファイルの作りかた：CD/DVDの場合 {#section4-2-8}
 
 ![CD/DVDの場合](assets/images/image_operation_102.png)
 
