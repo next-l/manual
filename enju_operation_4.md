@@ -228,7 +228,7 @@ NDLサーチ(国立国会図書館サーチ http://iss.ndl.go.jp/)で検索し�
 1行目に、それぞれの項目に関わるフィールド名を（できれば " " で囲って）指定します。
 フィールド名とその意味については次の通りです。
 
-### 4-2-6 図書の場合 {#section4-2-6}
+### 4-2-6 TSVファイルの作り方：図書の場合 {#section4-2-6}
 
 <table class="table table-bordered table-condensed table-striped">
 <caption>図書のフィールド項目名と対応する内容</caption>
@@ -363,7 +363,7 @@ file:///200011g.jpg　等
 </tbody>
 </table>
 
-### 4-2-7 CD/DVDの場合 {#section4-2-7}
+### 4-2-7 TSVファイルの作りかた：CD/DVDの場合 {#section4-2-7}
 
 ![CD/DVDの場合](assets/images/image_operation_102.png)
 
