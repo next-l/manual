@@ -47,14 +47,12 @@ group: enju_operation
 
 発注する図書を登録する前に、まずは発注リストを作成します。
 
+もし、[発注リスト]がない場合は、[enju_purchase_request]モジュールをイン>ストール必要があります。インストール方法についてはインストールマニュアルの「[第5章 モジュールの追加](enju_install_vm_5.html)」の章を参照ください。
+
 #### 1. ［図書館の管理］メニューから［発注リスト］を選択します。  
 
 ![発注リスト](assets/images/image_operation_order.png)
    
-<div class="alert alert-info memo" markdown="1">
-【Memo】もし、[発注リスト]がない場合は、[enju_purchase_request]モジュールをインストール必要があります。インストール方法についてはインストールマニュアルの「[第5章 モジュールの追加](enju_install_vm_5.html)」の章を参照ください。
-</div>
-
 #### 2. 右メニューの［発注リストの新規作成］をクリックします。  
 
 ![発注リストの新規作成](assets/images/image_operation_072.png)
@@ -120,6 +118,9 @@ group: enju_operation
 
 ### 4-2-1 TSVファイルを読み込んで登録する {#section4-2-1}
 
+
+#### 0. TSVファイルを用意します。TSVファイルの作り方の詳細については、「[4-2-7 TSVファイルの作り方](#section4-2-7) 」を参照してください。
+
 #### 1. ［資料の受入］メニューから［TSVファイルからのインポート］を選択します。  
 
 ![TSVファイルからのインポート](assets/images/image_operation_093.png)
@@ -174,6 +175,8 @@ group: enju_operation
 
 ### 4-2-3 ISBNコードを入力して1件ずつ登録する {#section4-2-3}
 
+ISBNコードから国立国会図書館のデータを参照して、資料を登録します。
+
 #### 1. ［資料の受入］メニューから［ISBNを入力する］を選択します。
 
 ![ISBNを入力する](assets/images/image_operation_106.png)
@@ -186,7 +189,7 @@ group: enju_operation
 
 ![登録完了](assets/images/image_operation_109.png)
 
-### 4-2-4 NDLサーチを検索して1件ずつ登録する {#section4-2-}
+### 4-2-4 NDLサーチを検索して1件ずつ登録する {#section4-2-4}
 
 NDLサーチ(国立国会図書館サーチ http://iss.ndl.go.jp/)で検索した資料を登録することができます。ISBNが不明な場合やISBNで登録でできなかった場合になどに使用します（ISBNで登録できない例：9784834005288）。
 
@@ -206,7 +209,18 @@ NDLサーチ(国立国会図書館サーチ http://iss.ndl.go.jp/)で検索し�
 
 ![登録完了](assets/images/image_operation_109_ndl.png)
 
-### 4-2-5 手動で資料を登録する {#section4-2-5}
+### 4-2-5 を米国議会図書館を検索して1件ずつ登録する {#section4-2-5}
+
+米国議会図書館（http://catalog.loc.gov/）の蔵書を検索した資料を
+登録することができます。ISBNやキーワードなどで検索できます。
+
+#### 1. ［資料の受入］メニューから［米国議会図書館検索によるインポート］を選択します。
+
+![米国議会図書館検索によるインポート](assets/images/image_operation_loc_1.png)
+
+#### 2. 以降は、[4-2-4 NDLサーチを検索して1件ずつ登録する](#4-2-4) の 2 ～ 4の手順と同様です。
+
+### 4-2-6 手動で資料を登録する {#section4-2-6}
 
 #### 1. ［資料の受入］メニューから［手動で登録する］を選択します。
 
@@ -228,144 +242,409 @@ NDLサーチ(国立国会図書館サーチ http://iss.ndl.go.jp/)で検索し�
 1行目に、それぞれの項目に関わるフィールド名を（できれば " " で囲って）指定します。
 フィールド名とその意味については次の通りです。
 
-### 4-2-6 図書の場合 {#section4-2-6}
+### 4-2-7 TSVファイルの作り方：図書の場合 {#section4-2-7}
 
 <table class="table table-bordered table-condensed table-striped">
 <caption>図書のフィールド項目名と対応する内容</caption>
 <thead>
 <tr>
-<th>フィールド名</th>
-<th>データ形式</th>
-<th>内容</th>
+        <th>フィールド名</th>
+        <th>日本語</th>
+        <th>入力ルール及び説明</th>
+        <th>例</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>force_import</td><td>flag</td><td>強制登録フラグ</td>
+	<td>manifestation_id</td>
+	<td>Manifestation ID</td>
+	<td>半角数字のみ, システムが自動付与するID, 「資料の表示」画面のURLにある数値</td>
+	<td>4</td>
 </tr>
 <tr>
-<td>isbn</td><td>ascii</td><td>ISBN</td>
+	<td>manifestation_identifier</td>
+	<td>書誌ID</td>
+	<td>半角文字a-zA-Zとアンダースコア_のみ, インポート時に付与可能な書誌に対するID（#issue338）</td>
+	<td>999001</td>
 </tr>
 <tr>
-<td>identifier</td><td>utf8</td><td>資料番号</td>
+	<td>original_title</td>
+	<td>原題</td>
+	<td>文字列</td>
+	<td>Rによるやさしい統計学</td>
 </tr>
 <tr>
-<td>original_title</td><td>utf8</td><td>原タイトル</td>
+	<td>title_transcription</td>
+	<td>タイトルよみ</td>
+	<td>文字列</td>
+	<td>R ニ ヨル ヤサシイ トウケイガク</td>
 </tr>
 <tr>
-<td>note</td><td>utf8</td><td>備考</td>
+	<td>title_alternative</td>
+	<td>代替タイトル</td>
+	<td>文字列</td>
+	<td>アールによるやさしいとうけいがく</td>
 </tr>
 <tr>
-<td>title_transcription</td><td>utf8</td><td>タイトル読み</td>
+	<td>title_alternative_transcription</td>
+	<td>代替タイトルよみ</td>
+	<td>文字列</td>
+	<td>アール ニ ヨル ヤサシイ トウケイ ガク</td>
 </tr>
 <tr>
-<td>title_alternative</td><td>utf8</td><td>代替タイトル</td>
+	<td>statement_of_responsibility</td>
+	<td>責任表示</td>
+	<td>文字列</td>
+	<td>山田剛史, 杉澤武俊, 村井潤一郎 共著</td>
 </tr>
 <tr>
-<td>creator</td><td>utf8</td><td>著者名</td>
+	<td>periodical</td>
+	<td>逐次刊行物フラグ</td>
+	<td>フラグ（t または　TRUEなら真）</td>
+	<td>TRUE</td>
 </tr>
 <tr>
-<td>publisher</td><td>utf8</td><td>出版者/社</td>
+	<td>edition_string</td>
+	<td>版</td>
+	<td>文字列</td>
+	<td>初版</td>
 </tr>
 <tr>
-<td>date_of_publication</td><td>ascii</td><td>出版年月日(内部データ)</td>
+	<td>edition</td>
+	<td>版（数字）</td>
+	<td>半角数字のみ</td>
+	<td>1</td>
 </tr>
 <tr>
-<td>pub_date</td><td>ascii</td><td>出版年月日(ハイフン区切り  2010, 2010-01, 2010-01-01 がすべて有効)</td>
+	<td>volume_number_string</td>
+	<td>巻</td>
+	<td>文字列</td>
+	<td>一</td>
 </tr>
 <tr>
-<td>volume_number_list</td><td>utf8</td><td>巻</td>
+	<td>volume_number</td>
+	<td>巻（数字）</td>
+	<td>半角数字のみ</td>
+	<td>1</td>
 </tr>
 <tr>
-<td>edition_string</td><td>utf8</td><td>版</td>
+	<td>issue_number_string</td>
+	<td>号</td>
+	<td>文字列</td>
+	<td>二</td>
 </tr>
 <tr>
-<td>manifestation_price</td><td>int</td><td>販売価格</td>
+	<td>issue_number</td>
+	<td>号（数字）</td>
+	<td>半角数字のみ（#339）</td>
+	<td>3</td>
 </tr>
 <tr>
-<td>item_price</td><td>int</td><td>購入価格</td>
+	<td>serial_number</td>
+	<td>通号</td>
+	<td>半角数字のみ</td>
+	<td>2</td>
 </tr>
 <tr>
-<td>height</td><td>int</td><td>高さ</td>
+	<td>series_original_title</td>
+	<td>シリーズ名</td>
+	<td>文字列（複数ある場合は//で区切る）</td>
+	<td>主シリーズ//副シリーズ//1</td>
 </tr>
 <tr>
-<td>width</td><td>int</td><td>幅</td>
+	<td>series_title_transcription</td>
+	<td>シリーズ名よみ</td>
+	<td>文字列（複数ある場合は//で区切る）</td>
+	<td>しゅしりーず//ふくしりーず//いち</td>
 </tr>
 <tr>
-<td>depth</td><td>int</td><td>奥行き</td>
+	<td>series_volume_numver</td>
+	<td>シリーズ巻号</td>
+	<td>文字列</td>
+	<td>二</td>
 </tr>
 <tr>
-<td>shelf</td><td>code</td><td>配架場所</td>
+	<td>series_creator_string</td>
+	<td>シリーズ著者</td>
+	<td>文字列</td>
+	<td>統計</td>
 </tr>
 <tr>
-<td>item_identifier</td><td>ascii</td><td>個別資料コード</td>
+	<td>creator</td>
+	<td>著者（フルネーム）</td>
+	<td>文字列<a href="#tsv_creator">（特定書式：別記）</a></td>
+	<td>山田, 剛史, 1970-||author//杉澤, 武俊||author</td>
 </tr>
 <tr>
-<td>nbn</td><td>int</td><td>全国書誌番号</td>
+	<td>creator_transcription</td>
+	<td>著者よみ（フルネームよみ）</td>
+	<td>文字列（複数ある場合は//で区切る）</td>
+	<td>やまもと, たけし//すぎさわ, たけとし</td>
 </tr>
 <tr>
-<td>ndc</td><td>ascii</td><td>NDC</td>
+	<td>contributor</td>
+	<td>協力者・編者</td>
+	<td>文字列</td>
+	<td>山田, 剛史</td>
 </tr>
 <tr>
-<td>lccn</td><td>ascii</td><td>LCCN</td>
+	<td>contributor_transcription</td>
+	<td>協力者・編者(よみ)</td>
+	<td>文字列</td>
+	<td>やまもと, たけし</td>
 </tr>
 <tr>
-<td>subject</td><td>utf8</td><td>件名</td>
+	<td>publisher</td>
+	<td>出版者</td>
+	<td>文字列</td>
+	<td>オーム社</td>
 </tr>
 <tr>
-<td>carrier_type</td><td>code</td><td>印刷の形態</td>
+	<td>publisher_transcription</td>
+	<td>出版者よみ</td>
+	<td>文字列</td>
+	<td>オームシャ</td>
 </tr>
 <tr>
-<td>frequency</td><td>code</td><td>発行頻度</td>
+	<td>publication_place</td>
+	<td>出版地</td>
+	<td>文字列</td>
+	<td>東京</td>
 </tr>
 <tr>
-<td>start_page</td><td>int</td><td>最初のページ</td>
+	<td>pub_date</td>
+	<td>出版日</td>
+	<td>ISO8601（年まで、月まででも可）</td>
+	<td>2014-01</td>
 </tr>
 <tr>
-<td>number_of_pages</td><td>int</td><td>最後のページ</td>
+	<td>content_type</td>
+	<td>資料の内容の種類</td>
+	<td>code<a href="#tsv_content_type">（詳細）</a>(#340)</td>
+	<td>text</td>
 </tr>
 <tr>
-<td>access_address</td><td>ascii</td><td>アクセスアドレス</td>
+	<td>carrier_type</td>
+	<td>資料の形態</td>
+	<td>code<a href="#tsv_carrier_type">（詳細）</a></td>
+	<td>volume</td>
 </tr>
 <tr>
-<td>required_role_name</td><td>code</td><td>参照に必要な権限</td>
+	<td>frequency</td>
+	<td>発行頻度</td>
+	<td>code<a href="#tsv_frequency">（詳細）</a>(#341)</td>
+	<td>frequency</td>
 </tr>
 <tr>
-<td>description</td><td>utf8</td><td>説明</td>
+	<td>isbn</td>
+	<td>isbn</td>
+	<td>半角文字のみ、ハイフンあり/なし/9桁/13桁OK</td>
+	<td>9784274067105</td>
 </tr>
 <tr>
-<td>note</td><td>utf8</td><td>注記</td>
+	<td>language</td>
+	<td>言語</td>
+	<td>code<a href="#tsv_language">（詳細）</a></td>
+	<td>jpn</td>
 </tr>
 <tr>
-<td>repository</td><td>flag</td><td>リポジトリのコンテンツ(true/false)</td>
+	<td>jpno</td>
+	<td>JPNO</td>
+	<td>半角文字のみ, 全国書誌番号</td>
+	<td>21366221</td>
 </tr>
 <tr>
-<td>cover_image_url</td><td>ascii</td><td>表紙画像url/file名<br/>
-http://www.kodansha.co.jp/image/0001.jpg<br/>
-file:///200011g.jpg　等
-</td>
+	<td>issn</td>
+	<td>issn</td>
+	<td>半角文字のみ</td>
+	<td>0917-1436</td>
 </tr>
 <tr>
-<td>content_image_url</td><td>ascii</td><td>目次画像</td>
+	<td>lccn</td>
+	<td>lccn</td>
+	<td>半角文字のみ</td>
+	<td>1255667</td>
 </tr>
 <tr>
-<td>index_image_url</td><td>ascii</td><td>索引画像</td>
+	<td>subject</td>
+	<td>件名</td>
+	<td>文字列<a href="#tsv_subject">（特定書式：別記）</a></td>
+	<td>ndlsh: ウェブアプリケーション</td>
 </tr>
 <tr>
-<td>content_text_url</td><td>ascii</td><td>目次テキスト</td>
+	<td>classification</td>
+	<td>分類(JSON)</td>
+	<td>文字列<a href="#tsv_classfication">（特定書式：別記）</a></td>
+	<td>ndc: 007</td>
 </tr>
 <tr>
-<td>index_text_url</td><td>ascii</td><td>索引テキスト</td>
+	<td>?</td>
+	<td>最初のページ</td>
+	<td>半角数字のみ(#342)</td>
+	<td>1</td>
 </tr>
 <tr>
-<td>url</td><td>ascii</td><td>関連するURL</td>
+	<td>number_of_pages</td>
+	<td>最後のページ</td>
+	<td>半角数字のみ</td>
+	<td>404</td>
+</tr>
+<tr>
+	<td>extent_of_text</td>
+	<td>ページ数</td>
+	<td>文字列</td>
+	<td>xi, 125 pages</td>
+</tr>
+<tr>
+	<td>height</td>
+	<td>高さ</td>
+	<td>半角数字のみ</td>
+	<td>20</td>
+</tr>
+<tr>
+	<td>width</td>
+	<td>幅</td>
+	<td>半角数字のみ</td>
+	<td>15</td>
+</tr>
+<tr>
+	<td>depth</td>
+	<td>奥行き</td>
+	<td>半角数字のみ</td>
+	<td>1.5</td>
+</tr>
+<tr>
+	<td>manifestation_price</td>
+	<td>販売価格</td>
+	<td>半角数字のみ</td>
+	<td>2000</td>
+</tr>
+<tr>
+	<td>access_address</td>
+	<td>アクセスアドレス</td>
+	<td>半角文字のみ</td>
+	<td>http://www.amazon.co.jp/dp/4274067106/</td>
+</tr>
+<tr>
+	<td>fulltext_content</td>
+	<td>リポジトリコンテンツ</td>
+	<td>フラグ（t または　TRUEなら真）</td>
+	<td>TRUE</td>
+</tr>
+<tr>
+	<td>required_role_name</td>
+	<td>参照に必要な権限</td>
+	<td>code<a href="#tsv_required_role_name">（詳細）</a></td>
+	<td>Guest</td>
+</tr>
+<tr>
+	<td>description</td>
+	<td>説明</td>
+	<td>文字列</td>
+	<td>ここには説明を</td>
+</tr>
+<tr>
+	<td>note</td>
+	<td>注記</td>
+	<td>文字列</td>
+	<td>奥付に・・・とあり</td>
+</tr>
+<tr>
+	<td>dummy</td>
+	<td>インポート省略</td>
+	<td>文字列（ここになにかあれば無視する行）</td>
+	<td></td>
+</tr>
+<tr>
+	<td>doi</td>
+	<td>doi</td>
+	<td>文字列</td>
+	<td>http://dx.doi.org/10.2964/jsik.23_219</td>
+</tr>
+<tr>
+	<td>series_statement_identifier</td>
+	<td>シリーズステイトメントID</td>
+	<td>半角数字のみ, <a href="#series_statement_identifier">（詳細）</a></td>
+	<td>2</td>
 </tr>
 </tbody>
 </table>
 
-### 4-2-7 CD/DVDの場合 {#section4-2-7}
+##### creator {#tsv_creator}
 
-![CD/DVDの場合](assets/images/image_operation_102.png)
+	書式: 著者名||役割//著者名||役割
+	例：山田, 剛史, 1970-||author//杉澤, 武俊||author///大木, 太郎||illustrator
+
+注：役割は入力可能になってはいますが、システムとして格納したり、表示できるようにしたりなどはまだできていません（開発予定ですが、開発時期は未定です）。
+
+##### content_type {#tsv_content_type}
+
+「資料の内容の種別」の[名前]が値になります(例：文字であれば"text"など）。見方については、[5-2 資料の内容の種別の作成](enju_setup_5.html#section5-2) を参照してください>。
+
+##### carrier_type {#tsv_carrier_type}
+
+「資料の形態」の[名前]が値になります(例：冊子体であれば"volume"など）。見方については、[5-1 資料の形態の作成](enju_setup_5.html#section5-1) を参照してください。
+
+##### frequency {#tsv_frequency}
+
+「発行頻度」の[名前]が値になります(例："daily", "monthly"など）。見方については、[5-6 発行頻度を編集する](enju_setup_5.html#section5-6) を参照してください>。
+
+
+##### language {#tsv_language}
+
+日本語の場合は jpn, 英語の場合は、engになります。その他の言語については、「言語」の[Iso 639 2]を参照してください。見方については、[5-3 言語を編集する](enju_setup_5.html#section5-3) を参照してください。
+
+##### subject {#tsv_subject}
+
+	書式(1語): 件名標目の種類: "標目"
+	例：ndlsh: "ウェブアプリケーション"
+
+	書式(2語): 件名標目の種類: "標目1//標目2"
+	例：ndlsh: "ウェブアプリケーション//インターネット"
+
+	書式(違う件名標目の種類がある): { 件名標目の種類: "標目", 件名標目の種類: "標目" }
+	例：{ ndlsh: "ウェブアプリケーション", lcsh: "Internet" }
+
+書式の件名標目の種類は、「件名標目の種類」の[名前]をさします。詳細は[4-3 件名標目の種類を設定する](enju_setup_4.html#section4-3) を参照してください。
+
+注意："（ダブルクオーテーション）をエスケープする必要があるため、テキストエディタで直接TSVファイルを作成する場合は、以下のような記述になります
+
+	"ndlsh: ""ウェブアプリケーション"""
+	"ndlsh: ""ウェブアプリケーション//インターネット"""	
+	"{ ndlsh: ""ウェブアプリケーション"", lcsh: ""Internet"" }"
+
+##### classfication {#tsv_classfication}
+
+
+	書式(1語): 分類の種類: "分類"
+	例：ndc: "007"
+
+	書式(違う分類の種類がある): { 分類の種類: "分類", 分類の種類: "分類" }
+	例：{ ndc9: "212", ddc: "223" }
+
+書式の分類の種類は、「分類の種類」の[名前]をさします。詳細は[4-5 分類の種類を設定する](enju_setup_4.html#section4-5) を参照してください。
+
+注意："（ダブルクオーテーション）をエスケープする必要があるため、テキストエディタで直接TSVファイルを作成する場合は、以下のような記述になります
+
+	"ndc: ""007"""	
+	"{ ndc9: ""212"", ddc: ""223"" }"
+
+##### required_role_name {#tsv_required_role_name}
+
+この書誌を参照可能な権限を設定します。
+以下の4つから選びます。なにも記入しなければ、Guest になります。
+ 
+* Administrator（管理者）
+* Librarian（図書館員）
+* User（図書館利用者）
+* Guest （誰でも）
+
+##### series_statement_identifier {#series_statement_identifier}
+
+（工事中）
+
+「xxxxx」の[xxx]が値になります。見方については、[xx-xx xxxxxxx](enju_setup_x.html#sectionxx-xx) を参照してください。
+
 
 </div>
 
@@ -521,6 +800,7 @@ Enjuでは、新着資料の一覧を表示することができます。
 ![新着資料の一覧](assets/images/image_operation_134.png)
 
 {::comment}
+
 4-7 Webページを資料として登録する {#section4-7}
 -----------------------------------------------
 
@@ -570,7 +850,8 @@ Enjuでは、ブックマークレットを利用してWebページやWeb上のP
 #### 8. ブックマークにはせず、ただの資料として登録しておきたい場合は、「ブックマークの一覧」で該当の資料の［削除］をクリックします。
 
 ![削除](assets/images/image_operation_142_3.png)
-{/::comment}
+
+{:/comment}
 
 4-7 画像を登録する {#section4-7}
 ------------------------------
