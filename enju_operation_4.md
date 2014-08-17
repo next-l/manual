@@ -283,13 +283,13 @@ NDLサーチ(国立国会図書館サーチ http://iss.ndl.go.jp/)で検索し�
 	<td>title_alternative</td>
 	<td>代替タイトル</td>
 	<td>文字列</td>
-	<td>アールによるやさしいとうけいがく</td>
+	<td>Rの操作手順と統計学の基礎が身に付く</td>
 </tr>
 <tr>
 	<td>title_alternative_transcription</td>
 	<td>代替タイトルよみ</td>
 	<td>文字列</td>
-	<td>アール ニ ヨル ヤサシイ トウケイ ガク</td>
+	<td>R ノ ソウサテジュン ト トウケイガク ノ キソ ガ ミ ニ ツク</td>
 </tr>
 <tr>
 	<td>statement_of_responsibility</td>
@@ -349,13 +349,13 @@ NDLサーチ(国立国会図書館サーチ http://iss.ndl.go.jp/)で検索し�
 	<td>series_original_title</td>
 	<td>シリーズ名</td>
 	<td>文字列（複数ある場合は//で区切る）</td>
-	<td>主シリーズ//副シリーズ//1</td>
+	<td>理工学専門書シリーズ//数学//1</td>
 </tr>
 <tr>
 	<td>series_title_transcription</td>
 	<td>シリーズ名よみ</td>
 	<td>文字列（複数ある場合は//で区切る）</td>
-	<td>しゅしりーず//ふくしりーず//いち</td>
+	<td>リコウガクセンモンショ シリーズ//スウガク//1</td>
 </tr>
 <tr>
 	<td>series_volume_numver</td>
