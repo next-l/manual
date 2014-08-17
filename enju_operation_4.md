@@ -248,23 +248,23 @@ NDLサーチ(国立国会図書館サーチ http://iss.ndl.go.jp/)で検索し�
 <caption>図書のフィールド項目名と対応する内容</caption>
 <thead>
 <tr>
-        <th>項目名</th>
+        <th>フィールド名</th>
         <th>日本語</th>
-        <th>入力ルール</th>
+        <th>入力ルール及び説明</th>
         <th>例</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 	<td>manifestation_id</td>
-	<td>書誌ID(rails)</td>
-	<td>半角数字のみ</td>
+	<td>Manifestation ID</td>
+	<td>半角数字のみ, システムが自動付与するID, 「資料の表示」画面のURLにある数値</td>
 	<td>4</td>
 </tr>
 <tr>
 	<td>manifestation_identifier</td>
-	<td>資料ID（#issue338）</td>
-	<td>半角文字a-zA-Zとアンダースコア_のみ</td>
+	<td>書誌ID</td>
+	<td>半角文字a-zA-Zとアンダースコア_のみ, インポート時に付与可能な書誌に対するID（#issue338）</td>
 	<td>999001</td>
 </tr>
 <tr>
@@ -334,6 +334,12 @@ NDLサーチ(国立国会図書館サーチ http://iss.ndl.go.jp/)で検索し�
 	<td>二</td>
 </tr>
 <tr>
+	<td>issue_number</td>
+	<td>号（数字）</td>
+	<td>半角数字のみ（#339）</td>
+	<td>3</td>
+</tr>
+<tr>
 	<td>serial_number</td>
 	<td>通号</td>
 	<td>半角数字のみ</td>
@@ -366,7 +372,7 @@ NDLサーチ(国立国会図書館サーチ http://iss.ndl.go.jp/)で検索し�
 <tr>
 	<td>creator</td>
 	<td>著者（フルネーム）</td>
-	<td>文字列（特定書式：別記）</td>
+	<td>文字列<a href="#tsv_creator">（特定書式：別記）</a></td>
 	<td>山田, 剛史, 1970-||author//杉澤, 武俊||author</td>
 </tr>
 <tr>
@@ -412,10 +418,22 @@ NDLサーチ(国立国会図書館サーチ http://iss.ndl.go.jp/)で検索し�
 	<td>2014-01</td>
 </tr>
 <tr>
+	<td>content_type</td>
+	<td>資料の内容の種類</td>
+	<td>code<a href="#tsv_content_type">（詳細）</a>(#340)</td>
+	<td>text</td>
+</tr>
+<tr>
 	<td>carrier_type</td>
 	<td>資料の形態</td>
-	<td>code</td>
+	<td>code<a href="#tsv_carrier_type">（詳細）</a></td>
 	<td>volume</td>
+</tr>
+<tr>
+	<td>frequency</td>
+	<td>発行頻度</td>
+	<td>code<a href="#tsv_frequency">（詳細）</a>(#341)</td>
+	<td>frequency</td>
 </tr>
 <tr>
 	<td>isbn</td>
@@ -426,13 +444,13 @@ NDLサーチ(国立国会図書館サーチ http://iss.ndl.go.jp/)で検索し�
 <tr>
 	<td>language</td>
 	<td>言語</td>
-	<td>code(Iso 639 2?)</td>
+	<td>code<a href="#tsv_language">（詳細）</a></td>
 	<td>jpn</td>
 </tr>
 <tr>
 	<td>jpno</td>
 	<td>JPNO</td>
-	<td>半角文字のみ</td>
+	<td>半角文字のみ, 全国書誌番号</td>
 	<td>21366221</td>
 </tr>
 <tr>
@@ -450,14 +468,20 @@ NDLサーチ(国立国会図書館サーチ http://iss.ndl.go.jp/)で検索し�
 <tr>
 	<td>subject</td>
 	<td>件名</td>
-	<td>文字列（特定書式：別記）</td>
+	<td>文字列<a href="#tsv_subject">（特定書式：別記）</a></td>
 	<td>ndlsh: ウェブアプリケーション</td>
 </tr>
 <tr>
 	<td>classification</td>
 	<td>分類(JSON)</td>
-	<td>文字列（特定書式：別記）</td>
+	<td>文字列<a href="#tsv_classfication">（特定書式：別記）</a></td>
 	<td>ndc: 007</td>
+</tr>
+<tr>
+	<td>?</td>
+	<td>最初のページ</td>
+	<td>半角数字のみ(#342)</td>
+	<td>1</td>
 </tr>
 <tr>
 	<td>number_of_pages</td>
@@ -510,7 +534,7 @@ NDLサーチ(国立国会図書館サーチ http://iss.ndl.go.jp/)で検索し�
 <tr>
 	<td>required_role_name</td>
 	<td>参照に必要な権限</td>
-	<td>code</td>
+	<td>code<a href="#tsv_required_role_name">（詳細）</a></td>
 	<td>Guest</td>
 </tr>
 <tr>
@@ -540,11 +564,87 @@ NDLサーチ(国立国会図書館サーチ http://iss.ndl.go.jp/)で検索し�
 <tr>
 	<td>series_statement_identifier</td>
 	<td>シリーズステイトメントID</td>
-	<td>半角数字のみ</td>
+	<td>半角数字のみ, <a href="#series_statement_identifier">（詳細）</a></td>
 	<td>2</td>
 </tr>
 </tbody>
 </table>
+
+##### creator {#tsv_creator}
+
+	書式: 著者名||役割//著者名||役割
+	例：山田, 剛史, 1970-||author//杉澤, 武俊||author///大木, 太郎||illustrator
+
+注：役割は入力可能になってはいますが、システムとして格納したり、表示できるようにしたりなどはまだできていません（開発予定ですが、開発時期は未定です）。
+
+##### content_type {#tsv_content_type}
+
+「資料の内容の種別」の[名前]が値になります(例：文字であれば"text"など）。見方については、[5-2 資料の内容の種別の作成](enju_setup_5.html#section5-2) を参照してください>。
+
+##### carrier_type {#tsv_carrier_type}
+
+「資料の形態」の[名前]が値になります(例：冊子体であれば"volume"など）。見方については、[5-1 資料の形態の作成](enju_setup_5.html#section5-1) を参照してください。
+
+##### frequency {#tsv_frequency}
+
+「発行頻度」の[名前]が値になります(例："daily", "monthly"など）。見方については、[5-6 発行頻度を編集する](enju_setup_5.html#section5-6) を参照してください>。
+
+
+##### language {#tsv_language}
+
+日本語の場合は jpn, 英語の場合は、engになります。その他の言語については、「言語」の[Iso 639 2]を参照してください。見方については、[5-3 言語を編集する](enju_setup_5.html#section5-3) を参照してください。
+
+##### subject {#tsv_subject}
+
+	書式(1語): 件名標目の種類: "標目"
+	例：ndlsh: "ウェブアプリケーション"
+
+	書式(2語): 件名標目の種類: "標目1//標目2"
+	例：ndlsh: "ウェブアプリケーション//インターネット"
+
+	書式(違う件名標目の種類がある): { 件名標目の種類: "標目", 件名標目の種類: "標目" }
+	例：{ ndlsh: "ウェブアプリケーション", lcsh: "Internet" }
+
+書式の件名標目の種類は、「件名標目の種類」の[名前]をさします。詳細は[4-3 件名標目の種類を設定する](enju_setup_4.html#section4-3) を参照してください。
+
+注意："（ダブルクオーテーション）をエスケープする必要があるため、テキストエディタで直接TSVファイルを作成する場合は、以下のような記述になります
+
+	"ndlsh: ""ウェブアプリケーション"""
+	"ndlsh: ""ウェブアプリケーション//インターネット"""	
+	"{ ndlsh: ""ウェブアプリケーション"", lcsh: ""Internet"" }"
+
+##### classfication {#tsv_classfication}
+
+
+	書式(1語): 分類の種類: "分類"
+	例：ndc: "007"
+
+	書式(違う分類の種類がある): { 分類の種類: "分類", 分類の種類: "分類" }
+	例：{ ndc9: "212", ddc: "223" }
+
+書式の分類の種類は、「分類の種類」の[名前]をさします。詳細は[4-5 分類の種類を設定する](enju_setup_4.html#section4-5) を参照してください。
+
+注意："（ダブルクオーテーション）をエスケープする必要があるため、テキストエディタで直接TSVファイルを作成する場合は、以下のような記述になります
+
+	"ndc: ""007"""	
+	"{ ndc9: ""212"", ddc: ""223"" }"
+
+##### required_role_name {#tsv_required_role_name}
+
+この書誌を参照可能な権限を設定します。
+以下の4つから選びます。なにも記入しなければ、Guest になります。
+ 
+* Administrator（管理者）
+* Librarian（図書館員）
+* User（図書館利用者）
+* Guest （誰でも）
+
+##### series_statement_identifier {#series_statement_identifier}
+
+（工事中）
+
+「xxxxx」の[xxx]が値になります。見方については、[xx-xx xxxxxxx](enju_setup_x.html#sectionxx-xx) を参照してください。
+
 
 </div>
 
