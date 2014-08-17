@@ -242,7 +242,7 @@ NDLサーチ(国立国会図書館サーチ http://iss.ndl.go.jp/)で検索し�
 1行目に、それぞれの項目に関わるフィールド名を（できれば " " で囲って）指定します。
 フィールド名とその意味については次の通りです。
 
-### 4-2-7 TSVファイルの作り方（図書（書誌）) {#section4-2-7}
+### 4-2-7 TSVファイルの作り方（図書（書誌）） {#section4-2-7}
 
 <table class="table table-bordered table-condensed table-striped">
 <caption>図書のフィールド項目名と対応する内容</caption>
