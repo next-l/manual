@@ -241,7 +241,7 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 
 <div class="alert alert-success memo" markdown="1">
 <h4 class="alert-heading">【Column】TSVファイルの作り方</h4>
-1行目に、それぞれの項目に関わるフィールド名を（できれば " " で囲って）指定します。
+1行目に、それぞれの項目に関わるフィールド名を指定します。
 フィールド名とその意味については次の通りです。
 
 ### 4-2-7 TSVファイルの作り方（図書（書誌）） {#section4-2-7}
@@ -260,13 +260,13 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 <tr>
 	<td>manifestation_id</td>
 	<td>Manifestation ID</td>
-	<td>半角数字のみ, システムが自動付与するID, 「資料の表示」画面のURLにある数値</td>
+	<td>半角数字のみ, システムが自動付与するID, 「資料の表示」画面のURL末尾にある数値</td>
 	<td>4</td>
 </tr>
 <tr>
 	<td>manifestation_identifier</td>
 	<td>書誌ID</td>
-	<td>半角文字a-zA-Zとアンダースコア_のみ, インポート時に付与可能な書誌に対するID（#issue338）</td>
+	<td>文字列、インポート時に付与する書誌に対する任意の識別子 <!--（#issue338）--></td>
 	<td>999001</td>
 </tr>
 <tr>
@@ -581,15 +581,15 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 
 ##### content_type {#tsv_content_type}
 
-「資料の内容の種別」の[名前]が値になります(例：文字であれば"text"など）。見方については、[5-2 資料の内容の種別の作成](enju_setup_5.html#section5-2) を参照してください>。
+「資料の内容の種別」の[名前]を値とします(例：文字であれば"text"など）。見方については、[設定マニュアル 5-2 資料の内容の種別の作成](enju_setup_5.html#section5-2) を参照してください>。
 
 ##### carrier_type {#tsv_carrier_type}
 
-「資料の形態」の[名前]が値になります(例：冊子体であれば"volume"など）。見方については、[5-1 資料の形態の作成](enju_setup_5.html#section5-1) を参照してください。
+「資料の形態」の[名前]を値とします(例：冊子体であれば"volume"など）。見方については、[設定マニュアル 5-1 資料の形態の作成](enju_setup_5.html#section5-1) を参照してください。
 
 ##### frequency {#tsv_frequency}
 
-「発行頻度」の[名前]が値になります(例："daily", "monthly"など）。見方については、[5-6 発行頻度を編集する](enju_setup_5.html#section5-6) を参照してください>。
+「発行頻度」の[名前]を値とします(例："daily", "monthly"など）。見方については、[設定マニュアル 5-6 発行頻度を編集する](enju_setup_5.html#section5-6) を参照してください>。
 
 
 ##### language {#tsv_language}
@@ -645,7 +645,7 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 
 （工事中）
 
-「xxxxx」の[xxx]が値になります。見方については、[xx-xx xxxxxxx](enju_setup_x.html#sectionxx-xx) を参照してください。
+「xxxxx」の[xxx]を値とします。見方については、[xx-xx xxxxxxx](enju_setup_x.html#sectionxx-xx) を参照してください。
 
 
 </div>
@@ -746,7 +746,7 @@ ISBNの代わりに、manifestation_idやmanifestation_identifierでも可能で
 
 <div class="alert alert-success memo" markdown="1">
 <h4 class="alert-heading">【Column】TSVファイルの作り方</h4>
-1行目に、それぞれの項目に関わるフィールド名を（できれば " " で囲って）指定します。
+1行目に、それぞれの項目に関わるフィールド名を指定します。
 フィールド名とその意味については次の通りです。
 
 ### 4-3-5 TSVファイルの作り方（所蔵情報） {#section4-3-5}
@@ -881,15 +881,15 @@ ISBNの代わりに、manifestation_idやmanifestation_identifierでも可能で
 
 ##### shelf {#tsv_shelf}
 
-「本棚」の[名前]が値になります(例："first_shelf"や"web"など）。見方については、[3-3 本棚を設定する](enju_setup_3.html#section3-3) を参照してください。
+「本棚」の[名前]を値とします(例："first_shelf"や"web"など）。見方については、[3-3 本棚を設定する](enju_setup_3.html#section3-3) を参照してください。
 
 ##### checkout_type {#tsv_checkout_type}
 
-「貸出区分」の[名前]が値になります(例："book"）。見方については、[3-5 貸出区分を設定する](enju_setup_3.html#section3-5) を参照してください。
+「貸出区分」の[名前]を値とします(例："book"）。見方については、[3-5 貸出区分を設定する](enju_setup_3.html#section3-5) を参照してください。
 
 ##### circulation_status {#tsv_circulation_status}
 
-「貸出状態」の[名前]が値になります(例：[在架（利用可能）]なら"Available On Shelf"）。見方については、[5-3 貸出状態を編集作成する](enju_setup_5.html#section5-3) を参照してください。
+「貸出状態」の[名前]を値とします(例：[在架（利用可能）]なら"Available On Shelf"）。見方については、[5-3 貸出状態を編集作成する](enju_setup_5.html#section5-3) を参照してください。
 
 ##### use_restriction {#tsv_use_restriction}
 
@@ -902,20 +902,21 @@ ISBNの代わりに、manifestation_idやmanifestation_identifierでも可能で
 
 ##### budget_type {#tsv_budget_type}
 
-「予算種別」の[名前]が値になります。見方については、[3-9 予算種別を設定する](enju_setup_3.html#section3-9) を参照してください。
+「予算種別」の[名前]を値とします。見方については、[3-9 予算種別を設定する](enju_setup_3.html#section3-9) を参照してください。
 
 ##### bookstore {#tsv_bookstore}
 
-「書店」の[名前]が値になります。見方については、[3-10 書店を設定する](enju_setup_3.html#section3-10) を参照してください。
+「書店」の[名前]を値とします。見方については、[3-10 書店を設定する](enju_setup_3.html#section3-10) を参照してください。
 
 ##### required_role {#tsv_required_role}
 
+所蔵情報を見るために必要な権限を設定します。
 以下の4つから選びます。なにも記入しなければ、Guest になります。
  
-* Administrator（管理者）
-* Librarian（図書館員）
-* User（図書館利用者）
-* Guest （誰でも）
+* Administrator（管理者アカウント）
+* Librarian（図書館員アカウント）
+* User（図書館利用者アカウント）
+* Guest （誰でも：ログイン不要）
 
 </div>
 
