@@ -720,6 +720,203 @@ NDLサーチ(国立国会図書館サーチ http://iss.ndl.go.jp/)で検索し�
 
 ![所蔵情報の一覧](assets/images/image_operation_125.png)
 
+### 4-3-4 TSVファイルを読み込んで登録する {#section4-3-4}
+（工事中）
+
+
+<div class="alert alert-success memo" markdown="1">
+<h4 class="alert-heading">【Column】TSVファイルの作り方</h4>
+1行目に、それぞれの項目に関わるフィールド名を（できれば " " で囲って）指定します。
+フィールド名とその意味については次の通りです。
+
+### 4-3-5 TSVファイルの作り方：所蔵情報の場合 {#section4-3-5}
+
+<table class="table table-bordered table-condensed table-striped">
+<caption>所蔵情報のフィールド項目名と対応する内容</caption>
+<thead>
+<tr>
+        <th>フィールド名</th>
+        <th>日本語</th>
+        <th>入力ルール及び説明</th>
+        <th>例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td>manifestation_id</td>
+	<td>Manifestation ID</td>
+	<td>半角数字のみ, システムが自動付与するID, 「資料の表示」画面のURLにある数値</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>manifestation_identifier</td>
+	<td>書誌ID</td>
+	<td>半角文字a-zA-Zとアンダースコア_のみ, インポート時に付与可能な書誌に対するID（#issue338）</td>
+	<td>999001</td>
+</tr>
+<tr>
+	<td>isbn</td>
+	<td>isbn</td>
+	<td>半角文字のみ、ハイフンあり/なし/9桁/13桁OK</td>
+	<td>9784274067105</td>
+</tr>
+<tr>
+	<td>item_id</td>
+	<td>所蔵データID(自動付与）</td>
+	<td>半角数字のみ, システムが自動付与するID, 「所蔵情報の表示」画面のURLにある数値</td>
+	<td></td>
+</tr>
+<tr>
+	<td>shelf</td>
+	<td>書棚</td>
+	<td>code<a href="#tsv_shelf">（詳細）</a></td>
+	<td>first_shelf</td>
+</tr>
+<tr>
+	<td>checkout_type</td>
+	<td>貸出区分</td>
+	<td>code<a href="#tsv_checkout_type">（詳細）</a></td>
+	<td>book</td>
+</tr>
+<tr>
+	<td>circulation_status</td>
+	<td>貸出状態</td>
+	<td>code<a href="#tsv_circulation_status">（詳細）</a></td>
+	<td>Available On Shelf</td>
+</tr>
+<tr>
+	<td>use_restriction</td>
+	<td>利用制限</td>
+	<td>code<a href="#tsv_use_restriction">（詳細）</a></td>
+	<td>Limited Circulation, Normal Loan Period</td>
+</tr>
+<tr>
+	<td>include_supplements</td>
+	<td>付録あり</td>
+	<td>真偽値（t または　TRUEなら真）</td>
+	<td>TURE</td>
+</tr>
+<tr>
+	<td>call_number</td>
+	<td>請求記号</td>
+	<td>文字列</td>
+	<td>547.483||A||ル</td>
+</tr>
+<tr>
+	<td>budget_type</td>
+	<td>予算種別</td>
+	<td>code<a href="#tsv_budget_type">（詳細）</a></td>
+	<td>資料費</td>
+</tr>
+<tr>
+	<td>bookstore</td>
+	<td>書店</td>
+	<td>code<a href="#tsv_bookstore">（詳細）</a></td>
+	<td>今井書店</td>
+</tr>
+<tr>
+	<td>item_price</td>
+	<td>受入価格</td>
+	<td>半角数字のみ</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>item_url</td>
+	<td>URL（item）</td>
+	<td>文字列</td>
+	<td>http://www.amazon.co.jp/dp/4274067106/</td>
+</tr>
+<tr>
+	<td>required_role</td>
+	<td>参照に必要な権限</td>
+	<td>code<a href="#tsv_required_role">（詳細）</a></td>
+	<td>User</td>
+</tr>
+<tr>
+	<td>acquired_at</td>
+	<td>受入日</td>
+	<td>ISO8601</td>
+	<td>2014-06-20</td>
+</tr>
+<tr>
+	<td>binding_call_number</td>
+	<td>製本資料請求記号</td>
+	<td>文字列</td>
+	<td>547.483||A||ルs</td>
+</tr>
+<tr>
+	<td>binded_at</td>
+	<td>製本日時</td>
+	<td>ISO8601</td>
+	<td>2014-08-15</td>
+</tr>
+<tr>
+	<td>binding_item_identifier</td>
+	<td>製本資料ID</td>
+	<td>文字列</td>
+	<td>999501</td>
+</tr>
+<tr>
+	<td>item_note</td>
+	<td>注記（item)</td>
+	<td>文字列</td>
+	<td>汚れあり</td>
+</tr>
+<tr>
+	<td>item_identifier</td>
+	<td>所蔵情報ID</td>
+	<td>半角の数値とアルファベットのみ</td>
+	<td>100502</td>
+</tr>
+<tr>
+	<td>dummy</td>
+	<td>インポート省略</td>
+	<td>文字列（ここになにかあれば無視する行）</td>
+	<td>t</td>
+</tr>
+</tbody>
+</table>
+
+##### shelf {#tsv_shelf}
+
+「本棚」の[名前]が値になります(例："first_shelf"や"web"など）。見方については、[3-3 本棚を設定する](enju_setup_3.html#section3-3) を参照してください。
+
+##### checkout_type {#tsv_checkout_type}
+
+「貸出区分」の[名前]が値になります(例："book"）。見方については、[3-5 貸出区分を設定する](enju_setup_3.html#section3-5) を参照してください。
+
+##### circulation_status {#tsv_circulation_status}
+
+「貸出状態」の[名前]が値になります(例：[在架（利用可能）]なら"Available On Shelf"）。見方については、[5-3 貸出状態を編集作成する](enju_setup_5.html#section5-3) を参照してください。
+
+##### use_restriction {#tsv_use_restriction}
+
+以下の2種類です。
+
+* Not For Loan
+  * 貸出不可
+* Limited Circulation, Normal Loan Period
+  * 通常期間貸出
+
+##### budget_type {#tsv_budget_type}
+
+「予算種別」の[名前]が値になります。見方については、[3-9 予算種別を設定する](enju_setup_3.html#section3-9) を参照してください。
+
+##### bookstore {#tsv_bookstore}
+
+「書店」の[名前]が値になります。見方については、[3-10 書店を設定する](enju_setup_3.html#section3-10) を参照してください。
+
+##### required_role {#tsv_required_role}
+
+以下の4つから選びます。なにも記入しなければ、Guest になります。
+ 
+* Administrator（管理者）
+* Librarian（図書館員）
+* User（図書館利用者）
+* Guest （誰でも）
+
+</div>
+
 4-4 図書を検収する {#section4-4}
 --------------------------------
 
