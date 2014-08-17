@@ -242,7 +242,7 @@ NDLサーチ(国立国会図書館サーチ http://iss.ndl.go.jp/)で検索し�
 1行目に、それぞれの項目に関わるフィールド名を（できれば " " で囲って）指定します。
 フィールド名とその意味については次の通りです。
 
-### 4-2-7 TSVファイルの作り方：図書の場合 {#section4-2-7}
+### 4-2-7 TSVファイルの作り方（図書（書誌）) {#section4-2-7}
 
 <table class="table table-bordered table-condensed table-striped">
 <caption>図書のフィールド項目名と対応する内容</caption>
@@ -721,7 +721,25 @@ NDLサーチ(国立国会図書館サーチ http://iss.ndl.go.jp/)で検索し�
 ![所蔵情報の一覧](assets/images/image_operation_125.png)
 
 ### 4-3-4 TSVファイルを読み込んで登録する {#section4-3-4}
-（工事中）
+
+所蔵情報は、TSVファイルを読み込んで一括登録することもできます。
+
+
+#### 1. TSVファイルを用意します。
+
+例えば、ISBN と　所蔵情報（所蔵情報のTSVの詳細：[4-3-5 TSVファイルの作り方（所蔵情報）](#section4-3-5) ）を書いたTSVを用意します。
+
+![所蔵情報の一覧](assets/images/image_operation_item_tsv.png)
+
+ISBNの場合は、書誌が未登録の資料の場合は、国立国会図書館蔵書検索の結果から書誌データをインポートし、かつ所蔵情報を登録することになります。
+
+ISBNの代わりに、manifestation_idやmanifestation_identifierでも可能です。この場合は、既にシステムに登録済みの書誌に対して所蔵情報を追加します。
+
+<div class="alert alert-info memo" markdown="1">
+所蔵情報と書誌情報を同時に登録することも可能です。 その場合は、所蔵情報と[4-2-7 TSVファイルの作り方（図書（書誌））](#section4-2-7)のフィールドを書いたTSVを用意します。
+</div>
+
+#### 2. 「[4-2-1 TSVファイルを読み込んで登録する](#section4-2-1)」の 1. 以降と同じ手順を実行し、所蔵情報を登録できます。
 
 
 <div class="alert alert-success memo" markdown="1">
@@ -729,7 +747,7 @@ NDLサーチ(国立国会図書館サーチ http://iss.ndl.go.jp/)で検索し�
 1行目に、それぞれの項目に関わるフィールド名を（できれば " " で囲って）指定します。
 フィールド名とその意味については次の通りです。
 
-### 4-3-5 TSVファイルの作り方：所蔵情報の場合 {#section4-3-5}
+### 4-3-5 TSVファイルの作り方（所蔵情報） {#section4-3-5}
 
 <table class="table table-bordered table-condensed table-striped">
 <caption>所蔵情報のフィールド項目名と対応する内容</caption>
@@ -742,24 +760,6 @@ NDLサーチ(国立国会図書館サーチ http://iss.ndl.go.jp/)で検索し�
 </tr>
 </thead>
 <tbody>
-<tr>
-	<td>manifestation_id</td>
-	<td>Manifestation ID</td>
-	<td>半角数字のみ, システムが自動付与するID, 「資料の表示」画面のURLにある数値</td>
-	<td>4</td>
-</tr>
-<tr>
-	<td>manifestation_identifier</td>
-	<td>書誌ID</td>
-	<td>半角文字a-zA-Zとアンダースコア_のみ, インポート時に付与可能な書誌に対するID（#issue338）</td>
-	<td>999001</td>
-</tr>
-<tr>
-	<td>isbn</td>
-	<td>isbn</td>
-	<td>半角文字のみ、ハイフンあり/なし/9桁/13桁OK</td>
-	<td>9784274067105</td>
-</tr>
 <tr>
 	<td>item_id</td>
 	<td>所蔵データID(自動付与）</td>
