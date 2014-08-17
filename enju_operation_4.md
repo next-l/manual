@@ -433,13 +433,7 @@ NDLサーチ(国立国会図書館サーチ http://iss.ndl.go.jp/)で検索し�
 	<td>frequency</td>
 	<td>発行頻度</td>
 	<td>code<a href="#tsv_frequency">（詳細）</a>(#341)</td>
-	<td>frequency</td>
-</tr>
-<tr>
-	<td>isbn</td>
-	<td>isbn</td>
-	<td>半角文字のみ、ハイフンあり/なし/9桁/13桁OK</td>
-	<td>9784274067105</td>
+	<td>monthly</td>
 </tr>
 <tr>
 	<td>language</td>
@@ -448,21 +442,27 @@ NDLサーチ(国立国会図書館サーチ http://iss.ndl.go.jp/)で検索し�
 	<td>jpn</td>
 </tr>
 <tr>
-	<td>jpno</td>
-	<td>JPNO</td>
-	<td>半角文字のみ, 全国書誌番号</td>
-	<td>21366221</td>
+	<td>isbn</td>
+	<td>ISBN</td>
+	<td>半角文字のみ、ハイフンあり/なし/9桁/13桁はどの形式でも受け付ける。国際標準逐次刊行物番号</td>
+	<td>9784274067105</td>
 </tr>
 <tr>
 	<td>issn</td>
-	<td>issn</td>
-	<td>半角文字のみ</td>
+	<td>ISSN</td>
+	<td>半角文字のみ, ハイフンはあってもなくてもよい。国際標準逐次刊行物番号</td>
 	<td>0917-1436</td>
 </tr>
 <tr>
+	<td>jpno</td>
+	<td>JPNO</td>
+	<td>半角文字のみ. 全国書誌番号</td>
+	<td>21366221</td>
+</tr>
+<tr>
 	<td>lccn</td>
-	<td>lccn</td>
-	<td>半角文字のみ</td>
+	<td>LCCN</td>
+	<td>半角文字のみ. 米国議会図書館管理番号</td>
 	<td>1255667</td>
 </tr>
 <tr>
@@ -473,7 +473,7 @@ NDLサーチ(国立国会図書館サーチ http://iss.ndl.go.jp/)で検索し�
 </tr>
 <tr>
 	<td>classification</td>
-	<td>分類(JSON)</td>
+	<td>分類</td>
 	<td>文字列<a href="#tsv_classfication">（特定書式：別記）</a></td>
 	<td>ndc: 007</td>
 </tr>
