@@ -598,6 +598,7 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 ##### carrier_type {#tsv_carrier_type}
 
 「資料の形態」の[名前]を値とします(例：冊子体であれば"volume"など）。見方については、[設定マニュアル 5-1 資料の形態の作成](enju_setup_5.html#section5-1) を参照してください。
+未入力の場合は"text"が設定されます。
 
 ##### frequency {#tsv_frequency}
 
