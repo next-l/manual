@@ -468,6 +468,12 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 	<td>1255667</td>
 </tr>
 <tr>
+        <td>doi</td>
+        <td>doi</td>
+        <td>文字列</td>
+        <td>http://dx.doi.org/10.2964/jsik.23_219</td>
+</tr>
+<tr>
 	<td>subject</td>
 	<td>件名</td>
 	<td>文字列<a href="#tsv_subject">（特定書式：別記）</a></td>
@@ -556,12 +562,6 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 	<td>インポート省略</td>
 	<td>文字列。この列に入力されていると、その行全体をインポート対象から除外します。</td>
 	<td></td>
-</tr>
-<tr>
-	<td>doi</td>
-	<td>doi</td>
-	<td>文字列</td>
-	<td>http://dx.doi.org/10.2964/jsik.23_219</td>
 </tr>
 <tr>
 	<td>series_statement_identifier</td>
