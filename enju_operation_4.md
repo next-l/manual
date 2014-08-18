@@ -581,7 +581,7 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 
 ##### content_type {#tsv_content_type}
 
-「資料の内容の種別」の[名前]を値とします(例：文字であれば"text"など）。見方については、[設定マニュアル 5-2 資料の内容の種別の作成](enju_setup_5.html#section5-2) を参照してください>。
+「資料の内容の種別」の[名前]を値とします(例：文字であれば"text"など）。見方については、[設定マニュアル 5-2 資料の内容の種別の作成](enju_setup_5.html#section5-2) を参照してください。
 
 ##### carrier_type {#tsv_carrier_type}
 
