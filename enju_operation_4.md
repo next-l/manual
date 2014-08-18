@@ -601,7 +601,7 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 
 ##### frequency {#tsv_frequency}
 
-「発行頻度」の[名前]を値とします(例："daily", "monthly"など）。見方については、[設定マニュアル 5-6 発行頻度を編集する](enju_setup_5.html#section5-6) を参照してください>。
+「発行頻度」の[名前]を値とします(例："daily", "monthly"など）。見方については、[設定マニュアル 5-6 発行頻度を編集する](enju_setup_5.html#section5-6) を参照してください。未入力の場合は"unknown"が設定されます。
 
 
 ##### language {#tsv_language}
