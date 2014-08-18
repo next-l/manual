@@ -338,7 +338,7 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 <tr>
 	<td>issue_number</td>
 	<td>号（数字）</td>
-	<td>半角数字のみ（#339）</td>
+	<td>半角数字のみ</td>
 	<td>3</td>
 </tr>
 <tr>
@@ -356,19 +356,19 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 <tr>
 	<td>series_title_transcription</td>
 	<td>シリーズ名よみ</td>
-	<td>文字列（複数ある場合は//で区切る）</td>
+	<td>文字列（複数ある場合は//で区切る）, <a href="#tsv_series_title_transcription">（詳細）</a></td>
 	<td>リコウガクセンモンショ シリーズ//スウガク//1</td>
 </tr>
 <tr>
-	<td>series_volume_numver</td>
+	<td>series_volume_number_string</td>
 	<td>シリーズ巻号</td>
-	<td>文字列</td>
+	<td>文字列，<a href="#tsv_series_volume_number_string">（詳細）</a></td>
 	<td>二</td>
 </tr>
 <tr>
 	<td>series_creator_string</td>
 	<td>シリーズ著者</td>
-	<td>文字列</td>
+	<td>文字列，<a href="#tsv_series_creator_string">（詳細）</a></td>
 	<td>統計</td>
 </tr>
 <tr>
@@ -571,6 +571,18 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 </tr>
 </tbody>
 </table>
+
+##### series_title_transcription {#tsv_series_title_transcription}
+
+シリーズのタイトル(series_original_title)がTSVファイルで指定されている必要があります。指定されていない場合はこの項目の値は無視されます。
+
+##### series_volume_number_string {#tsv_series_volume_number_string}
+
+シリーズのタイトル(series_original_title)がTSVファイルで指定されている必要があります。指定されていない場合はこの項目の値は無視されます。
+
+##### series_creator_string {#tsv_series_creator_string}
+
+シリーズのタイトル(series_original_title)がTSVファイルで指定されている必要があります。指定されていない場合はこの項目の値は無視されます。
 
 ##### creator {#tsv_creator}
 
