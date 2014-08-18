@@ -251,7 +251,7 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 <thead>
 <tr>
         <th>フィールド名</th>
-        <th>日本語</th>
+        <th>日本語名称</th>
         <th>入力ルール及び説明</th>
         <th>例</th>
 </tr>
@@ -469,7 +469,7 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 </tr>
 <tr>
         <td>doi</td>
-        <td>doi</td>
+        <td>DOI</td>
         <td>文字列</td>
         <td>http://dx.doi.org/10.2964/jsik.23_219</td>
 </tr>
@@ -505,19 +505,19 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 </tr>
 <tr>
 	<td>height</td>
-	<td>高さ</td>
+	<td>高さ（cm）</td>
 	<td>半角数字のみ</td>
 	<td>20</td>
 </tr>
 <tr>
 	<td>width</td>
-	<td>幅</td>
+	<td>幅（cm）</td>
 	<td>半角数字のみ</td>
 	<td>15</td>
 </tr>
 <tr>
 	<td>depth</td>
-	<td>奥行き</td>
+	<td>奥行き（cm）</td>
 	<td>半角数字のみ</td>
 	<td>1.5</td>
 </tr>
@@ -756,7 +756,7 @@ ISBNの代わりに、manifestation_idやmanifestation_identifierでも可能で
 <thead>
 <tr>
         <th>フィールド名</th>
-        <th>日本語</th>
+        <th>日本語名称</th>
         <th>入力ルール及び説明</th>
         <th>例</th>
 </tr>
@@ -770,7 +770,7 @@ ISBNの代わりに、manifestation_idやmanifestation_identifierでも可能で
 </tr>
 <tr>
 	<td>shelf</td>
-	<td>書棚</td>
+	<td>本棚</td>
 	<td>code<a href="#tsv_shelf">（詳細）</a></td>
 	<td>first_shelf</td>
 </tr>
@@ -794,7 +794,7 @@ ISBNの代わりに、manifestation_idやmanifestation_identifierでも可能で
 </tr>
 <tr>
 	<td>include_supplements</td>
-	<td>付録あり</td>
+	<td>付録を含む</td>
 	<td>真偽値（t または　TRUEなら真）</td>
 	<td>TURE</td>
 </tr>
@@ -818,7 +818,7 @@ ISBNの代わりに、manifestation_idやmanifestation_identifierでも可能で
 </tr>
 <tr>
 	<td>item_price</td>
-	<td>受入価格</td>
+	<td>購入価格</td>
 	<td>半角数字のみ</td>
 	<td>2</td>
 </tr>
@@ -842,19 +842,19 @@ ISBNの代わりに、manifestation_idやmanifestation_identifierでも可能で
 </tr>
 <tr>
 	<td>binding_call_number</td>
-	<td>製本資料請求記号</td>
+	<td>製本後の請求記号</td>
 	<td>文字列</td>
 	<td>547.483||A||ルs</td>
 </tr>
 <tr>
 	<td>binded_at</td>
-	<td>製本日時</td>
+	<td>製本日</td>
 	<td>ISO8601</td>
 	<td>2014-08-15</td>
 </tr>
 <tr>
 	<td>binding_item_identifier</td>
-	<td>製本資料ID</td>
+	<td>製本後の所蔵情報ID</td>
 	<td>文字列</td>
 	<td>999501</td>
 </tr>
