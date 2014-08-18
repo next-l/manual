@@ -486,13 +486,13 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 	<td>ndc: 007</td>
 </tr>
 <tr>
-	<td>?</td>
+	<td>start_page</td>
 	<td>最初のページ</td>
 	<td>半角数字のみ(#342)</td>
 	<td>1</td>
 </tr>
 <tr>
-	<td>number_of_pages</td>
+	<td>end_page</td>
 	<td>最後のページ</td>
 	<td>半角数字のみ</td>
 	<td>404</td>
