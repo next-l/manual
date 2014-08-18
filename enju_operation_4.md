@@ -422,7 +422,7 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 <tr>
 	<td>content_type</td>
 	<td>資料の内容の種類</td>
-	<td>code<a href="#tsv_content_type">（詳細）</a>(#340)</td>
+	<td>code<a href="#tsv_content_type">（詳細）</a></td>
 	<td>text</td>
 </tr>
 <tr>
@@ -434,7 +434,7 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 <tr>
 	<td>frequency</td>
 	<td>発行頻度</td>
-	<td>code<a href="#tsv_frequency">（詳細）</a>(#341)</td>
+	<td>code<a href="#tsv_frequency">（詳細）</a></td>
 	<td>monthly</td>
 </tr>
 <tr>
