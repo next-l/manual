@@ -470,8 +470,8 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 <tr>
         <td>doi</td>
         <td>DOI</td>
-        <td>文字列</td>
-        <td>http://dx.doi.org/10.2964/jsik.23_219</td>
+        <td>文字列，http://dx.doi.org/は記入しない</td>
+        <td>10.2964/jsik.23_219</td>
 </tr>
 <tr>
 	<td>subject</td>
