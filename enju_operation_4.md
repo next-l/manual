@@ -477,13 +477,13 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 	<td>subject</td>
 	<td>件名</td>
 	<td>文字列<a href="#tsv_subject">（特定書式：別記）</a></td>
-	<td>ndlsh: ウェブアプリケーション</td>
+	<td>ndlsh: "ウェブアプリケーション"</td>
 </tr>
 <tr>
 	<td>classification</td>
 	<td>分類</td>
 	<td>文字列<a href="#tsv_classfication">（特定書式：別記）</a></td>
-	<td>ndc: 007</td>
+	<td>ndc: "007"</td>
 </tr>
 <tr>
 	<td>start_page</td>
