@@ -39,7 +39,7 @@ Enjuの利用を始めるにあたり，図書館のシステム設定として�
 
 {::comment}3-8 enju_setup/event_category.md %}{:/comment}
 
-{::comment}old 3-9 enju_setup/event_import.md {:/comment}{:/comment}
+{::comment}old 3-9 enju_setup/event_import.md {:/comment}
 
 {::comment}3-9 enju_setup/budget_type.md %}{:/comment}
 
