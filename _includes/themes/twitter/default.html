@@ -58,6 +58,7 @@
     </div> <!-- /container -->
 
     {% include JB/analytics %}
+    {% if page.group contains 'enju_' %}
   <script language="JavaScript" type="application/javascript">
   $(function() {
     return $("h2, h3, h4, h5, h6").each(function(i, el) {
@@ -70,6 +71,7 @@
       }
     });
   });
+    {% endif %}
   </script>
   </body>
 </html>
