@@ -277,7 +277,7 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 </tr>
 <tr>
 	<td>title_transcription</td>
-	<td>タイトルよみ</td>
+	<td>タイトルのヨミ</td>
 	<td>文字列</td>
 	<td>R ニ ヨル ヤサシイ トウケイガク</td>
 </tr>
@@ -289,7 +289,7 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 </tr>
 <tr>
 	<td>title_alternative_transcription</td>
-	<td>代替タイトルよみ</td>
+	<td>代替タイトルのヨミ</td>
 	<td>文字列</td>
 	<td>R ノ ソウサテジュン ト トウケイガク ノ キソ ガ ミ ニ ツク</td>
 </tr>
@@ -355,7 +355,7 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 </tr>
 <tr>
 	<td>series_title_transcription</td>
-	<td>シリーズ名よみ</td>
+	<td>シリーズ名のヨミ</td>
 	<td>文字列（複数ある場合は//で区切る）, <a href="#tsv_series_title_transcription">（詳細）</a></td>
 	<td>リコウガクセンモンショ シリーズ//スウガク//1</td>
 </tr>
@@ -379,9 +379,9 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 </tr>
 <tr>
 	<td>creator_transcription</td>
-	<td>著者よみ（フルネームよみ）</td>
+	<td>著者ヨミ（フルネームヨミ）</td>
 	<td>文字列（複数ある場合は//で区切る）</td>
-	<td>やまもと, たけし//すぎさわ, たけとし</td>
+	<td>ヤマモト, タケシ//スギサワ, タケトシ</td>
 </tr>
 <tr>
 	<td>contributor</td>
@@ -391,9 +391,9 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 </tr>
 <tr>
 	<td>contributor_transcription</td>
-	<td>協力者・編者(よみ)</td>
+	<td>協力者・編者(ヨミ)</td>
 	<td>文字列</td>
-	<td>やまもと, たけし</td>
+	<td>ヤマモト, タケシ</td>
 </tr>
 <tr>
 	<td>publisher</td>
@@ -403,7 +403,7 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 </tr>
 <tr>
 	<td>publisher_transcription</td>
-	<td>出版者よみ</td>
+	<td>出版者のヨミ</td>
 	<td>文字列</td>
 	<td>オームシャ</td>
 </tr>
