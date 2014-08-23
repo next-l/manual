@@ -482,7 +482,7 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 <tr>
 	<td>classification</td>
 	<td>分類</td>
-	<td>文字列<a href="#tsv_classfication">（特定書式：別記）</a></td>
+	<td>文字列<a href="#tsv_classification">（特定書式：別記）</a></td>
 	<td>ndc: "007"</td>
 </tr>
 <tr>
@@ -628,7 +628,7 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 	"ndlsh: ""ウェブアプリケーション//インターネット"""	
 	"{ ndlsh: ""ウェブアプリケーション"", lcsh: ""Internet"" }"
 
-##### classfication {#tsv_classfication}
+##### classification {#tsv_classification}
 
 
 	書式(1語): 分類の種類: "分類"
