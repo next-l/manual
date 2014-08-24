@@ -65,10 +65,10 @@ Enjuの利用を始めるにあたり，図書館のシステム設定として�
 * __ログイン画面でのメッセージ__ ：表示したいメッセージを入力します。
 * __色__ : タイトルの色（標準では青）などを変更する場合に入力します。値はRGBで指定します。
   * Enjuの標準設定の色
-    * table_border（表の枠線）: #2779aa 
-    * table_line1（表のセルの塗りつぶし色1）: #ffffff
-    * table_line0（表のセルの塗りつぶし色2）: #d7ebf9
-    * header_title（タイトルの色）: #5970B2
+    * table_border（表の枠線）: 2779aa 
+    * table_line1（表のセルの塗りつぶし色1）: ffffff
+    * table_line0（表のセルの塗りつぶし色2）: d7ebf9
+    * header_title（タイトルの色）: 5970B2
   * オレンジ基調の例
     * table_border: f8ad6f
     * table_line1: ffffff
