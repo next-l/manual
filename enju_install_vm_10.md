@@ -50,6 +50,10 @@ group: enju_install_vm
 
 #### 5. Enjuを再起動してください（--> [詳細へ](enju_install_vm_7.html#section7-3)）
 
+<div class="alert alert-info memo">
+【Memo】バージョン1.1.0rc15現在、認証機能付きプロキシ設定には対応していません。
+</div>
+
 ## Q. VT機能が無効になっているというメッセージが表示されます。
 
 VirtualBoxを起動した際，64bit CPUを使用していても，以下のような警告画面が表示されて起動できないことがあります。これは，Virtualization Technologyという機能が無効になっている場合などに表示されます。
