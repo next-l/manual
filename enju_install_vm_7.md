@@ -64,12 +64,12 @@ vagrant のパスワード入力が求められたら，パスワードを打ち
 
 #### 1. vagrant@precise64:~$ または vagrant@precise64:~/enju$ に続いて以下のコマンドを入力します。
 
-* 2014年1月2日作成の仮想マシンの場合 (vagrant_default_1388636385395_61088.vbox)
+##### 2014年1月2日作成の仮想マシンの場合 (vagrant_default_1388636385395_61088.vbox)
 
 	sudo service apache2 restart
 	sudo service simplesolr restart
 
-* 2014年6月xx日作成の仮想マシン以降の場合 (vagrant_defaultxxxxxxxxxxxxxxxxx.vbox)
+##### 2014年6月xx日作成の仮想マシン以降の場合 (vagrant_defaultxxxxxxxxxxxxxxxxx.vbox)
 
 	sudo start enju_leaf
 
