@@ -22,12 +22,12 @@ Enjuは，以下の手順で，Enjuのソースコードが公開されている
 
 * 2014年1月2日作成の仮想マシンの場合 (vagrant_default_1388636385395_61088.vbox)
 
-	sudo service apache2 stop
-	sudo service simplesolr stop
+    sudo service apache2 stop
+    sudo service simplesolr stop
 
 * 2014年6月xx日作成の仮想マシン以降の場合 (vagrant_defaultxxxxxxxxxxxxxxxxx.vbox)
 
-	sudo stop enju_leaf
+    sudo stop enju_leaf
 
 <div class="alert alert-info memo" markdown="1">
 【Memo】 Enju WS参加者のみ該当（2014年5月時点の仮想マシンでのみ必要）
