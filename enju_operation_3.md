@@ -126,6 +126,14 @@ TSVファイルとは、項目をタブで区切ったテキストファイル�
 <td>未設定</td>
 </tr>
 <tr>
+<td>checkout_icalendar_token</td><td>ascii</td><td>貸出期限のicalendar urlに使うトークン</td>
+<td>未設定</td>
+</tr>
+<tr>
+<td>save_checkout_history</td><td>ascii</td><td>貸出の履歴を保存するかどうか。t または　TRUE または trueなら真（保存する）。</td>
+<td>FALSE</td>
+</tr>
+<tr>
 <td>note</td><td>utf8</td><td>注記</td>
 <td>未設定</td>
 </tr>
