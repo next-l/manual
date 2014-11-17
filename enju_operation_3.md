@@ -101,6 +101,12 @@ TSVファイルとは、項目をタブで区切ったテキストファイル�
 <td>未設定</td>
 </tr>
 <tr>
+<td>full_name</td><td>utf8</td><td>フルネーム</td><td>未設定</td>
+</tr>
+<tr>
+<td>full_name_transcription</td><td>utf8</td><td>フルネーム（ヨミ）</td><td>未設定</td>
+</tr>
+<tr>
 <td>user_number</td><td>ascii</td><td>利用者番号（数字以外にアルファベットも使用可能）</td>
 <td>未設定</td>
 </tr>
@@ -131,6 +137,26 @@ TSVファイルとは、項目をタブで区切ったテキストファイル�
 </tr>
 <tr>
 <td>save_checkout_history</td><td>ascii</td><td>貸出の履歴を保存するかどうか。t または　TRUE または trueなら真（保存する）。</td>
+<td>FALSE</td>
+</tr>
+<tr>
+<td>locked</td><td>ascii</td><td>利用不可のアカウントにするかどうか。t または　TRUE または trueなら真（利用不可にする）。</td>
+<td>FALSE</td>
+</tr>
+<tr>
+<td>required_role</td><td>code</td><td>参照に必要な権限（Guest, User, Librarian, Administrator ）</td>
+<td>Librarian</td>
+</tr>
+<tr>
+<td>keyword_list</td><td>utf8</td><td>キーワードリスト。//で区切る。</td>
+<td>未設定</td>
+</tr>
+<tr>
+<td>save_search_history</td><td>ascii</td><td>資料の検索履歴をデータベースに保存するかどうか。t または　TRUE または trueなら真（保存にする）。</td>
+<td>FALSE</td>
+</tr>
+<tr>
+<td>share_bookmarks</td><td>ascii</td><td>ブックマークが他のユーザから参照できるかどうか。t または　TRUE または trueなら真（参照可にする）。</td>
 <td>FALSE</td>
 </tr>
 <tr>
