@@ -150,7 +150,7 @@ TSVファイルとは、項目をタブで区切ったテキストファイル�
 <td>email</td><td>ascii</td><td>メールアドレス：2つ以上入力したい場合は注記（note）に書くしかない</td><td>未設定</td>
 </tr>
 <tr>
-<td>library</td><td>code</td><td>所属図書館</td>
+<td>library</td><td>code</td><td>既定の図書館</td>
 <td>インポート時に「既定の図書館」として指定した図書館</td>
 </tr>
 <tr>
