@@ -999,20 +999,37 @@ ISBNの代わりに、manifestation_idやmanifestation_identifierでも可能で
 
 ![全ての所蔵情報](assets/images/image_operation_124.png)
 
-#### 3. 削除したい図書の所蔵情報IDをクリックします。  
+#### 3. 検索語に、除籍する資料の「所蔵情報ID」を入力し（バーコードで読み込むなど）、「検索」ボタンをクリックします。
+  
+![削除したい図書の所蔵情報IDの検索](assets/images/image_operation_129.png)
 
-![削除したい図書の所蔵情報ID](assets/images/image_operation_129.png)
+#### 4. 除籍したい図書の所蔵情報IDをクリックします。
 
-#### 4. 右メニューの［削除］をクリックします。  
+![削除したい図書の所蔵情報IDの選択](assets/images/image_operation_129-2.png)
 
-![削除](assets/images/image_operation_130.png)
+#### 5. 右メニューの［編集］をクリックします。  
 
-#### 5. メッセージが表示されたら［OK］をクリックします。  
+![編集](assets/images/image_operation_130.png)
 
-![OK](assets/images/image_operation_132.png)
+注意！「削除」してしまうと、所蔵がもともとなかったことに（完全に削除されてしまう）ので、除籍したという記録が残りません。「削除」は所蔵を間違えてつけてしまったときなどに利用します。
 
-<div class="alert alert-info memo">【Memo】削除を取りやめたい場合は［キャンセル］をクリックします。
-</div>
+#### 6. 貸出状態を「除籍済み」に変更し、利用制限を「貸出不可」に変更し、「更新する」をクリックします。
+
+![貸出状態と利用制限を修正](assets/images/image_operation_132.png)
+
+#### 7. 参考：除籍済みの検索結果一覧での表示のされ方
+
+AdministoratorやLibrarian権限でログインしている場合は、貸出状態が「除籍済み」と表示されるようになり、除籍した資料がわかるようになります。
+
+![Librarian権限以上での検索結果一覧での削除済み資料の表示](assets/images/image_operation_132-2.png)
+
+ログインしていない、User権限でログインしている場合は、除籍したものは所蔵が表示されないようになります。
+
+![User権限以下での検索結果一覧での削除済み資料の表示](assets/images/image_operation_132-3.png)
+
+#### 8. 参考：除籍した資料のリストアップをする。
+
+「[4-8 書誌と所蔵のエクスポートをする](enju_operation_4.html#section4-8)」を使って全ての書誌と所蔵の情報がTSV形式のテキストファイルとして、エクスポートができます。このファイルの「circulation_status」（貸出状態）の列に「Removed」の行を抜き出すことによって除籍した資料をリストアップすることができます。
 
 4-6 新着資料の一覧を表示する {#section4-6}
 ------------------------------------------
