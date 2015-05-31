@@ -50,6 +50,10 @@ vagrant のパスワード入力が求められたら，パスワードを打ち
 
 各種の処理が行われ，メッセージが出力されます。作業にはしばらく時間かかります。
 
+<div class="alert alert-info memo" markdown="1">
+【Memo】 バージョンごとの更新手順が指定されている場合があります。バージョンごとの変更手順は [Updateページ](https://github.com/next-l/enju_leaf/wiki/Update) をごらんください。
+</div>
+
 {::comment}
 #### 3. バージョンごとのアップデート手順が指定されている場合、 vagrant@precise64:~/enju$ に続いて、指定された手順でコマンドを実行します。
 
