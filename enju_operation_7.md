@@ -39,15 +39,15 @@ Enjuでは、図書館の休館日を登録することができます。
    
 #### 2. 右メニューの［開催日と催し物の新規作成］をクリックします。  
 
-![開催日と催し物の新規作成](assets/images/image_operation_213.png)
+![開催日と催し物の新規作成](assets/images/image_operation_event_new.png)
 
 #### 3. 催し物の種別で「休館日」を選択し、開始時刻で休館日の年・月・日を選択、名前に「休館日」と入力し、［終日］にチェックを入れて［登録する］ボタンをクリックします。  
 
-![開催日と催し物の新規作成](assets/images/image_operation_215.png)
+![開催日と催し物の新規作成](assets/images/image_operation_event_edit.png)
 
 #### 4. 「開館日と催し物は正常に作成されました。」のメッセージが表示され、休館日が登録されます。  
 
-![休館日登録](assets/images/image_operation_216.png)
+![休館日登録](assets/images/image_operation_event_new_success.png)
 
 7-2 催し物を登録する {#section7-2}
 ----------------------------------
@@ -65,15 +65,15 @@ Enjuでは、図書館で行われるさまざまな催し物を登録し、カ�
 
 #### 2. 右メニューの［開催日と催し物の新規作成］をクリックします。  
 
-![開催日と催し物の新規作成](assets/images/image_operation_new.png)
+![開催日と催し物の新規作成](assets/images/image_operation_event_new.png)
 
-#### 3. 催し物の種別で「unknown」を選択し、名前や開始時刻、終了時刻などを設定して、［登録する］ボタンをクリックします。  
+#### 3. 催し物の種別で「不明」を選択し、名前や開始時刻、終了時刻などを設定して、［登録する］ボタンをクリックします。  
 
-![開催日と催し物の新規作成](assets/images/image_operation_new_success.png)
+![開催日と催し物の新規作成](assets/images/image_operation_event_other_new.png)
 
 #### 4. 「開館日と催し物は正常に作成されました。」のメッセージが表示され、休館日が登録されます。  
 
-![催し物登録](assets/images/image_operation_219.png)
+![催し物登録](assets/images/image_operation_event_other_new_success.png)
 
 ### 7-2-2 催し物のデータをインポートする {#section7-2-2}
 
