@@ -19,17 +19,68 @@ group: enju_install_vm
 5-1 [enju_nii]モジュール（CiNii Booksからの書誌データインポート機能） {#section5-1}
 -----------------------------------------------------------------------------------
 
-（現在、準備中）
+#### 1. 「[7-1 Enjuの停止](enju_install_vm_7.html#section7-1)」を実行します。
+
+#### 2. enju/Gemfile に以下の一行を追加して保存します
+
+	gem "enju_nii", '~> 0.1.0.pre13'
+
+<div class="alert alert-info memo" markdown="1">
+【Memo】
+'0.1.0.pre9'の部分は変更になることがあります。最新の情報は、 以下のコマンドで、出力されますので、適宜こちらを参照して読み替えてください。
+
+	$ gem search -r enju_nii # 正式版
+	$ gem search -r enju_nii --pre # ベータ版
+
+</div>
+
+#### 3. 「[7-2 最新ソースコードの取込み](enju_install_vm_7.html#section7-2)」を実行します。
+
+#### 4. 「[7-3 Enjuを再起動](enju_install_vm_7.html#section7-3)」を実行します。
 
 5-2 [enju_loc]モジュール（アメリカ議会図書館からの書誌データインポート機能） {#section5-2}
 ------------------------------------------------------------------------------------------
 
-（現在、準備中）
+#### 1. 「[7-1 Enjuの停止](enju_install_vm_7.html#section7-1)」を実行します。
+
+#### 2. enju/Gemfile に以下の一行を追加して保存します
+
+	gem "enju_loc", '~> 0.1.0.pre4'
+
+<div class="alert alert-info memo" markdown="1">
+【Memo】
+'0.1.0.pre4'の部分は変更になることがあります。最新の情報は、 以下のコマンドで、出力されますので、適宜こちらを参照して読み替えてください。
+
+	$ gem search -r enju_loc # 正式版
+	$ gem search -r enju_loc --pre # ベータ版
+
+</div>
+
+#### 3. 「[7-2 最新ソースコードの取込み](enju_install_vm_7.html#section7-2)」を実行します。
+
+#### 4. 「[7-3 Enjuを再起動](enju_install_vm_7.html#section7-3)」を実行します。
 
 5-3 [enju_oai]モジュール（OAI-PMH対応） {#section5-3}
 -----------------------------------------------------
 
-（現在、準備中）
+#### 1. 「[7-1 Enjuの停止](enju_install_vm_7.html#section7-1)」を実行します。
+
+#### 2. enju/Gemfile に以下の一行を追加して保存します
+
+	gem "enju_oai", '~> 0.1.0.pre19'
+
+<div class="alert alert-info memo" markdown="1">
+【Memo】
+'0.1.0.pre19'の部分は変更になることがあります。最新の情報は、 以下のコマンドで、出力されますので、適宜こちらを参照して読み替えてください。
+
+	$ gem search -r enju_oai # 正式版
+	$ gem search -r enju_oai --pre # ベータ版
+
+</div>
+
+#### 3. 「[7-2 最新ソースコードの取込み](enju_install_vm_7.html#section7-2)」を実行します。
+
+#### 4. 「[7-3 Enjuを再起動](enju_install_vm_7.html#section7-3)」を実行します。
 
 5-4 [enju_purchase_request]モジュール（発注リスト作成機能） {#section5-4}
 -------------------------------------------------------------------------
