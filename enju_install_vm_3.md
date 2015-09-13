@@ -146,7 +146,7 @@ VirtualBoxはOracle社のWebサイトからダウンロードします。
 
 ![virtualboxのWebページで［Downloads］をクリック](assets/images/image_install_008.png)
    
-#### 2. 「VirtualBox 4.3.6 for Windows hosts」の横の［x86/amd64］のリンクをクリックするとダウンロードが開始します。保存する場所がどこであるのかわかりにくいことがあるので注意してください。
+#### 2. 「VirtualBox 4.3.6 for Windows hosts」の横の［x86/amd64］のリンクをクリックするとダウンロードが開始します。(この図では4.3.6となっていますが、これはVirtualBoxのバージョンを示しています。どんどん新しいものが出ますので、ダウンロードする際にこれより数字が大きくなっている（例：5.4.6）ことがありますが、気にせずダウンロードしてください。)保存する場所がどこであるのかわかりにくいことがあるので注意してください。
 
 ![［x86/amd64］のリンクをクリック](assets/images/image_install_009.png)
 
