@@ -16,14 +16,15 @@ group: enju_install_vm
 
 仮想マシンのバージョンによってやり方が異なります。
 
-1. Next-L Enju Leaf 1.1.0.rc7の場合：
-   * IPアドレス：```ifconfig```で表示されるIPアドレス（--> [詳細へ](enju_install_vm_4.html#section4-5-rc7)）
-   * ポート番号：22　（デフォルトのポート番号）
-2. Next-L Enju Leaf 1.1.0.rc12以降の場合：
+1. Next-L Enju Leaf 1.1.0.rc12以降の場合：
    * IPアドレス：localhost
       * または 127.0.0.1 
       * または 「仮想マシンをインストールしたマシン自身のIPアドレス」(--> 参考：[3-1-3 IPアドレスの確認](enju_install_vm_3.html#section3-1-3)の 6. のIPv4のアドレス )
    * ポート番号：2222
+
+2. Next-L Enju Leaf 1.1.0.rc7の場合：
+   * IPアドレス：```ifconfig```で表示されるIPアドレス（--> [詳細へ](enju_install_vm_4.html#section4-5-rc7)）
+   * ポート番号：22　（デフォルトのポート番号）
 
 ## Q. http://localhost:8080 にアクセスしたらすでに使われています？といったエラーがでて起動できません。
 
