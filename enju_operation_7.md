@@ -75,6 +75,9 @@ Enjuでは、図書館で行われるさまざまな催し物を登録し、カ�
 
 ![催し物登録](assets/images/image_operation_event_other_new_success.png)
 
+<div class="alert alert-info memo">【Memo】催し物の種別を追加する方法は初期設定マニュアル「<a href="enju_setup_3.html#section3-8">3-8 催し物の種類を設定する</a>」をご覧ください。
+</div>
+
 ### 7-2-2 催し物のデータをインポートする {#section7-2-2}
 
 既存のデータファイルを指定して読み込む「インポート」を行うと，一度に複数のデータを登録することができます。インポートするには，あらかじめデータファイルをTSV形式で作成しておきます。
