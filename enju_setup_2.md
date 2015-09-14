@@ -103,7 +103,7 @@ Enjuを利用するには，まずシステムにログインします。
 
 ![アカウントの編集](assets/images/image_initial_073.png)
 
-#### 4. ［更新する］ボタンを押します。  
+#### 4. ［更新］ボタンを押します。  
 
 ![アカウントの編集](assets/images/image_initial_073_2.png)
 
