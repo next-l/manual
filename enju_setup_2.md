@@ -95,7 +95,7 @@ Enjuを利用するには，まずシステムにログインします。
 
 ![Enjuアカウント](assets/images/image_initial_070.png)
 
-#### 2. ［編集］をクリックします。  
+#### 2. 右メニューの［パスワード変更］をクリックします。  
 
 ![アカウントの編集](assets/images/image_initial_072.png)
 
