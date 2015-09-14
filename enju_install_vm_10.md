@@ -44,7 +44,7 @@ group: enju_install_vm
 	export http_proxy=http://proxy.example.com:8080
 	export https_proxy=$http_proxy
 
-#### 4. ~/.gitconfig（無ければこのファイルを作成する） に以下を記入してください。gitでプロキシを使用するための設定です。
+#### 4. ~/.gitconfig（無ければこのファイルを作成する） に以下を記入してください。プロキシのホスト名とポートは適宜変更してください。gitでプロキシを使用するための設定です。
 
 	[https]
 		proxy = http://proxy.example.com:8080
