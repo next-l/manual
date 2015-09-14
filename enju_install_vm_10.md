@@ -34,12 +34,17 @@ group: enju_install_vm
 
 #### 1. https へのアクセスは可能である必要があります。
 
-#### 2. ~/.profileに以下の2行を追加してください。プロキシのホスト名とポートは適宜変更してください。rubygems.orgからgemを取得したり、EnjuがNDLサーチ検索など外部のサービスにアクセスするための設定です。
+#### 2. ~/enju/.envに以下の2行を追加してください。プロキシのホスト名とポートは適宜変更してください。EnjuがNDLサーチ検索など外部のサービスにアクセスするための設定です。
 
 	export http_proxy=http://proxy.example.com:8080
 	export https_proxy=$http_proxy
 
-#### 3. ~/.gitconfig（無ければこのファイルを作成する） に以下を記入してください。gitでプロキシを使用するための設定です。
+#### 3. ~/.profileに以下の2行を追加してください。プロキシのホスト名とポートは適宜変更してください。rubygems.orgからgemを取得するための設定です。
+
+	export http_proxy=http://proxy.example.com:8080
+	export https_proxy=$http_proxy
+
+#### 4. ~/.gitconfig（無ければこのファイルを作成する） に以下を記入してください。プロキシのホスト名とポートは適宜変更してください。gitでプロキシを使用するための設定です。
 
 	[https]
 		proxy = http://proxy.example.com:8080
@@ -48,9 +53,9 @@ group: enju_install_vm
 	[url "https://"]
 		insteadOf = git://
 
-#### 4. ログアウトしてログインしなおしてください
+#### 5. ログアウトしてログインしなおしてください
 
-#### 5. Enjuを再起動してください（--> [詳細へ](enju_install_vm_7.html#section7-3)）
+#### 6. Enjuを再起動してください（--> [詳細へ](enju_install_vm_7.html#section7-3)）
 
 <div class="alert alert-info memo">
 【Memo】バージョン1.1.0rc15現在、認証機能付きプロキシ設定には対応していません。
