@@ -103,6 +103,9 @@ Enjuへの雑誌登録を行う際はこれらの基本的な仕組みを理解�
 5-3 TSVファイルを読み込んで登録する
 ------------------------------
 
+<div class="alert alert-warning memo">【Memo】Next-L Enju Leaf 1.1.0 現在、雑誌情報のTSVファイルを通じたインポート機能は未実装です(開発予定はあります）。
+</div>
+
 #### 1. 「4-2 図書を登録する」の「[4-2-1 TSVファイルを読み込んで登録する](enju_operation_4.html#section4-2-1)」の手順に従い、TSVファイルを使った一括インポートを行います。
 
 <div class="alert alert-success memo" markdown="1">
