@@ -49,6 +49,9 @@ Enjuでは、図書館の休館日を登録することができます。
 
 ![休館日登録](assets/images/image_operation_event_new_success.png)
 
+<div class="alert alert-info memo">【Memo】休館日を登録しておくことにより、資料を貸し出す際の返却日を1日ずらすよう設定できます。設定方法は初期設定マニュアル「<a href="enju_setup_3.html#section3-6">3-6 利用者グループと貸出区分の関係を設定する</a>」をご覧ください。
+</div>
+
 7-2 催し物を登録する {#section7-2}
 ----------------------------------
 
