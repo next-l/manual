@@ -340,7 +340,7 @@ Enjuでは、返却資料を受け付けられると同時に、予約の入っ�
 
 ### 6-3-5 利用者に予約資料の到着を連絡する {#section6-3-5}
 
-<div class="alert alert-info memo">【Memo】Next-L Enju Leaf 1.1.0.rc9 以前のバージョンではこの機能は未実装です(開発予定はあります）。
+<div class="alert alert-info memo">【Memo】Next-L Enju Leaf 1.1.0 現在、この機能は未実装です(開発予定はあります）。
 </div>
 
 #### 1. その日に返却された予約資料の一覧を表示します。
@@ -371,7 +371,7 @@ Enjuでは、返却資料を受け付けられると同時に、予約の入っ�
 
 資料の返却が遅れているユーザを一覧表示し、メールや電話で督促の連絡をすることができます。
 
-<div class="alert alert-info memo">【Memo】Next-L Enju Leaf 1.1.0.rc9 以前のバージョ>ンではメールの督促を送る機能は未実装です(開発予定はあります）。
+<div class="alert alert-info memo">【Memo】Next-L Enju Leaf 1.1.0 現在、メールの督促を送る機能は未実装です(開発予定はあります）。
 </div>
 
 #### 1. ［貸出・返却・予約］メニューから［貸出履歴］をクリックします。  
