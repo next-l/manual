@@ -34,6 +34,11 @@ group: enju_install_vm
 
 #### 1. https へのアクセスは可能である必要があります。
 
+#### 2. ~/enju/.envに以下の2行を追加してください。プロキシのホスト名とポートは適宜変更してください。EnjuがNDLサーチ検索など外部のサービスにアクセスするための設定です。
+
+	export http_proxy=http://proxy.example.com:8080
+	export https_proxy=$http_proxy
+
 #### 2. ~/.profileに以下の2行を追加してください。プロキシのホスト名とポートは適宜変更してください。rubygems.orgからgemを取得したり、EnjuがNDLサーチ検索など外部のサービスにアクセスするための設定です。
 
 	export http_proxy=http://proxy.example.com:8080
