@@ -467,12 +467,12 @@ Enjuのサーバーの設定が必要です。1回だけ必要です。
     
 として、Gemfile の最後に以下の行を追加
 
-   gem "fix_microsoft_links"
+    gem "fix_microsoft_links"
 
 ファイルを保存
 
-   $ bundle update
-   $ sudo restart enju_leaf
+    $ bundle update
+    $ sudo restart enju_leaf
 
 として、Enjuを再起動。
 
