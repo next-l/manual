@@ -166,9 +166,13 @@ Enjuのメッセージ機能を利用して，利用者にメッセージを送�
 
 ![メッセージの選択](assets/images/image_initial_010.png)
 
-#### 4. メッセージの内容が表示されます。返信したい場合は，右メニューの［メッセージに返信する］をクリックします。
+#### 4. メッセージの内容が表示されます。
 
 ![メッセージの表示](assets/images/image_initial_011.png)
+
+<div class="alert alert-info memo">
+【Memo】User権限のユーザーからLibrarian権限のユーザーやAdministrator権限のユーザーへメッセージを返信する機能はありません。
+</div>
 
 ### 2-3-3 メッセージを削除する {#section2-3-3}
 
