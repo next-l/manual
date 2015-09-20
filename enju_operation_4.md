@@ -203,7 +203,7 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 
 ![NDLサーチ検索の検索](assets/images/image_operation_107_ndl.png)
 
-#### 3. 登録したいの[追加]をクリックします
+#### 3. 登録したい資料の[追加]をクリックします
 
 ![資料の追加](assets/images/image_operation_108_ndl.png)
 
