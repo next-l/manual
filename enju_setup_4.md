@@ -127,7 +127,7 @@ Enjuの利用を始めるにあたり，資料の主題情報を扱う件名と�
 
 ![件名標目の種類の新規作成](assets/images/image_initial_052.png)  
 
-<div class="alert alert-info memo">
+<div class="alert alert-info memo" markdown="1">
 【Memo】入力済みの設定内容を変更する場合は［編集］を，削除する場合は［削除］をクリックします。  
 一覧の表示順序を変更するには，表の1列目に表示されている↑または↓をクリックして行を入れ替えます。
 「[4-1 件名を設定する](#section4-1)」際や、「[運用マニュアル 4-2-6 手動で資料を登録する](enju_operation_4.html#section4-2-6)」際などに表示される件名標目の種類のメニューの順序も同期して変わります。
