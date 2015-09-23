@@ -155,7 +155,7 @@ Enjuの利用を始めるにあたり，形態・状態等に関するシステ�
 
 #### 2. ［貸出状態］をクリックします。  
 
-![分類型の設定](assets/images/image_initial_058_0.png)
+![貸出状態の設定](assets/images/image_initial_058_0.png)
 
 #### 3. 設定したい項目の［編集］をクリックします。  
 
