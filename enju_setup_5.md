@@ -125,7 +125,7 @@ Enjuの利用を始めるにあたり，形態・状態等に関するシステ�
 ![資料の内容の種別の設定](assets/images/image_content_type_1.png)
 
 <div class="alert alert-info memo" markdown="1">
-【Memo】登録済みの資料の種別を修正したい場合は[編集]リンクをクリックします。順序を変更したい場合は、最左列の ![上矢印](assets/images/arrow_up.png) や ![下矢印](assets/images/arrow_down.png) をクリックすることで変更できます。
+【Memo】登録済みの資料の種別を修正したい場合は[編集]リンクをクリックします。削除したい場合は、[削除]リンクをクリックします。ただし、関連する書誌レコードがあるものについては[削除]リンクは表示されず、削除できません。順序を変更したい場合は、最左列の ![上矢印](assets/images/arrow_up.png) や ![下矢印](assets/images/arrow_down.png) をクリックすることで変更できます。
 </div>
 
 #### 4. 設定項目に必要事項を入力し、［登録する］ボタンをクリックして，設定内容を登録します。
