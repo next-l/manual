@@ -266,7 +266,7 @@ Enjuの利用を始めるにあたり，形態・状態等に関するシステ�
 
 ![発行頻度の更新](assets/images/image_initial_065.png)  
 
-<div class="alert alert-info memo">【Memo】設定のない発行頻度は，［Other］を利用します。</div>
+<div class="alert alert-info memo">【Memo】発行頻度が指定されない場合は，［unknown］が設定されます。</div>
 
 5-7 資料の関係の種類を作成する {#section5-7}
 --------------------------------------------
