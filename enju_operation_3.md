@@ -152,11 +152,11 @@ TSVファイルとは、項目をタブで区切ったテキストファイル�
 <td>未設定</td>
 </tr>
 <tr>
-<td>save_search_history</td><td>ascii</td><td>資料の検索履歴をデータベースに保存するかどうか。t または　TRUE または trueなら真（保存にする）。</td>
+<td>save_search_history</td><td>ascii</td><td>資料の検索履歴をデータベースに保存するかどうか。t または　TRUE または trueなら真（保存にする）。 ※4</td>
 <td>FALSE</td>
 </tr>
 <tr>
-<td>share_bookmarks</td><td>ascii</td><td>ブックマークが他のユーザから参照できるかどうか。t または　TRUE または trueなら真（参照可にする）。</td>
+<td>share_bookmarks</td><td>ascii</td><td>ブックマークが他のユーザから参照できるかどうか。t または　TRUE または trueなら真（参照可にする）。※5</td>
 <td>FALSE</td>
 </tr>
 <tr>
@@ -184,6 +184,10 @@ TSVファイルとは、項目をタブで区切ったテキストファイル�
 
 ※3　環境によっては異なることがあります。
 一度ダミーのデータを登録してみてお確かめください。
+
+※4 注意：[モジュール enju_search_log をインストールした場合](enju_install_vm_5.html#section5-6)にのみ出力されます。
+
+※5 注意：[モジュール enju_bookmark をインストールした場合](enju_install_vm_5.html#section5-5)にのみ出力されます。
 
 {::comment}
 ### ■個人情報に関わる項目
