@@ -170,6 +170,17 @@ group: enju_install_vm
 
 #### 7. 「[7-3 Enjuを再起動](enju_install_vm_7.html#section7-3)」を実行します。
 
+5-6 [enju_search_log]モジュール（検索履歴機能） {#section5-6}
+---------------------------------------------------------------
+
+(現在、準備中）
+
+<div class="alert alert-info memo" markdown="1">
+【Memo】このモジュールは現在、開発中です。
+</div>
+
+
+
 （その他のモジュールについては、後日公開します。）
 
 {% include enju_install_vm/toc.md %}
