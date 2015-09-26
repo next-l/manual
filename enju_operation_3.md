@@ -473,7 +473,7 @@ Enjuのサーバーの設定が必要です。1回だけ必要です。
 3-9 利用者のエクスポートをする {#section3-9}
 -------------------------------------------------
 
-Administrator権限でログインしている場合は、
+Administrator権限のユーザーでログインしている場合は、
 登録されている全ての利用者情報をTSVとしてエクスポートすることができます。
 
 #### 1. ［図書館の管理］メニューから［エクスポート］を選択します。  
@@ -505,5 +505,31 @@ Administrator権限でログインしている場合は、
 #### 7. ファイル名のリンクから作成されたTSVファイルをダウンロードすることができます。
 
 ![エクスポートファイルのダウンロード](assets/images/image_operation_export_user_6.png)
+
+<div class="alert alert-success memo" markdown="1">
+<h4 class="alert-heading">【Column】TSVファイル</h4>
+
+次の項目が入っています(Enju Leaf 1.1.0)。
+
+* username
+* full_name
+* full_name_transcription
+* email
+* user_number
+* role
+* user_group
+* library
+* locale
+* locked
+* required_role
+* created_at
+* updated_at
+* expired_at
+* keyword_list
+* note
+* checkout_icalendar_token
+* save_checkout_history
+
+</div>
 
 {% include enju_operation/toc.md %}
