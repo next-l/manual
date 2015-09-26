@@ -470,4 +470,40 @@ Enjuのサーバーの設定が必要です。1回だけ必要です。
 
 として、Enjuを再起動。
 
+3-9 利用者のエクスポートをする {#section3-9}
+-------------------------------------------------
+
+Administrator権限でログインしている場合は、
+登録されている全ての利用者情報をTSVとしてエクスポートすることができます。
+
+#### 1. ［図書館の管理］メニューから［エクスポート］を選択します。  
+
+![エクスポート](assets/images/image_operation_export.png)
+
+#### 2. [利用者情報のエクスポート]リンクをクリックします。
+
+![利用者情報のエクスポート](assets/images/image_operation_export_user_1.png)
+
+#### 3. 右メニューの[利用者情報のエクスポートの新規作成]リンクをクリックします。
+
+![利用者情報のエクスポートの新規作成](assets/images/image_operation_export_user_2.png)
+
+#### 4. [エクスポート]ボタンをクリックします。
+
+![エクスポート](assets/images/image_operation_export_user_3.png)
+
+#### 5. 「利用者情報のエクスポート処理は正常に作成されました」のメッセージが表示され、利用者情報のデータエクスポートの準備が整いました。右の[利用者情報蔵のエクスポートの一覧]をクリックします。 
+
+![エクスポートの表示](assets/images/image_operation_export_user_4.png)
+
+#### 6. 今までのエクスポート結果の一覧が表示されます。[状態]を見ると処理結果がわかります。エクスポートが完了したものは[完了]と表示されます。[開始]のものは現在、実行中です。エクスポート完了時には[メッセージ機能](enju_operation_2.html#section2-3)にてお知らせします（「エクスポートが完了しました」というメッセージが送られてきます）。
+
+![エクスポート結果の一覧表示](assets/images/image_operation_export_user_5.png)
+
+<div class="alert alert-info memo">【Memo】この画面は[図書館の管理]メニュー->[エクスポート]->[利用者情報のエクスポート]とすればいつでも閲覧できます。</div> 
+
+#### 7. ファイル名のリンクから作成されたTSVファイルをダウンロードすることができます。
+
+![エクスポートファイルのダウンロード](assets/images/image_operation_export_user_6.png)
+
 {% include enju_operation/toc.md %}
