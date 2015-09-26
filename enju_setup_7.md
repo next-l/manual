@@ -26,6 +26,11 @@ group: enju_setup
 
 #### 3. システムの基本的な情報を確認できます。
 
+* Ruby： Ruby のバージョンが表示されます。（例： ruby 2.2.2p95 (2015-04-13 revision 50295) [x86_64-linux-gnu])
+* Environment: システムの環境が表示されます（例：production）
+* Gems：Enju の詳細なバージョン等が表示されます（例：enju_leaf: 1.1.0.rc21，enju_circulation: 0.1.0.pre48）
+* Languages：使用言語が表示されます（例：ja: 日本語 (既定の言語)）
+
 ![システムの基本的な情報の表示結果](assets/images/image_initial_systemdisp03.png)
 
 7-2 非同期処理の状態確認機能（Resque） {#section7-2}
