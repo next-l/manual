@@ -121,7 +121,7 @@ TSVファイルとは、項目をタブで区切ったテキストファイル�
 <td>user_group</td><td>code</td><td>利用者グループ※1</td><td>インポート時に「既定の利用者グループ」として指定した利用者グループ</td>
 </tr>
 <tr>
-<td>locale</td><td>code</td><td>（使用）言語(日本語の場合：ja,　英語の場合：en) ※2</td><td>ja ※3</td>
+<td>locale</td><td>code</td><td>（使用）言語(日本語の場合：ja,　英語の場合：en) ※2</td><td>ja</td>
 </tr>
 <tr>
 <td>role</td><td>code</td><td>権限（Guest, User, Librarian, Administrator ）</td>
@@ -152,11 +152,11 @@ TSVファイルとは、項目をタブで区切ったテキストファイル�
 <td>未設定</td>
 </tr>
 <tr>
-<td>save_search_history</td><td>ascii</td><td>資料の検索履歴をデータベースに保存するかどうか。t または　TRUE または trueなら真（保存にする）。 ※4</td>
+<td>save_search_history</td><td>ascii</td><td>資料の検索履歴をデータベースに保存するかどうか。t または　TRUE または trueなら真（保存にする）。 ※3</td>
 <td>FALSE</td>
 </tr>
 <tr>
-<td>share_bookmarks</td><td>ascii</td><td>ブックマークが他のユーザから参照できるかどうか。t または　TRUE または trueなら真（参照可にする）。※5</td>
+<td>share_bookmarks</td><td>ascii</td><td>ブックマークが他のユーザから参照できるかどうか。t または　TRUE または trueなら真（参照可にする）。※4</td>
 <td>FALSE</td>
 </tr>
 <tr>
@@ -175,12 +175,9 @@ TSVファイルとは、項目をタブで区切ったテキストファイル�
 ※2 環境によっては異なることがあります。
 使用できるものに何があるかは，[「初期設定マニュアル  7-1 システムの基本的な情報の表示」](enju_setup_7.html#section7-1)機能でわかります。
 
-※3　環境によっては異なることがあります。
-一度ダミーのデータを登録してみてお確かめください。
+※3 注意：[モジュール enju_search_log をインストールした場合](enju_install_vm_5.html#section5-6)にのみ出力されます。
 
-※4 注意：[モジュール enju_search_log をインストールした場合](enju_install_vm_5.html#section5-6)にのみ出力されます。
-
-※5 注意：[モジュール enju_bookmark をインストールした場合](enju_install_vm_5.html#section5-5)にのみ出力されます。
+※4 注意：[モジュール enju_bookmark をインストールした場合](enju_install_vm_5.html#section5-5)にのみ出力されます。
 
 {::comment}
 ### ■個人情報に関わる項目
