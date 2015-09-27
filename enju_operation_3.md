@@ -174,7 +174,7 @@ TSVファイルとは、項目をタブで区切ったテキストファイル�
 ※2 環境によっては異なることがあります。
 使用できるものに何があるかは，[「初期設定マニュアル  7-1 システムの基本的な情報の表示」](enju_setup_7.html#section7-1)機能でわかります。
 
-※3 注意：[モジュール enju_search_log をインストールした場合](enju_install_vm_5.html#section5-6)にのみ出力されます。
+※3 注意：[モジュール enju_search_log をインストールした場合](enju_install_vm_5.html#section5-6)にのみ使用できます。インストールしていない場合は、無視されます。
 
 ※4 注意：[モジュール enju_bookmark をインストールした場合](enju_install_vm_5.html#section5-5)にのみ使用できます。インストールしていない場合は、無視されます。
 
