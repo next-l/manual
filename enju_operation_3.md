@@ -176,7 +176,7 @@ TSVファイルとは、項目をタブで区切ったテキストファイル�
 
 ※3 注意：[モジュール enju_search_log をインストールした場合](enju_install_vm_5.html#section5-6)にのみ出力されます。
 
-※4 注意：[モジュール enju_bookmark をインストールした場合](enju_install_vm_5.html#section5-5)にのみ出力されます。
+※4 注意：[モジュール enju_bookmark をインストールした場合](enju_install_vm_5.html#section5-5)にのみ使用できます。インストールしていない場合は、無視されます。
 
 {::comment}
 ### ■個人情報に関わる項目
