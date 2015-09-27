@@ -162,7 +162,10 @@ Enjuの利用を始めるにあたり，資料の主題情報を扱う件名と�
 
 ![分類の新規作成](assets/images/image_initial_054.png)  
 
-<div class="alert alert-info memo">【Memo】入力済みの設定内容を変更する場合は［編集］を，削除する場合は［削除］をクリックします。</div>
+<div class="alert alert-info memo" markdown="1">【Memo】入力済みの設定内容を変更する場合は［編集］を，削除する場合は［削除］をクリックします。
+
+注意：Enju Leaf 1.1.0 時点では、同じ分類記号のものが複数登録されてしまうバグがあります。参照：[issue #758](https://github.com/next-l/enju_leaf/issues/758)。
+</div>
 
 #### 4. 設定項目に必要事項を入力し、［登録する］ボタンをクリックして，設定内容を登録します。  
 
