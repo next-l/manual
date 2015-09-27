@@ -280,7 +280,27 @@ CiNii Books（<http://ci.nii.ac.jp/books/>）を検索した資料を
 
 ### 4-2-8 図書の書誌を編集（修正）する {#section4-2-8}
 
-（準備中）
+#### 1. 書誌を編集したい本の名前を検索語に入力し、［検索］をクリックします。  
+
+![検索](assets/images/image_operation_bib_ed_1.png)
+
+#### 2. 書誌を編集したい本が検索されたら、［編集］をクリックします。  
+
+![編集](assets/images/image_operation_bib_ed_2.png)
+
+<div class="alert alert-success memo" markdown="1">
+【Memo】ここで、本のタイトルのリンクをたどり、その先の資料の表示画面の右メニュー[編集]をクリックすることでも編集画面に移動します。
+
+![編集](assets/images/image_operation_bib_ed_3.png)
+</div>
+
+#### 3. 編集をし、［更新する］ボタンをクリックします。  
+
+![更新する](assets/images/image_operation_bib_ed_4.png)
+
+#### 4. 「資料は正常に更新されました。」と表示され、書誌が更新されます。
+
+![更新されました](assets/images/image_operation_bib_ed_5.png)
 
 <div class="alert alert-success memo" markdown="1">
 <h4 class="alert-heading">【Column】TSVファイルの作り方</h4>
