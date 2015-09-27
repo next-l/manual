@@ -665,7 +665,7 @@ CiNii Books（<http://ci.nii.ac.jp/books/>）を検索した資料を
 
 ##### frequency {#tsv_frequency}
 
-「発行頻度」の[名前]を値とします(例："daily", "monthly"など）。見方については、[設定マニュアル 5-6 発行頻度を編集する](enju_setup_5.html#section5-6) を参照してください。未入力の場合は"unknown"が設定されます。
+「発行頻度」の[名前]を値とします(例："daily", "monthly"など）。見方については、[設定マニュアル 5-7 発行頻度を編集する](enju_setup_5.html#section5-7) を参照してください。未入力の場合は"unknown"が設定されます。
 
 
 ##### language {#tsv_language}
