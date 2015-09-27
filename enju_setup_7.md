@@ -44,11 +44,19 @@ group: enju_setup
 
 #### 2. システムの[Resque]リンクをたどります。
 
-![システムの設定](assets/images/image_initial_resque.png)
+![Resqueリンク](assets/images/image_initial_resque.png)
 
-#### 3. Resque の画面で非同期処理の状態を確認できます。
+#### 3. Resque の画面で非同期処理の状態を確認できます。エラーを確認するには[failed]リンクをたどります。
 
-![システムの設定](assets/images/image_initial_resque2.png)
+![failedリンク](assets/images/image_initial_resque2.png)
+
+#### 4. 詳細なエラーを確認するために、閲覧したいエラーのリンクをたどります。
+
+![詳細なエラーへのリンク](assets/images/image_initial_resque_3.png)
+
+#### 5. 詳細なエラーが表示されます。
+
+![詳細なエラー](assets/images/image_initial_resque_4.png)
 
 7-3 運用マニュアルにおいて説明する機能 {#section7-3}
 ----------------------------------------------------
