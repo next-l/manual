@@ -278,6 +278,10 @@ CiNii Books（<http://ci.nii.ac.jp/books/>）を検索した資料を
 
 ![原題のほか必要な項目を入力し登録](assets/images/image_operation_100_2.png)
 
+### 4-2-8 図書の書誌を編集（修正）する {#section4-2-8}
+
+（準備中）
+
 <div class="alert alert-success memo" markdown="1">
 <h4 class="alert-heading">【Column】TSVファイルの作り方</h4>
 1行目に、それぞれの項目に関わるフィールド名を指定します。
