@@ -171,7 +171,4 @@ Enjuのメッセージ機能を利用して、利用者にメッセージを送�
 
 ![メッセージ削除](assets/images/image_operation_027.png)
 
-<div class="alert alert-info">【Memo】削除できるのは自分宛のメッセージだけです。削除可能なメッセージにのみ、チェックボックスが表示されます。
-</div>
-
 {% include enju_operation/toc.md %}
