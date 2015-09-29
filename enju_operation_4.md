@@ -340,8 +340,8 @@ CiNii Books（<http://ci.nii.ac.jp/books/>）を検索した資料を
 </tr>
 <tr>
 	<td>manifestation_identifier</td>
-	<td>書誌ID</td>
-	<td>文字列、インポート時に付与する書誌に対する任意の識別子 <!--（#issue338）--></td>
+	<td>ローカル識別子</td>
+	<td>文字列、インポート時に付与する書誌に対する任意の識別子 <!--（#issue372）--></td>
 	<td>999001</td>
 </tr>
 <tr>
