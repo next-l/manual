@@ -1329,7 +1329,7 @@ Enjuでは、画像（図書の表紙など）を登録し、資料に関連づ�
 <div class="alert alert-success memo" markdown="1">
 <h4 class="alert-heading">【Column】TSVファイル</h4>
 
-次の項目が入っています(Enju Leaf 1.1.0.rc13)。
+次の項目が入っています(Enju Leaf 1.1.0)。
 
 * manifestation_id: 書誌ID
 * original_title: 原題
@@ -1338,7 +1338,6 @@ Enjuでは、画像（図書の表紙など）を登録し、資料に関連づ�
 * pub_date: 出版日
 * price: 価格
 * isbn： ISBN
-* ncid： NCID
 * item_identifier: 所蔵情報ID
 * call_number: 請求記号
 * item_price: 購入価格
@@ -1349,6 +1348,10 @@ Enjuでは、画像（図書の表紙など）を登録し、資料に関連づ�
 * shelf: 本棚
 * library: 図書館
 
+その他、書誌に登録されている識別子
+（[「識別子の種類」](enju_setup_6.html#section6-1)の一覧で、
+[削除]リンクがでていないもの（例：jpno,ncid））、
+は全て出力されます。
 </div>
 
 4-9 人物・団体情報を登録する {#section4-9}
