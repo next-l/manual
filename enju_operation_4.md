@@ -1338,6 +1338,7 @@ Enjuでは、画像（図書の表紙など）を登録し、資料に関連づ�
 * pub_date: 出版日
 * price: 価格
 * isbn： ISBN
+* ncid： NCID
 * item_identifier: 所蔵情報ID
 * call_number: 請求記号
 * item_price: 購入価格
