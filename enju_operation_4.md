@@ -144,11 +144,14 @@ NDLサーチを検索して1件ずつ登録する
 【Memo】
 [編集]モードで［更新］を選択すると、
 TSVファイルで資料の情報をまとめて更新できます。
-TSVファイルを利用する場合は、更新したい資料の個別資料番号（item_identifier）
+TSVファイルを利用する場合は、
+更新したい資料のManifestaion ID(manifestation_id)か、
+ローカル識別子（manifestation_identifier）
 と更新したいフィールドの内容が記述されたファイルを準備しておきます。
 また、［削除］を選択すると、TSVファイルで資料の情報をまとめて削除できます。
 TSVファイルを利用して資料の情報を削除する場合は、
-削除したい資料の個別資料番号（item_identifier）
+削除したい資料のManifestaion ID(manifestation_id)か、
+ローカル識別子（manifestation_identifier）
 のみ記述されたファイルを準備しておきます。
 [関連を更新]とするとxxxxxxxxxxxとなります。
 </div>
