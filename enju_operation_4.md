@@ -887,7 +887,7 @@ YAML形式で記述します。具体的には以下のように記述します�
 
 #### 1. TSVファイルを用意します。
 
-例えば、ISBN と　所蔵情報（所蔵情報のTSVの詳細：[4-3-5 TSVファイルの作り方（所蔵情報）](#section4-3-5) ）を書いたTSVを用意します。
+例えば、ISBN と　所蔵情報（所蔵情報のTSVの詳細：[4-3-5 TSVファイルの作り方（所蔵情報）](#section4-3-7) ）を書いたTSVを用意します。
 
 ![所蔵情報の一覧](assets/images/image_operation_item_tsv.png)
 
@@ -907,7 +907,7 @@ ISBNの代わりに、manifestation_idやmanifestation_identifierでも可能で
 1行目に、それぞれの項目に関わるフィールド名を指定します。
 フィールド名とその意味については次の通りです。
 
-### 4-3-5 TSVファイルの作り方（所蔵情報） {#section4-3-5}
+### 4-3-7 TSVファイルの作り方（所蔵情報） {#section4-3-5}
 
 <table class="table table-bordered table-condensed table-striped">
 <caption>所蔵情報のフィールド項目名と対応する内容</caption>
