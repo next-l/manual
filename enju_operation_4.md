@@ -907,6 +907,18 @@ ISBNの代わりに、manifestation_idやmanifestation_identifierでも可能で
 「[4-2-1 TSVファイルを読み込んで登録する](#section4-2-1)」の 3. の時に、
 [削除]を選ぶと所蔵情報が削除できます。
 
+### 4-3-6 TSVファイルを読み込んで所蔵情報を他の書誌につけかえる {#section4-3-6}
+
+間違えて、他の書誌に所蔵情報をつけてしまったときなどに使います。
+
+item_identifier と、
+つけ替えたい書誌のmanifestation_id もしくは、manifestation_identifier 
+のみが記述されたファイルを作成します。
+
+「[4-2-1 TSVファイルを読み込んで登録する](#section4-2-1)」の 
+ 1. 以降と同じ手順を実行し、3. の時に、
+[関連を更新する]を選ぶと所蔵情報を指定した書誌に付け替えることができます。
+
 <div class="alert alert-success memo" markdown="1">
 <h4 class="alert-heading">【Column】TSVファイルの作り方</h4>
 1行目に、それぞれの項目に関わるフィールド名を指定します。
