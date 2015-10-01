@@ -901,12 +901,21 @@ ISBNの代わりに、manifestation_idやmanifestation_identifierでも可能で
 
 #### 2. 「[4-2-1 TSVファイルを読み込んで登録する](#section4-2-1)」の 1. 以降と同じ手順を実行し、所蔵情報を登録できます。
 
+### 4-3-5 TSVファイルを読み込んで更新する {#section4-3-5}
+
+更新したい所蔵情報の 所蔵情報ID（item_identifier） とともに、
+更新したいフィールドの内容が記述されたファイルを作成します。
+「[4-2-1 TSVファイルを読み込んで登録する](#section4-2-1)」の 
+1. 以降と同じ手順を実行し、3. の時に、
+[更新]を選ぶと所蔵情報が更新できます。
+
 ### 4-3-6 TSVファイルを読み込んで所蔵情報を他の書誌につけかえる {#section4-3-6}
 
 間違えて、他の書誌に所蔵情報をつけてしまったときなどに使います。
 
-item_identifier と、
-つけ替えたい書誌のmanifestation_id もしくは、manifestation_identifier 
+所蔵情報ID（item_identifier） と、
+つけ替えたい書誌のManifestation ID（manifestation_id） もしくは、
+ローカル識別子（manifestation_identifier） 
 のみが記述されたファイルを作成します。
 
 「[4-2-1 TSVファイルを読み込んで登録する](#section4-2-1)」の 
@@ -915,7 +924,7 @@ item_identifier と、
 
 ### 4-3-7 TSVファイルを読み込んで削除する {#section4-3-7}
 
-削除したい item_identifier のみが記述されたファイルを作成します。
+削除したい 所蔵情報ID（item_identifier） のみが記述されたファイルを作成します。
 「[4-2-1 TSVファイルを読み込んで登録する](#section4-2-1)」の 
 1. 以降と同じ手順を実行し、3. の時に、
 [削除]を選ぶと所蔵情報が削除できます。
