@@ -901,6 +901,11 @@ ISBNの代わりに、manifestation_idやmanifestation_identifierでも可能で
 
 #### 2. 「[4-2-1 TSVファイルを読み込んで登録する](#section4-2-1)」の 1. 以降と同じ手順を実行し、所蔵情報を登録できます。
 
+### 4-3-5 TSVファイルを読み込んで削除する {#section4-3-5}
+
+削除したい item_identifier のみが記述されたファイルを作成し、
+「[4-2-1 TSVファイルを読み込んで登録する](#section4-2-1)」の 3. の時に、
+[削除]を選ぶと所蔵情報が削除できます。
 
 <div class="alert alert-success memo" markdown="1">
 <h4 class="alert-heading">【Column】TSVファイルの作り方</h4>
