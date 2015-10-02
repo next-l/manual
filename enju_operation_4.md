@@ -1369,7 +1369,7 @@ Enjuでは、画像（図書の表紙など）を登録し、資料に関連づ�
 * creator: 著者
 * publisher: 出版者
 * pub_date: 出版日
-* price: 価格
+* manifestation_price: 価格
 * isbn： ISBN
 * item_identifier: 所蔵情報ID
 * call_number: 請求記号
