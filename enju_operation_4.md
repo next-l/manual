@@ -591,6 +591,12 @@ CiNii Books（<http://ci.nii.ac.jp/books/>）を検索した資料を
         <td>10.2964/jsik.23_219</td>
 </tr>
 <tr>
+	<td>ncid</td>
+	<td>NCID</td>
+	<td>半角文字のみ. NCID(NACSIS-CAT ID，NII書誌ID)</td>
+	<td>BA84620103</td>
+</tr>
+<tr>
 	<td>subject</td>
 	<td>件名</td>
 	<td>文字列<a href="#tsv_subject">（特定書式：別記）</a></td>
