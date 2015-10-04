@@ -251,6 +251,13 @@ ISBNコードから国立国会図書館のデータを参照して、資料を�
 ![登録完了](assets/images/image_operation_109.png)
 
 <div class="alert alert-info memo" markdown="1">
+【Memo】
+右メニューの[所蔵を編集]の右の[ (新規作成)]リンクをたどることで，
+続けて所蔵情報を登録することができます。
+詳細は [「所蔵情報を新規登録する」](#section4-3-1)を参照ください。
+</div>
+
+<div class="alert alert-info memo" markdown="1">
 【Memo】過去のISBNレコードの登録の成否を確認する方法を紹介します。
 
 その場で、画面上で判明することですので、必要になることは基本的にはありません。
