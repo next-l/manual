@@ -327,7 +327,7 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 
 ![米国議会図書館検索によるインポート](assets/images/image_operation_loc_1.png)
 
-#### 2. 以降は、[4-2-4 NDLサーチを検索して1件ずつ登録する](#section4-2-4) の 2 ～ 4の手順と同様です。
+#### 2. 以降は、[4-2-4 NDLサーチを検索して1件ずつ登録する](#section4-2-4) の 2. 以降の手順と同様です。
 
 ### 4-2-6 CiNii Booksを検索して1件ずつ登録する {#section4-2-6}
 
@@ -338,7 +338,7 @@ CiNii Books（<http://ci.nii.ac.jp/books/>）を検索した資料を
 
 ![CiNii Books検索によるインポート](assets/images/image_operation_nii_1.png)
 
-#### 2. 以降は、[4-2-4 NDLサーチを検索して1件ずつ登録する](#section4-2-4) の 2 ～ 4の手順と同様です。
+#### 2. 以降は、[4-2-4 NDLサーチを検索して1件ずつ登録する](#section4-2-4) の 2.以降の手順と同様です。
 
 ### 4-2-7 手動で資料を登録する {#section4-2-7}
 
