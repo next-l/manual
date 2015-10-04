@@ -310,6 +310,13 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 
 ![登録完了](assets/images/image_operation_109_ndl.png)
 
+<div class="alert alert-info memo" markdown="1">
+【Memo】
+右メニューの[所蔵を編集]の右の[ (新規作成)]リンクをたどることで，
+続けて所蔵情報を登録することができます。
+詳細は [「所蔵情報を新規登録する」](#section4-3-1)を参照ください。
+</div>
+
 ### 4-2-5 米国議会図書館を検索して1件ずつ登録する {#section4-2-5}
 
 米国議会図書館（<http://catalog.loc.gov/>）の蔵書を検索した資料を
