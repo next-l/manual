@@ -293,6 +293,10 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 
 ![資料の追加](assets/images/image_operation_108_ndl.png)
 
+<div class="alert alert-info memo">
+【Memo】原題のリンク先はNDLサーチの書誌詳細画面になっていますので、書誌詳細を確認できます。
+</div>
+
 <div class="alert alert-info memo" markdown="1">
 【Memo】
 500件以上ヒットした場合は、500件目以降のレコードを、インポートすることができません(参照：[Issue #624](https://github.com/next-l/enju_leaf/issues/624)）。
