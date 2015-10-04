@@ -280,6 +280,15 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 
 ![NDLサーチ検索の検索](assets/images/image_operation_107_ndl.png)
 
+<div class="alert alert-info memo">
+【Memo】
+多くヒットしてしまい選びにくいことが想定されますので、
+あらかじめ、NDLサーチ（国立国会図書館サーチ <http://iss.ndl.go.jp/>）
+のサービス上で検索して、
+当該資料の「JP番号」を調べておき、
+その「JP番号」を使うとよいでしょう。
+</div>
+
 #### 3. 登録したい資料の[追加]をクリックします
 
 ![資料の追加](assets/images/image_operation_108_ndl.png)
