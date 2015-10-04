@@ -250,7 +250,8 @@ ISBNコードから国立国会図書館のデータを参照して、資料を�
 
 ![登録完了](assets/images/image_operation_109.png)
 
-<div class="alert alert-info memo" markdown="1">【Memo】過去のISBNレコードの登録の成否を確認する方法を紹介します。
+<div class="alert alert-info memo" markdown="1">
+【Memo】過去のISBNレコードの登録の成否を確認する方法を紹介します。
 
 #### 4.  [資料の受入］メニューから［ISBNを入力する］を選択します。
 
