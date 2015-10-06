@@ -21,4 +21,8 @@ title: マニュアル一覧
 <a href="enju_user.html" class="btn btn-primary btn-large">利用者マニュアル</a>
 {% include enju_user/toc.md %}
 </div>
+<div class="span4">
+<a href="enju_webapi.html" class="btn btn-primary btn-large">Web APIマニュアル</a>
+{% include enju_webapi/toc.md %}
+</div>
 </div>
