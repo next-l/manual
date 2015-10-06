@@ -13,13 +13,13 @@ group: enju_webapi
 
 Enju は検索結果一覧を好みのフォーマットで取得する機能があります。
 
-* .xml
-* .json
 * .txt
-* .html
-* .sru
-* .mods
+* .json
 * .rdf
+* .xml
+* .mods
+* .sru
+* .html
 
 などを取得できます。
 
