@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Next-L Enju インストールマニュアル（VirtualBox編）
-title_short: インストールマニュアル
+title_short: インストール
 group: navigation
 ---
 

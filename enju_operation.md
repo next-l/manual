@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Next-L Enju 運用マニュアル
-title_short: 運用マニュアル
+title_short: 運用
 group: navigation
 ---
 本マニュアルは、オープンソース統合図書館システム　Enjuの運用について、説明しています。図書館員が、Enjuを使い、図書に関する各種の作業をするときにお読みください。
