@@ -1435,7 +1435,7 @@ Enjuでは、画像（図書の表紙など）を登録し、資料に関連づ�
 * call_number: 請求記号
 * item_price: 購入価格
 * acquired_at: 受入日
-*accepted_at: 検収日（エクスポートのみの項目）
+* accepted_at: 検収日（エクスポートのみの項目）
 * bookstore: 書店
 * budget_type: 予算種別
 * circulation_status: 貸出状態
