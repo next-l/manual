@@ -150,11 +150,19 @@ group: enju_user
 
 ![予約のTSV](assets/images/image_user_reserve_033.png)
 
-4-8 予約の一覧のRSSを取得する {#section4-8}
+4-8 予約の一覧のRSSを表示する {#section4-8}
 ----------------------------------------------------
 
-（準備中）
+#### 1. ［貸出と予約］メニューから［予約の一覧］を選択します。
 
+![予約の一覧](assets/images/image_user_reserve_011.png)
 
+#### 2. 右メニューの[RSS]をクリックします。
+
+![予約のRSSリンク](assets/images/image_user_reserve_035.png)
+
+#### 3. RSSが表示されます。
+
+![予約のTSV](assets/images/image_user_reserve_037.png)
 
 {% include enju_operation/toc.md %}
