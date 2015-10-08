@@ -1431,6 +1431,7 @@ Enjuでは、画像（図書の表紙など）を登録し、資料に関連づ�
 * manifestation_created_at: 書誌情報作成日（エクスポートのみの項目）
 * manifestation_updated_at: 書誌情報更新日（エクスポートのみの項目）
 * isbn： ISBN
+* item_id: 所蔵データID(自動付与）
 * item_identifier: 所蔵情報ID
 * call_number: 請求記号
 * item_price: 購入価格
