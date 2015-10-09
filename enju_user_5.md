@@ -54,7 +54,30 @@ group: enju_user
 5-2 貸出延長をする {#section5-2}
 --------------------------------
 
-（準備中です）
+#### 1. ［貸出と予約］メニューから［貸出履歴］を選択します。
+
+![貸出履歴](assets/images/image_user_checkouts.png)
+
+#### 2. 貸出履歴が表示されます。[貸出期間の延長]をクリックします。
+
+![貸出期間の延長リンク](assets/images/image_user_checkouts_009.png)
+
+#### 3. 新しい貸出期間を確認し、[更新する]をクリックします。
+
+![貸出期間の延長](assets/images/image_user_checkouts_011.png)
+
+<div class="alert alert-info memo" markdown="1">
+【Memo】
+
+* すでに貸出期間が過ぎている資料の場合
+* 予約が入っている資料の場合
+
+は、次のような画面が出て、貸出期間の延長ができません。
+
+![貸出期間の延長が不可](assets/images/image_user_checkouts_013.png)
+
+</div>
+
 
 5-3 返却済みの貸出の記録を削除する {#section5-3}
 --------------------------------
