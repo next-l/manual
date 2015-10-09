@@ -82,16 +82,50 @@ group: enju_user
 5-3 返却済みの貸出の記録を削除する {#section5-3}
 --------------------------------
 
-（準備中です）
+#### 1. ［貸出と予約］メニューから［貸出履歴］を選択します。
+
+![貸出履歴](assets/images/image_user_checkouts.png)
+
+#### 2. ［削除]リンクをクリックします。
+
+![貸出履歴の削除リンク](assets/images/image_user_checkouts_015.png)
+
+#### 3. ［OK]をクリックします。
+
+![貸出履歴の削除のOK](assets/images/image_user_ok.png)
+
+#### 2. 返却済みの記録が削除されました。
+
+![貸出履歴の削除](assets/images/image_user_checkouts_017.png)
 
 5-4 貸出の一覧のTSVを表示する {#section5-4}
 --------------------------------
 
-（準備中です）
+#### 1. ［貸出と予約］メニューから［貸出履歴］を選択します。
+
+![貸出履歴](assets/images/image_user_checkouts.png)
+
+#### 2. 右メニューの［TSV］をクリックします。
+
+![貸出履歴のTSVリンク](assets/images/image_user_checkouts_019.png)
+
+#### 3. TSVが表示されます。
+
+![貸出履歴のTSV表示](assets/images/image_user_checkouts_021.png)
 
 5-5 貸出の一覧のRSSを表示する {#section5-5}
 --------------------------------
 
-（準備中です）
+#### 1. ［貸出と予約］メニューから［貸出履歴］を選択します。
+
+![貸出履歴](assets/images/image_user_checkouts.png)
+
+#### 2. 右メニューの［RSS］をクリックします。
+
+![貸出履歴のRSSリンク](assets/images/image_user_checkouts_023.png)
+
+#### 3. RSSが表示されます。
+
+![貸出履歴のRSS表示](assets/images/image_user_checkouts_025.png)
 
 {% include enju_operation/toc.md %}
