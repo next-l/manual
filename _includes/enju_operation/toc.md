@@ -14,5 +14,5 @@
 <li><a {% if page.url == '/enju_operation_9.html' %} class="active" {% endif %} href="enju_operation_9.html">第9章 資料を検索する</a></li>
 <li><a {% if page.url == '/enju_operation_10.html' %} class="active" {% endif %} href="enju_operation_10.html">第10章 蔵書点検機能を利用する</a></li>
 <li><a {% if page.url == '/enju_operation_11.html' %} class="active" {% endif %} href="enju_operation_11.html">第11章 統計機能を利用する</a></li>
-<li><a {% if page.url == '/enju_operation_12.html' %} class="active" {% endif %} href="enju_operation_12.html">第12章 印刷その他の機能を利用する</a></li>
+<li><a {% if page.url == '/enju_operation_12.html' %} class="active" {% endif %} href="enju_operation_12.html">第12章 その他の機能を利用する</a></li>
 </ul>
