@@ -76,6 +76,24 @@ enjuのアップデートを試すときなどに使います。
 
 ![仮想マシンごとバックアップのパターン](assets/images/image_install_backup_pattern2.png)
 
+### 8-2-1 仮想マシンごとバックアップをとる {#section8-2-1}
+
+#### 1. 現在、使っている仮想マシンをシャットダウンします。
+
+[「Enju 仮想マシンのシャットダウン」](enju_install_vm_4.html#section4-6-1)を参照してください。
+
+#### 2. VirtualBox の現在使っている仮想マシンをクリックします。
+
+![現在使っている仮想マシン](assets/images/image_install_backup_pattern1_003.png)
+
+#### 3. 「仮想マシン」メニューの「エクスプローラーに表示」をクリックします。
+
+![仮想マシンメニューのクローン](assets/images/image_install_backup_pattern2_005.png)
+
+#### 4. 表示されたファイルやフォルダを全て外付けHDDにコピーします。
+
+![仮想マシンメニューのクローン](assets/images/image_install_backup_pattern2_007.png)
+
 8-3 データのみのバックアップ {#section8-2}
 ------------------------------------------
 
