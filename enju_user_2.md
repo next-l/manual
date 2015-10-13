@@ -59,4 +59,4 @@ group: enju_user
 きちんとログアウトするよう心がけましょう。
 </div>
 
-{% include enju_operation/toc.md %}
+{% include enju_user/toc.md %}

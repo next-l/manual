@@ -128,4 +128,4 @@ group: enju_user
 
 ![貸出履歴のRSS表示](assets/images/image_user_checkouts_025.png)
 
-{% include enju_operation/toc.md %}
+{% include enju_user/toc.md %}

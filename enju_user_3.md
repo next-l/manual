@@ -76,4 +76,4 @@ group: enju_user
 
 チェックを入れると、現在借りている本だけでなく、返却した本の記録を閲覧できるようになります。ただし、チェックを入れるまえの返却本は表示されません。
 
-{% include enju_operation/toc.md %}
+{% include enju_user/toc.md %}

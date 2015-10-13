@@ -162,4 +162,4 @@ group: enju_user
 
 ![予約のTSV](assets/images/image_user_reserve_037.png)
 
-{% include enju_operation/toc.md %}
+{% include enju_user/toc.md %}
