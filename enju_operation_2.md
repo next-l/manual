@@ -133,7 +133,7 @@ Librarian（図書館員Librarian）は，
 
 Enjuのメッセージ機能を利用して、利用者にメッセージを送信することができます。
 
-### 2-3-1 メッセージを送信する {#section2-3-1}
+### 2-3-1 利用者を検索してメッセージを送信する {#section2-3-1}
 
 #### 1. ［図書館の管理］メニューから［利用者の管理］を選択します。  
 
@@ -154,7 +154,25 @@ Enjuのメッセージ機能を利用して、利用者にメッセージを送�
 
 ![メッセージ送信](assets/images/image_operation_018.png)
 
-### 2-3-2 受信したメッセージを読む {#section2-3-2}
+### 2-3-2 利用者のユーザー名を入力してメッセージを送信する {#section2-3-2}
+
+#### 1. ［アカウント］の左にあるメールアイコンをクリックします。  
+
+![メールアイコンをクリック](assets/images/image_operation_020_1.png)
+
+#### 2. 右メニューの[メッセージの新規作成]をクリックします。 
+
+![メッセージの新規作成リンク](assets/images/image_operation_020_2.png)
+
+#### 4. 宛先（ユーザー名）、件名、本文を入力し、［メッセージを送信する］ボタンをクリックします。  
+
+![メッセージ送信](assets/images/image_operation_020_3.png)
+
+<div class="alert alert-info memo">【Memo】
+右メニューの[メッセージの一覧]リンクをクリックするとメッセージの一覧に戻ります。
+</div>
+
+### 2-3-3 受信したメッセージを読む {#section2-3-3}
 
 {::comment} 
 注意！ ここの内容は 
@@ -168,7 +186,7 @@ _includes/enju_read_message.md と enju_read_message_admin.md
 
 {% include enju_read_message_admin.md %} 
 
-### 2-3-3 メッセージを削除する {#section2-3-3}
+### 2-3-4 メッセージを削除する {#section2-3-4}
 
 {::comment} 
 注意！ ここの内容は 
