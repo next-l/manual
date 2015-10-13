@@ -1295,7 +1295,31 @@ AdministoratorやLibrarian権限でログインしている場合は、貸出状
 
 ### 4-5-6 除籍した資料の一覧を表示する {#section4-5-6}
 
-[4-3-3 所蔵情報を一覧表示する](#section4-3-3)で、できます。「所蔵情報の一覧」画面の右メニューの[除籍済み]リンクを使います。
+#### 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
+
+![システムの設定](assets/images/image_operation_system_setup.png)
+
+#### 2. [連続除籍]をクリックします。 
+
+![連続除籍](assets/images/image_operation_withdraw_001.png)
+
+#### 3. [除籍済みの所蔵情報の一覧]をクリックします。
+
+![除籍済みの所蔵情報の一覧リンク](assets/images/image_operation_withdraw_009.png)
+
+<div class="alert alert-info">
+【Memo】[連続除籍の一覧]をクリックすると、連続除籍機能で除籍した資料のみの一覧が閲覧できます。
+</div>
+
+#### 4. 除籍済みの資料の一覧が表示されます。
+
+![除籍済みの所蔵情報の一覧](assets/images/image_operation_withdraw_011.png)
+
+<div class="alert alert-info" markdown="1">
+【Memo】
+[4-3-3 所蔵情報を一覧表示する](#section4-3-3)で、「所蔵情報の一覧」画面の右メニューの[除籍済み]リンクを使うことでも同じ画面が表示されます。
+</div>
+
 
 
 4-6 新着資料の一覧を表示する {#section4-6}
