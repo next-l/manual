@@ -157,10 +157,10 @@ Enjuのメッセージ機能を利用して、利用者にメッセージを送�
 ### 2-3-2 受信したメッセージを読む {#section2-3-2}
 
 {::comment} 
-注意！ ここの内容は _includes/enju_readmessage.mdの内容を編集してください 
+注意！ ここの内容は _includes/enju_read_message.mdの内容を編集してください 
 {:/comment}
 
-{% include enju_readmessage.md %} 
+{% include enju_read_message.md %} 
 
 <div class="alert alert-info memo" markdown="1">
 
