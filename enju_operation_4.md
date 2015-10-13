@@ -1219,7 +1219,7 @@ ISBNの代わりに、manifestation_idやmanifestation_identifierでも可能で
 
 * 連続除籍機能を使う
 * 所蔵情報の編集機能を使う
-* 書誌と所蔵のインポート機能を使う
+* TSVファイルを読み込んで更新する
 
 ### 4-5-1 連続除籍機能を使う {#section4-5-1}
 
@@ -1256,6 +1256,18 @@ ISBNの代わりに、manifestation_idやmanifestation_identifierでも可能で
 #### 2. 貸出状態を「除籍済み」に変更し、利用制限を「貸出不可」に変更し、「更新する」をクリックします。
 
 ![貸出状態と利用制限を修正](assets/images/image_operation_132.png)
+
+### 4-5-3 TSVファイルを読み込んで更新する {#section4-5-3
+
+#### 1. TSVファイルを作成します。
+
+次の3列を記述したTSVファイルを作成します。
+
+* 「item_identifier」列に、除籍したい図書の所蔵情報ID（資料のバーコードの番号）
+* 「use_restriction」列に、「Not For Loan」
+* 「circulation_status」列に、「Removed」
+
+#### 2. [「TSVファイルを読み込んで登録する」](#section4-2-1)の 1. 以降と同じ手順を実行し、3. の時に、 [更新]を選ぶと所蔵情報が更新できます。
 
 #### 7. 参考：除籍済みの検索結果一覧での表示のされ方
 
