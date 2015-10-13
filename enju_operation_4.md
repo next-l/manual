@@ -1219,9 +1219,31 @@ ISBNの代わりに、manifestation_idやmanifestation_identifierでも可能で
 * 所蔵情報の編集機能を使う
 * 書誌と所蔵のインポート機能を使う
 
-### 4-5-1 連続除籍機能を使う {#section4-5}
+### 4-5-1 連続除籍機能を使う {#section4-5-1}
 
 複数の資料の所蔵情報IDのバーコードを連続で読み取って除籍する機能です。
+
+#### 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
+
+![システムの設定](assets/images/image_operation_system_setup.png)
+
+#### 2. [連続除籍]をクリックします。 
+
+![連続除籍](assets/images/image_operation_withdraw_001.png)
+
+#### 3. ［所蔵情報ID］を入力し（所蔵情報IDのバーコードをスキャンなど）、[除籍]ボタンをクリックします。  
+
+![所蔵情報IDの入力と除籍](assets/images/image_operation_withdraw_003.png)
+
+#### 4. 「この資料は正常に除籍されました」と表示され除籍が完了します。2 を繰り返すことで、続けて他の資料を除籍できます。詳しい内容を確認したい場合は、[所蔵情報ID]のリンクをクリックします。
+
+![検収結果](assets/images/image_operation_withdraw_005.png)
+
+#### 5. [貸出状態]、[利用制限]、[更新時刻]が変わったことを確認できます。 
+
+![所蔵情報の確認](assets/images/image_operation_withdraw_007.png)
+
+### 4-5-2 所蔵情報の編集機能を使う {#section4-5-2}
 
 #### 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
 
