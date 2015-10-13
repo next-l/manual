@@ -8,4 +8,5 @@
 <li><a {% if page.url == '/enju_user_3.html' %} class="active" {% endif %} href="enju_user_3.html">第3章 パスワード/ユーザアカウント情報を変更する</a></li>
 <li><a {% if page.url == '/enju_user_4.html' %} class="active" {% endif %} href="enju_user_4.html">第4章 資料を予約する</a></li>
 <li><a {% if page.url == '/enju_user_5.html' %} class="active" {% endif %} href="enju_user_5.html">第5章 資料の貸出状況を確認する/貸出延長をする</a></li>
+<li><a {% if page.url == '/enju_user_6.html' %} class="active" {% endif %} href="enju_user_6.html">第6章 新着資料の一覧を表示する</a></li>
 </ul>
