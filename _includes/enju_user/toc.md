@@ -9,4 +9,5 @@
 <li><a {% if page.url == '/enju_user_4.html' %} class="active" {% endif %} href="enju_user_4.html">第4章 資料を予約する</a></li>
 <li><a {% if page.url == '/enju_user_5.html' %} class="active" {% endif %} href="enju_user_5.html">第5章 資料の貸出状況を確認する/貸出延長をする</a></li>
 <li><a {% if page.url == '/enju_user_6.html' %} class="active" {% endif %} href="enju_user_6.html">第6章 新着資料の一覧を表示する</a></li>
+<li><a {% if page.url == '/enju_user_7.html' %} class="active" {% endif %} href="enju_user_7.html">第7章 メッセージを受信する</a></li>
 </ul>
