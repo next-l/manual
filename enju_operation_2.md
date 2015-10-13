@@ -162,6 +162,15 @@ Enjuのメッセージ機能を利用して、利用者にメッセージを送�
 
 {% include enju_readmessage.md %} 
 
+<div class="alert alert-info memo" markdown="1">
+
+【Memo】
+※ Administrator権限やLibrarian 権限ではこの画面の右メニューに[メッセージを返信する]リンクがありますので、これをクリックすることで、このメッセージに返信することができます。
+
+![メッセージに返信する](assets/images/image_operation_024.png)
+
+</div>
+
 ### 2-3-3 メッセージを削除する {#section2-3-3}
 
 #### 1. ［アカウント］の左にあるメールアイコンをクリックします。  

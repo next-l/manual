@@ -19,20 +19,6 @@
 リンクをクリックすると、すべてが表示されます。
 </div>
 
-#### 3. メッセージの内容が表示されます。返信したい場合は、右メニューの［メッセージに返信する］をクリックします。  
-
-![メッセージに返信する](assets/images/image_operation_024.png)
-
-<div class="alert alert-info memo" markdown="1">
-
-【Memo】User権限のユーザーから，
-Librarian権限のユーザーやAdministrator権限のユーザーへ，
-メッセージを返信する機能はありません。
-
-そのため、User権限のユーザーでは、［メッセージに返信する］は表示されません。
-
-![User権限でログインしたときのメッセージ一覧](assets/images/image_initial_010.png)
+#### 3. メッセージの内容が表示されます
 
 ![User権限でログインしたときのメッセージ表示](assets/images/image_initial_011.png)
-
-</div>
