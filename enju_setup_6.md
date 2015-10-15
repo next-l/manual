@@ -16,7 +16,7 @@ group: enju_setup
 6-1 識別子の種類を設定する {#section6-1}
 ----------------------------------------
 
-[資料を手動で登録する](enju_operation_4.html#section4-2-7)ときや、[資料の書誌情報を変更する](enju_operation_4.html#section4-2-8)ときに入力する「識別子」の種類（例：isbn，doiなど）を登録できます。（注：Enju Leaf 1.1.0では、ここで新たに登録した「識別子の種類」を使った[書誌のTSVインポート](enju_operation_4.html#section4-2-9)には対応していません）
+[資料を手動で登録する](enju_operation_4.html#section4-2-7)ときや、[資料の書誌情報を変更する](enju_operation_4.html#section4-2-8)ときに入力する「識別子」の種類（例：isbn，doiなど）を登録できます。（注：Enju Leaf 1.1.0では、ここで新たに登録した「識別子の種類」を使った[書誌のTSVインポート](enju_operation_4.html#section4-2-10)には対応していません）
 
 ### 6-1-1 設定項目 {#section6-1-1}
 
