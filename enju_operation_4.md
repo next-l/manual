@@ -410,6 +410,14 @@ CiNii Books（<http://ci.nii.ac.jp/books/>）を検索した資料を
 
 ![更新されました](assets/images/image_operation_bib_ed_5.png)
 
+### 4-2-9 TSVファイルを読み込んで更新する {#section4-2-9}
+
+#### 1. TSVファイルを用意します。
+
+更新したい資料のManifestaion ID(manifestation_id)か、 ローカル識別子（manifestation_identifier） と更新したいフィールドの内容が記述されたファイルを作成します。
+
+#### 2. 「[4-2-1 TSVファイルを読み込んで登録する](#section4-2-1)」の 1. 以降と同じ手順を実行し、3. の時に、[更新]を選ぶと所蔵情報が更新できます。
+
 <div class="alert alert-success memo" markdown="1">
 <h4 class="alert-heading">【Column】TSVファイルの作り方</h4>
 1行目に、それぞれの項目に関わるフィールド名を指定します。
