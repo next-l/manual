@@ -991,11 +991,38 @@ ISBNの代わりに、manifestation_idやmanifestation_identifierでも可能で
 
 ### 4-3-7 TSVファイルを読み込んで削除する {#section4-3-7}
 
+基本的に、所蔵情報をTSVファイルで一括で削除することはめったにないと想定されますが、TSVファイルを使った一括削除機能も用意されています。
+
 #### 1. TSVファイルを用意します。
 
 削除したい 所蔵情報ID（item_identifier） のみが記述されたファイルを作成します。
 
-#### 2. 「[4-2-1 TSVファイルを読み込んで登録する](#section4-2-1)」の 1. 以降と同じ手順を実行し、3. の時に、[削除]を選びます。
+#### 2. 「[4-2-1 TSVファイルを読み込んで登録する](#section4-2-1)」の 1. 以降と同じ手順を実行し、3. の時に、[削除]を表示させ、[削除]を選びます。
+
+※ 間違えて[削除]を選択してしまわないよう、通常、[削除]ボタンが表示されていません。ブラウザの開発ツールを使って、[削除]ボタンのコメントアウトを外して[削除]ボタンを表示させて使用してください。
+
+<a name="#remove_button" />
+
+<div class="alert alert-info memo" markdown="1">
+【Memo】[削除]ボタンを表示させるやり方の例（Chromeの例）：
+
+#### 関連を更新を選択し、その上で右をクリックし、「要素を検証」を選びます。
+
+![要素を検証](assets/images/image_operation_item_tsv_rm_001.png)
+
+####「削除」のあたりで右クリックし、「Edit as HTML」を選びます。
+
+![Edit as HTML](assets/images/image_operation_item_tsv_rm_003.png)
+
+#### HTMLのコメントアウトコマンド（赤四角した部分）を消します。
+
+![コメントアウトの削除](assets/images/image_operation_item_tsv_rm_005.png)
+
+#### [削除]ボタンが表示されます
+
+![削除ボタン](assets/images/image_operation_item_tsv_rm_007.png)
+
+</div>
 
 <div class="alert alert-success memo" markdown="1">
 <h4 class="alert-heading">【Column】TSVファイルの作り方</h4>
