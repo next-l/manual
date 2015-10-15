@@ -437,7 +437,7 @@ CiNii Books（<http://ci.nii.ac.jp/books/>）を検索した資料を
 <tr>
 	<td>manifestation_identifier</td>
 	<td>ローカル識別子</td>
-	<td>文字列、インポート時に付与する書誌に対する任意の識別子 <!--（#issue372）--></td>
+	<td>文字列、インポート時に付与する書誌に対する任意の識別子。 <!--（#issue372）-->　※Version 1.1.0では、削除には使用できません。<!-- ( #806 ) --></td>
 	<td>999001</td>
 </tr>
 <tr>
