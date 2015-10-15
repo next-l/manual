@@ -136,30 +136,13 @@ NDLサーチを検索して1件ずつ登録する
 
 ![ファイルを選択](assets/images/image_operation_094.png)
 
-#### 3. [編集モード]、[文字コード]、[既定の本棚]を選択して［インポートを開始］ボタンをクリックします。  
+#### 3. [編集モード]が[作成]となっていることを確認し、[文字コード]、[既定の本棚]を選択して［インポートを開始］ボタンをクリックします。  
 
 ![インポートされる資料のファイルを作成](assets/images/image_operation_095.png)
    
 <div class="alert alert-info memo" markdown="1">
 【Memo】
-[編集]モードで［更新］を選択すると、
-TSVファイルで資料の情報をまとめて更新できます。
-TSVファイルを利用する場合は、
-更新したい資料のManifestaion ID(manifestation_id)か、
-ローカル識別子（manifestation_identifier）
-と更新したいフィールドの内容が記述されたファイルを準備しておきます。
-また、［削除］を選択すると、TSVファイルで資料の情報をまとめて削除できます。
-TSVファイルを利用して資料の情報を削除する場合は、
-削除したい資料のManifestaion ID(manifestation_id)か、
-ローカル識別子（manifestation_identifier）
-のみ記述されたファイルを準備しておきます。
-[関連を更新]とすると所蔵情報を付け替えることができます。
-所蔵情報ID（item_identifier） と、 
-つけ替えたい書誌のManifestation ID（manifestation_id） もしくは、 
-ローカル識別子（manifestation_identifier） 
-のみが記述されたファイルを作成します。詳細については
-[「4-3-6 TSVファイルを読み込んで所蔵情報を他の書誌につけかえる」](#section4-3-6)
-を参照してください。
+他の「編集モード」の使い方は別の章で説明します。
 </div>
 
 <div class="alert alert-info memo">【Memo】[文字コード]は基本的には自動判別でよいですが、うまくいかない場合は、文字コードを指定するようにしてください。
