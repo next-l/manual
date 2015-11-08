@@ -110,7 +110,7 @@ group: enju_install_vm
 	$ rake enju_purchase_request_engine:install:migrations  
 	$ rake db:migrate RAILS_ENV=production # 必要に応じてRAILS_ENVを指定
 
-#### 5. app/controllers/appilcation_controller.rbを以下のように編集します。
+#### 5. app/controllers/application_controller.rbを以下のように編集します。
 
 	enju_leaf
 	enju_purchase_request # この行を追加
