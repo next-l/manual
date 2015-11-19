@@ -397,7 +397,7 @@ CiNii Books（<http://ci.nii.ac.jp/books/>）を検索した資料を
 
 #### 1. TSVファイルを用意します。
 
-更新したい資料のManifestaion ID(manifestation_id)か、 ローカル識別子（manifestation_identifier） と更新したいフィールドの内容が記述されたファイルを作成します。
+更新したい資料のManifestation ID(manifestation_id)か、 ローカル識別子（manifestation_identifier） と更新したいフィールドの内容が記述されたファイルを作成します。
 
 #### 2. 「[4-2-1 TSVファイルを読み込んで登録する](#section4-2-1)」の 1. 以降と同じ手順を実行し、3. の時に、[更新]を選ぶと所蔵情報が更新できます。
 
@@ -411,7 +411,7 @@ CiNii Books（<http://ci.nii.ac.jp/books/>）を検索した資料を
 
 #### 1. TSVファイルを用意します。
 
-削除したい資料のManifestaion ID(manifestation_id)か、 ローカル識別子（manifestation_identifier） のみ記述されたファイルを作成します。
+削除したい資料のManifestation ID(manifestation_id)か、 ローカル識別子（manifestation_identifier） のみ記述されたファイルを作成します。
 
 #### 2. 「[4-2-1 TSVファイルを読み込んで登録する](#section4-2-1)」の 1. 以降と同じ手順を実行し、3. の時に、[削除]を表示させ、[削除]を選びます。
 
@@ -1085,7 +1085,7 @@ ISBNの代わりに、manifestation_idやmanifestation_identifierでも可能で
 	<td>include_supplements</td>
 	<td>付録を含む</td>
 	<td>真偽値（t または　TRUEなら真）</td>
-	<td>TURE</td>
+	<td>TRUE</td>
 </tr>
 <tr>
 	<td>call_number</td>
@@ -1315,7 +1315,7 @@ ISBNの代わりに、manifestation_idやmanifestation_identifierでも可能で
 
 ### 4-5-4 除籍済みの検索結果一覧での表示のされ方 {#section4-5-4}
 
-AdministoratorやLibrarian権限でログインしている場合は、貸出状態が「除籍済み」と表示されるようになり、除籍した資料がわかるようになります。
+AdministratorやLibrarian権限でログインしている場合は、貸出状態が「除籍済み」と表示されるようになり、除籍した資料がわかるようになります。
 
 ![Librarian権限以上での検索結果一覧での削除済み資料の表示](assets/images/image_operation_132-2.png)
 
@@ -1397,7 +1397,7 @@ Enjuでは、ブックマークレットを利用してWebページやWeb上のP
 ![お気に入りに追加](assets/images/image_operation_138.png)
 
 <div class="alert alert-info memo" markdown="1">
-【Memo】ここから4までの手順については、ブラウザによって多少やり方が異なります。例えば、ここの手順については、FireFoxであれば、右メニューの［図書館のブックマークに追加する］を右クリックし、［このリンクをブックマーク]をクリックします。Chromeであれば、[図書館のブックマークに追加する]をメニューバーにドラックアンドドロップします。2～4の手順では、Internet Explorer11でのやり方を示しています。
+【Memo】ここから4までの手順については、ブラウザによって多少やり方が異なります。例えば、ここの手順については、Firefoxであれば、右メニューの［図書館のブックマークに追加する］を右クリックし、［このリンクをブックマーク]をクリックします。Chromeであれば、[図書館のブックマークに追加する]をメニューバーにドラックアンドドロップします。2～4の手順では、Internet Explorer11でのやり方を示しています。
 </div>
 
 #### 3. お気に入りに登録します。  
