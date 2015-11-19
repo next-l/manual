@@ -1,0 +1,97 @@
+body {
+  font-size: medium;
+  line-height: 1.5;
+  font-family: Meiryo, "Hiragino Kaku Gothic Pro", IPAexGothic, sans-serif;
+}
+
+body > .container-fluid {
+  padding: 0;
+}
+
+.navbar {
+  margin: 0 auto;
+  max-width: 1024px;
+  box-sizing: border-box;
+}
+
+.navbar .brand {
+  padding: 8px 0;
+}
+
+.navbar .nav {
+  margin: 8px 0px;
+}
+
+.navbar .nav > li > a {
+  color: #CCC;
+  line-height: 1.5;
+  padding: 0 12px;
+}
+
+.navbar-inner {
+  border-radius: 0;
+}
+
+.page-header {
+  padding: 20px 20px 20px;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 1024px;
+  box-sizing: border-box;
+}
+
+ul#markdown-toc {
+  font-size: small;
+}
+
+ul#markdown-toc {
+  font-size: small;
+}
+
+p {
+  margin: 0.25em 0;
+  font-size: inherit;
+  line-height: inherit;
+  font-family: inherit;
+}
+
+ul, ol {
+  margin: 0.5em 0 0.5em 1.5em;
+}
+
+li {
+  line-height: inherit;
+}
+
+h1 {
+  font-size: 1.8em;
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: x-large;
+  line-height: 1.25;
+  margin: 24px 0 8px;
+}
+
+h3 {
+  font-size: large;
+  line-height: 1.25;
+  margin: 16px 0 8px;
+}
+
+h4 {
+  font-size: medium;
+  line-height: 1.25;
+  margin: 8px 0 8px;
+}
+
+footer {
+  font-size: small;
+  max-width: 1024px;
+  box-sizing: border-box;
+  margin: 8px auto;
+  padding: 0 8px;
+}
