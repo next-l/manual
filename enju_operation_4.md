@@ -113,27 +113,30 @@ group: enju_operation
 
 ![発注を作成](assets/images/image_operation_085.png)
 
-### 4-1-3 発注リストを印刷する
+### 4-1-3 発注済みリストのTSVをダウンロードする
 
-作成した発注リストは、CSVファイルに書き出し、印刷することができます。
+発注が確定した発注リスト（発注済みリスト）は、TSVファイルとしてダウンロードし、印刷等に利用することができます。
 
 #### 1. ［図書館の管理］メニューから［発注リスト］を選択します。  
 
 ![発注リスト](assets/images/image_operation_order.png)
 
-#### 2. 印刷したい発注リストをクリックします。  
+#### 2. 発注リストをクリックします。  
 
-![印刷したい発注リスト](assets/images/image_operation_088.png)
+![発注リストの選択](assets/images/image_operation_088.png)
 
-#### 3. 右メニューの［購入リクエスト］ボタンをクリックします。  
+#### 3. 右メニューの［購入リクエストの一覧］リンクをクリックします。  
 
-![購入リクエスト](assets/images/image_operation_089.png)
+![購入リクエストの一覧](assets/images/image_operation_089.png)
 
-#### 4. 右メニューの［CSV］をクリックし、名前を付けてCSVファイルを保存します。  
+#### 4. 右メニューの［TSV］をクリックします。  
 
-![CSV](assets/images/image_operation_091.png)
+![TSVリンク](assets/images/image_operation_091.png)
 
-#### 5. 必要に応じて、CSVファイルを印刷します。
+#### 5. TSVが表示されます。
+
+![TSV](assets/images/image_operation_091_2.png)
+
 
 4-2 図書を登録する {#section4-2}
 --------------------------------
@@ -149,7 +152,10 @@ NDLサーチを検索して1件ずつ登録する
 
 #### 0. TSVファイルを用意します。TSVファイルの作り方の詳細については、「[4-2-10 TSVファイルの作り方](#section4-2-10) 」を参照してください。
 
-#### 1. ［資料の受入］メニューから［TSVファイルからのインポート］を選択します。  
+#### 1. ［資料の受入］メニューから［TSVファイルからのインポート］を選択します。 
+<pre>
+</pre>
+
 
 ![TSVファイルからのインポート](assets/images/image_operation_093.png)
 
