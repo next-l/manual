@@ -113,7 +113,32 @@ group: enju_operation
 
 ![発注を作成](assets/images/image_operation_085.png)
 
-### 4-1-3 発注済みリストのTSVをダウンロードする
+### 4-1-3 発注リストを確定し「発注済み」にする {#section4-1-3}
+
+#### 1. ［図書館への依頼］メニューから［購入リクエスト］を選択します。  
+
+![購入リクエスト](assets/images/image_operation_purchase_req.png)
+
+#### 2. 右メニューの［発注票を作成する］リンクをクリックします。
+
+![発注票を作成するリンク](assets/images/image_operation_091_3.png)
+
+#### 3. 注記などを入力し［発注票を作成する］ボタンをクリックします。
+
+![発注票を作成するボタン](assets/images/image_operation_091_4.png)
+
+#### 4. 発注リストが更新されました。
+
+![発注リストが更新されました](assets/images/image_operation_091_5.png)
+
+<div class="alert alert-info memo" markdown="1">
+【Memo】この処理をすると発注リストの状態が「発注済み」に変更されます。
+
+![発注済み](assets/images/image_operation_091_7.png)
+
+</div>
+
+### 4-1-4 発注済みリストのTSVをダウンロードする {#section4-1-4}
 
 発注が確定した発注リスト（発注済みリスト）は、TSVファイルとしてダウンロードし、印刷等に利用することができます。
 
