@@ -58,7 +58,7 @@ group: enju_operation
 
 #### 1. ［図書館への依頼］メニューから［購入リクエスト］を選択します。  
 
-![購入リクエスト](assets/images/image_operation_076.png)
+![購入リクエスト](assets/images/image_operation_purchase_req.png)
 
 #### 2. 右メニューの［購入リクエストの新規作成］をクリックします。  
 
@@ -99,7 +99,7 @@ group: enju_operation
 
 #### 1. ［図書館への依頼］メニューから［購入リクエスト］を選択します。  
 
-![購入リクエスト](assets/images/image_operation_076.png)
+![購入リクエスト](assets/images/image_operation_purchase_req.png)
 
 #### 2. 発注リストに登録したい図書のタイトルのリンクをクリックします。  
 
