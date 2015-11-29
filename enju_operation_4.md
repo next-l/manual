@@ -47,7 +47,7 @@ group: enju_operation
 ---------------------------------
 
 ※この機能は Enju Leaf 1.1.0（enju_purchase_request: 0.1.0） では
-他のユーザーが作成した購入リクエストが一覧表示されない致命的な不具合があります（参照 issue #898 ）。
+他のユーザーが作成した購入リクエストが一覧表示されない致命的な不具合があります（ [参照 #issue324](https://github.com/next-l/enju_leaf/issues/324)）。
 
 この機能を利用するには、
 [enju_purchase_request]モジュールをインストール必要があります。インストール方法についてはインストールマニュアルの「[第5章 モジュールの追加](enju_install_vm_5.html)」の章を参照ください。
@@ -124,6 +124,12 @@ group: enju_operation
 ※注意 Enju Leaf 1.1.0 ではこの機能にバグがあり、動作しません（ [参照 #issue444](https://github.com/next-l/enju_leaf/issues/444)）
 </div>
 
+<div class="alert alert-info memo" markdown="1">
+【Memo】
+
+※注意 Enju Leaf 1.1.0 ではこの機能にバグがあり、他人の作成した購入リクエストが表示されないバグがあります。（ [参照 #issue324](https://github.com/next-l/enju_leaf/issues/324)）
+</div>
+
 #### 4. 購入リクエストの表示画面に切り替わったら、右メニューの［発注リストに追加する］をクリックします。  
 
 ![発注リストに追加する](assets/images/image_operation_083_2.png)
@@ -176,6 +182,12 @@ group: enju_operation
 #### 4. 右メニューの［TSV］をクリックします。  
 
 ![TSVリンク](assets/images/image_operation_091.png)
+
+<div class="alert alert-info memo" markdown="1">
+【Memo】
+
+※注意 Enju Leaf 1.1.0 ではこの機能にバグがあり、他人の作成した購入リクエストが表示されないバグがあります。（ [参照 #issue927](https://github.com/next-l/enju_leaf/issues/927)）
+</div>
 
 #### 5. TSVが表示されます。
 
