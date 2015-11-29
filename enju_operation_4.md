@@ -114,6 +114,16 @@ group: enju_operation
 
 ![購入リクエストの選択](assets/images/image_operation_078_2.png)
 
+<div class="alert alert-info memo" markdown="1">
+【Memo】
+
+* 右メニューの[発注済み]をクリックすると発注済みの購入リクエストのみを表示します※。
+* 右メニューの[未発注]をクリックすると未発注の購入リクエストのみを表示します※。
+* 右メニューの[全ての購入依頼]をクリックすると全ての購入リクエストを表示します。
+
+※注意 Enju Leaf 1.1.0 ではこの機能にバグがあり、動作しません（ [参照 #issue444](https://github.com/next-l/enju_leaf/issues/444)）
+</div>
+
 #### 4. 購入リクエストの表示画面に切り替わったら、右メニューの［発注リストに追加する］をクリックします。  
 
 ![発注リストに追加する](assets/images/image_operation_083_2.png)
