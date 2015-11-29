@@ -162,6 +162,21 @@ group: enju_operation
 
 ![TSV](assets/images/image_operation_091_2.png)
 
+### 4-1-5 発注済みリストのRSSを表示する {#section4-1-5}
+
+発注が確定した発注リスト（発注済みリスト）は、RSSを表示できます。
+
+#### 1. 上述のTSVダウンロードの1～3. を実行します。
+
+#### 2. 右メニューの［RSS］をクリックします。  
+
+![RSSリンク](assets/images/image_operation_091_RSS.png)
+
+#### 3. RSSが表示されます。
+
+![RSS](assets/images/image_operation_091_2_RSS.png)
+
+
 
 4-2 図書を登録する {#section4-2}
 --------------------------------
