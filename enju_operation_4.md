@@ -140,19 +140,33 @@ group: enju_operation
 
 ### 4-1-3 発注リストを確定し「発注済み」にする {#section4-1-3}
 
-#### 1. ［図書館への依頼］メニューから［購入リクエスト］を選択します。  
+#### 1. ［図書館の管理］メニューから［発注リスト］を選択します。  
 
-![購入リクエスト](assets/images/image_operation_purchase_req.png)
+![発注リスト](assets/images/image_operation_order.png)
+   
+#### 2. 確定したい発注リストの発注リスト名をクリックします。  
 
-#### 2. 右メニューの［発注票を作成する］リンクをクリックします。
+![発注リスト名](assets/images/image_operation_order_submit_1.png)
+
+#### 3. 右メニューの［購入リクエストの一覧］をクリックします。  
+
+![購入リクエストの一覧](assets/images/image_operation_order_submit_2.png)
+
+#### 4. 右メニューの［発注票を作成する］リンクをクリックします。
 
 ![発注票を作成するリンク](assets/images/image_operation_091_3.png)
 
-#### 3. 注記などを入力し［発注票を作成する］ボタンをクリックします。
+<div class="alert alert-info memo" markdown="1">
+【Memo】
+
+※注意 Enju Leaf 1.1.0 ではこの機能にバグがあり、他人の作成した購入リクエストが表示されないバグがあります。（ [参照 #issue927](https://github.com/next-l/enju_leaf/issues/927)）
+</div>
+
+#### 5. 注記などを入力し［発注票を作成する］ボタンをクリックします。
 
 ![発注票を作成するボタン](assets/images/image_operation_091_4.png)
 
-#### 4. 発注リストが更新されました。
+#### 6. 発注リストが更新されました。
 
 ![発注リストが更新されました](assets/images/image_operation_091_5.png)
 
