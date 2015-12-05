@@ -508,11 +508,15 @@ Administrator権限のユーザーでログインしている場合は、
 
 #### 1. ［図書館の管理］メニューから［エクスポート］を選択します。  
 
-![エクスポート](assets/images/image_operation_export.png)
+![エクスポート](assets/images/image_operation_export_admin.png)
+
+※ Administrator 権限でログインしておく必要があります。
 
 #### 2. [利用者情報のエクスポート]リンクをクリックします。
 
 ![利用者情報のエクスポート](assets/images/image_operation_export_user_1.png)
+
+※　Administrator 権限ログインしていない場合は[利用者情報のエクスポート]リンクが表示されません。
 
 #### 3. 右メニューの[利用者情報のエクスポートの新規作成]リンクをクリックします。
 
