@@ -391,7 +391,7 @@ Next-L Enju Leaf x.x.x.x 以降ではこの機能はありません
 
 ![利用者の管理](assets/images/image_operation_user.png)
 
-#### 2. 利用者一覧が表示されます。  必要に応じて印刷します。  
+#### 2. 利用者一覧が表示されます。
 
 ![利用者一覧](assets/images/image_operation_068.png)
 
