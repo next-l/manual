@@ -215,7 +215,7 @@ TSVファイルとは、項目をタブで区切ったテキストファイル�
 
 ![利用者の管理](assets/images/image_operation_import.png)
 
-#### 2. ［利用者］をクリックします。  
+#### 2. ［利用者アカウント］をクリックします。  
 
 ![利用者のTSVファイルからのインポート](assets/images/image_operation_037.png)
 
@@ -248,7 +248,7 @@ TSVファイルとは、項目をタブで区切ったテキストファイル�
 
 ![利用者のインポート結果の一覧](assets/images/image_operation_040_3.png)
 
-<div class="alert alert-info memo">【Memo】この画面は[図書館の管理]メニュー→[インポート]→[利用者]とすればいつでも閲覧できます。
+<div class="alert alert-info memo">【Memo】この画面は[図書館の管理]メニュー→[インポート]→[利用者アカウント]とすればいつでも閲覧できます。
 </div>
 
 ### 3-2-3 失敗した場合について {#section3-2-3}
