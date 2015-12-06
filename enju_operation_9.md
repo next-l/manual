@@ -1,14 +1,14 @@
 ---
 layout: page
-title: 第9章 資料を検索する - Next-L Enju 運用マニュアル
-title_short: 第9章 資料を検索する
+title: 第8章 資料を検索する - Next-L Enju 運用マニュアル
+title_short: 第8章 資料を検索する
 group: enju_operation
 ---
 
 * Contents
 {:toc}
 
-第9章 資料を検索する {#section9}
+第8章 資料を検索する {#section8}
 ================================
 
 Enjuを利用した資料の検索方法には、演算子やフィールド名を直接入力して検索する方法と、該当のテキストボックスに検索語入力する方法があります。
