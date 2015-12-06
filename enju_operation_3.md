@@ -21,7 +21,7 @@ group: enju_operation
 利用者情報で入力できる項目は、次の表に示す通りです。
 表の「新規」列に○があるものは新規作成で入力できる項目です。
 「変更」列に○や◎があるものは変更の際に入力できる項目です。
-◎があるものは一般ユーザーが自身のアカウント編集機能で入力できる項目です。
+◎があるものは一般ユーザーが自身の利用者情報編集機能で入力できる項目です。
 「権限」項目はAdministrator権限でログインした時のみ入力できる項目なので△になっています。
 
 
@@ -33,7 +33,7 @@ group: enju_operation
 -->
 
 <table class="table table-bordered table-condensed table-striped">
-<caption>アカウント情報</caption>
+<caption>利用者情報</caption>
 <thead>
 <tr><th>新規</th><th>変更</th><th>項目名</th><th>説明</th></tr>
 </thead>
@@ -101,13 +101,13 @@ group: enju_operation
 TSVファイルとは、項目をタブで区切ったテキストファイルです。サンプルファイルは、[user_import_file_sample.tsv](https://github.com/next-l/enju_leaf/blob/1.1/examples/user_import_file_sample.tsv)を参照してください。Enjuで利用するTSVファイルでは、1行目にそれぞれの項目に関わるフィールド名を指定します。フィールド名および値は原則として " " で囲みます。
 フィールド名とその意味については次の通りです。
 
-#### ■アカウントに関わる項目
+#### ■利用者情報の項目
 
-{::comment}![アカウントに関わる項目](assets/images/image_operation_041.png)
+{::comment}![利用者情報の項目](assets/images/image_operation_041.png)
 {:/comment}
 
 <table class="table table-bordered table-condensed table-striped">
-<caption>アカウントに関わる項目</caption>
+<caption>利用者情報の項目</caption>
 <thead>
 <tr>
 <th>フィールド名</th>
@@ -273,10 +273,10 @@ TSVファイルになんらかのエラーがありインポートの状態が[�
 
 #### 5. 該当行のエラーを修正し、ヘッダ行とエラーのあった行以降のレコードが入ったTSVファイルを作成し、インポートをします。
 
-3-3 利用者のアカウント情報を変更する {#section3-3}
+3-3 利用者情報を変更する {#section3-3}
 --------------------------------------------------
 
-登録した利用者のアカウント情報は、必要に応じてあとから変更できます。ただし、Librarian権限でログインしている場合は権限の変更は行えません。
+登録した利用者情報は、必要に応じてあとから変更できます。ただし、Librarian権限でログインしている場合は権限の変更は行えません。
 
 <div class="alert alert-info" markdown="1">
 
@@ -290,7 +290,7 @@ TSVファイルになんらかのエラーがありインポートの状態が[�
 
 #### 2. 属性を変更したい利用者の［編集］をクリックします。  
 
-![アカウント情報の編集](assets/images/image_operation_045.png)
+![利用者情報の編集](assets/images/image_operation_045.png)
 
 <div class="alert alert-info" markdown="1">
 
@@ -307,7 +307,7 @@ TSVファイルになんらかのエラーがありインポートの状態が[�
 
 #### 4. 「利用者は正常に更新されました。」のメッセージが表示され、利用者の情報が変更されます。 [自動生成したパスワードを設定する]にチェックをいれていた場合は、自動生成したパスワードが表示されます。
 
-![アカウント情報の更新結果](assets/images/image_operation_048.png)
+![利用者情報の更新結果](assets/images/image_operation_048.png)
 
 {::comment}
 
@@ -391,7 +391,7 @@ Next-L Enju Leaf x.x.x.x 以降ではこの機能はありません
 
 #### 2. 削除したい利用者の［編集］をクリックします。  
 
-![アカウント情報の編集](assets/images/image_operation_057.png)
+![利用者情報の編集](assets/images/image_operation_057.png)
 
 #### 3. 右メニューの［削除］をクリックします。  
 
