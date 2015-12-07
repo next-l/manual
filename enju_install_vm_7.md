@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 第7章 Enjuのアップデート - Next-L Enju インストールマニュアル（VirtualBox編）
-title_short: 第7章 Enjuのアップデート
+title: 第8章 Enjuのアップデート - Next-L Enju インストールマニュアル（VirtualBox編）
+title_short: 第8章 Enjuのアップデート
 group: enju_install_vm
 ---
 
@@ -9,12 +9,12 @@ group: enju_install_vm
 {:toc}
 {::comment} update.md {:/comment}
 
-第7章 Enjuのアップデート {#section7}
+第8章 Enjuのアップデート {#section8}
 ====================================
 
 Enjuは，以下の手順で，Enjuのソースコードが公開されているGitHubから変更されたファイルを取り込み最新版にすることができます。
 
-### 7-1 Enjuの停止 {#section7-1}
+### 8-1 Enjuの停止 {#section8-1}
 
 #### 1. vagrant@precise64:~$ に続いて以下のコマンドを入力します。
 
@@ -36,7 +36,7 @@ Enju WS参加者のみ該当（2014年5月時点の仮想マシンでのみ必�
 
 vagrant のパスワード入力が求められたら，パスワードを打ち込んでください(画面には出力されません)。
 
-### 7-2 最新ソースコードの取り込み {#section7-2}
+### 8-2 最新ソースコードの取り込み {#section8-2}
 
 #### 1. vagrant@precise64:~$ に続いて以下のコマンドを入力します。
 
@@ -60,7 +60,7 @@ vagrant のパスワード入力が求められたら，パスワードを打ち
 各種の処理が行われ，メッセージが出力されます。作業にはしばらく時間がかかります。
 {:/comment}
 
-### 7-3 Enjuを再起動 {#section7-3}
+### 8-3 Enjuを再起動 {#section8-3}
 
 #### 1. vagrant@precise64:~$ または vagrant@precise64:~/enju$ に続いて以下のコマンドを入力します。
 

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 第10章 トラブルシューティング - Next-L Enju インストールマニュアル（VirtualBox編）
-title_short: 第10章 トラブルシューティング
+title: 第11章 トラブルシューティング - Next-L Enju インストールマニュアル（VirtualBox編）
+title_short: 第11章 トラブルシューティング
 group: enju_install_vm
 ---
 
@@ -9,7 +9,7 @@ group: enju_install_vm
 {:toc}
 {::comment} FAQ.md {:/comment}
 
-第10章 トラブルシューティング {#section10}
+第11章 トラブルシューティング {#section11}
 ===========================================
 
 ## Q. 仮想マシンにsshでアクセスする場合のIPアドレスとポート番号が分かりません。
@@ -55,7 +55,7 @@ group: enju_install_vm
 
 #### 5. ログアウトしてログインしなおしてください
 
-#### 6. Enjuを再起動してください（--> [詳細へ](enju_install_vm_7.html#section7-3)）
+#### 6. Enjuを再起動してください（--> [詳細へ](enju_install_vm_8.html#section8-3)）
 
 <div class="alert alert-info memo">
 【Memo】バージョン1.1.0rc15現在、認証機能付きプロキシ設定には対応していません。
