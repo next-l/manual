@@ -861,12 +861,12 @@ CiNii Books（<http://ci.nii.ac.jp/books/>）を検索した資料を
 	<td>文字列。この列に入力されていると、その行全体をインポート対象から除外します。</td>
 	<td></td>
 </tr>
-<tr>
+<!-- <tr>
 	<td>series_statement_identifier</td>
 	<td>シリーズステイトメントID</td>
 	<td>半角数字のみ, <a href="#series_statement_identifier">（詳細）</a></td>
 	<td>2</td>
-</tr>
+</tr> -->
 </tbody>
 </table>
 
@@ -967,12 +967,15 @@ YAML形式で記述します。具体的には以下のように記述します�
 * User（図書館利用者）
 * Guest （誰でも）
 
+<!--
+参照： https://github.com/next-l/enju_leaf/issues/337
+
 ##### series_statement_identifier {#series_statement_identifier}
 
 （工事中）
 
 「xxxxx」の[xxx]を値とします。見方については、[xx-xx xxxxxxx](enju_setup_x.html#sectionxx-xx) を参照してください。
-
+-->
 
 </div>
 
