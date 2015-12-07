@@ -74,12 +74,12 @@ Enjuでは、図書館で行われるさまざまな催し物を登録し、カ�
 
 ![開催日と催し物の新規作成](assets/images/image_operation_event_other_new.png)
 
+<div class="alert alert-info memo">【Memo】催し物の種別を追加する方法は初期設定マニュアル「<a href="enju_setup_3.html#section3-8">3-8 催し物の種類を設定する</a>」をご覧ください。
+</div>
+
 #### 4. 「開館日と催し物は正常に作成されました。」のメッセージが表示され、休館日が登録されます。  
 
 ![催し物登録](assets/images/image_operation_event_other_new_success.png)
-
-<div class="alert alert-info memo">【Memo】催し物の種別を追加する方法は初期設定マニュアル「<a href="enju_setup_3.html#section3-8">3-8 催し物の種類を設定する</a>」をご覧ください。
-</div>
 
 ### 7-2-2 催し物のデータをインポートする {#section7-2-2}
 
