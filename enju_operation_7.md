@@ -323,7 +323,7 @@ Enjuでは、図書館で行われるさまざまな催し物を登録し、カ�
 
 #### 3. 休館日や催し物の詳細が表示されます。
 
-![開催日と催し物の名前のリンク](assets/images/image_operation_event_browse_2.png)
+![開催日と催し物の詳細](assets/images/image_operation_event_browse_2.png)
 
 <div class="alert alert-info memo" markdown="1">
 
@@ -331,6 +331,65 @@ Enjuでは、図書館で行われるさまざまな催し物を登録し、カ�
 
 * 右メニューの[編集]リンクをクリックすると、登録済みの休館日や催し物を修正できます。
 * 右メニューの[開催日と催し物の一覧]リンクをクリックすると、登録済みの休館日や催し物の一覧を表示します。
+
+</div>
+
+<div class="alert alert-info memo" markdown="1">
+
+コラム 7-5 休館日や催し物のRSS {#section7-5}
+-------------------------------------------
+
+![開催日と催し物の詳細](assets/images/image_operation_event_browse_rss.png)
+
+</div>
+
+<div class="alert alert-info memo" markdown="1">
+
+コラム 7-6 休館日や催し物のTSV {#section7-6}
+-------------------------------------------
+
+<pre>
+library	name	note	start_at	end_at
+"Your Library"	"休館日"	""	"2015-12-07 00:00:00 +0900"	"2015-12-07 23:59:59 +0900
+"Your Library"	"休館日"	""	"2015-11-05 00:00:00 +0900"	"2015-11-05 23:59:59 +0900
+</pre>
+
+</div>
+
+<div class="alert alert-info memo" markdown="1">
+
+コラム 7-7 休館日や催し物のiCalendar {#section7-7}
+--------------------------------------------------
+
+<pre>
+BEGIN:VCALENDAR
+PRODID;X-RICAL-TZSOURCE=TZINFO:-//com.denhaven2/NONSGML ri_cal gem//EN
+CALSCALE:GREGORIAN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID;X-RICAL-TZSOURCE=TZINFO:Asia/Tokyo
+BEGIN:STANDARD
+DTSTART:19510908T020000
+RDATE:19510908T020000
+TZOFFSETFROM:+1000
+TZOFFSETTO:+0900
+TZNAME:JST
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20151207T235959
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20151207T000000
+DESCRIPTION:休館日
+LOCATION:IbarakiTsukuba
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=Asia/Tokyo;VALUE=DATE-TIME:20151105T235959
+DTSTART;TZID=Asia/Tokyo;VALUE=DATE-TIME:20151105T000000
+DESCRIPTION:休館日
+LOCATION:IbarakiTsukuba
+END:VEVENT
+END:VCALENDAR
+</pre>
 
 </div>
 
