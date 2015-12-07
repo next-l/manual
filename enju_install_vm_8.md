@@ -1,115 +1,86 @@
 ---
 layout: page
-title: 第9章 データのバックアップ - Next-L Enju インストールマニュアル（VirtualBox編）
-title_short: 第9章 データのバックアップとリストア
+title: 第8章 Enjuのアップデート - Next-L Enju インストールマニュアル（VirtualBox編）
+title_short: 第8章 Enjuのアップデート
 group: enju_install_vm
 ---
 
 * Contents
 {:toc}
+{::comment} update.md {:/comment}
 
-第9章 データのバックアップとリストア {#section9}
-================================================
+第8章 Enjuのアップデート {#section8}
+====================================
 
-{:toc}
+Enjuは，以下の手順で，Enjuのソースコードが公開されているGitHubから変更されたファイルを取り込み最新版にすることができます。
 
-以下の方法があります。
+### 8-1 Enjuの停止 {#section8-1}
 
-* 仮想マシンのクローンをつくる・使う
-* 仮想マシンのWindows上のファイルのバックアップをとる・使う
-* 仮想マシン上のデータのみのバックアップ・リストアする
+#### 1. vagrant@precise64:~$ に続いて以下のコマンドを入力します。
 
-9-1 仮想マシンのクローンを作成する・使う {#section9-1}
-------------------------------------------------------
+	sudo stop enju_leaf
 
-今使ってる仮想マシンとそっくりなコピー（＝クローン）を同じPC上に作る方法です。
-enjuのアップデートを試すときなどに使います。
+<div class="alert alert-info memo" markdown="1">
+【Memo】 古い仮想マシンの場合、別の停止方法の場合があります。うまくいかない場合、以下を試してみてください。
 
-![仮想マシンのクローンのパターン](assets/images/image_install_backup_pattern1.png)
+Enju WS参加者のみ該当（2014年5月時点の仮想マシンでのみ必要）
 
-### 9-1-1 仮想マシンのクローンを作成する {#section9-1-1}
+	rake sunspot:solr:stop
 
-今使ってる仮想マシンとそっくりなコピー（＝クローン）を同じPC上に作る方法です。
+2014年1月2日作成の仮想マシンの場合 (vagrant_default_1388636385395_61088.vbox)
 
-#### 1. 現在、使っている仮想マシンをシャットダウンします。
+	sudo service apache2 stop
+	sudo service simplesolr stop
 
-[「Enju 仮想マシンのシャットダウン」](enju_install_vm_4.html#section4-6-1)を参照してください。
+</div>
 
-#### 2. VirtualBox の現在使っている仮想マシンをクリックします。
+vagrant のパスワード入力が求められたら，パスワードを打ち込んでください(画面には出力されません)。
 
-![現在使っている仮想マシン](assets/images/image_install_backup_pattern1_003.png)
+### 8-2 最新ソースコードの取り込み {#section8-2}
 
-#### 3. 「仮想マシン」メニューの「クローン(O)...」をクリックします。
+#### 1. vagrant@precise64:~$ に続いて以下のコマンドを入力します。
 
-![仮想マシンメニューのクローン](assets/images/image_install_backup_pattern1_005.png)
+	cd enju
 
-#### 4. 名前を入力し※、「次へ」をクリックします。
+#### 2. vagrant@precise64:~/enju$ に続いて以下のコマンドを入力します。
 
-※とくに変更しなければ、 「_クローン」という名前になります。日付などをつけてわかりやすい名前にしておくことをお勧めします。
+	bundle update
 
-![仮想マシンのクローンウインドウ](assets/images/image_install_backup_pattern1_007.png)
+各種の処理が行われ，メッセージが出力されます。作業にはしばらく時間かかります。
 
-#### 5. 「すべてをクローン」になっていることをを確認し※、「クローン」をクリックします。
+<div class="alert alert-info memo" markdown="1">
+【Memo】 バージョンごとの更新手順が指定されている場合があります。バージョンごとの変更手順は [Updateページ](https://github.com/next-l/enju_leaf/wiki/Update) をごらんください。
+</div>
 
-※なっていなければ、選択します。
+{::comment}
+#### 3. バージョンごとのアップデート手順が指定されている場合、 vagrant@precise64:~/enju$ に続いて、指定された手順でコマンドを実行します。
 
-![仮想マシンのクローンのタイプ](assets/images/image_install_backup_pattern1_009.png)
+	rake db:migrate RAILS_ENV=production
 
-#### 6. しばらく待ちます。時間がかかります。
+各種の処理が行われ，メッセージが出力されます。作業にはしばらく時間がかかります。
+{:/comment}
 
-以下のような、ウインドウがでます。
-![クローンを待つ](assets/images/image_install_backup_pattern1_011.png)
+### 8-3 Enjuを再起動 {#section8-3}
 
-#### 7. クローンが作成されました。
+#### 1. vagrant@precise64:~$ または vagrant@precise64:~/enju$ に続いて以下のコマンドを入力します。
 
-![クローンの作成完了](assets/images/image_install_backup_pattern1_013.png)
+	sudo start enju_leaf
 
-### 9-1-2 仮想マシンのクローンを使用する {#section9-1-2}
+<div class="alert alert-info memo" markdown="1">
+【Memo】 古い仮想マシンの場合、別の再起動方法の場合があります。以下を試してみてください
 
-[「4-3 Enju仮想マシンの起動とログイン」](enju_install_vm_4.html#section4-3)と同様の手順で使用できます。
+Enju WS参加者のみ該当（2014年5月時点の仮想マシンでのみ必要）
 
-9-2 仮想マシンごとバックアップをとる・使う {#section9-2}
---------------------------------------------------------
+	rake sunspot:solr:start
 
-今使っている仮想マシンを外付けのHDDにコピーして、
-マシンのハードウェア障害に備えたり、
-別のマシンに仮想マシンごと移築したいときの方法です。
+2014年1月2日作成の仮想マシンの場合 (vagrant_default_1388636385395_61088.vbox)
 
-![仮想マシンごとバックアップのパターン](assets/images/image_install_backup_pattern2.png)
+	sudo service apache2 restart
+	sudo service simplesolr restart
 
-### 9-2-1 仮想マシンごとバックアップをとる {#section9-2-1}
+</div>
 
-#### 1. 現在、使っている仮想マシンをシャットダウンします。
-
-[「Enju 仮想マシンのシャットダウン」](enju_install_vm_4.html#section4-6-1)を参照してください。
-
-#### 2. VirtualBox の現在使っている仮想マシンをクリックします。
-
-![現在使っている仮想マシン](assets/images/image_install_backup_pattern1_003.png)
-
-#### 3. 「仮想マシン」メニューの「エクスプローラーに表示」をクリックします。
-
-![仮想マシンメニューのクローン](assets/images/image_install_backup_pattern2_005.png)
-
-#### 4. 表示されたファイルやフォルダを全て外付けHDDにコピーします。
-
-![仮想マシンメニューのクローン](assets/images/image_install_backup_pattern2_007.png)
-
-### 9-2-2 バックアップをとったデータを使う {#section9-2-2}
-
-バックアップをしたファイルを他のマシンにコピーし、
-[「4-2 VirtualBoxを開く」](enju_install_vm_4.html#section4-2)と同様の手順で使用できます。
-
-9-3 データのみのバックアップ {#section9-2}
-------------------------------------------
-
-仮想マシン以外マシンにサーバーを移したいとき、例えば、Amazon EC2に移植したい、
-Macに移植したい、Cent OS に移植したいといった場合の方法です。
-こちらについては、[他のサーバへの移行](https://github.com/next-l/enju_leaf/wiki/Backup)を参照してください。
-
-![データのみのバックアップのパターン](assets/images/image_install_backup_pattern3.png)
-
-
-{::comment}別ファイル名候補：backup.md{:/comment}
+vagrant のパスワード入力が求められたら，パスワードを打ち込んでください(画面には出力されません)。
 
 {% include enju_install_vm/toc.md %}
+
