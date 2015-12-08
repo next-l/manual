@@ -1,6 +1,6 @@
 {% if page.url != '/enju_operation.html' and page.url != '/index.html' %}
 <ul class="toc">
-<li><a href="enju_operation.html">運用マニュアル</a></li>
+<li><a href="enju_operation.html">運用マニュアル</a>
 {% endif %}
 <ul>
 <li><a {% if page.url == '/enju_operation_1.html' %} class="active" {% endif %} href="enju_operation_1.html">第1章 Enju概要</a></li>
@@ -15,3 +15,7 @@
 <li><a {% if page.url == '/enju_operation_10.html' %} class="active" {% endif %} href="enju_operation_10.html">第10章 統計機能を利用する</a></li>
 <!-- <li><a {% if page.url == '/enju_operation_11.html' %} class="active" {% endif %} href="enju_operation_11.html">第11章 その他の機能を利用する</a></li> -->
 </ul>
+{% if page.url != '/enju_operation.html' and page.url != '/index.html' %}
+</li>
+</ul>
+{% endif %}

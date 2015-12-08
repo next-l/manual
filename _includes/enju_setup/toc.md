@@ -1,6 +1,6 @@
 {% if page.url != '/enju_setup.html' and page.url != '/index.html' %}
 <ul class="toc">
-<li><a href="enju_setup.html">初期設定マニュアル</a></li>
+<li><a href="enju_setup.html">初期設定マニュアル</a>
 {% endif %}
 <ul>
 <li><a {% if page.url == '/enju_setup_1.html' %} class="active" {% endif %} href="enju_setup_1.html">第1章 Enju概要</a></li>
@@ -11,3 +11,7 @@
 <li><a {% if page.url == '/enju_setup_6.html' %} class="active" {% endif %} href="enju_setup_6.html">第6章 資料に関するシステム設定を行う</a></li>
 <li><a {% if page.url == '/enju_setup_7.html' %} class="active" {% endif %} href="enju_setup_7.html">第7章 その他</a></li>
 </ul>
+{% if page.url != '/enju_setup.html' and page.url != '/index.html' %}
+</li>
+</ul>
+{% endif %}
