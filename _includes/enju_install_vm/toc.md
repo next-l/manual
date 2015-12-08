@@ -1,6 +1,6 @@
 {% if page.url != '/enju_install_vm.html' and page.url != '/index.html' %}
 <ul class="toc">
-<li><a href="enju_install_vm.html">インストールマニュアル（VirtualBox編）</a></li>
+<li><a href="enju_install_vm.html">インストールマニュアル（VirtualBox編）</a>
 {% endif %}
 <ul>
 <li><a {% if page.url == '/enju_install_vm_1.html' %} class="active" {% endif %} href="enju_install_vm_1.html">第1章 Enju概要</a></li>
@@ -15,3 +15,7 @@
 <li><a {% if page.url == '/enju_install_vm_10.html' %} class="active" {% endif %} href="enju_install_vm_10.html">第10章 その他</a></li>
 <li><a {% if page.url == '/enju_install_vm_11.html' %} class="active" {% endif %} href="enju_install_vm_11.html">第11章 トラブルシューティング</a></li>
 </ul>
+{% if page.url != '/enju_install_vm.html' and page.url != '/index.html' %}
+</li>
+</ul>
+{% endif %}
