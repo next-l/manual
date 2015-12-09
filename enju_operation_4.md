@@ -159,7 +159,7 @@ group: enju_operation
 <div class="alert alert-info memo" markdown="1">
 【Memo】
 
-※注意 Enju Leaf 1.1.0 ではこの機能にバグがあり、他人の作成した購入リクエストが表示されないバグがあります。（ [参照 #issue927](https://github.com/next-l/enju_leaf/issues/927)）
+※注意 Enju Leaf 1.1.0,1.1.1 ではこの機能にバグがあり、他人の作成した購入リクエストが表示されないバグがあります。（ [参照 #issue960](https://github.com/next-l/enju_leaf/issues/960)）。1.1.2以降ではこのバグは解消されています。
 </div>
 
 #### 5. 注記などを入力し［発注票を作成する］ボタンをクリックします。
@@ -200,7 +200,7 @@ group: enju_operation
 <div class="alert alert-info memo" markdown="1">
 【Memo】
 
-※注意 Enju Leaf 1.1.0 ではこの機能にバグがあり、他人の作成した購入リクエストが表示されないバグがあります。（ [参照 #issue927](https://github.com/next-l/enju_leaf/issues/927)）
+※注意 Enju Leaf 1.1.0, 1.1.1 ではこの機能にバグがあり、他人の作成した購入リクエストが表示されないバグがあります。（ [参照 #issue960](https://github.com/next-l/enju_leaf/issues/960)）。1.1.2以降ではこのバグは解消されています。
 </div>
 
 #### 5. TSVが表示されます。
