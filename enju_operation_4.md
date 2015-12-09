@@ -46,8 +46,8 @@ group: enju_operation
 4-1 図書を発注する {#section4-1}
 ---------------------------------
 
-※この機能は Enju Leaf 1.1.0（enju_purchase_request: 0.1.0） では
-他のユーザーが作成した購入リクエストが一覧表示されない致命的な不具合があります（ [参照 #issue324](https://github.com/next-l/enju_leaf/issues/324)）。
+※この機能は Enju Leaf 1.1.0、1.1.1（enju_purchase_request: 0.1.0） では
+他のユーザーが作成した購入リクエストが一覧表示されない致命的な不具合があります（ [参照 #issue961](https://github.com/next-l/enju_leaf/issues/961)）。1.1.2以降からはこの不具合は解消されています。
 
 この機能を利用するには、
 [enju_purchase_request]モジュールをインストール必要があります。インストール方法についてはインストールマニュアルの「[第5章 モジュールの追加](enju_install_vm_5.html)」の章を参照ください。
@@ -121,13 +121,13 @@ group: enju_operation
 * 右メニューの[未発注]をクリックすると未発注の購入リクエストのみを表示します※。
 * 右メニューの[全ての購入依頼]をクリックすると全ての購入リクエストを表示します。
 
-※注意 Enju Leaf 1.1.0 ではこの機能にバグがあり、動作しません（ [参照 #issue444](https://github.com/next-l/enju_leaf/issues/444)）
+※注意 Enju Leaf 1.1.0 ではこの機能にバグがあり、[未発注]や[発注済み]などの絞り込みは動作しません（ [参照 #issue444](https://github.com/next-l/enju_leaf/issues/444)）
 </div>
 
 <div class="alert alert-info memo" markdown="1">
 【Memo】
 
-※注意 Enju Leaf 1.1.0 ではこの機能にバグがあり、他人の作成した購入リクエストが表示されないバグがあります。（ [参照 #issue324](https://github.com/next-l/enju_leaf/issues/324)）
+※注意 Enju Leaf 1.1.0, 1.1.1ではこの画面の購入リクエスト表示機能にバグがあり、他人の作成した購入リクエストが表示されません（ [参照 #issue961](https://github.com/next-l/enju_leaf/issues/961)）。1.1.2以降ではこのバグは解消されていますので表示されます。
 </div>
 
 #### 4. 購入リクエストの表示画面に切り替わったら、右メニューの［発注リストに追加する］をクリックします。  
