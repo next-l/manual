@@ -1358,9 +1358,20 @@ ISBNの代わりに、manifestation_idやmanifestation_identifierでも可能で
 ![所蔵情報の確認](assets/images/image_operation_accept_4.png)
 
 <div class="alert alert-info memo" markdown="1">
-【Memo】利用者の検索結果一覧で「（所蔵）」や[予約]リンク（User権限以上のみ）が表示されるようになります。
+【Memo】利用者の検索結果一覧で「（所蔵）」や[予約]リンク（User権限以上のみ）が表示されるようになります。[予約]リンクはログインユーザが「延滞」していると表示されません。※Enju 1.1.0時点では、原因不明の理由で、User権限でログインした時に、[予約]リンクが出現しない現象を確認しています。現在、原因究明中です（詳細: [#issue868](https://github.com/next-l/enju_leaf/issues/868)）。
    ![検索結果一覧](assets/images/image_operation_accept_5.png)
 </div>
+
+<!--
+予約が出る条件：
+https://github.com/next-l/enju_leaf/issues/867#issuecomment-147685332
+
+チェックするのは以下の3点です。
+
+所蔵の貸出状態が「在架」になっているかどうか
+ユーザの権限が図書館員か一般利用者か
+一般利用者の場合、「対象の資料の所蔵数」と「所蔵数 - そのユーザの延滞冊数」が等しいか
+-->
 
 4-5 図書を除籍する {#section4-5}
 --------------------------------------
