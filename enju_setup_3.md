@@ -176,6 +176,21 @@ Enjuの利用を始めるにあたり，図書館のシステム設定として�
 ![図書館の作成](assets/images/image_initial_020_2.png)
 
 <div class="alert alert-info" markdown="1">
+
+【Memo】
+
+1.1.0および1.1.1の場合でプロキシ環境でお使いの場合、地図が表示されないことがあります。
+その場合は、以下を実行してください。
+
+<pre>
+$ cd enju
+$ rails g geocoder:config
+</pre>
+
+詳細は [issue #727](https://github.com/next-l/enju_leaf/issues/727)を参照してください。
+</div>
+
+<div class="alert alert-info" markdown="1">
 【Memo】 [請求記号の列数]、[請求記号の区切り文字]を設定すると
 「資料の表示」の右に請求記号が背ラベルのように表示されます。
 次は、請求記号の列数を **3** 、請求記号の区切り文字を **||** とし、
