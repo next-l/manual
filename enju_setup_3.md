@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 第3章　図書館のシステム設定を行う - Next-L Enju初期設定マニュアル(VirtualBox編)
+title: 第3章　図書館のシステム設定を行う - Next-L Enju初期設定マニュアル
 title_short: 第3章 図書館のシステム設定を行う
 group: enju_setup
 ---

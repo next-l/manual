@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Next-L Enju初期設定マニュアル(VirtualBox編)
+title: Next-L Enju初期設定マニュアル
 title_short: 初期設定
 group: navigation
 ---

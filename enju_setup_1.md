@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 第1章 Enju概要 - Next-L Enju初期設定マニュアル(VirtualBox編)
+title: 第1章 Enju概要 - Next-L Enju初期設定マニュアル
 title_short: 第1章 Enju概要
 group: enju_setup
 ---

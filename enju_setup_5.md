@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 初期設定マニュアル - Next-L Enju初期設定マニュアル(VirtualBox編)
+title: 初期設定マニュアル - Next-L Enju初期設定マニュアル
 title_short: 第5章 各種形態や状態等に関するシステム設定を行う
 group: enju_setup
 ---

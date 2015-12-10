@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 第2章 Enjuを利用する - Next-L Enju初期設定マニュアル(VirtualBox編)
+title: 第2章 Enjuを利用する - Next-L Enju初期設定マニュアル
 title_short: 第2章 Enjuを利用する
 group: enju_setup
 ---
