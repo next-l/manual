@@ -61,7 +61,13 @@ Enjuでは、利用者カードと資料のバーコードを読み込むこと�
 
 ![所蔵ID読み込み](assets/images/image_operation_164.png)
 
-<div class="alert alert-info memo">【Memo】通常は、図書のバーコードを読み込みます。
+<div class="alert alert-info memo" markdown="1">
+
+【Memo】
+
+* 通常は、図書のバーコードを読み込みます。
+* この画面で、この利用者が現在貸出中の資料が、画面下部に「現在貸出中の資料」として表示されますので確認できます。
+
 </div>
 
 #### 4. ［上記の資料を貸し出す］ボタンをクリックします。  
@@ -95,7 +101,7 @@ Enjuでは、利用者カードと資料のバーコードを読み込むこと�
 
 ![利用者番号](assets/images/image_operation_172.png)
 
-<div class="alert alert-info memo">【Memo】さらに詳細な情報を知りたい場合は右メニューの[編集]リンクをクリックすると確認できます。
+<div class="alert alert-info memo">【Memo】この利用者のさらに詳細な情報（利用者グループや権限など）を知りたい場合は右メニューの[編集]リンクをクリックすると確認できます。
 </div>
 
 #### 5. ［貸出・返却・予約］メニューから［貸出］を選択します。  
