@@ -174,7 +174,24 @@ Enjuでは、利用者カードと資料のバーコードを読み込むこと�
 
 #### 3. ログインユーザ自身の貸出履歴のみが表示されます。
 
-![貸出中の資料の一覧](assets/images/image_operation_181_2.png)
+![貸出履歴の一覧](assets/images/image_operation_181_2.png)
+
+
+<div class="alert alert-success memo" markdown="1">
+
+#### 【Column】RSSの例
+
+![貸出履歴の一覧の](assets/images/image_operation_181_2_rss.png)
+
+</div>
+
+<div class="alert alert-success memo" markdown="1">
+
+#### 【Column】TSVの例
+
+![貸出中の資料の一覧](assets/images/image_operation_181_2_tsv.png)
+
+</div>
 
 ### 6-1-4 貸出の延長手続きをする {#section6-1-4}
 
