@@ -3,7 +3,23 @@ layout: page
 title: マニュアル一覧
 ---
 ## Enjuマニュアル一覧 <i class="icon-book"> </i>
-
+<div class="row-fluid">
+<div class="span8">
+<script>
+  (function() {
+    var cx = '010401064499935159628:008mzix-v_g';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+</div>
+</div>
 <div class="row-fluid">
 <div class="span4">
 <a href="enju_install_vm.html" class="btn btn-inverse btn-large">インストールマニュアル</a>
