@@ -119,6 +119,30 @@ Enjuの利用を始めるにあたり，図書館のシステム設定として�
 
 ![設定項目の入力](assets/images/image_initial_017_3.png)
 
+### 3-1-3 フッタの内容を変更する {#sction3-1-3}
+
+Enju の画面の一番下の表示（フッタ）を変更する方法を説明します。
+図書館の所在地や電話番号、クレジットなどを書きたいときに使用します。
+設定する画面がないため、これはサーバー上の作業をする必要があります。
+
+#### 1. 念のため「[8-1 Enjuの停止](enju_install_vm_8.html#section8-1)」を実行します。
+
+#### 2. 以下のファイルをダウンロードし、中身を編集します。
+
+[https://raw.githubusercontent.com/next-l/enju_leaf/1.1/app/views/page/_footer.html.erb](https://raw.githubusercontent.com/next-l/enju_leaf/1.1/app/views/page/_footer.html.erb)
+
+#### 3. インストールしてあるEnjuに app/views/page ディレクトリを作成します。
+
+        $ mkdir -p app/views/page
+
+#### 4. 2のファイルを3で作成したディレクトリにコピーします
+
+#### 5. 「[8-3 Enjuを再起動](enju_install_vm_8.html#section8-3)」を実行します。
+
+#### 6. 見栄えを確認します。修正が必要なら 4.のファイルを修正し、5と6 の手順を行います。
+
+![フッタの確認](assets/images/image_setup_footer_2.png)
+
 3-2 個々の図書館を設定する {#section3-2}
 ----------------------------------------
 
