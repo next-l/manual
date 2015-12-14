@@ -322,14 +322,14 @@ Enjuでは、返却資料を受け付けられると同時に、予約の入っ�
 
 ![予約の一覧](assets/images/image_operation_reserve.png)
 
-#### 2. 予約の一覧が表示されます。一覧を印刷したい場合は、右メニューの［CSV］をクリックしてCSVファイルを保存し、必要に応じてCSVファイルを印刷します。  
+#### 2. 予約の一覧が表示されます。一覧を印刷したい場合は、右メニューの［TSV］をクリックしてTSVファイルを保存し、必要に応じてTSVファイルを印刷します。  
 
-![CSV](assets/images/image_operation_200.png)
+![TSV](assets/images/image_operation_200.png)
 
-<div class="alert alert-success memo">
-    <h4 class="alert-heading">【Column】CVS形式のデータファイル</h4>
-    <p>CSV形式のデータファイル（CSVファイル）とは、
-      項目をカンマで区切ったテキストファイルです。
+<div class="alert alert-success memo" markdown="1">
+    <h4 class="alert-heading">【Column】TVS形式のデータファイル</h4>
+    <p>TSV形式のデータファイル（TSVファイル）とは、
+      項目をタブで区切ったテキストファイルです。
       1行目にそれぞれの項目に関わるフィールド名が記入されています。
       フィールド名とその意味については次の通りです。</p>
   <table class="table table-bordered table-condensed table-striped">
@@ -381,7 +381,7 @@ Enjuでは、返却資料を受け付けられると同時に、予約の入っ�
   </table>
 
   <table class="table table-bordered table-condensed table-striped">
-    <caption>予約一覧のエクスポートCSVの例</caption>
+    <caption>予約一覧のエクスポートTSVの例</caption>
     <thead>
       <tr>
 	<th>id</th>
@@ -417,6 +417,9 @@ Enjuでは、返却資料を受け付けられると同時に、予約の入っ�
 	<td>受付済み</td></tr>
       </tbody>
     </table>
+
+![TSVデータ](assets/images/image_operation_200_tsv.png)
+
 </div>
 
 ### 6-3-3 予約資料を取置済みにする {#section6-3-3}
