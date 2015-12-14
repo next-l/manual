@@ -203,6 +203,15 @@ Enjuでは、利用者カードと資料のバーコードを読み込むこと�
 
 ![貸出を更新](assets/images/image_operation_185.png)
 
+<div class="alert alert-info memo" markdown="1">
+
+【Memo】
+
+* 右メニューの[表示]をクリックすると、この編集画面の表示画面に遷移します。
+* 右メニューの[戻る]をクリックしても前の画面には戻らないバグがあります。（詳細 [#996](https://github.com/next-l/enju_leaf/issues/996)
+）
+</div>
+
 #### 3. 「貸出は正常に更新されました。」のメッセージが表示され、貸出期間が延長されます。
 
 ![貸出が更新されました](assets/images/image_operation_186.png)
