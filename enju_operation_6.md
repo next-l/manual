@@ -292,6 +292,16 @@ Enjuでは、返却資料を受け付けられると同時に、予約の入っ�
 
 ![作成](assets/images/image_operation_197.png)
 
+<div class="alert alert-info memo" markdown="1">
+
+【Memo】
+
+* 右メニューの[予約の一覧]リンクをたどると全利用者の予約の一覧の画面が表示されます。
+* 右メニューの[資料の表示]リンクをたどるとこの資料の書誌詳細が表示されます。
+
+</div>
+
+
 #### 4. 「予約が正常に作成されました」と表示され、予約が作成されます。
 
 ![作成](assets/images/image_operation_197_2.png)
