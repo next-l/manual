@@ -1,8 +1,8 @@
 ---
 layout: page
-title: マニュアル一覧
+title: Enju Leaf マニュアル
 ---
-## Enjuマニュアル一覧 <i class="icon-book"> </i>
+## Enjuマニュアル検索
 <div class="row-fluid">
 <div class="span8">
 <script>
@@ -20,6 +20,9 @@ title: マニュアル一覧
 <gcse:search></gcse:search>
 </div>
 </div>
+
+## Enjuマニュアル一覧 <i class="icon-book"> </i>
+
 <div class="row-fluid">
 <div class="span4">
 <a href="enju_install_vm.html" class="btn btn-inverse btn-large">インストールマニュアル</a>
