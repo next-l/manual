@@ -443,6 +443,10 @@ TSV形式のデータファイル（TSVファイル）とは、
 
 ![TSVデータ](assets/images/image_operation_200_tsv.png)
 
+### 【Column】予約の一覧のRSSの例
+
+![RSSデータ](assets/images/image_operation_200_rss.png)
+
 </div>
 
 ### 6-3-3 予約資料を取置済みにする {#section6-3-3}
