@@ -338,7 +338,7 @@ TSV形式のデータファイル（TSVファイル）とは、
       フィールド名とその意味については次の通りです。
 
   <table class="table table-bordered table-condensed table-striped">
-    <caption>予約一覧のエクスポートCSVの項目</caption>
+    <caption>予約一覧のエクスポートTSVの項目</caption>
     <thead>
       <tr>
         <th>フィールド名</th>
