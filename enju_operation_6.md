@@ -472,9 +472,28 @@ TSV形式のデータファイル（TSVファイル）とは、
 
 ![受付済みの予約資料の編集画面](assets/images/image_operation_reserve_edit_1.png)
 
+<div class="alert alert-info memo" markdown="1">
+
+【Memo】
+
+* 右メニューの[表示]をクリックすると予約の表示画面に遷移します。
+* 右メニューの[戻る]をクリックすると予約の一覧の画面に遷移します。（詳細 [#997](https://github.com/next-l/enju_leaf/issues/997)）
+
+</div>
+
 #### 4. 予約情報が更新できると「予約は正常に更新されました」というメッセージが表示され、状態が[取置済み]になります。
 
 ![受付済みの予約資料の更新画面](assets/images/image_operation_reserve_edit_2.png)
+
+<div class="alert alert-info memo" markdown="1">
+
+【Memo】
+
+* 右メニューの[編集]リンクをたどると予約の編集画面が表示されます。
+* 右メニューの[取消]リンクをたどるとこの予約を取り消せます。
+* 右メニューの[戻る]リンクをたどると予約の一覧画面が表示されます。（詳細 [#997](https://github.com/next-l/enju_leaf/issues/997)）
+
+</div>
 
 ### 6-3-4 取置済みの資料を表示する {#section6-3-4}
 
