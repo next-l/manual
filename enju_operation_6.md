@@ -511,6 +511,9 @@ TSV形式のデータファイル（TSVファイル）とは、
 
 ![取置済みの資料のみ出力](assets/images/image_operation_200_3.png)
 
+<div class="alert alert-info memo">【Memo】右メニューの[この絞り込みを解除する]をクリックすると全予約が表示されます。
+</div>
+
 ### 6-3-5 利用者に予約資料の到着を連絡する {#section6-3-5}
 
 <div class="alert alert-info memo">【Memo】Next-L Enju Leaf 1.1.0 現在、この機能は未実装です(開発予定はあります）。
