@@ -329,11 +329,14 @@ Enjuでは、返却資料を受け付けられると同時に、予約の入っ�
 ![TSV](assets/images/image_operation_200.png)
 
 <div class="alert alert-success memo" markdown="1">
-    <h4 class="alert-heading">【Column】TVS形式のデータファイル</h4>
-    <p>TSV形式のデータファイル（TSVファイル）とは、
+
+### 【Column】TVS形式のデータファイル
+
+TSV形式のデータファイル（TSVファイル）とは、
       項目をタブで区切ったテキストファイルです。
       1行目にそれぞれの項目に関わるフィールド名が記入されています。
-      フィールド名とその意味については次の通りです。</p>
+      フィールド名とその意味については次の通りです。
+
   <table class="table table-bordered table-condensed table-striped">
     <caption>予約一覧のエクスポートCSVの項目</caption>
     <thead>
