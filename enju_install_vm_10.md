@@ -62,4 +62,22 @@ Enju トップの画面の検索フォームをカスタマイズする方法を
 
 #### 4. [10-2](#section10-2)節 の 4. ～　6. と同様です。
 
+10-4 検索結果一覧画面の検索フォームをカスタマイズする {#sction10-4}
+-----------------------------------------------------------------------
+
+Enju 検索結果一覧画面の検索フォームをカスタマイズする方法を説明します。
+設定する画面がないため、これはサーバー上の作業をする必要があります。
+
+#### 1. [10-2](#section10-2)節 の 1. と同様です
+
+#### 2. 以下のファイルをダウンロードし、中身を編集します。
+
+[https://github.com/next-l/enju_leaf/blob/1.1/app/views/manifestations/_index_form.html.erb](https://github.com/next-l/enju_leaf/blob/1.1/app/views/manifestations/_index_form.html.erb)
+
+#### 3. インストールしてあるEnjuに、ディレクトリを作成します。
+
+        $ mkdir -p app/views/manifestations
+
+#### 4. [10-2](#section10-2)節 の 4. ～　6. と同様です。
+
 {% include enju_install_vm/toc.md %}
