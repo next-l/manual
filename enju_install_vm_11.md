@@ -84,4 +84,44 @@ Virtualization Technology機能を有効にしても，VirtualBoxを再起動し
 
 eth1に対するIPアドレスの割り当てが正常に行われず，ifconfigした場合にlo のみしか表示されなくなってしまう場合があります。このような場合においては，2.7に示す /etc/network/interfacesの指定時に，eth1 ではなく，全てeth0と指定して再度起動してみてください。
 
+## Q. 大きなファイルをTSVインポートしようとすると"413 Request Entity Too Large　nginx/1.4.6 (Ubuntu)"といったエラーメッセージが表示されてできません。
+
+配布している仮想マシンでは、
+TSVインポートに使えるファイルサイズは、標準設定では、1MBになっています。
+これは、仮想マシンで使っているWebサーバー：nginxの設定による制約です。
+そのため、1MBを越えるファイルサイズの場合は、質問に挙げられたような状況になります。
+
+たとえば20MBなど少し大きめのサイズまでできるようにするには、次のようにします。
+
+#### 1. 設定ファイルのバックアップをとる（念のため）
+
+	$ sudo cp /etc/nginx/nginx.conf /etc/nginx/nginx.conf.old
+
+#### 2. 設定ファイルを編集する。
+
+	$ sudo vi /etc/nginx/nginx.conf
+
+として編集する。
+
+	http {
+		...
+	}
+
+の部分に、一行足して
+
+	http {
+		...
+		client_max_body_size 20M;
+	}
+
+とします。
+
+#### 3. Webサーバーを再起動する。
+
+	$ sudo /etc/init.d/nginx restart
+
+#### 4. OK が表示されるのを確認する。されなければ、 2. の編集を再度行い、3. 以降を実行する。
+
+	　　* Restarting nginx nginx                                                [ OK ]
+
 {% include enju_install_vm/toc.md %}
