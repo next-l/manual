@@ -34,7 +34,7 @@ Enju 「条件を詳しく指定して検索」の画面をカスタマイズす
 [https://github.com/next-l/enju_leaf/blob/1.1/app/views/page/advanced_search.html.erb](https://github.com/next-l/enju_leaf/blob/1.1/app/views/page/advanced_search.html.erb)
 
 
-#### 3. インストールしてあるEnjuに app/views/page ディレクトリを作成します。
+#### 3. インストールしてあるEnjuに、ディレクトリを作成します。
 
         $ mkdir -p app/views/page
 
@@ -43,5 +43,23 @@ Enju 「条件を詳しく指定して検索」の画面をカスタマイズす
 #### 5. 「[8-3 Enjuを再起動](enju_install_vm_8.html#section8-3)」を実行します。
 
 #### 6. 画面を確認します。修正が必要なら 4.のファイルを修正し、5と6 の手順を行います。
+
+10-3 トップの画面の検索フォームをカスタマイズする {#sction10-3}
+-----------------------------------------------------------------------
+
+Enju トップの画面の検索フォームをカスタマイズする方法を説明します。
+設定する画面がないため、これはサーバー上の作業をする必要があります。
+
+#### 1. [10-2](#section10-2)節 の 1. と同様です
+
+#### 2. 以下のファイルをダウンロードし、中身を編集します。
+
+[https://github.com/next-l/enju_leaf/blob/1.1/app/views/page/_search_form.html.erb](https://github.com/next-l/enju_leaf/blob/1.1/app/views/page/_search_form.html.erb)
+
+#### 3. インストールしてあるEnjuに、ディレクトリを作成します。
+
+        $ mkdir -p app/views/page
+
+#### 4. [10-2](#section10-2)節 の 4. ～　6. と同様です。
 
 {% include enju_install_vm/toc.md %}
