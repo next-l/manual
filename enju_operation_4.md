@@ -994,13 +994,29 @@ YAML形式で記述します。具体的には以下のように記述します�
 
 ![資料](assets/images/image_operation_113.png)
 
-#### 3. 最下部の［所蔵情報の新規作成］をクリックします。  
+#### 3. 右メニューの［（新規作成）］をクリックします。  
 
 ![所蔵情報の新規作成](assets/images/image_operation_119.png)
+
+<div class="alert alert-info memo" markdown="1">
+
+【Memo】
+
+*　右メニューの[所蔵を編集]をクリックするとこの書誌の所蔵の一覧が表示されます。
+
+</div>
 
 #### 4. 図書館や貸出状態などを設定して、［登録する］ボタンをクリックします。  
 
 ![所蔵情報を作成](assets/images/image_operation_121.png)
+
+<div class="alert alert-info memo" markdown="1">
+
+【Memo】
+
+*　右メニューの[戻る]をクリックするとこの書誌の所蔵の一覧が表示されます（[issue #1045](https://github.com/next-l/enju_leaf/issues/1045)）
+
+</div>
 
 <div class="alert alert-success memo" markdown="1">
 <h4 class="alert-heading">【Column】寄贈を受け付ける</h4>
@@ -1010,6 +1026,19 @@ YAML形式で記述します。具体的には以下のように記述します�
 #### 5. 「所蔵情報は正常に作成されました。」のメッセージが表示され、所蔵情報が登録されます。
 
 ![所蔵情報が正常に作成](assets/images/image_operation_121_2.png)
+
+<div class="alert alert-info memo" markdown="1">
+
+【Memo】
+
+* 右メニューの[所蔵の一覧]をクリックするとEnjuに登録されている全所蔵情報の一覧が表示されます。
+* 右メニューの[編集]のリンクをクリックするとこの所蔵情報が編集できます
+* 右メニューの[削除]をクリックすると、この所蔵情報を削除することができます。削除は、重複登録など、本入力そのものが間違いだったときなどに使います。除籍のばあいには除籍機能を使います。
+* 右メニューの[貸出規則の一覧]については後日説明します（[#issue 1047](https://github.com/next-l/enju_leaf/issues/1047)）。
+* 右メニューの[貸出履歴]をクリックするとこの所蔵の貸出履歴の一覧が表示されます。
+
+</div>
+
 
 ### 4-3-2 すでに登録された所蔵情報を修正登録する {#section4-3-2}
 
