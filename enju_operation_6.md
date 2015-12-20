@@ -592,7 +592,14 @@ Next-L Enju Leaf 1.1.0 現在、未実装です( [issue #159](https://github.com
 
 ![延滞日数に数値を入力](assets/images/image_operation_209.png)
 
-<div class="alert alert-info memo">【Memo】たとえば、延滞日数に「7」と入力すると、1週間以上延滞している資料のみに絞り込まれます。
+<div class="alert alert-info memo" markdown="1">
+
+【Memo】
+
+* たとえば、延滞日数に「7」と入力すると、1週間以上延滞している資料のみに絞り込まれます。
+* 右メニューの[貸出の一覧に戻る]をクリックすると貸出履歴の一覧の画面に遷移します。
+* 右メニューの予約ありの[はい]や[いいえ]をクリックすると予約のあるもののみもしくは予約のないもののみを表示します ※ Enju Leaf 1.1.0 ではバグがあり、うまく機能しません　詳細 [issue #1037](https://github.com/next-l/enju_leaf/issues/1037)
+
 </div>
 
 <!--
@@ -603,7 +610,33 @@ Next-L Enju Leaf 1.1.0 現在、未実装です( [issue #159](https://github.com
 
 #### 4. 必要に応じて右メニューの［TSV］をクリックしてTSVファイルを保存します。 
 
+※　注意!　この画面で見えている延滞日数にかかわらず、すべての延滞日数の資料をTSVに出力します([issue #990](https://github.com/next-l/enju_leaf/issues/990))。
+
 ![TSVファイルを保存](assets/images/image_operation_210.png)
+
+<div class="alert alert-success memo" markdown="1">
+
+【Column】TSVの例
+
+![TSVファイル](assets/images/image_operation_210_tsv_d.png)
+
+</div>
+
+<div class="alert alert-info memo" markdown="1">
+
+【Memo】
+
+* 右メニューの[RSS]をクリックすると延滞しているすべての資料の貸出履歴をRSS表示します。
+
+<div class="alert alert-success memo" markdown="1">
+
+【Column】RSSの例
+
+![TSVファイル](assets/images/image_operation_210_rss_d.png)
+
+</div>
+
+</div>
 
 6-5 相互貸借をする {#section6-5}
 ---------------------------------
