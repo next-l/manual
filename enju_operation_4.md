@@ -1123,7 +1123,7 @@ YAML形式で記述します。具体的には以下のように記述します�
 
 #### 1. TSVファイルを用意します。
 
-例えば、ISBN と　所蔵情報（所蔵情報のTSVの詳細：[4-3-8 TSVファイルの作り方（所蔵情報）](#section4-3-8) ）を書いたTSVを用意します。
+例えば、ISBN と　所蔵情報（所蔵情報のTSVの詳細：[4-3-8 TSVファイルの作り方（所蔵情報）](#section4-3-8) ）を書いたTSVを用意します。※Enju Leaf 1.1.0では、item_identifier（所蔵情報ID）の値が必須になっています。ない場合は所蔵情報が登録されません（[issue #1053](https://github.com/next-l/enju_leaf/issues/1053),[issue #1019](https://github.com/next-l/enju_leaf/issues/1019)）。
 
 ![所蔵情報の一覧](assets/images/image_operation_item_tsv.png)
 
