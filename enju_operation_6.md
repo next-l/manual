@@ -641,6 +641,6 @@ Next-L Enju Leaf 1.1.0 現在、未実装です( [issue #159](https://github.com
 6-5 相互貸借をする {#section6-5}
 ---------------------------------
 
-Enjuでは、NACSIS-ILL、ゆにかねっとの利用を検討しています。
+Enjuでは、NACSIS-ILL、ゆにかねっとの利用を検討しています（[issue #617](https://github.com/next-l/enju_leaf/issues/617)）。
 
 {% include enju_operation/toc.md %}
