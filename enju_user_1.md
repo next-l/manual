@@ -26,12 +26,13 @@ Enjuを利用した資料の検索方法には、演算子やフィールド名�
 
 ![キーワードを入力](assets/images/image_operation_242.png)
 
+<div class="alert alert-info memo">【Memo】スペースで区切りながらキーワードを入力すると、複数のキーワードに一致する資料を検索でき
+ます。
+</div>
+
 #### 2. キーワードに該当する資料が検索されます。詳細を知りたい資料のタイトルをクリックします。  
 
 ![該当する資料が検索される](assets/images/image_operation_244.png)
-   
-<div class="alert alert-info memo">【Memo】スペースで区切りながらキーワードを入力すると、複数のキーワードに一致する資料を検索できます。
-</div>
 
 #### 3. 資料の詳細が表示されます。
 
