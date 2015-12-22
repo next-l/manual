@@ -158,8 +158,16 @@ NDLサーチ（国立国会図書館サーチ <http://iss.ndl.go.jp/>）で
 5-3 TSVファイルを読み込んで登録する
 ------------------------------
 
-<div class="alert alert-warning memo">【Memo】Next-L Enju Leaf 1.1.0 現在、雑誌情報のTSVファイルを通じたインポート機能は未実装です(開発予定はあります）。
+<div class="alert alert-info memo" markdown="1">
+
+【Memo】Next-L Enju Leaf 1.1.0 現在、
+雑誌情報のTSVファイルを通じたインポート機能は
+未実装です(開発予定はあります）（[issue #721](https://github.com/next-l/enju_leaf/issues/721) [issue #731](https://github.com/next-l/enju_leaf/issues/731)）。
+
 </div>
+
+{::comment}
+
 
 #### 1. 「4-2 図書を登録する」の「[4-2-1 TSVファイルを読み込んで登録する](enju_operation_4.html#section4-2-1)」の手順に従い、TSVファイルを使った一括インポートを行います。
 
@@ -174,6 +182,8 @@ NDLサーチ（国立国会図書館サーチ <http://iss.ndl.go.jp/>）で
 
 ![内部的に存在するもの](assets/images/image_operation_104.png)
 </div>
+
+{:/comment}
 
 
 {% include enju_operation/toc.md %}
