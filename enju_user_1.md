@@ -579,6 +579,24 @@ manifestation_identifier	original_title	creator	publisher	isbn	pub_date	note
 http://iss.ndl.go.jp/books/R100000002-I000004040061-00	"レッスン"	Pearson, Carol Lynn; 灰島, かり, 1950-; ささめや, ゆき, 1943-	平凡社	["9784582831351"]	2002-12	
 </pre>
 
+1-8 検索結果詳細を電子メールで送る {#section1-8}
+------------------------------------------------
 
+メールアドレスを登録しており、ログインしていると、
+検索結果詳細を電子メールで送ることができます。
+
+※　メールアドレスの登録方法は[「3-2メールアドレスや名前などを変更する」](https://next-l.github.io/manual/enju_user_3.html#section3-2)を参照してください。
+
+#### 1. 電子メールで送りたい検索結果詳細画面を表示させます。[書誌情報を電子メールで送信する]リンクをクリックします
+
+![mail](assets/images/search_result_full_mail_1.png)
+
+#### 2. [OK]をクリックします。
+
+![ok](assets/images/search_result_full_mail_2.png)
+
+#### 3. 電子メールで送られてきます。
+
+![mail_body](assets/images/search_result_full_mail_3.png)
 
 {% include enju_user/toc.md %}
