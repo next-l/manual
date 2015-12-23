@@ -119,5 +119,322 @@ Enjuを利用した資料の検索方法には、演算子やフィールド名�
 
 ![RSS](assets/images/search_result_rss_2.png)
 
+1-6 検索結果の書き出し {#section1-6}
+------------------------------------
+
+### 1-6-1 RDF/XML 形式で書き出し
+
+#### 1. 書き出しをしたい検索結果画面を表示させます。[RDF/XML]リンクをクリックします
+
+![RDF/XML](assets/images/search_result_rdf_1.png)
+
+※　現在、画面でみえている結果の分だけが書き出しができます。
+
+#### 2. RDF/XML 形式のファイルがダウンロードできます。
+
+<pre>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"&gt;
+  &lt;channel rdf:about="http://localhost:8080/manifestations?action=index&amp;commit=%E6%A4%9C%E7%B4%A2&amp;controller=manifestations&amp;format=rdf&amp;only_path=true&amp;page=2&amp;pub_date_from=2000&amp;pub_date_until=2009&amp;query=&amp;reservable=true&amp;utf8=%E2%9C%93"&gt;
+    &lt;title&gt;検索語 date_of_publication_d:[1999-12-31T15:00:00Z TO 2009-12-31T14:59:59Z] による えんじゅ図書館 の資料の検索結果&lt;/title&gt;
+    &lt;link&gt;http://localhost:8080/manifestations?commit=%E6%A4%9C%E7%B4%A2&amp;page=2&amp;pub_date_from=2000&amp;pub_date_until=2009&amp;query=&amp;reservable=true&amp;utf8=%E2%9C%93&lt;/link&gt;
+    &lt;description&gt;Next-L Enju, an open source integrated library system developed by Project Next-L&lt;/description&gt;
+    &lt;language&gt;ja&lt;/language&gt;
+    &lt;ttl&gt;60&lt;/ttl&gt;
+    &lt;items&gt;
+      &lt;rdf:Seq&gt;
+        &lt;rdf:li rdf:resource="http://localhost:8080/manifestations/3"/&gt;
+        &lt;rdf:li rdf:resource="http://localhost:8080/manifestations/2"/&gt;
+        &lt;rdf:li rdf:resource="http://localhost:8080/manifestations/1"/&gt;
+      &lt;/rdf:Seq&gt;
+    &lt;/items&gt;
+  &lt;/channel&gt;
+&lt;titleInfo&gt;
+  &lt;title&gt;Rails of Ruby on Rails : Case of Locusandwonders.com&lt;/title&gt;
+&lt;/titleInfo&gt;
+&lt;titleInfo type="alternative"&gt;
+  &lt;title/&gt;
+&lt;/titleInfo&gt;
+&lt;name type="personal"&gt;
+  &lt;namePart&gt;清水, 智雄&lt;/namePart&gt;
+  &lt;role&gt;
+    &lt;roleTerm type="text" authority="marcrelator"&gt;creator&lt;/roleTerm&gt;
+  &lt;/role&gt;
+&lt;/name&gt;
+&lt;name type="personal"&gt;
+  &lt;namePart&gt;Plan de Sens&lt;/namePart&gt;
+  &lt;role&gt;
+    &lt;roleTerm type="text" authority="marcrelator"&gt;creator&lt;/roleTerm&gt;
+  &lt;/role&gt;
+&lt;/name&gt;
+&lt;typeOfResource&gt;text&lt;/typeOfResource&gt;
+&lt;originInfo&gt;
+  &lt;publisher&gt;毎日コミュニケーションズ&lt;/publisher&gt;
+  &lt;dateIssued&gt;2008-05-01 00:00:00 +0900&lt;/dateIssued&gt;
+  &lt;frequency&gt;unknown&lt;/frequency&gt;
+&lt;/originInfo&gt;
+&lt;language&gt;
+  &lt;languageTerm authority="iso639-2b" type="code"&gt;jpn&lt;/languageTerm&gt;
+&lt;/language&gt;
+&lt;physicalDescription&gt;
+  &lt;form authority="marcform"&gt;volume&lt;/form&gt;
+  &lt;extent/&gt;
+&lt;/physicalDescription&gt;
+&lt;subject&gt;
+&lt;/subject&gt;
+&lt;classification authority="ndc9"&gt;547.483&lt;/classification&gt;
+&lt;abstract/&gt;
+&lt;note/&gt;
+&lt;identifier type="isbn"&gt;9784839922214&lt;/identifier&gt;
+&lt;recordInfo&gt;
+  &lt;recordCreationDate&gt;2015-12-05 12:34:42 +0900&lt;/recordCreationDate&gt;
+  &lt;recordChangeDate&gt;2015-12-06 17:33:23 +0900&lt;/recordChangeDate&gt;
+  &lt;recordIdentifier&gt;http://localhost:8080/manifestations/3&lt;/recordIdentifier&gt;
+&lt;/recordInfo&gt;
+&lt;titleInfo&gt;
+  &lt;title&gt;レッスン&lt;/title&gt;
+&lt;/titleInfo&gt;
+&lt;titleInfo type="alternative"&gt;
+  &lt;title&gt;The lesson&lt;/title&gt;
+&lt;/titleInfo&gt;
+&lt;name type="personal"&gt;
+  &lt;namePart&gt;Pearson, Carol Lynn&lt;/namePart&gt;
+  &lt;role&gt;
+    &lt;roleTerm type="text" authority="marcrelator"&gt;creator&lt;/roleTerm&gt;
+  &lt;/role&gt;
+&lt;/name&gt;
+&lt;name type="personal"&gt;
+  &lt;namePart&gt;灰島, かり, 1950-&lt;/namePart&gt;
+  &lt;role&gt;
+    &lt;roleTerm type="text" authority="marcrelator"&gt;creator&lt;/roleTerm&gt;
+  &lt;/role&gt;
+&lt;/name&gt;
+&lt;name type="personal"&gt;
+  &lt;namePart&gt;ささめや, ゆき, 1943-&lt;/namePart&gt;
+  &lt;role&gt;
+    &lt;roleTerm type="text" authority="marcrelator"&gt;creator&lt;/roleTerm&gt;
+  &lt;/role&gt;
+&lt;/name&gt;
+&lt;typeOfResource&gt;text&lt;/typeOfResource&gt;
+&lt;originInfo&gt;
+  &lt;publisher&gt;平凡社&lt;/publisher&gt;
+  &lt;dateIssued&gt;2002-12-01 00:00:00 +0900&lt;/dateIssued&gt;
+  &lt;frequency&gt;unknown&lt;/frequency&gt;
+&lt;/originInfo&gt;
+&lt;language&gt;
+  &lt;languageTerm authority="iso639-2b" type="code"&gt;jpn&lt;/languageTerm&gt;
+&lt;/language&gt;
+&lt;physicalDescription&gt;
+  &lt;form authority="marcform"&gt;volume&lt;/form&gt;
+  &lt;extent/&gt;
+&lt;/physicalDescription&gt;
+&lt;subject&gt;
+&lt;/subject&gt;
+&lt;classification authority="ndc9"&gt;933.7&lt;/classification&gt;
+&lt;abstract&gt;1998年全米で大ベストセラーとなった人生の絵本。レッスンとは,「生きる意味」を探すこと。美しい文章と絵で綴られた心うつ物語。 (日本児童図書出版協会)&lt;/abstract&gt;
+&lt;note/&gt;
+&lt;identifier type="isbn"&gt;9784582831351&lt;/identifier&gt;
+&lt;recordInfo&gt;
+  &lt;recordCreationDate&gt;2015-11-29 12:08:23 +0900&lt;/recordCreationDate&gt;
+  &lt;recordChangeDate&gt;2015-12-10 01:42:21 +0900&lt;/recordChangeDate&gt;
+  &lt;recordIdentifier&gt;http://localhost:8080/manifestations/2&lt;/recordIdentifier&gt;
+&lt;/recordInfo&gt;
+&lt;titleInfo&gt;
+  &lt;title&gt;はじめてのRuby on Rails : 話題の「Webアプリケーション・フレームワーク」が使える! : instant rails&lt;/title&gt;
+&lt;/titleInfo&gt;
+&lt;titleInfo type="alternative"&gt;
+  &lt;title/&gt;
+&lt;/titleInfo&gt;
+&lt;name type="personal"&gt;
+  &lt;namePart&gt;清水, 美樹&lt;/namePart&gt;
+  &lt;role&gt;
+    &lt;roleTerm type="text" authority="marcrelator"&gt;creator&lt;/roleTerm&gt;
+  &lt;/role&gt;
+&lt;/name&gt;
+&lt;typeOfResource&gt;text&lt;/typeOfResource&gt;
+&lt;originInfo&gt;
+  &lt;publisher&gt;工学社&lt;/publisher&gt;
+  &lt;dateIssued&gt;2006-08-01 00:00:00 +0900&lt;/dateIssued&gt;
+  &lt;frequency&gt;unknown&lt;/frequency&gt;
+&lt;/originInfo&gt;
+&lt;language&gt;
+  &lt;languageTerm authority="iso639-2b" type="code"&gt;jpn&lt;/languageTerm&gt;
+&lt;/language&gt;
+&lt;physicalDescription&gt;
+  &lt;form authority="marcform"&gt;volume&lt;/form&gt;
+  &lt;extent/&gt;
+&lt;/physicalDescription&gt;
+&lt;subject&gt;
+&lt;/subject&gt;
+&lt;classification authority="ndc9"&gt;547.483&lt;/classification&gt;
+&lt;abstract/&gt;
+&lt;note/&gt;
+&lt;identifier type="isbn"&gt;9784777512324&lt;/identifier&gt;
+&lt;recordInfo&gt;
+  &lt;recordCreationDate&gt;2015-11-29 12:05:32 +0900&lt;/recordCreationDate&gt;
+  &lt;recordChangeDate&gt;2015-12-14 23:50:35 +0900&lt;/recordChangeDate&gt;
+  &lt;recordIdentifier&gt;http://localhost:8080/manifestations/1&lt;/recordIdentifier&gt;
+&lt;/recordInfo&gt;
+&lt;/rdf:RDF&gt;
+</pre>
+
+### 1-6-2 MOS 形式で書き出し {#section1-6-2}
+
+#### 1. 書き出しをしたい検索結果画面を表示させます。[MODS]リンクをクリックします
+
+![MOS](assets/images/search_result_mods_1.png)
+
+※　現在、画面でみえている結果の分だけが書き出しができます。
+
+#### 2. MOS 形式のファイルがダウンロードできます。
+
+<pre>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;modsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3"&gt;
+&lt;titleInfo&gt;
+  &lt;title&gt;Rails of Ruby on Rails : Case of Locusandwonders.com&lt;/title&gt;
+&lt;/titleInfo&gt;
+&lt;titleInfo type="alternative"&gt;
+  &lt;title/&gt;
+&lt;/titleInfo&gt;
+&lt;name type="personal"&gt;
+  &lt;namePart&gt;清水, 智雄&lt;/namePart&gt;
+  &lt;role&gt;
+    &lt;roleTerm type="text" authority="marcrelator"&gt;creator&lt;/roleTerm&gt;
+  &lt;/role&gt;
+&lt;/name&gt;
+&lt;name type="personal"&gt;
+  &lt;namePart&gt;Plan de Sens&lt;/namePart&gt;
+  &lt;role&gt;
+    &lt;roleTerm type="text" authority="marcrelator"&gt;creator&lt;/roleTerm&gt;
+  &lt;/role&gt;
+&lt;/name&gt;
+&lt;typeOfResource&gt;text&lt;/typeOfResource&gt;
+&lt;originInfo&gt;
+  &lt;publisher&gt;毎日コミュニケーションズ&lt;/publisher&gt;
+  &lt;dateIssued&gt;2008-05-01 00:00:00 +0900&lt;/dateIssued&gt;
+  &lt;frequency&gt;unknown&lt;/frequency&gt;
+&lt;/originInfo&gt;
+&lt;language&gt;
+  &lt;languageTerm authority="iso639-2b" type="code"&gt;jpn&lt;/languageTerm&gt;
+&lt;/language&gt;
+&lt;physicalDescription&gt;
+  &lt;form authority="marcform"&gt;volume&lt;/form&gt;
+  &lt;extent/&gt;
+&lt;/physicalDescription&gt;
+&lt;subject&gt;
+&lt;/subject&gt;
+&lt;classification authority="ndc9"&gt;547.483&lt;/classification&gt;
+&lt;abstract/&gt;
+&lt;note/&gt;
+&lt;identifier type="isbn"&gt;9784839922214&lt;/identifier&gt;
+&lt;recordInfo&gt;
+  &lt;recordCreationDate&gt;2015-12-05 12:34:42 +0900&lt;/recordCreationDate&gt;
+  &lt;recordChangeDate&gt;2015-12-06 17:33:23 +0900&lt;/recordChangeDate&gt;
+  &lt;recordIdentifier&gt;http://localhost:8080/manifestations/3&lt;/recordIdentifier&gt;
+&lt;/recordInfo&gt;
+&lt;titleInfo&gt;
+  &lt;title&gt;レッスン&lt;/title&gt;
+&lt;/titleInfo&gt;
+&lt;titleInfo type="alternative"&gt;
+  &lt;title&gt;The lesson&lt;/title&gt;
+&lt;/titleInfo&gt;
+&lt;name type="personal"&gt;
+  &lt;namePart&gt;Pearson, Carol Lynn&lt;/namePart&gt;
+  &lt;role&gt;
+    &lt;roleTerm type="text" authority="marcrelator"&gt;creator&lt;/roleTerm&gt;
+  &lt;/role&gt;
+&lt;/name&gt;
+&lt;name type="personal"&gt;
+  &lt;namePart&gt;灰島, かり, 1950-&lt;/namePart&gt;
+  &lt;role&gt;
+    &lt;roleTerm type="text" authority="marcrelator"&gt;creator&lt;/roleTerm&gt;
+  &lt;/role&gt;
+&lt;/name&gt;
+&lt;name type="personal"&gt;
+  &lt;namePart&gt;ささめや, ゆき, 1943-&lt;/namePart&gt;
+  &lt;role&gt;
+    &lt;roleTerm type="text" authority="marcrelator"&gt;creator&lt;/roleTerm&gt;
+  &lt;/role&gt;
+&lt;/name&gt;
+&lt;typeOfResource&gt;text&lt;/typeOfResource&gt;
+&lt;originInfo&gt;
+  &lt;publisher&gt;平凡社&lt;/publisher&gt;
+  &lt;dateIssued&gt;2002-12-01 00:00:00 +0900&lt;/dateIssued&gt;
+  &lt;frequency&gt;unknown&lt;/frequency&gt;
+&lt;/originInfo&gt;
+&lt;language&gt;
+  &lt;languageTerm authority="iso639-2b" type="code"&gt;jpn&lt;/languageTerm&gt;
+&lt;/language&gt;
+&lt;physicalDescription&gt;
+  &lt;form authority="marcform"&gt;volume&lt;/form&gt;
+  &lt;extent/&gt;
+&lt;/physicalDescription&gt;
+&lt;subject&gt;
+&lt;/subject&gt;
+&lt;classification authority="ndc9"&gt;933.7&lt;/classification&gt;
+&lt;abstract&gt;1998年全米で大ベストセラーとなった人生の絵本。レッスンとは,「生きる意味」を探すこと。美しい文章と絵で綴られた心うつ物語。 (日本児童図書出版協会)&lt;/abstract&gt;
+&lt;note/&gt;
+&lt;identifier type="isbn"&gt;9784582831351&lt;/identifier&gt;
+&lt;recordInfo&gt;
+  &lt;recordCreationDate&gt;2015-11-29 12:08:23 +0900&lt;/recordCreationDate&gt;
+  &lt;recordChangeDate&gt;2015-12-10 01:42:21 +0900&lt;/recordChangeDate&gt;
+  &lt;recordIdentifier&gt;http://localhost:8080/manifestations/2&lt;/recordIdentifier&gt;
+&lt;/recordInfo&gt;
+&lt;titleInfo&gt;
+  &lt;title&gt;はじめてのRuby on Rails : 話題の「Webアプリケーション・フレームワーク」が使える! : instant rails&lt;/title&gt;
+&lt;/titleInfo&gt;
+&lt;titleInfo type="alternative"&gt;
+  &lt;title/&gt;
+&lt;/titleInfo&gt;
+&lt;name type="personal"&gt;
+  &lt;namePart&gt;清水, 美樹&lt;/namePart&gt;
+  &lt;role&gt;
+    &lt;roleTerm type="text" authority="marcrelator"&gt;creator&lt;/roleTerm&gt;
+  &lt;/role&gt;
+&lt;/name&gt;
+&lt;typeOfResource&gt;text&lt;/typeOfResource&gt;
+&lt;originInfo&gt;
+  &lt;publisher&gt;工学社&lt;/publisher&gt;
+  &lt;dateIssued&gt;2006-08-01 00:00:00 +0900&lt;/dateIssued&gt;
+  &lt;frequency&gt;unknown&lt;/frequency&gt;
+&lt;/originInfo&gt;
+&lt;language&gt;
+  &lt;languageTerm authority="iso639-2b" type="code"&gt;jpn&lt;/languageTerm&gt;
+&lt;/language&gt;
+&lt;physicalDescription&gt;
+  &lt;form authority="marcform"&gt;volume&lt;/form&gt;
+  &lt;extent/&gt;
+&lt;/physicalDescription&gt;
+&lt;subject&gt;
+&lt;/subject&gt;
+&lt;classification authority="ndc9"&gt;547.483&lt;/classification&gt;
+&lt;abstract/&gt;
+&lt;note/&gt;
+&lt;identifier type="isbn"&gt;9784777512324&lt;/identifier&gt;
+&lt;recordInfo&gt;
+  &lt;recordCreationDate&gt;2015-11-29 12:05:32 +0900&lt;/recordCreationDate&gt;
+  &lt;recordChangeDate&gt;2015-12-14 23:50:35 +0900&lt;/recordChangeDate&gt;
+  &lt;recordIdentifier&gt;http://localhost:8080/manifestations/1&lt;/recordIdentifier&gt;
+&lt;/recordInfo&gt;
+&lt;/modsCollection&gt;
+</pre>
+
+### 1-6-3 TSV 形式で書き出し {#section1-6-3}
+
+#### 1. 書き出しをしたい検索結果画面を表示させます。[TSV]リンクをクリックします
+
+![MOS](assets/images/search_result_tsv_1.png)
+
+※　現在、画面でみえている結果の分だけが書き出しができます。
+
+#### 2. TSV 形式のファイルがダウンロードできます。
+
+<pre>
+manifestation_identifier	original_title	creator	publisher	isbn	pub_date	note
+http://iss.ndl.go.jp/books/R100000002-I000009366581-00	"Rails of Ruby on Rails : Case of Locusandwonders.com"	清水, 智雄; Plan de Sens	毎日コミュニケーションズ	["9784839922214"]	2008-05	
+http://iss.ndl.go.jp/books/R100000002-I000004040061-00	"レッスン"	Pearson, Carol Lynn; 灰島, かり, 1950-; ささめや, ゆき, 1943-	平凡社	["9784582831351"]	2002-12	
+http://iss.ndl.go.jp/books/R100000002-I000008276603-00	"はじめてのRuby on Rails : 話題の「Webアプリケーション・フレームワーク」が使える! : instant rails"	清水, 美樹	工学社	["9784777512324"]	2006-08	
+</pre>
 
 {% include enju_user/toc.md %}
