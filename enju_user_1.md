@@ -437,4 +437,148 @@ http://iss.ndl.go.jp/books/R100000002-I000004040061-00	"レッスン"	Pearson, C
 http://iss.ndl.go.jp/books/R100000002-I000008276603-00	"はじめてのRuby on Rails : 話題の「Webアプリケーション・フレームワーク」が使える! : instant rails"	清水, 美樹	工学社	["9784777512324"]	2006-08	
 </pre>
 
+
+1-7 検索結果詳細の書き出し {#section1-7}
+-----------------------------------------
+
+### 1-7-1 RDF/XML 形式で書き出し {#section1-7-1}
+
+#### 1. 書き出しをしたい検索結果詳細画面を表示させます。[RDF/XML]リンクをクリックし
+ます
+
+![RDF/XML](assets/images/search_result_full_rdf_1.png)
+
+#### 2. RDF/XML 形式のファイルがダウンロードできます。
+
+<pre>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"&gt;
+&lt;titleInfo&gt;
+  &lt;title&gt;レッスン&lt;/title&gt;
+&lt;/titleInfo&gt;
+&lt;titleInfo type="alternative"&gt;
+  &lt;title&gt;The lesson&lt;/title&gt;
+&lt;/titleInfo&gt;
+&lt;name type="personal"&gt;
+  &lt;namePart&gt;Pearson, Carol Lynn&lt;/namePart&gt;
+  &lt;role&gt;
+    &lt;roleTerm type="text" authority="marcrelator"&gt;creator&lt;/roleTerm&gt;
+  &lt;/role&gt;
+&lt;/name&gt;
+&lt;name type="personal"&gt;
+  &lt;namePart&gt;灰島, かり, 1950-&lt;/namePart&gt;
+  &lt;role&gt;
+    &lt;roleTerm type="text" authority="marcrelator"&gt;creator&lt;/roleTerm&gt;
+  &lt;/role&gt;
+&lt;/name&gt;
+&lt;name type="personal"&gt;
+  &lt;namePart&gt;ささめや, ゆき, 1943-&lt;/namePart&gt;
+  &lt;role&gt;
+    &lt;roleTerm type="text" authority="marcrelator"&gt;creator&lt;/roleTerm&gt;
+  &lt;/role&gt;
+&lt;/name&gt;
+&lt;typeOfResource&gt;text&lt;/typeOfResource&gt;
+&lt;originInfo&gt;
+  &lt;publisher&gt;平凡社&lt;/publisher&gt;
+  &lt;dateIssued&gt;2002-12-01 00:00:00 +0900&lt;/dateIssued&gt;
+  &lt;frequency&gt;unknown&lt;/frequency&gt;
+&lt;/originInfo&gt;
+&lt;language&gt;
+  &lt;languageTerm authority="iso639-2b" type="code"&gt;jpn&lt;/languageTerm&gt;
+&lt;/language&gt;
+&lt;physicalDescription&gt;
+  &lt;form authority="marcform"&gt;volume&lt;/form&gt;
+  &lt;extent/&gt;
+&lt;/physicalDescription&gt;
+&lt;subject&gt;
+&lt;/subject&gt;
+&lt;classification authority="ndc9"&gt;933.7&lt;/classification&gt;
+&lt;abstract&gt;1998年全米で大ベストセラーとなった人生の絵本。レッスンとは,「生きる意味」を探すこと。美しい文章と絵で綴られた心うつ物語。 (日本児童図書出版協会)&lt;/abstract&gt;
+&lt;note/&gt;
+&lt;identifier type="isbn"&gt;9784582831351&lt;/identifier&gt;
+&lt;recordInfo&gt;
+  &lt;recordCreationDate&gt;2015-11-29 12:08:23 +0900&lt;/recordCreationDate&gt;
+  &lt;recordChangeDate&gt;2015-12-10 01:42:21 +0900&lt;/recordChangeDate&gt;
+  &lt;recordIdentifier&gt;http://localhost:8080/manifestations/2&lt;/recordIdentifier&gt;
+&lt;/recordInfo&gt;
+&lt;/rdf:RDF&gt;
+</pre>
+
+### 1-7-2 MOS 形式で書き出し {#section1-7-2}
+
+#### 1. 書き出しをしたい検索結果詳細画面を表示させます。[MODS]リンクをクリックします
+
+![MOS](assets/images/search_result_full_mods_1.png)
+
+#### 2. MOS 形式のファイルがダウンロードできます。
+
+<pre>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;mods version="3.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3"&gt;
+&lt;titleInfo&gt;
+  &lt;title&gt;レッスン&lt;/title&gt;
+&lt;/titleInfo&gt;
+&lt;titleInfo type="alternative"&gt;
+  &lt;title&gt;The lesson&lt;/title&gt;
+&lt;/titleInfo&gt;
+&lt;name type="personal"&gt;
+  &lt;namePart&gt;Pearson, Carol Lynn&lt;/namePart&gt;
+  &lt;role&gt;
+    &lt;roleTerm type="text" authority="marcrelator"&gt;creator&lt;/roleTerm&gt;
+  &lt;/role&gt;
+&lt;/name&gt;
+&lt;name type="personal"&gt;
+  &lt;namePart&gt;灰島, かり, 1950-&lt;/namePart&gt;
+  &lt;role&gt;
+    &lt;roleTerm type="text" authority="marcrelator"&gt;creator&lt;/roleTerm&gt;
+  &lt;/role&gt;
+&lt;/name&gt;
+&lt;name type="personal"&gt;
+  &lt;namePart&gt;ささめや, ゆき, 1943-&lt;/namePart&gt;
+  &lt;role&gt;
+    &lt;roleTerm type="text" authority="marcrelator"&gt;creator&lt;/roleTerm&gt;
+  &lt;/role&gt;
+&lt;/name&gt;
+&lt;typeOfResource&gt;text&lt;/typeOfResource&gt;
+&lt;originInfo&gt;
+  &lt;publisher&gt;平凡社&lt;/publisher&gt;
+  &lt;dateIssued&gt;2002-12-01 00:00:00 +0900&lt;/dateIssued&gt;
+  &lt;frequency&gt;unknown&lt;/frequency&gt;
+&lt;/originInfo&gt;
+&lt;language&gt;
+  &lt;languageTerm authority="iso639-2b" type="code"&gt;jpn&lt;/languageTerm&gt;
+&lt;/language&gt;
+&lt;physicalDescription&gt;
+  &lt;form authority="marcform"&gt;volume&lt;/form&gt;
+  &lt;extent/&gt;
+&lt;/physicalDescription&gt;
+&lt;subject&gt;
+&lt;/subject&gt;
+&lt;classification authority="ndc9"&gt;933.7&lt;/classification&gt;
+&lt;abstract&gt;1998年全米で大ベストセラーとなった人生の絵本。レッスンとは,「生きる意味」を探すこと。美しい文章と絵で綴られた心うつ物語。 (日本児童図書出版協会)&lt;/abstract&gt;
+&lt;note/&gt;
+&lt;identifier type="isbn"&gt;9784582831351&lt;/identifier&gt;
+&lt;recordInfo&gt;
+  &lt;recordCreationDate&gt;2015-11-29 12:08:23 +0900&lt;/recordCreationDate&gt;
+  &lt;recordChangeDate&gt;2015-12-10 01:42:21 +0900&lt;/recordChangeDate&gt;
+  &lt;recordIdentifier&gt;http://localhost:8080/manifestations/2&lt;/recordIdentifier&gt;
+&lt;/recordInfo&gt;
+&lt;/mods&gt;
+</pre>
+
+### 1-7-3 TSV 形式で書き出し {#section1-7-3}
+
+#### 1. 書き出しをしたい検索結果詳細画面を表示させます。[TSV]リンクをクリックします
+
+![TSV](assets/images/search_result_full_tsv_1.png)
+
+#### 2. TSV 形式のファイルがダウンロードできます。
+
+<pre>
+manifestation_identifier	original_title	creator	publisher	isbn	pub_date	note
+http://iss.ndl.go.jp/books/R100000002-I000004040061-00	"レッスン"	Pearson, Carol Lynn; 灰島, かり, 1950-; ささめや, ゆき, 1943-	平凡社	["9784582831351"]	2002-12	
+</pre>
+
+
+
 {% include enju_user/toc.md %}
