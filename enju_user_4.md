@@ -23,6 +23,37 @@ group: enju_user
 4-1 資料の予約をする {#section4-1}
 ----------------------------------
 
+### 4-1-1 ログインせずに検索して後からログインして予約する場合 {#section4-1-1}
+
+#### 1. 予約したい本の名前を検索語に入力し、[検索]をクリックします。
+
+![検索](assets/images/image_user_reserve_003_nologin_1.png)
+
+#### 2. 予約したい本が検索されたら、その本のタイトルをクリックします。
+
+![タイトル](assets/images/image_user_reserve_003_nologin_2.png)
+
+#### 3. 右メニューの[この資料を予約する]をクリック
+
+![この資料を予約する](assets/images/image_user_reserve_003_nologin_3.png)
+
+#### 4. 自分のユーザー名とパスワードを入力してログインをクリックします。
+
+![ログイン](assets/images/image_user_reserve_003_nologin_4.png)
+
+#### 5. 必要ならば、「有効期限（この日以降は不要）」と「受け取り館」を入力し、［登録する］ボタンをクリックします。
+
+「有効期限（この日以降は不要）」を設定すると、その日を過ぎた予約はキャンセルされます。
+
+![作成](assets/images/image_user_reserve_003_nologin_5.png)
+
+#### 6. 「予約が正常に作成されました」と表示され、予約が作成されます。
+
+![作成完了](assets/images/image_user_reserve_003_nologin_6.png)
+
+
+### 4-1-2 ログインした状態で検索した場合 {#section4-1-2}
+
 #### 1. 予約したい本の名前を検索語に入力し、［検索］をクリックします。  
 
 ![検索](assets/images/image_user_reserve_003.png)
