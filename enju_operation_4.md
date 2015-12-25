@@ -1730,6 +1730,7 @@ Enjuでは、画像（図書の表紙など）を登録し、資料に関連づ�
 * manifestation_id: 書誌ID
 * original_title: 原題
 * creator: 著者
+* contributor: 協力者・編者　（この項目は Enju Leaf 1.1.2以降のみ出力）
 * publisher: 出版者
 * pub_date: 出版日
 * manifestation_price: 販売価格
