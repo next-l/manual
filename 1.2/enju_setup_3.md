@@ -86,15 +86,15 @@ Enjuの利用を始めるにあたり，図書館のシステム設定として�
 
 #### 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
 
-![「システムの設定」を選択](../assets/images/image_system_setup.png)
+![「システムの設定」を選択](../assets/images/1.1/image_system_setup.png)
 
 #### 2. ［図書館全体の設定］をクリックします。
   
-![「図書館全体の設定」を選択](../assets/images/image_initial_014.png)
+![「図書館全体の設定」を選択](../assets/images/1.1/image_initial_014.png)
 
 #### 3. ［編集］をクリックします。
   
-![図書館名の編集](../assets/images/image_initial_015.png)
+![図書館名の編集](../assets/images/1.1/image_initial_015.png)
 
 <div class="alert alert-info memo">
 【Memo】インストール直後は，仮の図書館名が入っています。［編集］をクリックして，情報を変更します。
@@ -102,7 +102,7 @@ Enjuの利用を始めるにあたり，図書館のシステム設定として�
 
 #### 4. [メール]以外のすべての設定項目に必要事項を入力し、［更新］ボタンをクリックして，設定内容を更新します。
 
-![設定項目の入力](../assets/images/image_initial_016.png)  
+![設定項目の入力](../assets/images/1.1/image_initial_016.png)  
 
 <div class="alert alert-info memo">
 【Memo】［表示名］の前には，日本語名ならば「ja:」，英語名ならば「en:」というように，言語がわかるように先頭に文字を付記します。
@@ -110,15 +110,15 @@ Enjuの利用を始めるにあたり，図書館のシステム設定として�
 
 #### 5. 設定が登録され，［図書館全体の設定の表示］画面が表示されます。[メール]を編集するため、右メニューの[編集]をクリックします。  
 
-![設定項目の入力](../assets/images/image_initial_017.png)
+![設定項目の入力](../assets/images/1.1/image_initial_017.png)
 
 #### 6. メールの[編集]リンクをクリックします。
 
-![設定項目の入力](../assets/images/image_initial_017_2.png)
+![設定項目の入力](../assets/images/1.1/image_initial_017_2.png)
 
 #### 7. メールアドレスを修正し、[更新する]ボタンをクリックします。
 
-![設定項目の入力](../assets/images/image_initial_017_3.png)
+![設定項目の入力](../assets/images/1.1/image_initial_017_3.png)
 
 ### 3-1-3 フッタの内容を変更する {#sction3-1-3}
 
@@ -142,7 +142,7 @@ Enju の画面の一番下の表示（フッタ）を変更する方法を説明
 
 #### 6. 見栄えを確認します。修正が必要なら 4.のファイルを修正し、5と6 の手順を行います。
 
-![フッタの確認](../assets/images/image_setup_footer_2.png)
+![フッタの確認](../assets/images/1.1/image_setup_footer_2.png)
 
 3-2 個々の図書館を設定する {#section3-2}
 ----------------------------------------
@@ -174,15 +174,15 @@ Enju の画面の一番下の表示（フッタ）を変更する方法を説明
 
 #### 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
 
-![「システムの設定」を選択](../assets/images/image_system_setup.png)  
+![「システムの設定」を選択](../assets/images/1.1/image_system_setup.png)  
 
 #### 2. ［図書館］をクリックします。  
 
-![「図書館全体の設定」を選択](../assets/images/image_initial_019_0.png)  
+![「図書館全体の設定」を選択](../assets/images/1.1/image_initial_019_0.png)  
 
 #### 3. ［図書館の新規作成］をクリックします。  
 
-![図書館の新規作成](../assets/images/image_initial_019.png)
+![図書館の新規作成](../assets/images/1.1/image_initial_019.png)
 
 <div class="alert alert-info memo">
 【Memo】入力済みの図書館の設定内容を変更する場合は，［編集］をクリックします。
@@ -190,7 +190,7 @@ Enju の画面の一番下の表示（フッタ）を変更する方法を説明
 
 #### 4. 設定項目に必要事項を入力し、[登録する]ボタンをクリックして，設定内容を登録します。  
 
-![設定項目の入力](../assets/images/image_initial_020.png)
+![設定項目の入力](../assets/images/1.1/image_initial_020.png)
 
 <div class="alert alert-info memo">
 【Memo】「＊」のマークが付いた項目は入力必須項目です。[名前]は3文字以上、256文字以内で、半角である必要があります。使用できる文字はアルファベットの小文字、数字、-（ハイフン）、_（アンダースコア）です。ただし、名前の最初はアルファベットの小文字のみが使用でき、名前の最後にはハイフンとアンダースコアは使用できません。
@@ -198,7 +198,7 @@ Enju の画面の一番下の表示（フッタ）を変更する方法を説明
 
 #### 5. 「図書館は正常に作成されました」と表示され、図書館が作成されます。
 
-![図書館の作成](../assets/images/image_initial_020_2.png)
+![図書館の作成](../assets/images/1.1/image_initial_020_2.png)
 
 <div class="alert alert-info" markdown="1">
 
@@ -221,7 +221,7 @@ $ rails g geocoder:config
 次は、請求記号の列数を **3** 、請求記号の区切り文字を **||** とし、
 請求記号「015.2||ハ||1」を表示した例です。
 
-![背ラベル](../assets/images/image_initial_020_3.png)
+![背ラベル](../assets/images/1.1/image_initial_020_3.png)
 
 注：次の条件でのみ、背ラベルが表示されます。
 
@@ -254,15 +254,15 @@ $ rails g geocoder:config
 
 #### 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
 
-![システムの設定](../assets/images/image_system_setup.png)
+![システムの設定](../assets/images/1.1/image_system_setup.png)
 
 #### 2. ［本棚］をクリックします。  
 
-![「本棚」を選択](../assets/images/image_initial_022.png)
+![「本棚」を選択](../assets/images/1.1/image_initial_022.png)
 
 #### 3. ［本棚の新規作成］をクリックします。  
 
-![本棚の新規作成](../assets/images/image_initial_023.png)
+![本棚の新規作成](../assets/images/1.1/image_initial_023.png)
 
 <div class="alert alert-info memo">
 【Memo】入力済みの本棚の設定内容を変更する場合は，［編集］をクリックします。
@@ -270,7 +270,7 @@ $ rails g geocoder:config
 
 #### 4. 設定項目に必要事項を入力し，［登録する］ボタンをクリックして，設定内容を登録します。  
 
-![本棚の作成](../assets/images/image_initial_024.png)
+![本棚の作成](../assets/images/1.1/image_initial_024.png)
 
 <div class="alert alert-info memo">
 【Memo】「＊」のマークが付いた項目は入力必須項目です。[名前]は3文字以上、256文字以内で、半角である必要があります。使用できる文字はアルファベットの小文字、数字、-（ハイフン）、_（アンダースコア）です。ただし、名前の最初はアルファベットの小文字のみが使用でき、名前の最後にはハイフンとアンダースコアは使用できません。 
@@ -279,7 +279,7 @@ $ rails g geocoder:config
 <div class="alert alert-info" markdown="1">
 【Memo】本棚の一覧の見方
 
-![背ラベル](../assets/images/image_initial_024_2.png)
+![背ラベル](../assets/images/1.1/image_initial_024_2.png)
 
 表の各行が一つの本棚をあらわしています。例えば、「きり閉架1」は本棚の「表示名」を、「kiri_closed」は本棚の「名前」を、「きり図書館」は当該本棚がある図書館の「表示名」を、「kiri」その「名前」をあらわしています。
 「閉架」にチェックを入れた場合は、「図書館」列に「閉架」が表示されます（例　「きり閉架1」に「閉架」を表示）。
@@ -307,15 +307,15 @@ $ rails g geocoder:config
 
 #### 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
 
-![システムの設定](../assets/images/image_system_setup.png)
+![システムの設定](../assets/images/1.1/image_system_setup.png)
 
 #### 2. ［利用者グループ］をクリックします。  
 
-![「利用者グループ」を選択](../assets/images/image_initial_025_0.png)
+![「利用者グループ」を選択](../assets/images/1.1/image_initial_025_0.png)
 
 #### 3. ［利用者グループの新規作成］をクリックします。  
 
-![利用者グループを作成](../assets/images/image_initial_025.png)
+![利用者グループを作成](../assets/images/1.1/image_initial_025.png)
 
 <div class="alert alert-info memo">
 【Memo】入力済みの利用者グループの設定内容を変更する場合は，［編集］をクリックします。
@@ -323,7 +323,7 @@ $ rails g geocoder:config
 
 #### 4. 設定項目に必要事項を入力し，［登録する］ボタンをクリックして，設定内容を登録します。  
 
-![利用者グループの作成](../assets/images/image_initial_026.png)
+![利用者グループの作成](../assets/images/1.1/image_initial_026.png)
 
 3-5 貸出区分を設定する {#section3-5}
 ------------------------------------
@@ -339,15 +339,15 @@ $ rails g geocoder:config
 
 #### 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
 
-![システムの設定](../assets/images/image_system_setup.png)
+![システムの設定](../assets/images/1.1/image_system_setup.png)
 
 #### 2. ［貸出区分］をクリックします。  
 
-![貸出区分の設定](../assets/images/image_initial_027_0.png)
+![貸出区分の設定](../assets/images/1.1/image_initial_027_0.png)
 
 #### 3. 右メニューの［貸出区分の新規作成］をクリックします。  
 
-![システムの設定](../assets/images/image_initial_027.png)  
+![システムの設定](../assets/images/1.1/image_initial_027.png)  
 
 <div class="alert alert-info memo">
 【Memo】入力済みの貸出区分の設定内容を変更する場合は［編集］を，削除する場合は［削除］をクリックします。一覧表示の表示順序を変更するには，表の1列目に表示されている↑または↓をクリックして行を入れ替えます。
@@ -355,7 +355,7 @@ $ rails g geocoder:config
 
 #### 4. 設定項目に必要事項を入力、［登録する］ボタンをクリックして，設定内容を登録します。  
 
-![貸出区分の作成](../assets/images/image_initial_028.png)
+![貸出区分の作成](../assets/images/1.1/image_initial_028.png)
 
 3-6 利用者グループと貸出区分の関係を設定する {#section3-6}
 ----------------------------------------------------------
@@ -375,15 +375,15 @@ $ rails g geocoder:config
 
 #### 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
 
-![システムの設定](../assets/images/image_system_setup.png)
+![システムの設定](../assets/images/1.1/image_system_setup.png)
 
 #### 2. ［利用者グループと貸出区分の関係］をクリックします。  
 
-![利用者グループと貸出区分の関係の設定](../assets/images/image_initial_029_0.png)
+![利用者グループと貸出区分の関係の設定](../assets/images/1.1/image_initial_029_0.png)
 
 #### 3. 右メニューの［利用者グループと貸出区分の関係の新規作成］をクリックします。  
 
-![利用者グループと貸出区分の関係](../assets/images/image_initial_029.png)
+![利用者グループと貸出区分の関係](../assets/images/1.1/image_initial_029.png)
 
 <div class="alert alert-info memo">
 【Memo】入力済みの設定内容を変更する場合は［編集］を，削除する場合は［削除］をクリックします。
@@ -391,7 +391,7 @@ $ rails g geocoder:config
 
 ### 4. 設定項目に必要事項を入力し、［登録する］ボタンをクリックして，設定内容を登録します。  
 
-![利用者グループと貸出区分の関係](../assets/images/image_initial_030.png)
+![利用者グループと貸出区分の関係](../assets/images/1.1/image_initial_030.png)
 
 3-7 資料の形態と貸出区分の関係を設定する {#section3-7}
 ------------------------------------------------------
@@ -406,15 +406,15 @@ $ rails g geocoder:config
 
 #### 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
 
-![システムの設定](../assets/images/image_system_setup.png)
+![システムの設定](../assets/images/1.1/image_system_setup.png)
 
 #### 2. ［資料の形態と貸出区分の関係］をクリックします。  
 
-![資料の形態と貸出区分の関係の設定](../assets/images/image_initial_031_0.png)
+![資料の形態と貸出区分の関係の設定](../assets/images/1.1/image_initial_031_0.png)
 
 #### 3. 右メニューの［資料の形態と貸出区分の関係の新規作成］をクリックします。  
    
-![資料の形態と貸出区分の関係の新規作成](../assets/images/image_initial_031.png)
+![資料の形態と貸出区分の関係の新規作成](../assets/images/1.1/image_initial_031.png)
 
 <div class="alert alert-info">
 【Memo】入力済みの設定内容を変更する場合は［編集］を，削除する場合は［削除］をクリックします。
@@ -422,7 +422,7 @@ $ rails g geocoder:config
 
 #### 4. 設定項目に必要事項を入力し、［登録する]ボタンをクリックして，設定内容を登録します。  
 
-![資料の形態と貸出区分の関係の作成](../assets/images/image_initial_032.png)
+![資料の形態と貸出区分の関係の作成](../assets/images/1.1/image_initial_032.png)
 
 3-8 催し物の種別を設定する {#section3-8}
 -----------------------------------------
@@ -440,15 +440,15 @@ $ rails g geocoder:config
 
 #### 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
 
-![システムの設定](../assets/images/image_system_setup.png)
+![システムの設定](../assets/images/1.1/image_system_setup.png)
 
 #### 2. ［催し物の種別］をクリックします。  
 
-![催し物の種別設定](../assets/images/image_initial_033_0.png)
+![催し物の種別設定](../assets/images/1.1/image_initial_033_0.png)
 
 #### 3. 右メニューの［催し物の種別の新規作成］をクリックします。  
 
-![催し物の種別の新規作成](../assets/images/image_initial_033.png)  
+![催し物の種別の新規作成](../assets/images/1.1/image_initial_033.png)  
 
 <div class="alert alert-info memo">
 【Memo】入力済みの設定内容を変更する場合は［編集］を、削除する場合は［削除］をクリックします。ただし、"unknown"、 "closed"は標準カテゴリとなっており、削除できないため削除リンクはありません。  
@@ -457,11 +457,11 @@ $ rails g geocoder:config
 
 #### 4. 設定項目に必要事項を入力し、［登録する］ボタンをクリックして，設定内容を登録します。  
 
-![催し物の種別を作成](../assets/images/image_initial_034.png)
+![催し物の種別を作成](../assets/images/1.1/image_initial_034.png)
 
 #### 5. 「催し物の種別は正常に作成されました。」と表示され、催し物の種別の作成が完了します。
 
-![催し物の種別の作成が完了](../assets/images/image_initial_034_2.png)
+![催し物の種別の作成が完了](../assets/images/1.1/image_initial_034_2.png)
 
 3-9 予算種別を設定する {#section3-9}
 ------------------------------------
@@ -478,15 +478,15 @@ $ rails g geocoder:config
 
 #### 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
 
-![システムの設定](../assets/images/image_system_setup.png)
+![システムの設定](../assets/images/1.1/image_system_setup.png)
 
 #### 2. ［予算種別］をクリックします。  
 
-![予算種別の設定](../assets/images/image_budget_type_0.png)
+![予算種別の設定](../assets/images/1.1/image_budget_type_0.png)
 
 #### 3. 右メニューの［予算種別の新規作成］をクリックします。  
 
-![予算種別の新規作成](../assets/images/image_budget_type_1.png)
+![予算種別の新規作成](../assets/images/1.1/image_budget_type_1.png)
 
 <div class="alert alert-info memo" markdown="1">
 【Memo】入力済みの設定内容を変更する場合は，表の最終列に表示されている「編集」を，削除する場合は「削除」をクリックします。
@@ -495,7 +495,7 @@ $ rails g geocoder:config
 
 #### 4. 設定項目に必要事項を入力し、［登録する］ボタンをクリックして，設定内容を登録します。  
 
-![新規書店の作成](../assets/images/image_budget_type_2.png)
+![新規書店の作成](../assets/images/1.1/image_budget_type_2.png)
 
 3-10 書店を設定する {#section3-10}
 ----------------------------------
@@ -516,15 +516,15 @@ $ rails g geocoder:config
 
 #### 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
 
-![システムの設定](../assets/images/image_system_setup.png)
+![システムの設定](../assets/images/1.1/image_system_setup.png)
 
 #### 2. ［書店］をクリックします。  
 
-![書店の設定](../assets/images/image_initial_038_0.png)
+![書店の設定](../assets/images/1.1/image_initial_038_0.png)
 
 #### 3. 右メニューの［書店の新規作成］をクリックします。  
 
-![書店の新規作成](../assets/images/image_initial_038.png)
+![書店の新規作成](../assets/images/1.1/image_initial_038.png)
 
 <div class="alert alert-info" markdown="1">
 【Memo】入力済みの設定内容を変更する場合は，表の最終列に表示されている[編集]を，削除する場合は[削除]をクリックします。
@@ -533,7 +533,7 @@ $ rails g geocoder:config
 
 #### 4. 設定項目に必要事項を入力し、［登録する］ボタンをクリックして，設定内容を登録します。  
 
-![新規書店の作成](../assets/images/image_initial_041.png)
+![新規書店の作成](../assets/images/1.1/image_initial_041.png)
 
 3-11 メッセージテンプレートを設定する {#section3-11}
 ----------------------------------------------------
@@ -556,15 +556,15 @@ $ rails g geocoder:config
 
 #### 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
 
-![システムの設定](../assets/images/image_system_setup.png)
+![システムの設定](../assets/images/1.1/image_system_setup.png)
 
 #### 2. ［メッセージテンプレート］をクリックします。  
 
-![メッセージテンプレートの設定](../assets/images/image_initial_042_0.png)
+![メッセージテンプレートの設定](../assets/images/1.1/image_initial_042_0.png)
 
 #### 3. 設定したい項目の［編集］をクリックします。  
 
-![メッセージテンプレートの編集](../assets/images/image_initial_042.png)  
+![メッセージテンプレートの編集](../assets/images/1.1/image_initial_042.png)  
 
 <div class="alert alert-info">
 【Memo】一覧表示の表示順序を変更するには，表の1列目に表示されている↑または↓をクリックして行を入れ替えます。
@@ -572,7 +572,7 @@ $ rails g geocoder:config
 
 #### 4. 設定項目に必要事項を入力し、［更新する］ボタンをクリックして，設定内容を更新します。  
 
-![メッセージテンプレートの更新](../assets/images/image_initial_043.png)  
+![メッセージテンプレートの更新](../assets/images/1.1/image_initial_043.png)  
 
 3-12 検索エンジンを設定する {#section3-12}
 ------------------------------------------
@@ -580,7 +580,7 @@ $ rails g geocoder:config
 検索エンジンを設定すると、資料を検索したときにヒット件数が0件だった場合に、同じ検索語で別のデータベース（検索エンジン）に検索をすることができるようになります。
 次の図は、ヒット件数が0件だったときの画面を表しています。ここでは、3つの検索エンジン（NDL Search, amazon.co.jp, CiNii Books）を表示しています。
 
-![0件ヒットと検索エンジン](../assets/images/image_initial_044_00.png)
+![0件ヒットと検索エンジン](../assets/images/1.1/image_initial_044_00.png)
 
 ### 3-12-1 設定項目 {#section3-12-1}
 
@@ -596,19 +596,19 @@ $ rails g geocoder:config
 
 #### 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
 
-![システムの設定](../assets/images/image_system_setup.png)
+![システムの設定](../assets/images/1.1/image_system_setup.png)
 
 #### 2. ［検索エンジン］をクリックします。  
 
-![検索エンジンの設定](../assets/images/image_initial_044_0.png)
+![検索エンジンの設定](../assets/images/1.1/image_initial_044_0.png)
 
 #### 3. 右メニューの［検索エンジンの新規作成］をクリックします。
 
-![検索エンジンの設定](../assets/images/image_search_engine_create.png)
+![検索エンジンの設定](../assets/images/1.1/image_search_engine_create.png)
 
 #### 4. 設定項目に必要事項を入力し、［登録する］ボタンをクリックして，設定内容を登録します。
 
-![検索エンジンの設定](../assets/images/image_search_engine_input.png)
+![検索エンジンの設定](../assets/images/1.1/image_search_engine_input.png)
 
 <div class="alert alert-info memo">
 【Memo】CiNii Booksの登録例（検索語がflowerであれば：http://ci.nii.ac.jp/books/search?q=flower&format=html というリクエストになる）を示しています。

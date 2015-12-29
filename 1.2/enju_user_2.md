@@ -20,11 +20,11 @@ version: 1.2
 
 #### 1. Enjuにアクセスし、［ログイン］をクリックします。  
 
-![Enju初期画面](../assets/images/image_user_003.png)
+![Enju初期画面](../assets/images/1.1/image_user_003.png)
 
 #### 2. ユーザー名とパスワードを入力し［ログイン］をクリックします。  
 
-![Enjuログイン](../assets/images/image_user_005.png)
+![Enjuログイン](../assets/images/1.1/image_user_005.png)
 
 <div class="alert alert-info memo">【Memo】ブラウザを閉じてもログイン状態を保持したい場合は、［ウィンドウを閉じてもログインしたままにする］をオンにします。
 </div>
@@ -41,18 +41,18 @@ version: 1.2
 
 #### 3. 自分のアカウントでログインされていることを確認します。  
 
-![Enjuログイン中](../assets/images/image_user_007.png)
+![Enjuログイン中](../assets/images/1.1/image_user_007.png)
 
 2-1 ログアウトする {#section2-2-2}
 ------------------------------
 
 #### 1. ［ログアウト］をクリックします。  
 
-![Enjuログアウト](../assets/images/image_user_009.png)
+![Enjuログアウト](../assets/images/1.1/image_user_009.png)
 
 #### 2. ログアウトされたこと（［ログイン］の表示に変わったこと）を画面で確認します。  
 
-![Enjuログアウト後](../assets/images/image_user_011.png)
+![Enjuログアウト後](../assets/images/1.1/image_user_011.png)
 
 <div class="alert alert-info">
 【Memo】時間の経過にともなって自動ログアウトする機能は用意されていません。

@@ -55,33 +55,33 @@ Enjuでは、資料の背表紙に貼るラベルを印刷できます。
 トップページの検索語に登録したい資料のキーワードを入力し、
 ［検索］ボタンをクリックします
 
-![検索機能を使用](../assets/images/image_operation_286.png)
+![検索機能を使用](../assets/images/1.1/image_operation_286.png)
 
 #### 4. ブックマークしたい資料をクリックします。  
 
-![ブックマークしたい資料をクリック](../assets/images/image_operation_288.png)
+![ブックマークしたい資料をクリック](../assets/images/1.1/image_operation_288.png)
 
 #### 5. 目的の資料を表示し、右メニューの［ブックマークに追加する］をクリックします。  
 
-![ブックマークに追加する](../assets/images/image_operation_290.png)
+![ブックマークに追加する](../assets/images/1.1/image_operation_290.png)
 
 #### 6. 必要に応じてタグなどを入力し、［登録］ボタンをクリックします。  
 
-![ブックマークを作成](../assets/images/image_operation_291.png)
+![ブックマークを作成](../assets/images/1.1/image_operation_291.png)
 
 #### 7. 「ブックマークは正常に作成されました。」のメッセージが表示され、ブックマークが作成されます。
 
-![ブックマークを作成されました](../assets/images/image_operation_291_2.png)
+![ブックマークを作成されました](../assets/images/1.1/image_operation_291_2.png)
 
 ### 11-2-2 ブックマークを表示する {#section11-2-2}
 
 #### 1. トップページの［ブックマーク］をクリックします。  
 
-![ブックマーク](../assets/images/image_operation_bookmark.png)
+![ブックマーク](../assets/images/1.1/image_operation_bookmark.png)
 
 #### 2. ブックマークの一覧が表示されます。  
 
-![ブックマーク一覧](../assets/images/image_operation_294.png)
+![ブックマーク一覧](../assets/images/1.1/image_operation_294.png)
 
 <div class="alert alert-info memo">【Memo】ブックマークの数が多い場合は、検索語でブックマークを絞り込むことができます。また、登録されたブックマークを削除したい場合は、［削除］をクリックします。
 </div>

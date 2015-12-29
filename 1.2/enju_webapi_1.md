@@ -29,7 +29,7 @@ Enju は検索結果一覧を好みのフォーマットで取得する機能が
 
 #### 1. 検索結果を表示します。
 
-![検索結果を表示](../assets/images/image_webapi_search_result.png)
+![検索結果を表示](../assets/images/1.1/image_webapi_search_result.png)
 
 #### 2. 検索結果のアドレス欄のURLのmanifestationsの後ろに.txtを追加します。
 
@@ -40,7 +40,7 @@ Enju は検索結果一覧を好みのフォーマットで取得する機能が
 
 ※現在、表示している検索結果のみを表示します。他の画面の検索結果は含みません。
 
-![検索結果のTSV](../assets/images/image_webapi_search_result_txt.png)
+![検索結果のTSV](../assets/images/1.1/image_webapi_search_result_txt.png)
 
 
 (現在準備中です）

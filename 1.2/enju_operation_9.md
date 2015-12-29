@@ -30,25 +30,25 @@ version: 1.2
 
 #### 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
 
-![システムの設定](../assets/images/image_operation_247.jpg)
+![システムの設定](../assets/images/1.1/image_operation_247.jpg)
 
 #### 2. ［資料］グループの［蔵書点検］をクリックします。  
 
-![蔵書点検](../assets/images/image_operation_249.jpg)
+![蔵書点検](../assets/images/1.1/image_operation_249.jpg)
 
 #### 3. 右メニューの［蔵書点検ファイルの新規作成］を選択します。  
 
-![蔵書点検ファイルの新規作成](../assets/images/image_operation_251.jpg)
+![蔵書点検ファイルの新規作成](../assets/images/1.1/image_operation_251.jpg)
 
 #### 4. ［参照］ボタンをクリックします。  
 
-![参照](../assets/images/image_operation_252.jpg)
+![参照](../assets/images/1.1/image_operation_252.jpg)
 
 #### 5. インポートしたいファイルを指定し、［開く］をクリックします。
 
 #### 6. ［蔵書点検ファイルを作成］ボタンをクリックします。  
 
-![蔵書点検ファイルを作成](../assets/images/image_operation_254.jpg)
+![蔵書点検ファイルを作成](../assets/images/1.1/image_operation_254.jpg)
 
 #### 7. 「蔵書点検ファイルは正常に作成されました。」のメッセージが表示され、蔵書点検ファイルが取り込まれます。
 
@@ -59,11 +59,11 @@ version: 1.2
 
 #### 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
 
-![システムの設定](../assets/images/image_operation_255.jpg)
+![システムの設定](../assets/images/1.1/image_operation_255.jpg)
 
 #### 2. ［資料］グループの［蔵書点検］をクリックします。  
 
-![蔵書点検](../assets/images/image_operation_249.jpg)
+![蔵書点検](../assets/images/1.1/image_operation_249.jpg)
 
 #### 3. 右メニューの［蔵書点検を行う］を選択します。
 

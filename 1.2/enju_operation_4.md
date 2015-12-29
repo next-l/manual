@@ -59,11 +59,11 @@ version: 1.2
 
 #### 1. ［図書館への依頼］メニューから［購入リクエスト］を選択します。  
 
-![購入リクエスト](../assets/images/image_operation_purchase_req.png)
+![購入リクエスト](../assets/images/1.1/image_operation_purchase_req.png)
 
 #### 2. 右メニューの［購入リクエストの新規作成］をクリックします。  
 
-![購入リクエストの新規作成](../assets/images/image_operation_078.png)
+![購入リクエストの新規作成](../assets/images/1.1/image_operation_078.png)
 
 <div class="alert alert-info memo" markdown="1">
 【Memo】
@@ -76,11 +76,11 @@ version: 1.2
 
 #### 3. タイトルや著者などを入力し、［登録する］ボタンをクリックします。  
 
-![購入リクエスト作成](../assets/images/image_operation_079.png)
+![購入リクエスト作成](../assets/images/1.1/image_operation_079.png)
 
 #### 4. 購入リクエストが作成されました。  
 
-![購入リクエスト作成結果](../assets/images/image_operation_083.png)
+![購入リクエスト作成結果](../assets/images/1.1/image_operation_083.png)
 
 ### 4-1-1 発注リストを作成する {#section4-1-1}
 
@@ -89,19 +89,19 @@ version: 1.2
 
 #### 1. ［図書館の管理］メニューから［発注リスト］を選択します。  
 
-![発注リスト](../assets/images/image_operation_order.png)
+![発注リスト](../assets/images/1.1/image_operation_order.png)
    
 #### 2. 右メニューの［発注リストの新規作成］をクリックします。  
 
-![発注リストの新規作成](../assets/images/image_operation_072.png)
+![発注リストの新規作成](../assets/images/1.1/image_operation_072.png)
 
 #### 3. リストのタイトルを入力し、書店を選択したら［登録する］ボタンをクリックします。  
 
-![発注リストを作成](../assets/images/image_operation_074.png)
+![発注リストを作成](../assets/images/1.1/image_operation_074.png)
 
 #### 4. 「発注リストは正常に作成されました。」と表示され、発注リストが作成されます。
 
-![発注リストを作成](../assets/images/image_operation_074_2.png)
+![発注リストを作成](../assets/images/1.1/image_operation_074_2.png)
 
 ### 4-1-2 発注したい図書（購入リクエスト）を発注リストに登録する {#section4-1-2}
 
@@ -109,11 +109,11 @@ version: 1.2
 
 #### 1. ［図書館への依頼］メニューから［購入リクエスト］を選択します。  
 
-![購入リクエスト](../assets/images/image_operation_purchase_req.png)
+![購入リクエスト](../assets/images/1.1/image_operation_purchase_req.png)
 
 #### 2. 発注リストに登録したい図書のタイトルのリンクをクリックします。  
 
-![購入リクエストの選択](../assets/images/image_operation_078_2.png)
+![購入リクエストの選択](../assets/images/1.1/image_operation_078_2.png)
 
 <div class="alert alert-info memo" markdown="1">
 【Memo】
@@ -133,29 +133,29 @@ version: 1.2
 
 #### 4. 購入リクエストの表示画面に切り替わったら、右メニューの［発注リストに追加する］をクリックします。  
 
-![発注リストに追加する](../assets/images/image_operation_083_2.png)
+![発注リストに追加する](../assets/images/1.1/image_operation_083_2.png)
 
 #### 5. 発注リストを選択し、［登録する］ボタンをクリックします。  
 
-![発注を作成](../assets/images/image_operation_085.png)
+![発注を作成](../assets/images/1.1/image_operation_085.png)
 
 ### 4-1-3 発注リストを確定し「発注済み」にする {#section4-1-3}
 
 #### 1. ［図書館の管理］メニューから［発注リスト］を選択します。  
 
-![発注リスト](../assets/images/image_operation_order.png)
+![発注リスト](../assets/images/1.1/image_operation_order.png)
    
 #### 2. 確定したい発注リストの発注リスト名をクリックします。  
 
-![発注リスト名](../assets/images/image_operation_order_submit_1.png)
+![発注リスト名](../assets/images/1.1/image_operation_order_submit_1.png)
 
 #### 3. 右メニューの［購入リクエストの一覧］をクリックします。  
 
-![購入リクエストの一覧](../assets/images/image_operation_order_submit_2.png)
+![購入リクエストの一覧](../assets/images/1.1/image_operation_order_submit_2.png)
 
 #### 4. 右メニューの［発注票を作成する］リンクをクリックします。
 
-![発注票を作成するリンク](../assets/images/image_operation_091_3.png)
+![発注票を作成するリンク](../assets/images/1.1/image_operation_091_3.png)
 
 <div class="alert alert-info memo" markdown="1">
 【Memo】
@@ -165,16 +165,16 @@ version: 1.2
 
 #### 5. 注記などを入力し［発注票を作成する］ボタンをクリックします。
 
-![発注票を作成するボタン](../assets/images/image_operation_091_4.png)
+![発注票を作成するボタン](../assets/images/1.1/image_operation_091_4.png)
 
 #### 6. 発注リストが更新されました。
 
-![発注リストが更新されました](../assets/images/image_operation_091_5.png)
+![発注リストが更新されました](../assets/images/1.1/image_operation_091_5.png)
 
 <div class="alert alert-info memo" markdown="1">
 【Memo】この処理をすると発注リストの状態が「発注済み」に変更されます。
 
-![発注済み](../assets/images/image_operation_091_7.png)
+![発注済み](../assets/images/1.1/image_operation_091_7.png)
 
 </div>
 
@@ -184,19 +184,19 @@ version: 1.2
 
 #### 1. ［図書館の管理］メニューから［発注リスト］を選択します。  
 
-![発注リスト](../assets/images/image_operation_order.png)
+![発注リスト](../assets/images/1.1/image_operation_order.png)
 
 #### 2. 発注リストをクリックします。  
 
-![発注リストの選択](../assets/images/image_operation_088.png)
+![発注リストの選択](../assets/images/1.1/image_operation_088.png)
 
 #### 3. 右メニューの［購入リクエストの一覧］リンクをクリックします。  
 
-![購入リクエストの一覧](../assets/images/image_operation_089.png)
+![購入リクエストの一覧](../assets/images/1.1/image_operation_089.png)
 
 #### 4. 右メニューの［TSV］をクリックします。  
 
-![TSVリンク](../assets/images/image_operation_091.png)
+![TSVリンク](../assets/images/1.1/image_operation_091.png)
 
 <div class="alert alert-info memo" markdown="1">
 【Memo】
@@ -206,7 +206,7 @@ version: 1.2
 
 #### 5. TSVが表示されます。
 
-![TSV](../assets/images/image_operation_091_2.png)
+![TSV](../assets/images/1.1/image_operation_091_2.png)
 
 ### 4-1-5 発注済みリストのRSSを表示する {#section4-1-5}
 
@@ -216,11 +216,11 @@ version: 1.2
 
 #### 2. 右メニューの［RSS］をクリックします。  
 
-![RSSリンク](../assets/images/image_operation_091_RSS.png)
+![RSSリンク](../assets/images/1.1/image_operation_091_RSS.png)
 
 #### 3. RSSが表示されます。
 
-![RSS](../assets/images/image_operation_091_2_RSS.png)
+![RSS](../assets/images/1.1/image_operation_091_2_RSS.png)
 
 
 
@@ -243,15 +243,15 @@ NDLサーチなどを検索して1件ずつ登録する
 </pre>
 
 
-![TSVファイルからのインポート](../assets/images/image_operation_093.png)
+![TSVファイルからのインポート](../assets/images/1.1/image_operation_093.png)
 
 #### 2. ［ファイルを選択］ボタンをクリックしてインポート用のファイルを選択します。
 
-![ファイルを選択](../assets/images/image_operation_094.png)
+![ファイルを選択](../assets/images/1.1/image_operation_094.png)
 
 #### 3. [編集モード]が[作成]となっていることを確認し、[文字コード]、[既定の本棚]を選択して［インポートを開始］ボタンをクリックします。  
 
-![インポートされる資料のファイルを作成](../assets/images/image_operation_095.png)
+![インポートされる資料のファイルを作成](../assets/images/1.1/image_operation_095.png)
    
 <div class="alert alert-info memo" markdown="1">
 【Memo】
@@ -266,7 +266,7 @@ NDLサーチなどを検索して1件ずつ登録する
 
 #### 4. 「資料のインポート用ファイルは正常に作成されました。」のメッセージが表示され、資料のデータインポートの準備が整いました。右の[資料のインポート用ファイルの一覧]をクリックします。  
 
-![インポート結果](../assets/images/image_operation_095_2.png)
+![インポート結果](../assets/images/1.1/image_operation_095_2.png)
 
 #### 5. 今までのインポート結果の一覧が表示されます。[状態]を見ると処理結果がわかります。
 
@@ -279,7 +279,7 @@ NDLサーチなどを検索して1件ずつ登録する
 インポート完了時には[メッセージ機能](enju_operation_2.html#section2-3)にてお知らせします
 （「インポートが完了しました」というメッセージが送られてきます）。
 
-![インポート結果の一覧表示](../assets/images/image_operation_095_3.png)
+![インポート結果の一覧表示](../assets/images/1.1/image_operation_095_3.png)
 
 <div class="alert alert-info memo">
 【Memo】この画面は[資料の受入]メニュー->[TSVファイルからのインポート]->
@@ -292,31 +292,31 @@ NDLサーチなどを検索して1件ずつ登録する
 
 #### 6. インポートした結果を確かめるために、インポートの結果の一覧を表示させます。そのために、［資料の受入］メニューから［TSVファイルからのインポート］を選択します。
 
-![TSVファイルからのインポート](../assets/images/image_operation_093.png)
+![TSVファイルからのインポート](../assets/images/1.1/image_operation_093.png)
 
 #### 7. 右メニューの[資料のインポート用ファイルの一覧]のリンクをたどります。
 
-![インポート結果の一覧表示](../assets/images/image_operation_095_4.png)
+![インポート結果の一覧表示](../assets/images/1.1/image_operation_095_4.png)
 
 #### 8. 確認したいインポートの[表示]をクリックします。
 
-![インポート結果の一覧表示の表示](../assets/images/image_operation_095_5.png)
+![インポート結果の一覧表示の表示](../assets/images/1.1/image_operation_095_5.png)
 
 #### 9. 結果やエラーメッセージを確認します。表の「資料」の列で2行目以降※で、なにも表示されていない行はエラーのあった行なので[表示]をクリックする。
 
 （※一行目はヘッダの行なので、資料の列にはなにも表示されていない）
 
-![インポート結果の一覧表示の表示](../assets/images/image_operation_095_6.png)
+![インポート結果の一覧表示の表示](../assets/images/1.1/image_operation_095_6.png)
 
 <div class="alert alert-info memo" markdown="1">
 【Memo】以下の例は、列名が間違っていて無視された例です。
 
-![TSVファイルからのインポート](../assets/images/image_operation_095_2_2.png)
+![TSVファイルからのインポート](../assets/images/1.1/image_operation_095_2_2.png)
 </div> 
 
 #### 10. エラーメッセージなどを確認して、個別に登録する。個別に登録する方法は次の[「ISBNコードを入力して1件づつ登録する」](#section4-2-3)，[「手動で資料を登録する」](#section4-2-7)などを参照してください。
 
-![資料インポートの結果の表示](../assets/images/image_operation_095_8.png)
+![資料インポートの結果の表示](../assets/images/1.1/image_operation_095_8.png)
 
 ### 4-2-2 ISBNファイルを読み込んで登録する {#section4-2-2}
 
@@ -341,15 +341,15 @@ ISBNコードから国立国会図書館のデータを参照して、資料を�
 
 #### 1. ［資料の受入］メニューから［ISBNを入力する］を選択します。
 
-![ISBNを入力する](../assets/images/image_operation_106.png)
+![ISBNを入力する](../assets/images/1.1/image_operation_106.png)
 
 #### 2. ISBNコードを入力し、［登録する］をクリックします。
 
-![インポートのリクエストを作成](../assets/images/image_operation_108.png)
+![インポートのリクエストを作成](../assets/images/1.1/image_operation_108.png)
 
 #### 3. 「インポートのリクエストは正常に作成されました。」と表示され、登録が完了します。
 
-![登録完了](../assets/images/image_operation_109.png)
+![登録完了](../assets/images/1.1/image_operation_109.png)
 
 <div class="alert alert-info memo" markdown="1">
 【Memo】
@@ -367,11 +367,11 @@ ISBNコードから国立国会図書館のデータを参照して、資料を�
 
 #### 4.  [資料の受入］メニューから［ISBNを入力する］を選択します。
 
-![ISBNを入力する](../assets/images/image_operation_106.png)
+![ISBNを入力する](../assets/images/1.1/image_operation_106.png)
 
 #### 5. 右メニューの［ISBNインポートリクエストの一覧］を選択します。
 
-![ISBNインポートリクエストの一覧](../assets/images/image_operation_109_2.png)
+![ISBNインポートリクエストの一覧](../assets/images/1.1/image_operation_109_2.png)
 
 #### 6. ISBNインポートのリクエストの一覧が表示されます。
 
@@ -379,7 +379,7 @@ ISBNコードから国立国会図書館のデータを参照して、資料を�
 登録されたことを示します。
 [処理待ち]や[失敗]は登録されていません。
 
-![ISBNインポートリクエストの一覧表示](../assets/images/image_operation_109_3.png)
+![ISBNインポートリクエストの一覧表示](../assets/images/1.1/image_operation_109_3.png)
 
 </div>
 
@@ -391,11 +391,11 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 
 #### 1. ［資料の受入］メニューから［NDLサーチ検索によるインポート］を選択します。
 
-![NDLサーチ検索によるインポート](../assets/images/image_operation_106_ndl.png)
+![NDLサーチ検索によるインポート](../assets/images/1.1/image_operation_106_ndl.png)
 
 #### 2. 登録したい資料を検索します。検索語に登録したい資料のJP番号などを入力し、［検索］ボタンをクリックします。
 
-![NDLサーチ検索の検索](../assets/images/image_operation_107_ndl.png)
+![NDLサーチ検索の検索](../assets/images/1.1/image_operation_107_ndl.png)
 
 <div class="alert alert-info memo">
 【Memo】
@@ -409,7 +409,7 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 
 #### 3. 登録したい資料の[追加]をクリックします
 
-![資料の追加](../assets/images/image_operation_108_ndl.png)
+![資料の追加](../assets/images/1.1/image_operation_108_ndl.png)
 
 <div class="alert alert-info memo">
 【Memo】原題のリンク先はNDLサーチの書誌詳細画面になっていますので、書誌詳細を確認できます。
@@ -422,11 +422,11 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 
 #### 4. [追加]ボタンが[保存中...]に変わりますので，画面が切り替わるまでしばらく待ちます。
 
-![資料の保存中](../assets/images/image_operation_108_2_ndl.png)
+![資料の保存中](../assets/images/1.1/image_operation_108_2_ndl.png)
 
 #### 5. 「資料は正常に作成されました。」と表示され、登録が完了します。
 
-![登録完了](../assets/images/image_operation_109_ndl.png)
+![登録完了](../assets/images/1.1/image_operation_109_ndl.png)
 
 <div class="alert alert-info memo" markdown="1">
 【Memo】
@@ -446,7 +446,7 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 
 #### 1. ［資料の受入］メニューから［米国議会図書館検索によるインポート］を選択します。
 
-![米国議会図書館検索によるインポート](../assets/images/image_operation_loc_1.png)
+![米国議会図書館検索によるインポート](../assets/images/1.1/image_operation_loc_1.png)
 
 #### 2. 以降は、[4-2-4 NDLサーチを検索して1件ずつ登録する](#section4-2-4) の 2. 以降の手順と同様です。
 
@@ -461,7 +461,7 @@ CiNii Books（<http://ci.nii.ac.jp/books/>）を検索した資料を
 
 #### 1. ［資料の受入］メニューから［CiNii Books検索によるインポート］を選択します。
 
-![CiNii Books検索によるインポート](../assets/images/image_operation_nii_1.png)
+![CiNii Books検索によるインポート](../assets/images/1.1/image_operation_nii_1.png)
 
 #### 2. 以降は、[4-2-4 NDLサーチを検索して1件ずつ登録する](#section4-2-4) の 2.以降の手順と同様です。
 
@@ -469,42 +469,42 @@ CiNii Books（<http://ci.nii.ac.jp/books/>）を検索した資料を
 
 #### 1. ［資料の受入］メニューから［手動で登録する］を選択します。
 
-![手動で登録する](../assets/images/image_operation_input_manually_manifestation.png)
+![手動で登録する](../assets/images/1.1/image_operation_input_manually_manifestation.png)
 
 #### 2. 原題のほか必要な項目を入力し、[登録する]ボタンをクリックします。
 
-![原題のほか必要な項目を入力し登録](../assets/images/image_operation_100.png)
+![原題のほか必要な項目を入力し登録](../assets/images/1.1/image_operation_100.png)
 
 <div class="alert alert-info memo" markdown="1">【Memo】「*」のマークが付いた項目は入力必須項目です。
 </div>
 
 #### 4. 「資料は正常に作成されました。」のメッセージが表示され、図書が登録されます。
 
-![原題のほか必要な項目を入力し登録](../assets/images/image_operation_100_2.png)
+![原題のほか必要な項目を入力し登録](../assets/images/1.1/image_operation_100_2.png)
 
 ### 4-2-8 図書の書誌を編集（修正）する {#section4-2-8}
 
 #### 1. 書誌を編集したい本の名前を検索語に入力し、［検索］をクリックします。  
 
-![検索](../assets/images/image_operation_bib_ed_1.png)
+![検索](../assets/images/1.1/image_operation_bib_ed_1.png)
 
 #### 2. 書誌を編集したい本が検索されたら、［編集］をクリックします。  
 
-![編集](../assets/images/image_operation_bib_ed_2.png)
+![編集](../assets/images/1.1/image_operation_bib_ed_2.png)
 
 <div class="alert alert-success memo" markdown="1">
 【Memo】ここで、本のタイトルのリンクをたどり、その先の資料の表示画面の右メニュー[編集]をクリックすることでも編集画面に移動します。
 
-![編集](../assets/images/image_operation_bib_ed_3.png)
+![編集](../assets/images/1.1/image_operation_bib_ed_3.png)
 </div>
 
 #### 3. 編集をし、［更新する］ボタンをクリックします。  
 
-![更新する](../assets/images/image_operation_bib_ed_4.png)
+![更新する](../assets/images/1.1/image_operation_bib_ed_4.png)
 
 #### 4. 「資料は正常に更新されました。」と表示され、書誌が更新されます。
 
-![更新されました](../assets/images/image_operation_bib_ed_5.png)
+![更新されました](../assets/images/1.1/image_operation_bib_ed_5.png)
 
 ### 4-2-9 TSVファイルを読み込んで更新する {#section4-2-9}
 
@@ -990,15 +990,15 @@ YAML形式で記述します。具体的には以下のように記述します�
 
 #### 1. 登録したい資料を検索します。トップページの検索語に登録したい資料のキーワードを入力し、［検索］ボタンをクリックします。  
 
-![検索](../assets/images/image_operation_111.png)
+![検索](../assets/images/1.1/image_operation_111.png)
 
 #### 2. 所蔵情報を登録したい資料をクリックします。  
 
-![資料](../assets/images/image_operation_113.png)
+![資料](../assets/images/1.1/image_operation_113.png)
 
 #### 3. 右メニューの［（新規作成）］をクリックします。  
 
-![所蔵情報の新規作成](../assets/images/image_operation_119.png)
+![所蔵情報の新規作成](../assets/images/1.1/image_operation_119.png)
 
 <div class="alert alert-info memo" markdown="1">
 
@@ -1010,7 +1010,7 @@ YAML形式で記述します。具体的には以下のように記述します�
 
 #### 4. 図書館や貸出状態などを設定して、［登録する］ボタンをクリックします。  
 
-![所蔵情報を作成](../assets/images/image_operation_121.png)
+![所蔵情報を作成](../assets/images/1.1/image_operation_121.png)
 
 <div class="alert alert-info memo" markdown="1">
 
@@ -1027,7 +1027,7 @@ YAML形式で記述します。具体的には以下のように記述します�
 
 #### 5. 「所蔵情報は正常に作成されました。」のメッセージが表示され、所蔵情報が登録されます。
 
-![所蔵情報が正常に作成](../assets/images/image_operation_121_2.png)
+![所蔵情報が正常に作成](../assets/images/1.1/image_operation_121_2.png)
 
 <div class="alert alert-info memo" markdown="1">
 
@@ -1046,19 +1046,19 @@ YAML形式で記述します。具体的には以下のように記述します�
 
 #### 1. 修正登録したい資料を検索します。トップページの検索語に登録したい資料の所蔵情報ID（バーコード番号）などを入力し、［検索］ボタンをクリックします。
 
-![検索](../assets/images/image_operation_111_u.png)
+![検索](../assets/images/1.1/image_operation_111_u.png)
 
 #### 2. 所蔵情報を登録したい資料の[（所蔵）]リンクをクリックします。
 
-![（所蔵)](../assets/images/image_operation_112_u.png)
+![（所蔵)](../assets/images/1.1/image_operation_112_u.png)
 
 #### 3. 所蔵情報を修正したい資料の[所蔵情報ID]のリンクをクリックします。
 
-![所蔵ID](../assets/images/image_operation_113_u.png) 
+![所蔵ID](../assets/images/1.1/image_operation_113_u.png) 
 
 #### 4. 右メニューの［編集］をクリックします。
 
-![所蔵情報の編集](../assets/images/image_operation_114_u.png)
+![所蔵情報の編集](../assets/images/1.1/image_operation_114_u.png)
 
 <div class="alert alert-info memo" markdown="1">
 
@@ -1071,7 +1071,7 @@ YAML形式で記述します。具体的には以下のように記述します�
 
 #### 5. 図書館や貸出状態など修正したい部分を修正して、［登録する］ボタンをクリックします。
 
-![所蔵情報を登録](../assets/images/image_operation_121_u.png)
+![所蔵情報を登録](../assets/images/1.1/image_operation_121_u.png)
 
 <div class="alert alert-info memo" markdown="1">
 
@@ -1085,21 +1085,21 @@ YAML形式で記述します。具体的には以下のように記述します�
 
 #### 6. 「所蔵情報は正常に更新されました。」のメッセージが表示され、所蔵情報が登録されます。
 
-![所蔵情報が正常に更新](../assets/images/image_operation_121_2_u.png)
+![所蔵情報が正常に更新](../assets/images/1.1/image_operation_121_2_u.png)
 
 ### 4-3-3 所蔵情報を一覧表示する {#section4-3-3}
 
 #### 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
 
-![システムの設定](../assets/images/image_operation_system_setup.png)
+![システムの設定](../assets/images/1.1/image_operation_system_setup.png)
 
 #### 2. ［資料］グループの［全ての所蔵情報］をクリックします。  
 
-![全ての所蔵情報](../assets/images/image_operation_124.png)
+![全ての所蔵情報](../assets/images/1.1/image_operation_124.png)
 
 #### 3. 所蔵情報の一覧が表示されます。  
 
-![所蔵情報の一覧](../assets/images/image_operation_125.png)
+![所蔵情報の一覧](../assets/images/1.1/image_operation_125.png)
 
 <div class="alert alert-info memo" markdown="1">
 
@@ -1112,11 +1112,11 @@ YAML形式で記述します。具体的には以下のように記述します�
 
 #### 4. 右メニューの貸出状態（例：[除籍済み]）のリンクをクリックします。  
 
-![所蔵情報の一覧の絞り込み](../assets/images/image_operation_125_2.png)
+![所蔵情報の一覧の絞り込み](../assets/images/1.1/image_operation_125_2.png)
 
 #### 5. クリックした貸出状態のものに絞り込んで表示します。絞り込みを解除し、すべてを表示するには、[この絞り込みを解除する]リンクをクリックします。
 
-![所蔵情報の一覧の絞り込みを解除](../assets/images/image_operation_125_3.png)
+![所蔵情報の一覧の絞り込みを解除](../assets/images/1.1/image_operation_125_3.png)
 
 ### 4-3-4 TSVファイルを読み込んで登録する {#section4-3-4}
 
@@ -1127,7 +1127,7 @@ YAML形式で記述します。具体的には以下のように記述します�
 
 例えば、ISBN と　所蔵情報（所蔵情報のTSVの詳細：[4-3-8 TSVファイルの作り方（所蔵情報）](#section4-3-8) ）を書いたTSVを用意します。※Enju Leaf 1.1.0では、item_identifier（所蔵情報ID）の値が必須になっています。ない場合は所蔵情報が登録されません（[issue #1053](https://github.com/next-l/enju_leaf/issues/1053),[issue #1019](https://github.com/next-l/enju_leaf/issues/1019)）。
 
-![所蔵情報の一覧](../assets/images/image_operation_item_tsv.png)
+![所蔵情報の一覧](../assets/images/1.1/image_operation_item_tsv.png)
 
 ISBNの場合は、書誌が未登録の資料の場合は、国立国会図書館蔵書検索の結果から書誌データをインポートし、かつ所蔵情報を登録することになります。
 
@@ -1180,19 +1180,19 @@ ISBNの代わりに、manifestation_idやmanifestation_identifierでも可能で
 
 #### 関連を更新を選択し、その上で右をクリックし、「要素を検証」を選びます。
 
-![要素を検証](../assets/images/image_operation_item_tsv_rm_001.png)
+![要素を検証](../assets/images/1.1/image_operation_item_tsv_rm_001.png)
 
 ####「削除」のあたりで右クリックし、「Edit as HTML」を選びます。
 
-![Edit as HTML](../assets/images/image_operation_item_tsv_rm_003.png)
+![Edit as HTML](../assets/images/1.1/image_operation_item_tsv_rm_003.png)
 
 #### HTMLのコメントアウトコマンド（赤四角した部分）を消します。
 
-![コメントアウトの削除](../assets/images/image_operation_item_tsv_rm_005.png)
+![コメントアウトの削除](../assets/images/1.1/image_operation_item_tsv_rm_005.png)
 
 #### [削除]ボタンが表示されます
 
-![削除ボタン](../assets/images/image_operation_item_tsv_rm_007.png)
+![削除ボタン](../assets/images/1.1/image_operation_item_tsv_rm_007.png)
 
 </div>
 
@@ -1391,23 +1391,23 @@ ISBNの代わりに、manifestation_idやmanifestation_identifierでも可能で
 
 #### 1. ［資料の受入］メニューから［検収］を選択します。  
 
-![システムの設定](../assets/images/image_operation_accept.png)
+![システムの設定](../assets/images/1.1/image_operation_accept.png)
 
 #### 2. ［所蔵情報ID］を入力し（所蔵情報IDのバーコードをスキャンなど）、[検収]ボタンをクリックします。  
 
-![所蔵情報IDの入力と検収](../assets/images/image_operation_accept_1.png)
+![所蔵情報IDの入力と検収](../assets/images/1.1/image_operation_accept_1.png)
 
 #### 3. 「この資料は正常に検収されました」と表示され検収が完了します。2 を繰り返すことで、続けて他の資料を検収できます。詳しい内容を確認したい場合は、[所蔵情報ID]のリンクをクリックします。
 
-![検収結果](../assets/images/image_operation_accept_3.png)
+![検収結果](../assets/images/1.1/image_operation_accept_3.png)
 
 #### 4. [貸出情報]、[利用制限]、[検収時刻]が変わったことを確認できます。 
 
-![所蔵情報の確認](../assets/images/image_operation_accept_4.png)
+![所蔵情報の確認](../assets/images/1.1/image_operation_accept_4.png)
 
 <div class="alert alert-info memo" markdown="1">
 【Memo】利用者の検索結果一覧で「（所蔵）」や[予約]リンク（User権限以上のみ）が表示されるようになります。[予約]リンクはログインユーザが「延滞」していると表示されません。※Enju 1.1.0時点では、原因不明の理由で、User権限でログインした時に、[予約]リンクが出現しない現象を確認しています。現在、原因究明中です（詳細: [#issue868](https://github.com/next-l/enju_leaf/issues/868)）。
-   ![検索結果一覧](../assets/images/image_operation_accept_5.png)
+   ![検索結果一覧](../assets/images/1.1/image_operation_accept_5.png)
 </div>
 
 <!--
@@ -1445,23 +1445,23 @@ https://github.com/next-l/enju_leaf/issues/867#issuecomment-147685332
 
 #### 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
 
-![システムの設定](../assets/images/image_operation_system_setup.png)
+![システムの設定](../assets/images/1.1/image_operation_system_setup.png)
 
 #### 2. [連続除籍]をクリックします。 
 
-![連続除籍](../assets/images/image_operation_withdraw_001.png)
+![連続除籍](../assets/images/1.1/image_operation_withdraw_001.png)
 
 #### 3. ［所蔵情報ID］を入力し（所蔵情報IDのバーコードをスキャンなど）、[除籍]ボタンをクリックします。  
 
-![所蔵情報IDの入力と除籍](../assets/images/image_operation_withdraw_003.png)
+![所蔵情報IDの入力と除籍](../assets/images/1.1/image_operation_withdraw_003.png)
 
 #### 4. 「この資料は正常に除籍されました」と表示され除籍が完了します。2 を繰り返すことで、続けて他の資料を除籍できます。詳しい内容を確認したい場合は、[所蔵情報ID]のリンクをクリックします。
 
-![検収結果](../assets/images/image_operation_withdraw_005.png)
+![検収結果](../assets/images/1.1/image_operation_withdraw_005.png)
 
 #### 5. [貸出状態]、[利用制限]、[更新時刻]が変わったことを確認できます。 
 
-![所蔵情報の確認](../assets/images/image_operation_withdraw_007.png)
+![所蔵情報の確認](../assets/images/1.1/image_operation_withdraw_007.png)
 
 ### 4-5-2 所蔵情報の編集機能を使う {#section4-5-2}
 
@@ -1473,7 +1473,7 @@ https://github.com/next-l/enju_leaf/issues/867#issuecomment-147685332
 
 #### 2. 貸出状態を「除籍済み」に変更し、利用制限を「貸出不可」に変更し、「更新する」をクリックします。
 
-![貸出状態と利用制限を修正](../assets/images/image_operation_132.png)
+![貸出状態と利用制限を修正](../assets/images/1.1/image_operation_132.png)
 
 ### 4-5-3 TSVファイルを読み込んで更新する {#section4-5-3}
 
@@ -1491,11 +1491,11 @@ https://github.com/next-l/enju_leaf/issues/867#issuecomment-147685332
 
 AdministratorやLibrarian権限でログインしている場合は、貸出状態が「除籍済み」と表示されるようになり、除籍した資料がわかるようになります。
 
-![Librarian権限以上での検索結果一覧での削除済み資料の表示](../assets/images/image_operation_132-2.png)
+![Librarian権限以上での検索結果一覧での削除済み資料の表示](../assets/images/1.1/image_operation_132-2.png)
 
 ログインしていない、User権限でログインしている場合は、除籍したものは所蔵が表示されないようになります。
 
-![User権限以下での検索結果一覧での削除済み資料の表示](../assets/images/image_operation_132-3.png)
+![User権限以下での検索結果一覧での削除済み資料の表示](../assets/images/1.1/image_operation_132-3.png)
 
 ### 4-5-5 除籍した資料のリストをTSV形式のテキストファイルで入手する方法 {#section4-5-5}
 
@@ -1515,15 +1515,15 @@ AdministratorやLibrarian権限でログインしている場合は、貸出状�
 
 #### 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
 
-![システムの設定](../assets/images/image_operation_system_setup.png)
+![システムの設定](../assets/images/1.1/image_operation_system_setup.png)
 
 #### 2. [連続除籍]をクリックします。 
 
-![連続除籍](../assets/images/image_operation_withdraw_001.png)
+![連続除籍](../assets/images/1.1/image_operation_withdraw_001.png)
 
 #### 3. [除籍済みの所蔵情報の一覧]をクリックします。
 
-![除籍済みの所蔵情報の一覧リンク](../assets/images/image_operation_withdraw_009.png)
+![除籍済みの所蔵情報の一覧リンク](../assets/images/1.1/image_operation_withdraw_009.png)
 
 <div class="alert alert-info">
 【Memo】[連続除籍の一覧]をクリックすると、連続除籍機能で除籍した資料のみの一覧が閲覧できます。
@@ -1531,7 +1531,7 @@ AdministratorやLibrarian権限でログインしている場合は、貸出状�
 
 #### 4. 除籍済みの資料の一覧が表示されます。
 
-![除籍済みの所蔵情報の一覧](../assets/images/image_operation_withdraw_011.png)
+![除籍済みの所蔵情報の一覧](../assets/images/1.1/image_operation_withdraw_011.png)
 
 <div class="alert alert-info" markdown="1">
 【Memo】
@@ -1579,7 +1579,7 @@ Enjuでは、ブックマークレットを利用してWebページやWeb上のP
 
 #### 1. トップページの［ブックマーク］をクリックします。  
 
-![ブックマーク](../assets/images/image_operation_bookmark.png)
+![ブックマーク](../assets/images/1.1/image_operation_bookmark.png)
 
 <div class="alert alert-info memo" markdown="1">
 【Memo】もし、[ブックマーク]がない場合は、[enju_bookmark]モジュールを
@@ -1591,7 +1591,7 @@ Enjuでは、ブックマークレットを利用してWebページやWeb上のP
 
 #### 2. 右メニューの［図書館のブックマークに追加する］を右クリックし、［お気に入りに追加］をクリックします。  
 
-![お気に入りに追加](../assets/images/image_operation_138.png)
+![お気に入りに追加](../assets/images/1.1/image_operation_138.png)
 
 <div class="alert alert-info memo" markdown="1">
 【Memo】ここから4までの手順については、ブラウザによって多少やり方が異なります。例えば、ここの手順については、Firefoxであれば、右メニューの［図書館のブックマークに追加する］を右クリックし、［このリンクをブックマーク]をクリックします。Chromeであれば、[図書館のブックマークに追加する]をメニューバーにドラックアンドドロップします。2～4の手順では、Internet Explorer11でのやり方を示しています。
@@ -1599,19 +1599,19 @@ Enjuでは、ブックマークレットを利用してWebページやWeb上のP
 
 #### 3. お気に入りに登録します。  
 
-![お気に入りに登録](../assets/images/image_operation_139.png)
+![お気に入りに登録](../assets/images/1.1/image_operation_139.png)
 
 #### 4. 資料として登録したいページを表示し、お気に入りから［図書館のブックマークに追加する］を選択します。  
 
-![図書館のブックマークに追加する](../assets/images/image_operation_141.png)
+![図書館のブックマークに追加する](../assets/images/1.1/image_operation_141.png)
 
 #### 5. Enjuのブックマークの新規作成画面が表示されるので、内容を確認して必要であれば適宜修正して、［登録する］ボタンをクリックします。  
 
-![ブックマークを作成](../assets/images/image_operation_142.png)
+![ブックマークを作成](../assets/images/1.1/image_operation_142.png)
 
 #### 6. 「ブックマークは正常に作成されました。」のメッセージが表示され、資料が登録されます。
 
-![ブックマークは正常に作成されまました](../assets/images/image_operation_142_2.png)
+![ブックマークは正常に作成されまました](../assets/images/1.1/image_operation_142_2.png)
 
 #### 7. 次回以降は手順4.以降を行い、資料を登録します。
 
@@ -1620,7 +1620,7 @@ Enjuでは、ブックマークレットを利用してWebページやWeb上のP
 
 #### 8. ブックマークにはせず、ただの資料として登録しておきたい場合は、「ブックマークの一覧」で該当の資料の［削除］をクリックします。
 
-![削除](../assets/images/image_operation_142_3.png)
+![削除](../assets/images/1.1/image_operation_142_3.png)
 
 {:/comment}
 
@@ -1633,19 +1633,19 @@ Enjuでは、画像（図書の表紙など）を登録し、資料に関連づ�
 
 #### 1. 画像を登録したい資料を検索します。トップページの検索語に登録したい資料のキーワードを入力し、［検索］ボタンをクリックします。
 
-![検索](../assets/images/image_operation_145.png) 
+![検索](../assets/images/1.1/image_operation_145.png) 
 
 #### 2. 画像をアップロードしたい資料をクリックします。  
 
-![画像アップロードしたい資料をクリック](../assets/images/image_operation_147.png)
+![画像アップロードしたい資料をクリック](../assets/images/1.1/image_operation_147.png)
 
 #### 3. 右メニューの［画像ファイルの新規作成］をクリックします。  
 
-![画像ファイルの新規作成](../assets/images/image_operation_149.png)
+![画像ファイルの新規作成](../assets/images/1.1/image_operation_149.png)
 
 #### 4. ［ファイルを選択］ボタンをクリックしてアップしたい画像ファイルを選択します。
 
-![画像ファイルを選択](../assets/images/image_operation_151_1.png)
+![画像ファイルを選択](../assets/images/1.1/image_operation_151_1.png)
 
 <div class="alert alert-info memo">
 【Memo】右メニューの[戻る]をクリックすると前の画面に戻ります。
@@ -1653,11 +1653,11 @@ Enjuでは、画像（図書の表紙など）を登録し、資料に関連づ�
 
 #### 5.［登録する］ボタンをクリックします。  
 
-![画像ファイルを作成](../assets/images/image_operation_151_2.png)
+![画像ファイルを作成](../assets/images/1.1/image_operation_151_2.png)
 
 #### 6. 「画像ファイルは正常に作成されました。」というメッセージが表示され、画像ファイルが登録されます。[添付先]のリンク(Manifestation/xxx）をクリックします。
 
-![画像ファイルを作成した結果](../assets/images/image_operation_151_3.png)
+![画像ファイルを作成した結果](../assets/images/1.1/image_operation_151_3.png)
 
 <div class="alert alert-info memo">
 【Memo】右メニューの[編集]をクリックすると編集の画面に遷移します。[画像ファイルの一覧]をクリックすると画像ファイルの一覧に遷移します。
@@ -1665,21 +1665,21 @@ Enjuでは、画像（図書の表紙など）を登録し、資料に関連づ�
 
 #### 7. 追加した画像が資料の表示の画面に表示されます。
 
-![画像ファイルを追加した資料の表示](../assets/images/image_operation_151_4.png)
+![画像ファイルを追加した資料の表示](../assets/images/1.1/image_operation_151_4.png)
 
 ### 4-8-2 画像の一覧表示 {#section4-8-2}
 
 #### 1. ［図書館の管理］メニューから［システムの設定］を選択します。
 
-![システムの設定](../assets/images/image_operation_system_setup.png)
+![システムの設定](../assets/images/1.1/image_operation_system_setup.png)
 
 #### 2. [資料]グループの[画像ファイル]をクリックします。
 
-![画像ファイル](../assets/images/image_operation_151_5.png)
+![画像ファイル](../assets/images/1.1/image_operation_151_5.png)
 
 #### 3. 画像ファイルの一覧が表示されます。添付した画像ファイルの一覧が閲覧できます。
 
-![画像ファイル](../assets/images/image_operation_151_6.png)
+![画像ファイル](../assets/images/1.1/image_operation_151_6.png)
 
 <div class="alert alert-info memo" markdown="1">【Memo】設定内容を変更する場合は［編集］を、削除する場合は［削除］をクリックします、詳細を見たい場合は[表示]をクリックします。[添付先]のリンクをたどれば、添付した資料の「資料の表示」画面にいきます。[ファイル名]をクリックすると画像ファイルが閲覧できます。右メニューにはそれぞれの一覧へ遷移するリンクがあります。
 </div>
@@ -1691,35 +1691,35 @@ Enjuでは、画像（図書の表紙など）を登録し、資料に関連づ�
 
 #### 1. ［図書館の管理］メニューから［エクスポート］を選択します。  
 
-![エクスポート](../assets/images/image_operation_export.png)
+![エクスポート](../assets/images/1.1/image_operation_export.png)
 
 #### 2. [書誌と所蔵のエクスポート]リンクをクリックします。
 
-![書誌と所蔵のエクスポート](../assets/images/image_operation_export_bib_1.png)
+![書誌と所蔵のエクスポート](../assets/images/1.1/image_operation_export_bib_1.png)
 
 #### 3. 右メニューの[書誌と所蔵のエクスポートの新規作成]リンクをクリックします。
 
-![書誌と所蔵のエクスポートの新規作成](../assets/images/image_operation_export_bib_2.png)
+![書誌と所蔵のエクスポートの新規作成](../assets/images/1.1/image_operation_export_bib_2.png)
 
 #### 4. [エクスポート]ボタンをクリックします。
 
-![エクスポート](../assets/images/image_operation_export_bib_3.png)
+![エクスポート](../assets/images/1.1/image_operation_export_bib_3.png)
 
 #### 5. 「書誌と所蔵のエクスポート処理は正常に作成されました」のメッセージが表示され、書誌と所蔵のデータエクスポートの準備が整いました。右の[書誌と所蔵のエクスポートの一覧]をクリックします。 
 
-![エクスポートの表示](../assets/images/image_operation_export_bib_4.png)
+![エクスポートの表示](../assets/images/1.1/image_operation_export_bib_4.png)
 
 #### 6. 今までのエクスポート結果の一覧が表示されます。
 
 [状態]を見ると処理結果がわかります。エクスポートが完了したものは[完了]と表示されます。[開始]のものは現在、実行中です。エクスポート完了時には[メッセージ機能](enju_operation_2.html#section2-3)にてお知らせします（「エクスポートが完了しました」というメッセージが送られてきます）。[アカウントにメールアドレスの設定](enju_user_3.html#section3-2)をしておき、メールサーバーの設定がされていれば、メールでもお知らせが来ます。
 
-![エクスポート結果の一覧表示](../assets/images/image_operation_export_bib_5.png)
+![エクスポート結果の一覧表示](../assets/images/1.1/image_operation_export_bib_5.png)
 
 <div class="alert alert-info memo">【Memo】この画面は[図書館の管理]メニュー->[エクスポート]->[書誌と所蔵のエクスポート]とすればいつでも閲覧できます。</div> 
 
 #### 7. ファイル名のリンクから作成されたTSVファイルをダウンロードすることができます。
 
-![エクスポートファイルのダウンロード](../assets/images/image_operation_export_bib_6.png)
+![エクスポートファイルのダウンロード](../assets/images/1.1/image_operation_export_bib_6.png)
 
 <div class="alert alert-info memo">【Memo】[削除]とするとこのエクスポートファイルを削除することができます。</div> 
 
@@ -1789,11 +1789,11 @@ Enjuでは、画像（図書の表紙など）を登録し、資料に関連づ�
 
 #### 1. ［図書館の管理］メニューから［人物・団体の管理］を選択します。  
 
-![システムの設定](../assets/images/image_operation_agent_1.png)
+![システムの設定](../assets/images/1.1/image_operation_agent_1.png)
 
 #### 2. 修正したい人物もしくは団体の名前を検索語に入力し、［検索］をクリックします。  
 
-![検索](../assets/images/image_operation_agent_2.png)
+![検索](../assets/images/1.1/image_operation_agent_2.png)
 
 <div class="alert alert-info memo" markdown="1">
 【Memo】
@@ -1806,10 +1806,10 @@ Enjuでは、画像（図書の表紙など）を登録し、資料に関連づ�
 
 #### 3. 修正したい人物もしくは団体が検索されたら、［編集］をクリックします。  
 
-![編集](../assets/images/image_operation_agent_3.png)
+![編集](../assets/images/1.1/image_operation_agent_3.png)
 
 #### 4. 必要な情報を修正入力し、［更新する］ボタンをクリックします。  
 
-![更新](../assets/images/image_operation_agent_4.png)
+![更新](../assets/images/1.1/image_operation_agent_4.png)
 
 {% include enju_operation/toc.md %}

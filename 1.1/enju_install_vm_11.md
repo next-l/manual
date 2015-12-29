@@ -66,7 +66,7 @@ version: 1.1
 
 VirtualBoxを起動した際，64bit CPUを使用していても，以下のような警告画面が表示されて起動できないことがあります。これは，Virtualization Technologyという機能が無効になっている場合などに表示されます。
 
-![VirtualBoxの警告画面](../assets/images/vm_err.png "VirtualBoxの警告画面")
+![VirtualBoxの警告画面](../assets/images/1.1/vm_err.png "VirtualBoxの警告画面")
 
 各コンピュータのマニュアルを参照してBIOSのセットアップでVirtualization Technology機能を有効にしてから再起動してください。
 

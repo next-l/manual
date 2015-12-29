@@ -29,15 +29,15 @@ version: 1.1
 
 #### 1. ［図書館の管理］メニューから［システムの設定］を選択します。  
 
-![システムの設定](../assets/images/image_system_setup.png)
+![システムの設定](../assets/images/1.1/image_system_setup.png)
 
 #### 2. ［識別子の種類］をクリックします。  
 
-![識別子の種類の設定](../assets/images/image_initial_079.png)
+![識別子の種類の設定](../assets/images/1.1/image_initial_079.png)
 
 #### 3. 右メニューの［識別子の種類の新規作成］をクリックします。  
 
-![識別子の種類の新規作成](../assets/images/image_initial_081.png)  
+![識別子の種類の新規作成](../assets/images/1.1/image_initial_081.png)  
 
 <div class="alert alert-info memo">
 【Memo】入力済みの設定内容を変更する場合は［編集］を，削除する場合は［削除］をクリックします。ただし、関連する書誌レコードがあるものについては[削除]リンクは表示されず、削除できません。  
@@ -46,6 +46,6 @@ version: 1.1
 
 #### 4. 設定項目に必要事項を入力し、［登録する］ボタンをクリックして，設定内容を登録します。  
 
-![識別子の種類の作成](../assets/images/image_initial_083.png)  
+![識別子の種類の作成](../assets/images/1.1/image_initial_083.png)  
 
 {% include enju_setup/toc.md %}

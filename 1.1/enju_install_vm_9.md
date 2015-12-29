@@ -26,7 +26,7 @@ version: 1.1
 今使ってる仮想マシンとそっくりなコピー（＝クローン）を同じPC上に作る方法です。
 enjuのアップデートを試すときなどに使います。
 
-![仮想マシンのクローンのパターン](../assets/images/image_install_backup_pattern1.png)
+![仮想マシンのクローンのパターン](../assets/images/1.1/image_install_backup_pattern1.png)
 
 ### 9-1-1 仮想マシンのクローンを作成する {#section9-1-1}
 
@@ -38,32 +38,32 @@ enjuのアップデートを試すときなどに使います。
 
 #### 2. VirtualBox の現在使っている仮想マシンをクリックします。
 
-![現在使っている仮想マシン](../assets/images/image_install_backup_pattern1_003.png)
+![現在使っている仮想マシン](../assets/images/1.1/image_install_backup_pattern1_003.png)
 
 #### 3. 「仮想マシン」メニューの「クローン(O)...」をクリックします。
 
-![仮想マシンメニューのクローン](../assets/images/image_install_backup_pattern1_005.png)
+![仮想マシンメニューのクローン](../assets/images/1.1/image_install_backup_pattern1_005.png)
 
 #### 4. 名前を入力し※、「次へ」をクリックします。
 
 ※とくに変更しなければ、 「_クローン」という名前になります。日付などをつけてわかりやすい名前にしておくことをお勧めします。
 
-![仮想マシンのクローンウインドウ](../assets/images/image_install_backup_pattern1_007.png)
+![仮想マシンのクローンウインドウ](../assets/images/1.1/image_install_backup_pattern1_007.png)
 
 #### 5. 「すべてをクローン」になっていることをを確認し※、「クローン」をクリックします。
 
 ※なっていなければ、選択します。
 
-![仮想マシンのクローンのタイプ](../assets/images/image_install_backup_pattern1_009.png)
+![仮想マシンのクローンのタイプ](../assets/images/1.1/image_install_backup_pattern1_009.png)
 
 #### 6. しばらく待ちます。時間がかかります。
 
 以下のような、ウインドウがでます。
-![クローンを待つ](../assets/images/image_install_backup_pattern1_011.png)
+![クローンを待つ](../assets/images/1.1/image_install_backup_pattern1_011.png)
 
 #### 7. クローンが作成されました。
 
-![クローンの作成完了](../assets/images/image_install_backup_pattern1_013.png)
+![クローンの作成完了](../assets/images/1.1/image_install_backup_pattern1_013.png)
 
 ### 9-1-2 仮想マシンのクローンを使用する {#section9-1-2}
 
@@ -76,7 +76,7 @@ enjuのアップデートを試すときなどに使います。
 マシンのハードウェア障害に備えたり、
 別のマシンに仮想マシンごと移築したいときの方法です。
 
-![仮想マシンごとバックアップのパターン](../assets/images/image_install_backup_pattern2.png)
+![仮想マシンごとバックアップのパターン](../assets/images/1.1/image_install_backup_pattern2.png)
 
 ### 9-2-1 仮想マシンごとバックアップをとる {#section9-2-1}
 
@@ -86,15 +86,15 @@ enjuのアップデートを試すときなどに使います。
 
 #### 2. VirtualBox の現在使っている仮想マシンをクリックします。
 
-![現在使っている仮想マシン](../assets/images/image_install_backup_pattern1_003.png)
+![現在使っている仮想マシン](../assets/images/1.1/image_install_backup_pattern1_003.png)
 
 #### 3. 「仮想マシン」メニューの「エクスプローラーに表示」をクリックします。
 
-![仮想マシンメニューのクローン](../assets/images/image_install_backup_pattern2_005.png)
+![仮想マシンメニューのクローン](../assets/images/1.1/image_install_backup_pattern2_005.png)
 
 #### 4. 表示されたファイルやフォルダを全て外付けHDDにコピーします。
 
-![仮想マシンメニューのクローン](../assets/images/image_install_backup_pattern2_007.png)
+![仮想マシンメニューのクローン](../assets/images/1.1/image_install_backup_pattern2_007.png)
 
 ### 9-2-2 バックアップをとったデータを使う {#section9-2-2}
 
@@ -108,7 +108,7 @@ enjuのアップデートを試すときなどに使います。
 Macに移植したい、Cent OS に移植したいといった場合の方法です。
 こちらについては、[他のサーバへの移行](https://github.com/next-l/enju_leaf/wiki/Backup)を参照してください。
 
-![データのみのバックアップのパターン](../assets/images/image_install_backup_pattern3.png)
+![データのみのバックアップのパターン](../assets/images/1.1/image_install_backup_pattern3.png)
 
 
 {::comment}別ファイル名候補：backup.md{:/comment}

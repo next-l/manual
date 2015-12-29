@@ -79,22 +79,22 @@ version: 1.2
 
 #### 1. ［図書館の管理］メニューから［利用者の管理］を選択します。  
 
-![利用者の管理](../assets/images/image_operation_user.png)
+![利用者の管理](../assets/images/1.1/image_operation_user.png)
 
 #### 2. 右メニューの［利用者の新規作成］をクリックします。  
 
-![利用者の新規作成](../assets/images/image_operation_031.png)
+![利用者の新規作成](../assets/images/1.1/image_operation_031.png)
 
 #### 3. 必要事項を入力して［利用者を登録する（取り消しはできません）］ボタンをクリックします。  
 
-![利用者を登録する](../assets/images/image_operation_033.png)
+![利用者を登録する](../assets/images/1.1/image_operation_033.png)
 
 <div class="alert alert-info memo" markdown="1">【Memo】「*」のマークが付いた項目は入力必須項目です。また、登録の取り消しはできません。取り消しを行いたい場合は、利用者の削除を行います。（参照：[3-4 利用者を削除する](#section3-4)）
 </div>
 
 #### 4. 利用者が作成され、仮パスワードが発行されます。  
 
-![仮パスワードが発行](../assets/images/image_operation_034.png)
+![仮パスワードが発行](../assets/images/1.1/image_operation_034.png)
 
 3-2 既存のデータから利用者情報をインポートする {#section3-2}
 ------------------------------------------------------------
@@ -108,7 +108,7 @@ TSVファイルとは、項目をタブで区切ったテキストファイル�
 
 #### ■利用者情報の項目
 
-{::comment}![利用者情報の項目](../assets/images/image_operation_041.png)
+{::comment}![利用者情報の項目](../assets/images/1.1/image_operation_041.png)
 {:/comment}
 
 <table class="table table-bordered table-condensed table-striped">
@@ -211,30 +211,30 @@ TSVファイルとは、項目をタブで区切ったテキストファイル�
 
 {::comment}
 ### ■個人情報に関わる項目
-![個人情報に関わる項目](../assets/images/image_operation_042.png)
+![個人情報に関わる項目](../assets/images/1.1/image_operation_042.png)
 {:/comment}
 
 ### 3-2-2 TSVファイルのインポート {#section3-2-2}
 
 #### 1. ［図書館の管理］メニューから［インポート］を選択します。  
 
-![利用者の管理](../assets/images/image_operation_import.png)
+![利用者の管理](../assets/images/1.1/image_operation_import.png)
 
 #### 2. ［利用者アカウント］をクリックします。  
 
-![利用者のTSVファイルからのインポート](../assets/images/image_operation_037.png)
+![利用者のTSVファイルからのインポート](../assets/images/1.1/image_operation_037.png)
 
 #### 3.  右メニューの[利用者のインポート用ファイルの新規作成]を選択します。
 
-![利用者のTSVファイルからのインポート（新規作成）](../assets/images/image_operation_037_2.png)
+![利用者のTSVファイルからのインポート（新規作成）](../assets/images/1.1/image_operation_037_2.png)
 
 #### 4. ［ファイルを選択］ボタンをクリックしてインポート用のファイルを選択します。  
 
-![利用者のTSVファイルを選択](../assets/images/image_operation_039_1.png)
+![利用者のTSVファイルを選択](../assets/images/1.1/image_operation_039_1.png)
 
 #### 5. [編集モード]、[文字コード]、[既定の利用者グループ]、[既定の図書館]を選択して［インポートを開始］ボタンをクリックします。
  
-![利用者のTSVファイルファイルを作成](../assets/images/image_operation_039_2.png)
+![利用者のTSVファイルファイルを作成](../assets/images/1.1/image_operation_039_2.png)
 
 <div class="alert alert-info memo">【Memo】［編集］モードで［更新］を選択すると、TSVファイルで利用者情報をまとめて更新できます。TSVファイルに必要なのは、更新したい利用者のユーザ名（<code>username</code>）と、更新したいフィールドの内容になります。また、［削除］を選択すると、TSVファイルで利用者情報をまとめて削除できます。この場合は、TSVファイルに必要なのは、削除したい利用者のユーザ名（<code>username</code>）のみです。
 </div>
@@ -247,11 +247,11 @@ TSVファイルとは、項目をタブで区切ったテキストファイル�
 
 #### 4. 「利用者のインポート用ファイルは正常に作成されました。」のメッセージが表示され、利用者のデータがインポートの準備が整います。 右の[利用者のインポート用ファイルの一覧] をクリックします。
 
-![利用者のインポート用ファイルの表示](../assets/images/image_operation_040_2.png)
+![利用者のインポート用ファイルの表示](../assets/images/1.1/image_operation_040_2.png)
 
 #### 5. 今までのインポート結果の一覧が表示されます。[状態]を見ると処理結果がわかります。インポートが完了したものは[完了]と表示されます。[処理待ち]のものは現在、実行中です。インポート完了時にはEnjuのメッセージ機能にてお知らせします（「インポートが完了しました」というメッセージが送られてきます）。注）Next-L Enju Leaf 1.1.0.rc12以前のバージョンの場合は毎時0分にインポート処理が開始します。 
 
-![利用者のインポート結果の一覧](../assets/images/image_operation_040_3.png)
+![利用者のインポート結果の一覧](../assets/images/1.1/image_operation_040_3.png)
 
 <div class="alert alert-info memo">【Memo】この画面は[図書館の管理]メニュー→[インポート]→[利用者アカウント]とすればいつでも閲覧できます。
 </div>
@@ -262,19 +262,19 @@ TSVファイルになんらかのエラーがありインポートの状態が[�
 
 #### 1. ［図書館の管理］メニューから［インポート］を選択します。  
 
-![利用者の管理](../assets/images/image_operation_import.png)
+![利用者の管理](../assets/images/1.1/image_operation_import.png)
 
 #### 2. ［利用者アカウント］をクリックします。  
 
-![利用者のTSVファイルからのインポート](../assets/images/image_operation_037.png)
+![利用者のTSVファイルからのインポート](../assets/images/1.1/image_operation_037.png)
 
 #### 3. インポートの状態が[失敗]の[表示]をクリックします。
 
-![TSVインポートに失敗](../assets/images/image_operation_041_2.png)
+![TSVインポートに失敗](../assets/images/1.1/image_operation_041_2.png)
 
 #### 4. [エラーメッセージ]にエラーの行とエラーの内容が表示されていますので、内容を確認します。次の例では3行目のレコードにどこか問題があるようです。[ファイル名]をクリックしてTSVファイルをダウンロードします。
 
-![エラーメッセージ](../assets/images/image_operation_041_3.png)
+![エラーメッセージ](../assets/images/1.1/image_operation_041_3.png)
 
 #### 5. 該当行のエラーを修正し、ヘッダ行とエラーのあった行以降のレコードが入ったTSVファイルを作成し、インポートをします。
 
@@ -291,11 +291,11 @@ TSVファイルになんらかのエラーがありインポートの状態が[�
 
 #### 1. ［図書館の管理］メニューから［利用者の管理］を選択します。  
 
-![利用者の管理](../assets/images/image_operation_user.png)
+![利用者の管理](../assets/images/1.1/image_operation_user.png)
 
 #### 2. 情報を変更したい利用者の［編集］をクリックします。  
 
-![利用者情報の編集](../assets/images/image_operation_045.png)
+![利用者情報の編集](../assets/images/1.1/image_operation_045.png)
 
 <div class="alert alert-info" markdown="1">
 
@@ -305,14 +305,14 @@ TSVファイルになんらかのエラーがありインポートの状態が[�
 
 #### 3. 属性を編集し［更新する］をクリックします。  
 
-![利用者情報を更新](../assets/images/image_operation_047.png)
+![利用者情報を更新](../assets/images/1.1/image_operation_047.png)
 
 <div class="alert alert-info">【Memo】「*」のマークが付いた項目は入力必須項目です。
 </div>
 
 #### 4. 「利用者は正常に更新されました。」のメッセージが表示され、利用者の情報が変更されます。 [自動生成したパスワードを設定する]にチェックをいれていた場合は、自動生成したパスワードが表示されます。
 
-![利用者情報の更新結果](../assets/images/image_operation_048.png)
+![利用者情報の更新結果](../assets/images/1.1/image_operation_048.png)
 
 {::comment}
 
@@ -350,29 +350,29 @@ Next-L Enju Leaf x.x.x.x 以降ではこの機能はありません
 
 #### 1. ［図書館の管理］メニューから［利用者の管理］を選択します。  
 
-![利用者の管理](../assets/images/image_operation_user.png)
+![利用者の管理](../assets/images/1.1/image_operation_user.png)
 
 #### 2. 属性を変更したいユーザの［プロフィールの編集］をクリックします。  
 
-![プロフィールの編集](../assets/images/image_operation_050.jpg)
+![プロフィールの編集](../assets/images/1.1/image_operation_050.jpg)
 
 #### 3. 姓、名などを編集します。  
 
-![利用者の編集](../assets/images/image_operation_051.jpg)
+![利用者の編集](../assets/images/1.1/image_operation_051.jpg)
 
 <div class="alert alert-info">【Memo】「*」のマークが付いた項目は入力必須項目です。生年月日や没年月日は「YY-MM-DD」の6桁の数字で入力します。
 </div>
 
 #### 4. 住所などの情報も編集し、［更新する］をクリックします。  
 
-![利用者を更新](../assets/images/image_operation_053.jpg)
+![利用者を更新](../assets/images/1.1/image_operation_053.jpg)
 
 <div class="alert alert-info">【Memo】Librarianがプロフィールを変更できるのはUser権限のユーザのみです。
 </div>
 
 #### 5. 「利用者は正常に更新されました。」のメッセージが表示され、利用者のプロフィール情報が変更されます。  
 
-![利用者は正常に更新されました](../assets/images/image_operation_054.jpg)
+![利用者は正常に更新されました](../assets/images/1.1/image_operation_054.jpg)
 
 <div class="alert alert-info">【Memo】[図書館の管理] → [インポート] → [利用者]の画面の［編集］モードで［更新］を選択すると、TSVファイルでプロフィール情報をまとめて変更できます。この場合、TSVファイルでは更新したい利用者の利用者番号（user_number）と更新したいフィールドの内容のみを埋めておくようにします。
 </div>
@@ -392,19 +392,19 @@ Next-L Enju Leaf x.x.x.x 以降ではこの機能はありません
 
 #### 1. ［図書館の管理］メニューから［利用者の管理］を選択します。  
 
-![利用者の管理](../assets/images/image_operation_user.png)
+![利用者の管理](../assets/images/1.1/image_operation_user.png)
 
 #### 2. 削除したい利用者の［編集］をクリックします。  
 
-![利用者情報の編集](../assets/images/image_operation_057.png)
+![利用者情報の編集](../assets/images/1.1/image_operation_057.png)
 
 #### 3. 右メニューの［削除］をクリックします。  
 
-![削除](../assets/images/image_operation_059.png)
+![削除](../assets/images/1.1/image_operation_059.png)
 
 #### 4. メッセージが表示されたら［OK］をクリックします。  
 
-![OK](../assets/images/image_operation_061.png)
+![OK](../assets/images/1.1/image_operation_061.png)
 
 {::comment}     <div class="alert alert-info memo">【Memo】利用者情報を削除しても、人物・団体としての情報は削除されません>。いったん削除した利用者が新たに利用登録を行う場合は、利用者番号を再度割り振ります。利用者番号を再度割り振るには、再>登録を行いたい人物のプロフィール情報を表示し、右メニューの［利用者として登録する］をクリックします。 </div>{:/comment}
 
@@ -415,15 +415,15 @@ Next-L Enju Leaf x.x.x.x 以降ではこの機能はありません
 
 #### 1. ［図書館の管理］メニューから［利用者の管理］を選択します。  
 
-![利用者の管理](../assets/images/image_operation_user.png)
+![利用者の管理](../assets/images/1.1/image_operation_user.png)
 
 #### 2. 利用者一覧が表示されます。詳細を知りたい利用者の[利用者番号]のリンクをクリックします。一覧に利用者が表示されない場合は、検索することもできます。検索する方法は 次の節を参照してください。
 
-![利用者一覧](../assets/images/image_operation_068.png)
+![利用者一覧](../assets/images/1.1/image_operation_068.png)
 
 #### 3. 当該利用者の利用者情報が表示されます。
 
-![利用者の詳細情報](../assets/images/image_operation_068_2.png)
+![利用者の詳細情報](../assets/images/1.1/image_operation_068_2.png)
 
 <div class="alert alert-info memo" markdown="1">
 【Memo】
@@ -445,15 +445,15 @@ Enjuに登録されている利用者は、検索語（キーワード）で検�
 
 #### 1. ［図書館の管理］メニューから［利用者の管理］を選択します。  
 
-![利用者の管理](../assets/images/image_operation_user.png)
+![利用者の管理](../assets/images/1.1/image_operation_user.png)
 
 #### 2. 検索語を入力して［検索］をクリックします（ユーザ名や利用者番号は完全一致するものがヒットします。フルネームは部分一致するものがヒットします）。
 
-![検索](../assets/images/image_operation_064.png)
+![検索](../assets/images/1.1/image_operation_064.png)
 
 #### 3. 該当する利用者が表示されます。  
 
-![利用者の表示](../assets/images/image_operation_066.png)
+![利用者の表示](../assets/images/1.1/image_operation_066.png)
 
 3-7 利用者情報を別システムで管理する {#section3-7}
 --------------------------------------------------
@@ -467,7 +467,7 @@ Enjuのカスタマイズをすることなく、必要な利用者情報を管�
 
 例えば、Excelでこのようなファイルをつくります
 
-![Excelファイルの例](../assets/images/image_userinfo_local_001.png)
+![Excelファイルの例](../assets/images/1.1/image_userinfo_local_001.png)
 
 このファイルで、生年月日や住所などEnjuに入力していない情報で利用者の情報を検索して、本人確認のための利用者情報を調べることができますし、URLのリンクをたどれば、その利用者のページにたどりつけます。
 
@@ -489,11 +489,11 @@ Enjuのカスタマイズをすることなく、必要な利用者情報を管�
 
 「リンク」列の当該「ユーザ名」のリンクをたどります。
 
-![リンクをたどる](../assets/images/image_userinfo_local_001_2.png)
+![リンクをたどる](../assets/images/1.1/image_userinfo_local_001_2.png)
 
 #### 3. Enjuの当該利用者の情報の画面に遷移できます。
 
-![該当利用者のページ](../assets/images/image_userinfo_local_002.png)
+![該当利用者のページ](../assets/images/1.1/image_userinfo_local_002.png)
 
 #### 4. トラブルシューティング：リンクをクリックしてもトップページに飛んでしまう場合
 
@@ -521,37 +521,37 @@ Administrator権限のユーザーでログインしている場合は、
 
 #### 1. ［図書館の管理］メニューから［エクスポート］を選択します。  
 
-![エクスポート](../assets/images/image_operation_export_admin.png)
+![エクスポート](../assets/images/1.1/image_operation_export_admin.png)
 
 ※ Administrator 権限でログインしておく必要があります。
 
 #### 2. [利用者情報のエクスポート]リンクをクリックします。
 
-![利用者情報のエクスポート](../assets/images/image_operation_export_user_1.png)
+![利用者情報のエクスポート](../assets/images/1.1/image_operation_export_user_1.png)
 
 ※　Administrator 権限ログインしていない場合は[利用者情報のエクスポート]リンクが表示されません。
 
 #### 3. 右メニューの[利用者情報のエクスポートの新規作成]リンクをクリックします。
 
-![利用者情報のエクスポートの新規作成](../assets/images/image_operation_export_user_2.png)
+![利用者情報のエクスポートの新規作成](../assets/images/1.1/image_operation_export_user_2.png)
 
 #### 4. [エクスポート]ボタンをクリックします。
 
-![エクスポート](../assets/images/image_operation_export_user_3.png)
+![エクスポート](../assets/images/1.1/image_operation_export_user_3.png)
 
 #### 5. 「利用者情報のエクスポート処理は正常に作成されました」のメッセージが表示され、利用者情報のデータエクスポートの準備が整いました。右の[利用者情報蔵のエクスポートの一覧]をクリックします。 
 
-![エクスポートの表示](../assets/images/image_operation_export_user_4.png)
+![エクスポートの表示](../assets/images/1.1/image_operation_export_user_4.png)
 
 #### 6. 今までのエクスポート結果の一覧が表示されます。[状態]を見ると処理結果がわかります。エクスポートが完了したものは[完了]と表示されます。[開始]のものは現在、実行中です。エクスポート完了時には[メッセージ機能](enju_operation_2.html#section2-3)にてお知らせします（「エクスポートが完了しました」というメッセージが送られてきます）。
 
-![エクスポート結果の一覧表示](../assets/images/image_operation_export_user_5.png)
+![エクスポート結果の一覧表示](../assets/images/1.1/image_operation_export_user_5.png)
 
 <div class="alert alert-info memo">【Memo】この画面は[図書館の管理]メニュー->[エクスポート]->[利用者情報のエクスポート]とすればいつでも閲覧できます。</div> 
 
 #### 7. ファイル名のリンクから作成されたTSVファイルをダウンロードすることができます。
 
-![エクスポートファイルのダウンロード](../assets/images/image_operation_export_user_6.png)
+![エクスポートファイルのダウンロード](../assets/images/1.1/image_operation_export_user_6.png)
 
 <div class="alert alert-success memo" markdown="1">
 <h4 class="alert-heading">【Column】TSVファイル</h4>

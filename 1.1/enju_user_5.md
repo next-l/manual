@@ -28,11 +28,11 @@ version: 1.1
 
 #### 1. ［貸出と予約］メニューから［貸出履歴］を選択します。
 
-![貸出履歴](../assets/images/image_user_checkouts.png)
+![貸出履歴](../assets/images/1.1/image_user_checkouts.png)
 
 #### 2. 貸出履歴が表示されます。右メニューの「予約あり」の下の「あり」をクリックします。
 
-![貸出履歴](../assets/images/image_user_checkouts_003.png)
+![貸出履歴](../assets/images/1.1/image_user_checkouts_003.png)
 
 <div class="alert alert-info memo" markdown="1">
 【Memo】
@@ -45,11 +45,11 @@ version: 1.1
 
 #### 3. 予約がかかっている資料だけが表示されます。右メニューの[この絞り込みを解除する]をクリックします。
 
-![絞り込みを解除する](../assets/images/image_user_checkouts_005.png)
+![絞り込みを解除する](../assets/images/1.1/image_user_checkouts_005.png)
 
 #### 4. 絞り込みが解除され、すべての貸出履歴が表示されます。
 
-![貸出履歴](../assets/images/image_user_checkouts_007.png)
+![貸出履歴](../assets/images/1.1/image_user_checkouts_007.png)
 
 
 5-2 貸出延長をする {#section5-2}
@@ -57,15 +57,15 @@ version: 1.1
 
 #### 1. ［貸出と予約］メニューから［貸出履歴］を選択します。
 
-![貸出履歴](../assets/images/image_user_checkouts.png)
+![貸出履歴](../assets/images/1.1/image_user_checkouts.png)
 
 #### 2. 貸出履歴が表示されます。[貸出期間の延長]をクリックします。
 
-![貸出期間の延長リンク](../assets/images/image_user_checkouts_009.png)
+![貸出期間の延長リンク](../assets/images/1.1/image_user_checkouts_009.png)
 
 #### 3. 新しい貸出期間を確認し、[更新する]をクリックします。
 
-![貸出期間の延長](../assets/images/image_user_checkouts_011.png)
+![貸出期間の延長](../assets/images/1.1/image_user_checkouts_011.png)
 
 <div class="alert alert-info memo" markdown="1">
 【Memo】
@@ -75,7 +75,7 @@ version: 1.1
 
 は、次のような画面が出て、貸出期間の延長ができません。
 
-![貸出期間の延長が不可](../assets/images/image_user_checkouts_013.png)
+![貸出期間の延長が不可](../assets/images/1.1/image_user_checkouts_013.png)
 
 </div>
 
@@ -85,48 +85,48 @@ version: 1.1
 
 #### 1. ［貸出と予約］メニューから［貸出履歴］を選択します。
 
-![貸出履歴](../assets/images/image_user_checkouts.png)
+![貸出履歴](../assets/images/1.1/image_user_checkouts.png)
 
 #### 2. ［削除]リンクをクリックします。
 
-![貸出履歴の削除リンク](../assets/images/image_user_checkouts_015.png)
+![貸出履歴の削除リンク](../assets/images/1.1/image_user_checkouts_015.png)
 
 #### 3. ［OK]をクリックします。
 
-![貸出履歴の削除のOK](../assets/images/image_user_ok.png)
+![貸出履歴の削除のOK](../assets/images/1.1/image_user_ok.png)
 
 #### 2. 返却済みの記録が削除されました。
 
-![貸出履歴の削除](../assets/images/image_user_checkouts_017.png)
+![貸出履歴の削除](../assets/images/1.1/image_user_checkouts_017.png)
 
 5-4 貸出の一覧のTSVを表示する {#section5-4}
 --------------------------------
 
 #### 1. ［貸出と予約］メニューから［貸出履歴］を選択します。
 
-![貸出履歴](../assets/images/image_user_checkouts.png)
+![貸出履歴](../assets/images/1.1/image_user_checkouts.png)
 
 #### 2. 右メニューの［TSV］をクリックします。
 
-![貸出履歴のTSVリンク](../assets/images/image_user_checkouts_019.png)
+![貸出履歴のTSVリンク](../assets/images/1.1/image_user_checkouts_019.png)
 
 #### 3. TSVが表示されます。
 
-![貸出履歴のTSV表示](../assets/images/image_user_checkouts_021.png)
+![貸出履歴のTSV表示](../assets/images/1.1/image_user_checkouts_021.png)
 
 5-5 貸出の一覧のRSSを表示する {#section5-5}
 --------------------------------
 
 #### 1. ［貸出と予約］メニューから［貸出履歴］を選択します。
 
-![貸出履歴](../assets/images/image_user_checkouts.png)
+![貸出履歴](../assets/images/1.1/image_user_checkouts.png)
 
 #### 2. 右メニューの［RSS］をクリックします。
 
-![貸出履歴のRSSリンク](../assets/images/image_user_checkouts_023.png)
+![貸出履歴のRSSリンク](../assets/images/1.1/image_user_checkouts_023.png)
 
 #### 3. RSSが表示されます。
 
-![貸出履歴のRSS表示](../assets/images/image_user_checkouts_025.png)
+![貸出履歴のRSS表示](../assets/images/1.1/image_user_checkouts_025.png)
 
 {% include enju_user/toc.md %}

@@ -17,19 +17,19 @@ version: 1.1
 
 #### 1. 右上の[アカウント]リンクをクリックします。
 
-![アカウント](../assets/images/image_user_passwd_003.png)
+![アカウント](../assets/images/1.1/image_user_passwd_003.png)
 
 #### 2. 右メニューの[パスワード変更]リンクをクリックします。
 
-![パスワード変更](../assets/images/image_user_passwd_005.png)
+![パスワード変更](../assets/images/1.1/image_user_passwd_005.png)
 
 #### 3. ［現在のパスワード］と「パスワード」「パスワード(確認)」を入力します。パスワードは画面には表示されません。また「パスワード」と「パスワード(確認)」は同じものを入れてください。[更新]ボタンを押します。
 
-![パスワード入力](../assets/images/image_user_passwd_007.png)
+![パスワード入力](../assets/images/1.1/image_user_passwd_007.png)
 
 #### 4. 「アカウントは正常に更新されました。」と表示されます。パスワードは変更されました。
 
-![パスワード変更完了](../assets/images/image_user_passwd_009.png)
+![パスワード変更完了](../assets/images/1.1/image_user_passwd_009.png)
 
 3-2 メールアドレスや名前などを変更する {#section3-2}
 --------------------------------------
@@ -38,11 +38,11 @@ version: 1.1
 
 #### 1. 右上の[アカウント]リンクをクリックします。
 
-![アカウント](../assets/images/image_user_passwd_003.png)
+![アカウント](../assets/images/1.1/image_user_passwd_003.png)
 
 #### 2. 右メニューの[編集]リンクをクリックします。
 
-![アカウントの編集](../assets/images/image_user_account_003.png)
+![アカウントの編集](../assets/images/1.1/image_user_account_003.png)
 
 <div class="alert alert-info memo" markdown="1">
 
@@ -62,7 +62,7 @@ Librarian権限以上でも、全利用者の購入リクエストは1.1.0,1.1.1
 
 #### 3. メールアドレスや名前を編集し、[更新する]をクリックします。
 
-![メールアドレスなどを編集](../assets/images/image_user_account_005.png)
+![メールアドレスなどを編集](../assets/images/1.1/image_user_account_005.png)
 
 <div class="alert alert-info memo" markdown="1">
 
