@@ -3,6 +3,7 @@ layout: page
 title: Next-L Enju初期設定マニュアル
 title_short: 初期設定
 group: navigation
+version: 1.1
 ---
 本マニュアルは，オープンソース統合図書館システム　Enju　のシステム設定について，説明しています。管理者がEnjuを使うために，システム設定をするときにお読みください。
 

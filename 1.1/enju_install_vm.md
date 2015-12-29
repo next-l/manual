@@ -3,6 +3,7 @@ layout: page
 title: Next-L Enju インストールマニュアル（VirtualBox編）
 title_short: インストール
 group: navigation
+version: 1.1
 ---
 
 本マニュアルは，オープンソース統合図書館システム Next-L Enjuのインストール方法について，説明しています。情報システム担当者がNext-L Enjuをインストール作業をするときに，お読みください。
