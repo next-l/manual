@@ -17,4 +17,4 @@ group: enju_user
 
 {% include enju_newbooks.md %} 
 
-{% include enju_user/toc.md %
+{% include enju_user/toc.md %}

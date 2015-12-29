@@ -37,4 +37,4 @@ _includes/enju_rm_message.md
 
 {% include enju_rm_message.md %} 
 
-{% include enju_user/toc.md %
+{% include enju_user/toc.md %}
