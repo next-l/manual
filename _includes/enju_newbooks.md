@@ -5,8 +5,8 @@ Enjuでは、新着資料（1か月以内に登録された資料）の
 
 #### 1. トップページの［新着資料］をクリックします。  
 
-![新着資料](../assets/images/image_operation_133.png)
+![新着資料](../assets/images/1.1/image_operation_133.png)
 
 #### 2. 新着資料の一覧が表示されます。  
 
-![新着資料の一覧](../assets/images/image_operation_134.png)
+![新着資料の一覧](../assets/images/1.1/image_operation_134.png)

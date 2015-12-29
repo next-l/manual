@@ -2,14 +2,14 @@
 
 #### 1. ［アカウント］の左にあるメールアイコンをクリックします。  
 
-![メールアイコンをクリック](../assets/images/image_operation_020.png)
+![メールアイコンをクリック](../assets/images/1.1/image_operation_020.png)
 
 <div class="alert alert-info memo">【Memo】未読メッセージがある場合は、メールアイコンの右に未読のメッセージ数が表示されるので、それをクリックすることもできます。
 </div>
 
 #### 2. 読みたいメッセージの件名をクリックします。  
 
-![件名をクリック](../assets/images/image_operation_022.png)
+![件名をクリック](../assets/images/1.1/image_operation_022.png)
 
 <div class="alert alert-info memo">
 【Memo】
@@ -21,7 +21,7 @@
 
 #### 3. メッセージの内容が表示されます
 
-![User権限でログインしたときのメッセージ表示](../assets/images/image_initial_011.png)
+![User権限でログインしたときのメッセージ表示](../assets/images/1.1/image_initial_011.png)
 
 <div class="alert alert-info memo">
 【Memo】
