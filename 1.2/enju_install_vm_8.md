@@ -3,6 +3,7 @@ layout: page
 title: 第8章 Enjuのアップデート - Next-L Enju インストールマニュアル（VirtualBox編）
 title_short: 第8章 Enjuのアップデート
 group: enju_install_vm
+version: 1.2
 ---
 
 * Contents

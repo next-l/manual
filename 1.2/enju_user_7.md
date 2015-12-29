@@ -3,6 +3,7 @@ layout: page
 title: 第7章 メッセージを受信する - Next-L Enju 利用者マニュアル
 title_short: 第7章 メッセージを受信する
 group: enju_user
+version: 1.2
 ---
 
 * Contents

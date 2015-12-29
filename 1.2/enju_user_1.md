@@ -3,6 +3,7 @@ layout: page
 title: 第1章 資料を検索する - Next-L Enju 利用者マニュアル
 title_short: 第1章 資料を検索する
 group: enju_user
+version: 1.2
 ---
 
 * Contents

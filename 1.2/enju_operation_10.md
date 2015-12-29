@@ -3,6 +3,7 @@ layout: page
 title: 第10章 統計機能を利用する - Next-L Enju 運用マニュアル
 title_short: 第10章 統計機能を利用する
 group: enju_operation
+version: 1.2
 ---
 
 * Contents

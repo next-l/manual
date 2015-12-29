@@ -3,6 +3,7 @@ layout: page
 title: 第11章 トラブルシューティング - Next-L Enju インストールマニュアル（VirtualBox編）
 title_short: 第11章 トラブルシューティング
 group: enju_install_vm
+version: 1.2
 ---
 
 * Contents

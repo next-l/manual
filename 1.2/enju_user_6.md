@@ -3,6 +3,7 @@ layout: page
 title: 第6章 新着資料の一覧を表示する - Next-L Enju 利用者マニュアル
 title_short: 第6章 新着資料の一覧を表示する
 group: enju_user
+version: 1.2
 ---
 
 * Contents

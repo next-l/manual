@@ -3,6 +3,7 @@ layout: page
 title: 第4章　件名のシステム設定を行う - Next-L Enju初期設定マニュアル
 title_short: 初期設定マニュアル
 group: enju_setup
+version: 1.2
 ---
 
 * Contents

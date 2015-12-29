@@ -3,6 +3,7 @@ layout: page
 title: 第5章 雑誌の受入をする - Next-L Enju 運用マニュアル
 title_short: 第5章 雑誌の受入をする
 group: enju_operation
+version: 1.2
 ---
 
 * Contents
