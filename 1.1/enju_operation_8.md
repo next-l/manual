@@ -3,6 +3,7 @@ layout: page
 title: 第8章 資料を検索する - Next-L Enju 運用マニュアル
 title_short: 第8章 資料を検索する
 group: enju_operation
+version: 1.1
 ---
 
 * Contents

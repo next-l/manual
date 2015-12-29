@@ -3,6 +3,7 @@ layout: page
 title: 第9章 データのバックアップ - Next-L Enju インストールマニュアル（VirtualBox編）
 title_short: 第9章 データのバックアップとリストア
 group: enju_install_vm
+version: 1.1
 ---
 
 * Contents

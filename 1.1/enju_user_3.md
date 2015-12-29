@@ -3,6 +3,7 @@ layout: page
 title: 第3章 パスワード/ユーザアカウント情報を変更する - Next-L Enju 利用者マニュアル
 title_short: 第3章 パスワード/ユーザアカウント情報を変更する
 group: enju_user
+version: 1.1
 ---
 
 * Contents

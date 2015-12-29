@@ -3,6 +3,7 @@ layout: page
 title: 第3章 利用者情報を管理する - Next-L Enju 運用マニュアル
 title_short: 第3章 利用者情報を管理する
 group: enju_operation
+version: 1.1
 ---
 
 * Contents

@@ -3,6 +3,7 @@ layout: page
 title: 第5章 モジュールの追加 - Next-L Enju インストールマニュアル（VirtualBox編）
 title_short: 第5章 モジュールの追加
 group: enju_install_vm
+version: 1.1
 ---
 
 * Contents

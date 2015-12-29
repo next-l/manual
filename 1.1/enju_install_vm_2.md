@@ -3,6 +3,7 @@ layout: page
 title: 第2章 Enjuを動作させる方法 - Next-L Enju インストールマニュアル（VirtualBox編）
 title_short: 第2章 Enjuを動作させる方法
 group: enju_install_vm
+version: 1.1
 ---
 
 * Contents

@@ -3,6 +3,7 @@ layout: page
 title: 第7章 休館日と催し物を登録する - Next-L Enju 運用マニュアル
 title_short: 第7章 休館日と催し物を登録する
 group: enju_operation
+version: 1.1
 ---
 
 * Contents

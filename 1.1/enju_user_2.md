@@ -3,6 +3,7 @@ layout: page
 title: 第2章 ログイン/ログアウトする - Next-L Enju 利用者マニュアル
 title_short: 第2章 ログイン/ログアウトする
 group: enju_user
+version: 1.1
 ---
 
 * Contents

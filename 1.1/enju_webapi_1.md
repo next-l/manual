@@ -3,6 +3,7 @@ layout: page
 title: 第1章 検索結果一覧を取得する - Next-L Enju Web APIマニュアル
 title_short: 第1章 資料を検索する
 group: enju_webapi
+version: 1.1
 ---
 
 * Contents

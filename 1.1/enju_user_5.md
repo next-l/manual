@@ -3,6 +3,7 @@ layout: page
 title: 第5章 資料の貸出状況を確認する/貸出延長をする - Next-L Enju 利用者マニュアル
 title_short: 第5章 資料の貸出状況を確認する/貸出延長をする
 group: enju_user
+version: 1.1
 ---
 
 * Contents
