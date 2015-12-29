@@ -33,22 +33,22 @@ Enjuでは、図書館の休館日を登録することができます。
 
 #### 1. ［開館日と催し物］メニューから［全ての催し物］を選択します。  
 
-![全ての催し物](assets/images/image_operation_event.png)
+![全ての催し物](../assets/images/image_operation_event.png)
    
 <div class="alert alert-info memo" markdown="1">【Memo】他の行き方：［図書館の管理］メニューから［システムの設定］を選択し、[開館日と催し物]のリンクをクリックでも可。
 </div>
    
 #### 2. 右メニューの［開催日と催し物の新規作成］をクリックします。  
 
-![開催日と催し物の新規作成](assets/images/image_operation_event_new.png)
+![開催日と催し物の新規作成](../assets/images/image_operation_event_new.png)
 
 #### 3. 催し物の種別で「休館日」を選択し、開始時刻で休館日の年・月・日を選択、名前に「休館日」と入力し、［終日］にチェックを入れて［登録する］ボタンをクリックします。  
 
-![開催日と催し物の新規作成](assets/images/image_operation_event_edit.png)
+![開催日と催し物の新規作成](../assets/images/image_operation_event_edit.png)
 
 #### 4. 「開館日と催し物は正常に作成されました。」のメッセージが表示され、休館日が登録されます。  
 
-![休館日登録](assets/images/image_operation_event_new_success.png)
+![休館日登録](../assets/images/image_operation_event_new_success.png)
 
 <div class="alert alert-info memo">【Memo】休館日を登録しておくことにより、資料を貸し出す際の返却日を1日ずらすよう設定できます。設定方法は初期設定マニュアル「<a href="enju_setup_3.html#section3-6">3-6 利用者グループと貸出区分の関係を設定する</a>」をご覧ください。
 </div>
@@ -62,25 +62,25 @@ Enjuでは、図書館で行われるさまざまな催し物を登録し、カ�
 
 #### 1. ［開館日と催し物］メニューから［全ての催し物］を選択します。  
 
-![全ての催し物](assets/images/image_operation_event.png)
+![全ての催し物](../assets/images/image_operation_event.png)
 
 <div class="alert alert-info memo" markdown="1">【Memo】他の行き方：［図書館の管理］メニューから［システムの設定］を選択し、[開館日と催し物]のリンクをクリックでも可。
 </div>
 
 #### 2. 右メニューの［開催日と催し物の新規作成］をクリックします。  
 
-![開催日と催し物の新規作成](assets/images/image_operation_event_new.png)
+![開催日と催し物の新規作成](../assets/images/image_operation_event_new.png)
 
 #### 3. 催し物の種別で「不明」を選択し、名前や開始時刻、終了時刻などを設定して、［登録する］ボタンをクリックします。  
 
-![開催日と催し物の新規作成](assets/images/image_operation_event_other_new.png)
+![開催日と催し物の新規作成](../assets/images/image_operation_event_other_new.png)
 
 <div class="alert alert-info memo">【Memo】催し物の種別を追加する方法は初期設定マニュアル「<a href="enju_setup_3.html#section3-8">3-8 催し物の種類を設定する</a>」をご覧ください。
 </div>
 
 #### 4. 「開館日と催し物は正常に作成されました。」のメッセージが表示され、催し物が登録されます。  
 
-![催し物登録](assets/images/image_operation_event_other_new_success.png)
+![催し物登録](../assets/images/image_operation_event_other_new_success.png)
 
 ### 7-2-2 催し物のデータをインポートする {#section7-2-2}
 
@@ -89,15 +89,15 @@ Enjuでは、図書館で行われるさまざまな催し物を登録し、カ�
 
 #### 1. ［開館日と催し物］メニューから［インポート］を選択します。  
 
-![インポート](assets/images/image_operation_220.png)
+![インポート](../assets/images/image_operation_220.png)
 
 #### 2. ［ファイルを選択］ボタンをクリックしてインポートしたいファイルを選択します。  
 
-![催し物ファイルのの選択](assets/images/image_operation_222_1.png)
+![催し物ファイルのの選択](../assets/images/image_operation_222_1.png)
 
 #### 3. [編集モード]、[文字コード]、[既定の催し物の種別]、[既定の図書館]を選択して［インポートを開始］ボタンをクリックします。
 
-![催し物ファイルのインポートを作成](assets/images/image_operation_222_2.png)
+![催し物ファイルのインポートを作成](../assets/images/image_operation_222_2.png)
 
 <div class="alert alert-info memo">【Memo】［編集］モードで［更新］を選択すると、TSVファイルで催し物情報をまとめて更新できます。TSVファイルに必要なのは、更新したい催し物のID（id）と、更新したいフィールドの内容になります。また、［削除］を選択すると、TSVファイルで催し物情報をまとめて削除できます。この場合は、TSVファイルに必要なのは、削除したい催し物のID（<code>id</code>）のみです。
 </div>
@@ -111,11 +111,11 @@ Enjuでは、図書館で行われるさまざまな催し物を登録し、カ�
 
 #### 4. 「催し物のインポート用ファイルは正常に作成されました。」のメッセージが表示され、催し物のデータがインポート準備が整います。右の[催し物のインポート用ファイルの一覧] をクリックします。  
 
-![催し物ファイルのインポート](assets/images/image_operation_223.png)
+![催し物ファイルのインポート](../assets/images/image_operation_223.png)
 
 #### 5. 今までのインポート結果の一覧が表示されます。[状態]を見ると処理結果がわかります。インポートが完了したものは[完了]と表示されます。[処理待ち]のものは現在、実行中です。インポート完了時にはEnjuのメッセージ機能にてお知らせします（「インポートが完了しました」いうメッセージが送られてきます）。注）Next-L Enju Leaf 1.1.0.rc12以前のバージョンの場合は毎時0分にインポート処理が開始します。 
 
-![催し物ファイルのインポート一覧](assets/images/image_operation_223_2.png)
+![催し物ファイルのインポート一覧](../assets/images/image_operation_223_2.png)
 
 <div class="alert alert-info memo">【Memo】この画面は[図書館の管理]メニュー→[インポート]→[開催日と催し物]とすればいつでも閲覧できます。
 </div>
@@ -279,11 +279,11 @@ Enjuでは、図書館で行われるさまざまな催し物を登録し、カ�
 
 #### 1. ［開館日と催し物］メニューから［カレンダー］を選択します。  
 
-![カレンダー](assets/images/image_operation_224.png)
+![カレンダー](../assets/images/image_operation_224.png)
 
 #### 2. カレンダーが表示されます。  
 
-![カレンダー表示](assets/images/image_operation_225.png)
+![カレンダー表示](../assets/images/image_operation_225.png)
    
 <div class="alert alert-info memo" markdown="1">
 
@@ -305,14 +305,14 @@ Enjuでは、図書館で行われるさまざまな催し物を登録し、カ�
 
 #### 1. ［開館日と催し物］メニューから［全ての催し物］を選択します。  
 
-![全ての催し物](assets/images/image_operation_event.png)
+![全ての催し物](../assets/images/image_operation_event.png)
    
 <div class="alert alert-info memo" markdown="1">【Memo】他の行き方：［図書館の管理］メニューから［システムの設定］を選択し、[開館日と催し物]のリンクをクリックでも可。
 </div>
    
 #### 2. 詳細をみたい休館日や催し物の名前のリンクをクリックします。  
 
-![開催日と催し物の名前のリンク](assets/images/image_operation_event_browse.png)
+![開催日と催し物の名前のリンク](../assets/images/image_operation_event_browse.png)
 
 <div class="alert alert-info memo" markdown="1">
 
@@ -336,7 +336,7 @@ Enjuでは、図書館で行われるさまざまな催し物を登録し、カ�
 
 #### 3. 休館日や催し物の詳細が表示されます。
 
-![開催日と催し物の詳細](assets/images/image_operation_event_browse_2.png)
+![開催日と催し物の詳細](../assets/images/image_operation_event_browse_2.png)
 
 <div class="alert alert-info memo" markdown="1">
 
@@ -353,7 +353,7 @@ Enjuでは、図書館で行われるさまざまな催し物を登録し、カ�
 【Column】 休館日や催し物のRSS {#section7_rss}
 ---------------------------------------------
 
-![開催日と催し物の詳細](assets/images/image_operation_event_browse_rss.png)
+![開催日と催し物の詳細](../assets/images/image_operation_event_browse_rss.png)
 
 </div>
 

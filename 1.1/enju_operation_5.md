@@ -33,11 +33,11 @@ Enjuへの雑誌登録を行う際はこれらの基本的な仕組みを理解�
 
 #### 1. 次の図は，検索結果一覧を示しています。検索結果一覧では，雑誌タイトル単位でまとめて一行として表示されます（例：「情報の科学と技術」）。ここである雑誌タイトルを選んでみます。
 
-![逐次刊行物としてまとめて検索表示される雑誌タイトル](assets/images/serials_searchresults.png)
+![逐次刊行物としてまとめて検索表示される雑誌タイトル](../assets/images/serials_searchresults.png)
 
 #### 2. すると選んだ雑誌タイトルの各号単位の書誌が一覧されます。どれか特定の号のリンクをクリックしてみます。
 
-![逐次刊行物の1タイトルにおいて各号単位でリストされる画面](assets/images/serials_series_parent.png)
+![逐次刊行物の1タイトルにおいて各号単位でリストされる画面](../assets/images/serials_series_parent.png)
 
 <div class="alert alert-info memo" markdown="1">
 
@@ -52,7 +52,7 @@ Enjuへの雑誌登録を行う際はこれらの基本的な仕組みを理解�
 
 #### 3. 各号の情報が表示されます。
 
-![各号単位の情報が表示される画面](assets/images/serials_series_child.png)
+![各号単位の情報が表示される画面](../assets/images/serials_series_child.png)
 
 <div class="alert alert-info memo" markdown="1">
 
@@ -89,7 +89,7 @@ NDLサーチ（国立国会図書館サーチ <http://iss.ndl.go.jp/>）で
 
 #### 1. ［資料の受入］メニューから［NDLサーチ検索によるインポート］を選択します。
 
-![NDLサーチ検索によるインポート](assets/images/image_operation_106_ndl.png)
+![NDLサーチ検索によるインポート](../assets/images/image_operation_106_ndl.png)
 
 #### 2. 登録したい資料を検索します。検索語に登録したい資料の「JP番号」などを入力し、［検索］ボタンをクリックします。
 
@@ -102,15 +102,15 @@ NDLサーチ（国立国会図書館サーチ <http://iss.ndl.go.jp/>）で
 その「JP番号」を使うとよいでしょう。
 </div>
 
-![NDLサーチ検索の検索](assets/images/image_operation_107_ndl_m.png)
+![NDLサーチ検索の検索](../assets/images/image_operation_107_ndl_m.png)
 
 #### 3. 登録したい資料の[追加]をクリックします
 
-![資料の追加](assets/images/image_operation_108_ndl_m.png)
+![資料の追加](../assets/images/image_operation_108_ndl_m.png)
 
 #### 4. 「資料は正常に作成されました。」と表示され、登録が完了します。
 
-![登録完了](assets/images/image_operation_109_ndl_m.png)
+![登録完了](../assets/images/image_operation_109_ndl_m.png)
 
 ### 5-1-2 手動で資料を登録する {#section5-1-2}
 
@@ -119,11 +119,11 @@ NDLサーチ（国立国会図書館サーチ <http://iss.ndl.go.jp/>）で
 
 #### 1. ［資料の受入］メニューから［手動で登録する］を選択します。  
 
-![手動で登録する](assets/images/image_operation_input_manually_manifestation.png)
+![手動で登録する](../assets/images/image_operation_input_manually_manifestation.png)
 
 #### 2. 原題にタイトル名称等を入力し、[逐次刊行物]にチェックを入れます。ここで入力した原題は検索結果一覧で表示されるものになります。[シリーズ情報]下の[別のシリーズ情報を追加する]リンクをクリックします。
 
-![逐次刊行物の記述を作成](assets/images/image_operation_155.png)
+![逐次刊行物の記述を作成](../assets/images/image_operation_155.png)
 
 <div class="alert alert-info memo" markdown="1">
 
@@ -135,11 +135,11 @@ NDLサーチ（国立国会図書館サーチ <http://iss.ndl.go.jp/>）で
 
 #### 3. シリーズ情報を入力するためのテキストボックスが表示されるので、[シリーズ情報]内の[シリーズ名]等を入力し(シリーズ名は基本的には原題と同じものを入力します)、「マスタ」にチェックを入れ、[更新する]ボタンをクリックします。
 
-![逐次刊行物の雑誌マスタを作成](assets/images/serials_add_master.png)
+![逐次刊行物の雑誌マスタを作成](../assets/images/serials_add_master.png)
 
 #### 4. 雑誌タイトル単位のシリーズ情報が作成されます。
 
-![逐次刊行物の雑誌マスタ](assets/images/serials_master.png)
+![逐次刊行物の雑誌マスタ](../assets/images/serials_master.png)
 
 <div class="alert alert-info memo" markdown="1">
 
@@ -161,19 +161,19 @@ NDLサーチ（国立国会図書館サーチ <http://iss.ndl.go.jp/>）で
 
 #### 1. ［資料の受入］メニューから［雑誌・定期刊行物］を選択します。
 
-![雑誌・定期刊行物](assets/images/serials_add_manifestation.png)
+![雑誌・定期刊行物](../assets/images/serials_add_manifestation.png)
    
 #### 2. 登録したい雑誌（シリーズ）の[新規受入]をクリックします。
 
-![雑誌・定期刊行物の一覧](assets/images/serials_manifestations.png)
+![雑誌・定期刊行物の一覧](../assets/images/serials_manifestations.png)
    
 #### 3. シリーズ名や原題などは雑誌マスタの情報がコピーされるので、巻数や号など追加で必要な情報を入力し、[登録する]ボタンをクリックします。
 
-![巻号、通号等を入力](assets/images/image_operation_158.png)
+![巻号、通号等を入力](../assets/images/image_operation_158.png)
    
 #### 4. 「資料は正常に作成されました。」のメッセージが表示され、雑誌が資料として登録されます。右メニューの「（新規作成）」のリンクをクッリクして所蔵情報の登録に進みます。
 
-![資料は正常に作成されました](assets/images/serials_manifestation_added.png)
+![資料は正常に作成されました](../assets/images/serials_manifestation_added.png)
    
 #### 5. 「[4-3 所蔵情報を登録・一覧表示する](enju_operation_4.html#section4-3)」の「4. 図書館や貸出状態などを設定して、［登録する］ボタンをクリックします。」からの手順に従い、資料の所蔵情報を登録します。
 
@@ -204,11 +204,11 @@ NDLサーチ（国立国会図書館サーチ <http://iss.ndl.go.jp/>）で
 1行目に、それぞれの項目に関わるフィールド名を（できれば " " で囲って）指定します。
 フィールド名とその意味については次の通りです。
 
-![定期刊行物の場合](assets/images/image_operation_103.png)
+![定期刊行物の場合](../assets/images/image_operation_103.png)
 
 内部的に存在するもの
 
-![内部的に存在するもの](assets/images/image_operation_104.png)
+![内部的に存在するもの](../assets/images/image_operation_104.png)
 </div>
 
 {:/comment}

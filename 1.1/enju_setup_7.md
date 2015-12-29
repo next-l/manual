@@ -18,11 +18,11 @@ group: enju_setup
 
 #### 1. ［図書館の管理］メニューから［システムの設定］を選択します。
 
-![「システムの設定」を選択](assets/images/image_system_setup.png)
+![「システムの設定」を選択](../assets/images/image_system_setup.png)
 
 #### 2. システムの[システムの基本的な情報の表示]リンクをたどります。
 
-![システムの基本的な情報の表示のリンク](assets/images/image_initial_systemdisp01.png)
+![システムの基本的な情報の表示のリンク](../assets/images/image_initial_systemdisp01.png)
 
 #### 3. システムの基本的な情報を確認できます。
 
@@ -31,7 +31,7 @@ group: enju_setup
 * Gems：Enju の詳細なバージョン等が表示されます（例：enju_leaf: 1.1.0.rc21，enju_circulation: 0.1.0.pre48）
 * Languages：使用言語が表示されます（例：ja: 日本語 (既定の言語)）
 
-![システムの基本的な情報の表示結果](assets/images/image_initial_systemdisp03.png)
+![システムの基本的な情報の表示結果](../assets/images/image_initial_systemdisp03.png)
 
 7-2 非同期処理の状態確認機能（Resque） {#section7-2}
 --------------------------------------------------------
@@ -40,23 +40,23 @@ group: enju_setup
 
 #### 1. ［図書館の管理］メニューから［システムの設定］を選択します。
 
-![「システムの設定」を選択](assets/images/image_system_setup.png) 
+![「システムの設定」を選択](../assets/images/image_system_setup.png) 
 
 #### 2. システムの[Resque]リンクをたどります。
 
-![Resqueリンク](assets/images/image_initial_resque.png)
+![Resqueリンク](../assets/images/image_initial_resque.png)
 
 #### 3. Resque の画面で非同期処理の状態を確認できます。エラーを確認するには[failed]リンクをたどります。
 
-![failedリンク](assets/images/image_initial_resque2.png)
+![failedリンク](../assets/images/image_initial_resque2.png)
 
 #### 4. 詳細なエラーを確認するために、閲覧したいエラーのリンクをたどります。
 
-![詳細なエラーへのリンク](assets/images/image_initial_resque_3.png)
+![詳細なエラーへのリンク](../assets/images/image_initial_resque_3.png)
 
 #### 5. 詳細なエラーが表示されます。
 
-![詳細なエラー](assets/images/image_initial_resque_4.png)
+![詳細なエラー](../assets/images/image_initial_resque_4.png)
 
 7-3 運用マニュアルにおいて説明する機能 {#section7-3}
 ----------------------------------------------------
@@ -65,7 +65,7 @@ group: enju_setup
 次にあげるメニューについては、運用時に使用するメニューですので、
 運用マニュアルにて説明します。
 
-![システムの設定](assets/images/image_initial_085.png)
+![システムの設定](../assets/images/image_initial_085.png)
 
 * [開館日と催し物] 
     * [開館日と催し物]メニューから[全ての催し物]をたどっていける画面と同じ
