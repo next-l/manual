@@ -3,25 +3,6 @@ layout: page
 title: Enju Leaf マニュアル
 version: 1.2
 ---
-## Enjuマニュアル検索
-<div class="row-fluid">
-<div class="span8">
-<script>
-  (function() {
-    var cx = '010401064499935159628:008mzix-v_g';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-        '//cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:search></gcse:search>
-</div>
-</div>
-
 ## Enjuマニュアル一覧 <i class="icon-book"> </i>
 
 <div class="row-fluid">
