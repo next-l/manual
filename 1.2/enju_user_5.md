@@ -93,7 +93,7 @@ version: 1.2
 
 #### 3. ［OK]をクリックします。
 
-![貸出履歴の削除のOK](../assets/images/1.1/image_user_ok.png)
+![貸出履歴の削除のOK](../assets/images/1.2/image_alert.png)
 
 #### 2. 返却済みの記録が削除されました。
 

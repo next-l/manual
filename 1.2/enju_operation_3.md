@@ -404,7 +404,7 @@ Next-L Enju Leaf x.x.x.x 以降ではこの機能はありません
 
 #### 4. メッセージが表示されたら［OK］をクリックします。  
 
-![OK](../assets/images/1.1/image_operation_061.png)
+![OK](../assets/images/1.2/image_alert.png)
 
 {::comment}     <div class="alert alert-info memo">【Memo】利用者情報を削除しても、人物・団体としての情報は削除されません>。いったん削除した利用者が新たに利用登録を行う場合は、利用者番号を再度割り振ります。利用者番号を再度割り振るには、再>登録を行いたい人物のプロフィール情報を表示し、右メニューの［利用者として登録する］をクリックします。 </div>{:/comment}
 

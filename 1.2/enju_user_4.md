@@ -131,7 +131,7 @@ version: 1.2
 
 #### 3. [OK]をクリックします。
 
-![予約の取消のOK](../assets/images/1.1/image_user_reserve_ok.png)
+![予約の取消のOK](../assets/images/1.2/image_alert.png)
 
 #### 4. 予約が取り消されました。
 
@@ -152,7 +152,7 @@ version: 1.2
 
 #### 3. [OK]をクリックします。
 
-![予約の削除のOK](../assets/images/1.1/image_user_reserve_ok.png)
+![予約の削除のOK](../assets/images/1.2/image_alert.png)
 
 #### 4. 予約の記録1件分が削除されました。
 

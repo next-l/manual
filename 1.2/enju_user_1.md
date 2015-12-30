@@ -594,7 +594,7 @@ http://iss.ndl.go.jp/books/R100000002-I000004040061-00	"レッスン"	Pearson, C
 
 #### 2. [OK]をクリックします。
 
-![ok](../assets/images/1.1/search_result_full_mail_2.png)
+![ok](../assets/images/1.2/image_alert.png)
 
 #### 3. 電子メールで送られてきます。
 
