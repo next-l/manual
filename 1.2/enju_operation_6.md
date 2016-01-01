@@ -285,7 +285,7 @@ Enjuでは、返却資料を受け付けられると同時に、予約の入っ�
 
 #### 3. 予約者の利用者番号等を入力し、［登録する］ボタンをクリックします。  
 
-![作成](../assets/images/1.1/image_operation_197.png)
+![作成](../assets/images/1.2/image_operation_197.png)
 
 <div class="alert alert-info memo" markdown="1">
 
@@ -299,7 +299,7 @@ Enjuでは、返却資料を受け付けられると同時に、予約の入っ�
 
 #### 4. 「予約が正常に作成されました」と表示され、予約が作成されます。
 
-![作成](../assets/images/1.1/image_operation_197_2.png)
+![作成](../assets/images/1.2/image_operation_197_2.png)
 
 <div class="alert alert-info memo" markdown="1">
 
@@ -307,7 +307,7 @@ Enjuでは、返却資料を受け付けられると同時に、予約の入っ�
 
 * 右メニューの[編集]リンクをたどると予約の編集画面が表示されます。
 * 右メニューの[取消]リンクをたどるとこの予約を取り消せます。
-* 右メニューの[戻る]リンクをたどると予約の一覧画面が表示されます。（詳細 [#997](https://github.com/next-l/enju_leaf/issues/997)）
+* 右メニューの[予約の一覧]リンクをたどるとこの予約の一覧画面が表示されます。
 
 </div>
 
@@ -459,11 +459,11 @@ TSV形式のデータファイル（TSVファイル）とは、
 
 #### 2. 該当する予約資料の横の[編集]リンクをクリックします。
 
-![予約の編集等](../assets/images/1.1/image_operation_202.png)
+![予約の編集等](../assets/images/1.2/image_operation_202.png)
 
 #### 3. 状態が[受付済み]の予約資料の編集画面が表示されます。[個別資料ID]の欄に取置済みとしたい資料の所蔵IDを入力し、[更新する]ボタンをクリックします。
 
-![受付済みの予約資料の編集画面](../assets/images/1.1/image_operation_reserve_edit_1.png)
+![受付済みの予約資料の編集画面](../assets/images/1.2/image_operation_reserve_edit_1.png)
 
 <div class="alert alert-info memo" markdown="1">
 
@@ -476,7 +476,7 @@ TSV形式のデータファイル（TSVファイル）とは、
 
 #### 4. 予約情報が更新できると「予約は正常に更新されました」というメッセージが表示され、状態が[取置済み]になります。
 
-![受付済みの予約資料の更新画面](../assets/images/1.1/image_operation_reserve_edit_2.png)
+![受付済みの予約資料の更新画面](../assets/images/1.2/image_operation_reserve_edit_2.png)
 
 <div class="alert alert-info memo" markdown="1">
 
@@ -484,7 +484,7 @@ TSV形式のデータファイル（TSVファイル）とは、
 
 * 右メニューの[編集]リンクをたどると予約の編集画面が表示されます。
 * 右メニューの[取消]リンクをたどるとこの予約を取り消せます。
-* 右メニューの[戻る]リンクをたどると予約の一覧画面が表示されます。（詳細 [#997](https://github.com/next-l/enju_leaf/issues/997)）
+* 右メニューの[予約の一覧]リンクをたどると予約の一覧画面が表示されます。
 
 </div>
 
