@@ -779,10 +779,10 @@ CiNii Books（<http://ci.nii.ac.jp/books/>）を検索した資料を
 	<td>ndlsh: "ウェブアプリケーション"</td>
 </tr>
 <tr>
-	<td>classification</td>
+	<td>classification:[分類の種類] <a href="#tsv_classification">（詳細）</a></td>
 	<td>分類</td>
-	<td>文字列<a href="#tsv_classification">（特定書式：別記）</a></td>
-	<td>ndc: "007"</td>
+	<td>文字列（複数ある場合は//で区切る）</td>
+	<td>007//007.58</td>
 </tr>
 <tr>
 	<td>start_page</td>
@@ -932,31 +932,25 @@ YAML形式で記述します。具体的には以下のように記述します�
 	"{ ndlsh: ""ウェブアプリケーション"", lcsh: ""Internet"" }"
 	"{ ndlsh: [""ウェブアプリケーション"", ""インターネット""], lcsh: ""Internet"" }"
 
-##### classification {#tsv_classification}
+##### classification:[分類の種類] {#tsv_classification}
 
-YAML形式で記述します。具体的には以下のように記述します。
+分類の種類ごとに別の列になります。
+フィールド名はclassification:[分類の種類] となります。
+例えば、NDC9については、classification:ndc9の列に書くことになります。
+フィールド名に使う[分類の種類]は、「分類の種類」の[名前]を使います
+（詳細：初期設定マニュアル「[4-5 分類の種類を設定する](enju_setup_4.html#section4-5)」） 。
 
-	書式（1語）: 分類の種類: "分類"
-	例：ndc9: "007"
+同じ分類の種類で複数の分類がある場合は、// で区切ります。
 
-	書式（2分類）：分類の種類: ["分類", "分類"]
-	例：ndlc: ["AZ-463", "AZ-418"]
+具体的には以下のように記述します。
 
-	書式（違う分類の種類がある）: { 分類の種類: "分類", 分類の種類: "分類" }
-	例：{ ndc9: "212", ddc: "223" }
-
-	その他の例：
-	{ ndc9: "212", ndlc: ["AZ-463", "AZ-418"] }
-
-書式の分類の種類は、「分類の種類」の[名前]をさします。詳細は初期設定マニュアルの[4-5 分類の種類を設定する](enju_setup_4.html#section4-5) を参照してください。
-
-注意："（ダブルクオーテーション）をエスケープする必要があるため、テキストエディタで直接TSVファイルを作成する場合は、以下
-のような記述になります
-
-	"ndc9: ""007"""
-	"ndlc: [""AZ-463"", ""AZ-418""]"
-	"{ ndc9: ""212"", ddc: ""223"" }"
-	"{ ndc9: ""212"", ndlc: [""AZ-463"", ""AZ-418""] }"
+	例：NDC9の分類で、007と007.58が付与されているレコードの場合	
+	classification:ndc9
+	007//007.58
+	
+	例：NDC9が007, NDLCがAZ-463のとき
+	classification:ndc9	classification:ndlc
+	007	AZ-463
 
 ##### required_role_name {#tsv_required_role_name}
 
