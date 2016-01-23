@@ -9,6 +9,13 @@ author :
   twitter : ProjectNextL
   feedburner : false
 
+defaults:
+  -
+    scope:
+      type: pages
+    values:
+      permalink: /:path/:basename:output_ext
+
 markdown: rdiscount
 markdown: kramdown
 
