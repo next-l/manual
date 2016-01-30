@@ -50,7 +50,7 @@ Enjuを利用した資料の検索方法には、演算子やフィールド名�
 
 #### 2. 複数の条件を指定して［検索］ボタンをクリックします。  
 
-![複数の条件を指定](../assets/images/1.1/advanced_search_1.png)
+![複数の条件を指定](../assets/images/1.2/advanced_search_1.png)
 
 <div class="alert alert-info memo" markdown="1">
 
