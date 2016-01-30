@@ -157,12 +157,6 @@ version: 1.2
 
 ![発注票を作成するリンク](../assets/images/1.1/image_operation_091_3.png)
 
-<div class="alert alert-info memo" markdown="1">
-【Memo】
-
-※注意 Enju Leaf 1.1.0,1.1.1 ではこの機能にバグがあり、他人の作成した購入リクエストが表示されないバグがあります。（ [参照 #issue960](https://github.com/next-l/enju_leaf/issues/960)）。1.1.2以降ではこのバグは解消されています。
-</div>
-
 #### 5. 注記などを入力し［発注票を作成する］ボタンをクリックします。
 
 ![発注票を作成するボタン](../assets/images/1.1/image_operation_091_4.png)
@@ -197,12 +191,6 @@ version: 1.2
 #### 4. 右メニューの［TSV］をクリックします。  
 
 ![TSVリンク](../assets/images/1.1/image_operation_091.png)
-
-<div class="alert alert-info memo" markdown="1">
-【Memo】
-
-※注意 Enju Leaf 1.1.0, 1.1.1 ではこの機能にバグがあり、他人の作成した購入リクエストが表示されないバグがあります。（ [参照 #issue960](https://github.com/next-l/enju_leaf/issues/960)）。1.1.2以降ではこのバグは解消されています。
-</div>
 
 #### 5. TSVが表示されます。
 
