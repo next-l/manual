@@ -126,7 +126,7 @@ Enjuの利用を始めるにあたり，資料の主題情報を扱う件名と�
 
 #### 3. 右メニューの［件名標目の種類の新規作成］をクリックします。  
 
-![件名標目の種類の新規作成](../assets/images/1.1/image_initial_052.png)  
+![件名標目の種類の新規作成](../assets/images/1.2/image_initial_052.png)  
 
 <div class="alert alert-info memo" markdown="1">
 【Memo】入力済みの設定内容を変更する場合は［編集］を，削除する場合は［削除］をクリックします。  
