@@ -1702,7 +1702,8 @@ Enjuでは、画像（図書の表紙など）を登録し、資料に関連づ�
 <div class="alert alert-info memo">【Memo】[削除]とするとこのエクスポートファイルを削除することができます。</div> 
 
 <div class="alert alert-success memo" markdown="1">
-<h4 class="alert-heading">【Column】TSVファイル</h4>
+
+### 【Column】TSVファイルで出力される項目 {#bib_tsv_export}
 
 次の項目が入っています(Enju Leaf 1.1.0)。
 
