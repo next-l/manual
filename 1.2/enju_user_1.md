@@ -576,8 +576,8 @@ http://iss.ndl.go.jp/books/R100000002-I000008276603-00	"はじめてのRuby on R
 #### 2. TSV 形式のファイルがダウンロードできます。
 
 <pre>
-manifestation_identifier	original_title	creator	publisher	isbn	pub_date	note
-http://iss.ndl.go.jp/books/R100000002-I000004040061-00	"レッスン"	Pearson, Carol Lynn; 灰島, かり, 1950-; ささめや, ゆき, 1943-	平凡社	["9784582831351"]	2002-12	
+manifestation_id	original_title	creator	contributor	publisher	pub_date	statement_of_responsibility	manifestation_price	manifestation_created_at	manifestation_updated_at	manifestation_identifier	access_address	note	isbn	issn	jpno	doi	iss_itemno	lccn	issn_l	subject:unknown	subject:ndlsh	subject:bsh	subject:lcsh	classification:ndc9	classification:ddc	classification:clno	item_id	item_identifier	call_number	item_price	acquired_at	accepted_at	bookstore	budget_type	circulation_status	shelf	library	item_created_at	item_updated_at
+2	レッスン	Pearson, Carol Lynn//灰島, かり, 1950-//ささめや, ゆき, 1943-		平凡社	2002-12	キャロル・リン・ピアソン 文; 灰島かり 訳; ささめやゆき 画	1400	2015-11-29 12:08:23 +0900	2015-12-24 00:03:12 +0900	http://iss.ndl.go.jp/books/R100000002-I000004040061-00			9784582831351		20364486		R100000002-I000004040061-00							933.7	""	""	2	300002							On Loan	first_shelf	yours	2015-12-05 12:36:28 +0900	2015-12-05 12:37:52 +0900
 </pre>
 
 1-8 検索結果詳細を電子メールで送る {#section1-8}
