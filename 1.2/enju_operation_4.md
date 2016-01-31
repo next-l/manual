@@ -970,23 +970,19 @@ CiNii Books（<http://ci.nii.ac.jp/books/>）を検索した資料を
 
 ![検索](../assets/images/1.1/image_operation_111.png)
 
-#### 2. 所蔵情報を登録したい資料をクリックします。  
+#### 2. 所蔵情報を登録したい資料の[所蔵作成]をクリックします。  
 
-![資料](../assets/images/1.1/image_operation_113.png)
+![資料](../assets/images/1.2/image_operation_113.png)
 
-#### 3. 右メニューの［（新規作成）］をクリックします。  
+<div class="alert alert-success memo" markdown="1">
+
+#### 資料のタイトルをクリックした先の画面の右メニューの［（新規作成）］をクリックしてもできます。 
 
 ![所蔵情報の新規作成](../assets/images/1.1/image_operation_119.png)
 
-<div class="alert alert-info memo" markdown="1">
-
-【Memo】
-
-* 右メニューの[所蔵を編集]をクリックするとこの書誌の所蔵の一覧が表示されます。
-
 </div>
 
-#### 4. 図書館や貸出状態などを設定して、［登録する］ボタンをクリックします。  
+#### 3. 図書館や貸出状態などを設定して、［登録する］ボタンをクリックします。  
 
 ![所蔵情報を作成](../assets/images/1.1/image_operation_121.png)
 
@@ -1003,7 +999,7 @@ CiNii Books（<http://ci.nii.ac.jp/books/>）を検索した資料を
 資料が寄贈されたものであることを示したい場合は、［予算種別］に「寄贈」種別を登録し、選ぶことで区別できるようになります。予算種別の登録方法は「[3-9 予算種別を設定する](enju_setup_3.html#section3-9)」を参照してください。寄贈者などの情報を残したい場合は注記に入力します。
 </div>
 
-#### 5. 「所蔵情報は正常に作成されました。」のメッセージが表示され、所蔵情報が登録されます。
+#### 4. 「所蔵情報は正常に作成されました。」のメッセージが表示され、所蔵情報が登録されます。
 
 ![所蔵情報が正常に作成](../assets/images/1.1/image_operation_121_2.png)
 
