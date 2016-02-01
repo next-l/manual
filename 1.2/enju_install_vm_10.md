@@ -32,7 +32,7 @@ Enju 「条件を詳しく指定して検索」の画面をカスタマイズす
 
 #### 2. 以下のファイルをダウンロードし、中身を編集します。
 
-[https://github.com/next-l/enju_leaf/blob/1.1/app/views/page/advanced_search.html.erb](https://github.com/next-l/enju_leaf/blob/1.1/app/views/page/advanced_search.html.erb)
+[https://github.com/next-l/enju_leaf/blob/1.2/app/views/page/advanced_search.html.erb](https://github.com/next-l/enju_leaf/blob/1.2/app/views/page/advanced_search.html.erb)
 
 
 #### 3. インストールしてあるEnjuに、ディレクトリを作成します。
@@ -55,7 +55,7 @@ Enju トップの画面の検索フォームをカスタマイズする方法を
 
 #### 2. 以下のファイルをダウンロードし、中身を編集します。
 
-[https://github.com/next-l/enju_leaf/blob/1.1/app/views/page/_search_form.html.erb](https://github.com/next-l/enju_leaf/blob/1.1/app/views/page/_search_form.html.erb)
+[https://github.com/next-l/enju_leaf/blob/1.2/app/views/page/_search_form.html.erb](https://github.com/next-l/enju_leaf/blob/1.2/app/views/page/_search_form.html.erb)
 
 #### 3. インストールしてあるEnjuに、ディレクトリを作成します。
 
@@ -73,7 +73,7 @@ Enju 検索結果一覧画面の検索フォームをカスタマイズする方
 
 #### 2. 以下のファイルをダウンロードし、中身を編集します。
 
-[https://github.com/next-l/enju_leaf/blob/1.1/app/views/manifestations/_index_form.html.erb](https://github.com/next-l/enju_leaf/blob/1.1/app/views/manifestations/_index_form.html.erb)
+[https://github.com/next-l/enju_leaf/blob/1.2/app/views/manifestations/_index_form.html.erb](https://github.com/next-l/enju_leaf/blob/1.2/app/views/manifestations/_index_form.html.erb)
 
 #### 3. インストールしてあるEnjuに、ディレクトリを作成します。
 
