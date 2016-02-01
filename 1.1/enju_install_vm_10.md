@@ -35,7 +35,26 @@ Enjuサーバは，外部からネットワーク経由でアクセスするこ�
 10-4 フッターをカスタマイズする {#section10-4}
 ----------------------------------------------
 
-（現在準備中です）
+図書館の所在地や電話番号、クレジットなどを書きたいときに使用します。
+設定する画面がないため、これはサーバー上の作業をする必要があります。
+
+#### 1. 念のため「[8-1 Enjuの停止](enju_install_vm_8.html#section8-1)」を実行します。
+
+#### 2. 以下のファイルをダウンロードし、中身を編集します。
+
+[https://raw.githubusercontent.com/next-l/enju_leaf/1.1/app/views/page/_footer.html.erb](https://raw.githubusercontent.com/next-l/enju_leaf/1.1/app/views/page/_footer.html.erb)
+
+#### 3. インストールしてあるEnjuに app/views/page ディレクトリを作成します。
+
+        $ mkdir -p app/views/page
+
+#### 4. 2のファイルを3で作成したディレクトリにコピーします
+
+#### 5. 「[8-3 Enjuを再起動](enju_install_vm_8.html#section8-3)」を実行します。
+
+#### 6. 見栄えを確認します。修正が必要なら 4.のファイルを修正し、5と6 の手順を行います。
+
+![フッタの確認](../assets/images/1.1/image_setup_footer_2.png)
 
 10-5 「条件を詳しく指定して検索」の画面をカスタマイズする {#sction10-5}
 -----------------------------------------------------------------------
