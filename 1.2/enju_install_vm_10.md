@@ -99,5 +99,49 @@ Enju 検索結果一覧画面の検索フォームをカスタマイズする方
 ※ 画像ファイルをブラウザから置けるようにする機能を開発予定です（[詳細 #1133](https://github.com/next-l/enju_leaf/issues/1113)）。
 <!-- 関連 #1144 -->
  
+10-3 ヘッダーをカスタマイズする {#sction10-3}
+-----------------------------------------------------------------------
+
+ヘッダーをカスタマイズする方法を説明します。
+現在は、ヘッダーに表示されるタイトルしか変更できないため、
+たとえば、バナー画像を使いたい場合などは、
+サーバー上の作業をする必要があります。
+
+#### 1. [10-2](#section10-2)節 の 1. と同様です。
+
+#### 2. バナー画像があれば、画像ファイルをEnju に置きます。
+
+* 画像ファイルを置く方法は、[「10-5　トップ画面やヘルプなどに表示する画像を置く」](#section10-5)を参照してください。
+* 説明で使う例として：置いたファイル：logo.png、URL：http://enju.next-l.jp/assets/logo.png 
+
+#### 3. 以下のファイルをダウンロードし、中身を編集します。
+
+[https://raw.githubusercontent.com/next-l/enju_leaf/1.2/app/views/page/_header.html.erb](https://raw.githubusercontent.com/next-l/enju_leaf/1.2/app/views/page/_header.html.erb)
+
+例えば、バナー画像をタイトルの代わりにつけてたい場合は、以下の記述を変更します。
+
+（現在、準備中）
+
+{::comment}
+
+修正前：
+
+        <div id="library_system_name">
+          <h1 class="resource_title"><%= link_to LibraryGroup.system_name(@locale), root_path, title: LibraryGroup.system_name(@locale) %></h1>
+        </div>
+
+修正後：
+
+        <div id="library_system_name">
+          <h1 class="resource_title"><%= link_to LibraryGroup.system_name(@locale), root_path, title: LibraryGroup.system_name(@locale) %></h1>
+        </div>
+
+{:/comment}
+
+#### 4. インストールしてあるEnjuに、ディレクトリを作成します。
+
+        $ mkdir -p app/views/page
+
+#### 5. [10-2](#section10-2)節 の 4. ～　6. と同様です。
 
 {% include enju_install_vm/toc.md %}
