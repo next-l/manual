@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 第10章 その他 - Next-L Enju インストールマニュアル（VirtualBox編）
-title_short: 第10章 その他
+title: 第10章 その他（カスタマイズなど） - Next-L Enju インストールマニュアル（VirtualBox編）
+title_short: 第10章 その他（カスタマイズなど）
 group: enju_install_vm
 version: 1.2
 ---
@@ -11,7 +11,7 @@ version: 1.2
 
 {::comment} misc.md {:/comment}
 
-第10章 その他 {#section10}
+第10章 その他（カスタマイズなど） {#section10}
 ========================
 
 10-1 Enjuを運用するにあたっての留意点・注意点 {#section10-1}
