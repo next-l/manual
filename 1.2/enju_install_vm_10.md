@@ -73,7 +73,7 @@ Enju 検索結果一覧画面の検索フォームをカスタマイズする方
 
 #### 2. 以下のファイルをダウンロードし、中身を編集します。
 
-[https://github.com/next-l/enju_leaf/blob/1.2/app/views/manifestations/_index_form.html.erb](https://github.com/next-l/enju_leaf/blob/1.2/app/views/manifestations/_index_form.html.erb)
+<https://github.com/next-l/enju_biblio/blob/1.2/app/views/manifestations/_index_form.html.erb>
 
 #### 3. インストールしてあるEnjuに、ディレクトリを作成します。
 
