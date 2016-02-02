@@ -27,15 +27,21 @@ Enjuサーバは，外部からネットワーク経由でアクセスするこ�
 
 #### 1. 置きたい画像を用意します。（ここでは例として logo.png とします）
 
-#### 2. インストールしてあるEnju の public/assets/ 以下に画像ファイルを置きます。
+#### 2. インストールしてあるEnju の app/assets/images/ 以下に画像ファイルを置きます。
 
-#### 3. 参照するURLについて
+#### 3. 以下のコマンドを実行します。
+
+        $ bundle exec rake assets:precompile
+
+#### 4. 参照するURLについて
 
 以下のようなURLになりますのでこのURLを使って参照することができます。
 
 * 書式： ベースURL/assets/ファイル名
 * URL例（デモサーバー）: http://enju.next-l.jp/assets/logo.png
 * URL例（仮想マシン）: http://localhost:8080/assets/logo.png
+
+<!-- 関連issue #1144  -->
 
 10-3 フッターをカスタマイズする {#section10-3}
 ----------------------------------------------
