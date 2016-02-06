@@ -604,7 +604,7 @@ Enjuを利用した資料の検索方法には、演算子やフィールド名�
 
 #### 2. TSV 形式のファイルがダウンロードできます。
 
-※出力される項目の詳細：[【Column】TSVファイルで出力される項目](enju_operation_4.html#bib_tsv_export)
+* [出力される項目の詳細](enju_webapi_1.html#bib_tsv_export)
 
 <pre>
 manifestation_id	original_title	creator	contributor	publisher	pub_date	statement_of_responsibility	manifestation_price	manifestation_created_at	manifestation_updated_at	manifestation_identifier	access_address	note	isbn	issn	jpno	doi	iss_itemno	lccn	issn_l	subject:unknown	subject:ndlsh	subject:bsh	subject:lcsh	classification:ndc9	classification:ddc	classification:clno	item_id	item_identifier	call_number	item_price	acquired_at	accepted_at	bookstore	budget_type	circulation_status	shelf	library	item_created_at	item_updated_at

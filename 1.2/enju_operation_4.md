@@ -1692,47 +1692,8 @@ Enjuでは、画像（図書の表紙など）を登録し、資料に関連づ�
 
 ### 【Column】TSVファイルで出力される項目 {#bib_tsv_export}
 
-次の項目が入っています(Enju Leaf 1.1.0)。
+Web APIマニュアルの[書誌と所蔵のTSVの項目](enju_webapi_1.html#bib_tsv_export)を参照してください。
 
-* manifestation_id: 書誌ID
-* original_title: 原題
-* creator: 著者
-* contributor: 協力者・編者
-* publisher: 出版者
-* pub_date: 出版日
-* statement_of_responsibility: 責任表示
-* manifestation_price: 販売価格
-* manifestation_created_at: 書誌情報作成日（エクスポートのみの項目）
-* manifestation_updated_at: 書誌情報更新日（エクスポートのみの項目）
-* manifestation_identifier：ローカル識別子
-* access_address: アクセスアドレス
-* note: 注記
-* isbn： ISBN
-* subject:unknown: 件名（unknown）※入力データによっては出力されないこともあります。
-* subject:ndlsh: 件名（NDLSH）※入力データによっては出力されないこともあります。
-* （入力データによってはほかにも subject:　からはじまるものがあります）
-* classification:ndc9: 分類（NDC）※入力データによっては出力されないこともあります。
-* （入力データによってはほかにも classification:　からはじまるものがあります）
-* item_id: 所蔵データID(自動付与）
-* item_identifier: 所蔵情報ID
-* call_number: 請求記号
-* item_price: 購入価格
-* acquired_at: 受入日
-* accepted_at: 検収日（エクスポートのみの項目）
-* bookstore: 書店
-* budget_type: 予算種別
-* circulation_status: 貸出状態
-* shelf: 本棚
-* library: 図書館
-* item_created_at: 所蔵情報作成日（エクスポートのみの項目）
-* item_updated_at: 所蔵情報更新日（エクスポートのみの項目）
-
-※1 その他、書誌に登録されている識別子
-（[「識別子の種類」](enju_setup_6.html#section6-1)の一覧で、
-[削除]リンクがでていないもの（例：jpno,ncid））、
-は全て出力されます。
-
-※2 分類や件名で複数あるものは//で区切られて出力されます。
 </div>
 
 4-10 人物・団体情報を登録する {#section4-10}
