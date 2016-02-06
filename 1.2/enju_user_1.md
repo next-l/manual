@@ -463,16 +463,10 @@ Enjuを利用した資料の検索方法には、演算子やフィールド名�
 
 ※　現在、画面でみえている結果の分だけが書き出しができます。
 
-#### 2. TSV 形式のファイルがダウンロードできます。
+#### 2. TSV 形式のファイルがダウンロードできます。 {#bib_tsv}
 
-※出力される項目の詳細：[【Column】TSVファイルで出力される項目](enju_operation_4.html#bib_tsv_export)
-
-<pre>
-manifestation_id	original_title	creator	contributor	publisher	pub_date	statement_of_responsibility	manifestation_price	manifestation_created_at	manifestation_updated_at	manifestation_identifier	access_address	note	isbn	issn	jpno	doi	iss_itemno	lccn	issn_l	subject:unknown	subject:ndlsh	subject:bsh	subject:lcsh	classification:ndc9	classification:ddc	classification:clno	item_id	item_identifier	call_number	item_price	acquired_at	accepted_at	bookstore	budget_type	circulation_status	shelf	library	item_created_at	item_updated_at
-6	図書館情報資源概論	伊藤, 民雄, 1967-//大串, 夏身, 1948-//金沢, みどり, 1959-		学文社	2012-09	伊藤民雄 著	1800	2015-12-07 19:10:32 +0900	2015-12-12 00:53:08 +0900	http://iss.ndl.go.jp/books/R100000002-I023951143-00			9784762023040		22156874		R100000002-I023951143-00			""	図書館資料	""	""	014.1	""	""	7	808080							Available On Shelf	first_shelf	yours	2015-12-11 01:45:48 +0900	2015-12-12 00:53:08 +0900
-5	Ruby on Rails環境構築ガイド : ソース管理から公開までを徹底解説 : 定番ツールを使いこなして今日から即戦力!	黒田, 努		インプレスジャパン//インプレスコミュニケーションズ	2013-03	黒田努 著	2800	2015-12-06 12:30:03 +0900	2015-12-09 12:32:14 +0900	http://iss.ndl.go.jp/books/R100000002-I024310898-00			9784844333753		22220800		R100000002-I024310898-00							547.483	""	""	4	909092							On Loan	first_shelf	yours	2015-12-06 17:33:57 +0900	2015-12-06 17:34:13 +0900
-</pre>
-
+* [出力されるTSVの例](enju_webapi_1.html#bib_tsv_example)
+* [出力される項目の詳細](enju_webapi_1.html#bib_tsv_export)
 
 1-9 検索結果詳細の書き出し {#section1-9}
 -----------------------------------------
