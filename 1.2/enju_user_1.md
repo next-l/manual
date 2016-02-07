@@ -604,8 +604,8 @@ Enjuを利用した資料の検索方法には、演算子やフィールド名�
 
 #### 2. TSV 形式のファイルがダウンロードできます。
 
-* [出力されるTSVの例](enju_webapi_1.html#bib_tsv_example_simple)
-* [出力される項目の詳細](enju_webapi_1.html#bib_tsv_export_simple)
+* [出力されるTSVの例](enju_webapi_2.html#bib_tsv_example_simple)
+* [出力される項目の詳細](enju_webapi_2.html#bib_tsv_export_simple)
 
 1-10 検索結果詳細を電子メールで送る {#section1-10}
 ------------------------------------------------

@@ -24,6 +24,6 @@ version: 1.2
 </div>
 <div class="span4">
 <a href="enju_webapi.html" class="btn btn-info btn-large">Web APIマニュアル</a>
-{% include enju_webapi/toc.md %}
+{% include enju_webapi/1.2/toc.md %}
 </div>
 </div>

@@ -7,4 +7,4 @@ version: 1.2
 ---
 本マニュアルは、オープンソース統合図書館システム　Enjuの運用について、説明しています。EnjuのWeb APIを使うするときにお読みください。
 
-{% include enju_webapi/toc.md %}
+{% include enju_webapi/1.2/toc.md %}
