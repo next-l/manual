@@ -81,9 +81,13 @@ version: 1.2
 
 </div>
 
-#### 3. 「[8-2 最新ソースコードの取込み](enju_install_vm_8.html#section8-2)」を実行します。
+#### 3. config/initializers/enju_leaf.rb に以下の1行を挿入します。
 
-#### 4. 「[8-3 Enjuを再起動](enju_install_vm_8.html#section8-3)」を実行します。
+        Manifestation.include(EnjuOai::OaiModel)
+
+#### 4. 「[8-2 最新ソースコードの取込み](enju_install_vm_8.html#section8-2)」を実行します。
+
+#### 5. 「[8-3 Enjuを再起動](enju_install_vm_8.html#section8-3)」を実行します。
 
 5-4 [enju_purchase_request]モジュール（発注リスト作成機能） {#section5-4}
 -------------------------------------------------------------------------
