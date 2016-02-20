@@ -86,7 +86,17 @@ Enju 検索結果一覧画面の検索フォームをカスタマイズする方
 
 #### 1. 置きたい画像を用意します。（ここでは例として logo.png とします）
 
-#### 2. インストールしてあるEnju の app/assets/images/ 以下に画像ファイルを置きます。
+#### 2. インストールしてあるEnju の app/assets/images/ 以下に画像ファイルを置きます。※ custom フォルダを作成し、その下にファイルを置くことを推奨します。
+
+<div class="alert alert-info memo" markdown="1">
+
+【Memo】
+
+* フォルダを作成しその下にファイルを置くことも可能です。
+* ファイル名やフォルダ名は任意に作成できます（ただし、Enjuが使用するものと衝突する場合は動作保証しかねます）。
+* customフォルダ以下のファイルはEnjuが用意した画像と衝突しないことが保証されます。
+
+</div>
 
 #### 3. 以下のコマンドを実行します。
 
@@ -96,9 +106,9 @@ Enju 検索結果一覧画面の検索フォームをカスタマイズする方
 
 以下のようなURLになりますのでこのURLを使って参照することができます。
 
-* 書式： ベースURL/assets/ファイル名
-* URL例（デモサーバー）: http://enju.next-l.jp/assets/logo.png
-* URL例（仮想マシン）: http://localhost:8080/assets/logo.png
+* app/assets/images/ 以下に、 custom フォルダを作成して、その下に logo.png を置いた場合
+    * URL例（デモサーバー）: http://enju.next-l.jp/assets/custom/logo.png
+    * URL例（仮想マシン）: http://localhost:8080/assets/custom/logo.png
 
 ※ 画像ファイルをブラウザから置けるようにする機能を開発予定です（[詳細 #1133](https://github.com/next-l/enju_leaf/issues/1113)）。
 <!-- 関連 #1144 -->
