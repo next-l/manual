@@ -126,15 +126,16 @@ Enju 検索結果一覧画面の検索フォームをカスタマイズする方
 #### 2. バナー画像があれば、画像ファイルをEnju に置きます。
 
 * 画像ファイルを置く方法は、[「10-5　トップ画面やヘルプなどに表示する画像を置く」](#section10-5)を参照してください。
-* 説明で使う例として：置いたファイル：logo.png、URL：http://enju.next-l.jp/assets/logo.png 
+* 説明で使う例として：置いたファイル：custom/logo.png 
+* バナー画像の大きさは 横：640ピクセル 縦：65ピクセル　にするとちょうどよいです。大きすぎるとはみ出て表示されます。
 
 #### 3. 以下のファイルをダウンロードし、中身を編集します。
 
 [https://raw.githubusercontent.com/next-l/enju_leaf/1.2/app/views/page/_header.html.erb](https://raw.githubusercontent.com/next-l/enju_leaf/1.2/app/views/page/_header.html.erb)
 
-例えば、バナー画像をタイトルの代わりにつけてたい場合は、以下の記述を変更します。
+例えば、バナー画像をタイトルの代わりにつけたい場合は、以下の記述を変更します。
 
-（現在、準備中）
+        <h1><%= link_to image_tag('custom/logo.png'), root_path %></h1>
 
 {::comment}
 
