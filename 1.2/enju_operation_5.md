@@ -107,11 +107,11 @@ NDLサーチ（国立国会図書館サーチ <http://iss.ndl.go.jp/>）で
 
 #### 3. 登録したい資料の[追加]をクリックします
 
-![資料の追加](../assets/images/1.1/image_operation_108_ndl_m.png)
+![資料の追加](../assets/images/1.2/image_operation_108_ndl_m.png)
 
 #### 4. 「資料は正常に作成されました。」と表示され、登録が完了します。
 
-![登録完了](../assets/images/1.1/image_operation_109_ndl_m.png)
+![登録完了](../assets/images/1.2/image_operation_109_ndl_m.png)
 
 ### 5-1-2 手動で資料を登録する {#section5-1-2}
 
@@ -140,7 +140,7 @@ NDLサーチ（国立国会図書館サーチ <http://iss.ndl.go.jp/>）で
 
 #### 4. 雑誌タイトル単位のシリーズ情報が作成されます。
 
-![逐次刊行物の雑誌マスタ](../assets/images/1.1/serials_master.png)
+![逐次刊行物の雑誌マスタ](../assets/images/1.2/serials_master.png)
 
 <div class="alert alert-info memo" markdown="1">
 
