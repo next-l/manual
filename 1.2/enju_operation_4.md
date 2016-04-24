@@ -388,10 +388,15 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 
 #### 3. 登録したい資料の[追加]をクリックします
 
-![資料の追加](../assets/images/1.1/image_operation_108_ndl.png)
+![資料の追加](../assets/images/1.2/image_operation_108_ndl.png)
 
-<div class="alert alert-info memo">
-【Memo】原題のリンク先はNDLサーチの書誌詳細画面になっていますので、書誌詳細を確認できます。
+<div class="alert alert-info memo" markdown="1">
+
+【Memo】
+
+* 原題のリンク先はNDLサーチの書誌詳細画面になっていますので、書誌詳細を確認できます。
+* 右メニューの「同じ検索語でNDLサーチを検索する」をたどると、同じ検索語でNDLサーチを検索した結果の画面が表示されますので、たくさんヒットしすぎたときなどに便利です。
+
 </div>
 
 <div class="alert alert-info memo" markdown="1">
@@ -401,7 +406,7 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 
 #### 4. [追加]ボタンが[保存中...]に変わりますので，画面が切り替わるまでしばらく待ちます。
 
-![資料の保存中](../assets/images/1.1/image_operation_108_2_ndl.png)
+![資料の保存中](../assets/images/1.2/image_operation_108_2_ndl.png)
 
 #### 5. 「資料は正常に作成されました。」と表示され、登録が完了します。
 
