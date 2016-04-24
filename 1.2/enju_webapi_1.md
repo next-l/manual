@@ -94,11 +94,11 @@ manifestation_id	original_title	creator	contributor	publisher	pub_date	statement
 * item_id: 所蔵データID(自動付与）
 * item_identifier: 所蔵情報ID
 * call_number: 請求記号
-* item_price: 購入価格
+* item_price: 購入価格（Administrator権限、Librarian権限のときのみ出力）
 * acquired_at: 受入日
 * accepted_at: 検収日（エクスポートのみの項目）
-* bookstore: 書店
-* budget_type: 予算種別
+* bookstore: 書店 （Administrator権限、Librarian権限のときのみ出力）
+* budget_type: 予算種別（Administrator権限、Librarian権限のときのみ出力）
 * circulation_status: 貸出状態
 * shelf: 本棚
 * library: 図書館
