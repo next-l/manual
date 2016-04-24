@@ -452,7 +452,7 @@ CiNii Books（<http://ci.nii.ac.jp/books/>）を検索した資料を
 
 #### 2. 原題のほか必要な項目を入力し、[登録する]ボタンをクリックします。
 
-![原題のほか必要な項目を入力し登録](../assets/images/1.1/image_operation_100.png)
+![原題のほか必要な項目を入力し登録](../assets/images/1.2/image_operation_100.png)
 
 <div class="alert alert-info memo" markdown="1">【Memo】「*」のマークが付いた項目は入力必須項目です。
 </div>
@@ -479,7 +479,7 @@ CiNii Books（<http://ci.nii.ac.jp/books/>）を検索した資料を
 
 #### 3. 編集をし、［更新する］ボタンをクリックします。  
 
-![更新する](../assets/images/1.1/image_operation_bib_ed_4.png)
+![更新する](../assets/images/1.2/image_operation_bib_ed_4.png)
 
 #### 4. 「資料は正常に更新されました。」と表示され、書誌が更新されます。
 
