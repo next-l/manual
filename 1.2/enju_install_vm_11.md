@@ -131,12 +131,14 @@ TSVインポートに使えるファイルサイズは、標準設定では、1M
 エラーメッセージが出ていないか以下の場所等を確認すること。
 
 [起動時のエラー]
-* /var/log/upstart/enju_leaf-web-1.log
-* /var/log/upstart/enju_leaf-solr-1.log
-* /var/log/upstart/enju_leaf-resque-1.log
+
+  * /var/log/upstart/enju_leaf-web-1.log
+  * /var/log/upstart/enju_leaf-solr-1.log
+  * /var/log/upstart/enju_leaf-resque-1.log
 
 [稼働中のログ]
-* enju/log/production.log
-* sunspot-solr-production.log
+
+  * enju/log/production.log
+  * sunspot-solr-production.log
 
 {% include enju_install_vm/toc.md %}
