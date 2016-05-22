@@ -24,11 +24,11 @@ version: 1.2
 
 #### 2. enju/Gemfile に以下の一行を追加して保存します
 
-	gem "enju_nii", '~> 0.1.0.pre13'
+	gem "enju_nii", '~> 0.2.0.beta.1'
 
 <div class="alert alert-info memo" markdown="1">
 【Memo】
-'0.1.0.pre9'の部分は変更になることがあります。最新の情報は、 以下のコマンドで、出力されますので、適宜こちらを参照して読み替えてください。
+'0.2.0.beta.1'の部分は変更になることがあります。最新の情報は、 以下のコマンドで、出力されますので、適宜こちらを参照して読み替えてください。
 
 	$ gem search -r enju_nii # 正式版
 	$ gem search -r enju_nii --pre # ベータ版
@@ -48,11 +48,11 @@ version: 1.2
 
 #### 2. enju/Gemfile に以下の一行を追加して保存します
 
-	gem "enju_loc", '~> 0.1.0.pre4'
+	gem "enju_loc", '~> 0.2.0.beta.1'
 
 <div class="alert alert-info memo" markdown="1">
 【Memo】
-'0.1.0.pre4'の部分は変更になることがあります。最新の情報は、 以下のコマンドで、出力されますので、適宜こちらを参照して読み替えてください。
+'0.2.0.beta.1'の部分は変更になることがあります。最新の情報は、 以下のコマンドで、出力されますので、適宜こちらを参照して読み替えてください。
 
 	$ gem search -r enju_loc # 正式版
 	$ gem search -r enju_loc --pre # ベータ版
@@ -70,11 +70,11 @@ version: 1.2
 
 #### 2. enju/Gemfile に以下の一行を追加して保存します
 
-	gem "enju_oai", '~> 0.1.0.pre19'
+	gem "enju_oai", '~> 0.2.0.beta.1'
 
 <div class="alert alert-info memo" markdown="1">
 【Memo】
-'0.1.0.pre19'の部分は変更になることがあります。最新の情報は、 以下のコマンドで、出力されますので、適宜こちらを参照して読み替えてください。
+'0.2.0.beta.1'の部分は変更になることがあります。最新の情報は、 以下のコマンドで、出力されますので、適宜こちらを参照して読み替えてください。
 
 	$ gem search -r enju_oai # 正式版
 	$ gem search -r enju_oai --pre # ベータ版
@@ -96,11 +96,11 @@ version: 1.2
 
 #### 2. enju/Gemfile に以下の一行を追加して保存します
 
-	gem "enju_purchase_request", '~> 0.1.0.pre9'
+	gem "enju_purchase_request", '~> 0.2.0.beta.1'
 
 <div class="alert alert-info memo" markdown="1">
 【Memo】
-'0.1.0.pre9'の部分は変更になることがあります。最新の情報は、 以下のコマンドで、出力されますので、適宜こちらを参照して読み替えてください。
+'0.2.0.beta.1'の部分は変更になることがあります。最新の情報は、 以下のコマンドで、出力されますので、適宜こちらを参照して読み替えてください。
 
 	$ gem search -r enju_purchase_request # 正式版
 	$ gem search -r enju_purchase_request --pre # ベータ版
@@ -117,14 +117,18 @@ version: 1.2
 
 #### 5. app/controllers/application_controller.rbを以下のように編集します。
 
-	enju_leaf
-	enju_purchase_request # この行を追加
+	class ApplicationController < ActionController::Base
+	# 中略
+	  include EnjuLeaf::Controller
+	  ...
+	  include EnjuPurchaseRequest::Controller # この行を追加
+	end
 
 #### 6. app/models/user.rb を以下のように編集します。
 
 	class User < ActiveRecord::Base
 	# 中略
-		enju_purchase_request_user_model # この行を追加
+	  include EnjuPurchaseRequest::EnjuUser # この行を追加
 	end
 
 #### 7. 「[8-3 Enjuを再起動](enju_install_vm_8.html#section8-3)」を実行します。
@@ -140,11 +144,11 @@ version: 1.2
 
 #### 2. enju/Gemfile に以下の一行を追加して保存します
 
-	gem "enju_bookmark", '~> 0.1.2.pre13'
+	gem "enju_bookmark", '~> 0.2.0.beta.1'
 
 <div class="alert alert-info memo" markdown="1">
 【Memo】
-'0.1.2.pre13'の部分は変更になることがあります。
+'0.2.0.beta.1'の部分は変更になることがあります。
 最新の情報は、 以下のコマンドで、出力されますので、適宜こちらを参照して読み替え
 てください。
 
@@ -172,7 +176,7 @@ version: 1.2
 
 	class User < ActiveRecord::Base
 	  # 中略
-	  enju_bookmark_user_model # この行を追加
+	  include EnjuBookmark::EnjuUser # この行を追加
 	end
 
 #### 7. 「[8-3 Enjuを再起動](enju_install_vm_8.html#section8-3)」を実行します。
