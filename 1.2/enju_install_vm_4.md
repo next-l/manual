@@ -234,7 +234,31 @@ VirtualBoxの画面にマウスカーソルをあわせてクリックするだ�
 
 再発行したパスワードのメール送信の機能などを使うために必要です。
 
-（設定方法についての説明は準備中です）
+config/environments/production.rb を以下のように変更します。
+
+```
+Rails.application.configure do
+  # 中略
+
+  # hostオプションはEnjuを動作させているホストのホスト名を指定
+  config.action_mailer.default_url_options = {host: 'enju.example.jp'}
+
+  # SMTPサーバの設定。不要な設定はコメントアウトできます
+  # 設定例は以下も参照してください
+  # http://railsguides.jp/action_mailer_basics.html#gmail用のaction-mailer設定
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    address: 'yoursmtpserver.example.jp',
+    port: 25,
+    domain: 'example.jp',
+    user_name: 'smtpusername',
+    password: 'smtppassword',
+    authentication: 'plain',
+    enable_starttls_auto: true
+  }
+end
+```
+
 {::comment}関連issue#799{:/comment}
 
 {::comment}
