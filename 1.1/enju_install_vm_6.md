@@ -102,7 +102,7 @@ solr/conf ディレクトリーの中に schema.xml というXMLファイルが�
 設定が終わったら、設定を反映するために、Enju を再起動（リスタート）して、書誌情>報を再度インデックスします。
 
         sudo restart enju_leaf
-        sudo bundle exec rake sunspot:solr:reindex
+        bundle exec rake sunspot:reindex RAILS_ENV=production
 
 これで異体字でも検索ができるようになるはずです。
 
