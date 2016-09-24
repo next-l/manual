@@ -97,11 +97,12 @@ solr/conf ディレクトリーの中に schema.xml というXMLファイルが�
 また、漢字の異体字とラテン文字の置き換え（「æ」→「ae」など）を別ファイルにする、といった分け方もできます。
 
 
-#### 6-1-1-4 Enju の再起動 {#section6-1-1-4}
+#### 6-1-1-4 Enjuの再起動とSolrの再インデックス {#section6-1-1-4}
 
-設定が終わったら、設定を反映するために、Enju を再起動（リスタート）します。
+設定が終わったら、設定を反映するために、Enju を再起動（リスタート）して、書誌情報を再度インデックスします。
 
-	sudo restart enju_leaf
+        sudo restart enju_leaf
+        sudo bundle exec rake sunspot:solr:reindex
 
 これで異体字でも検索ができるようになるはずです。
 
