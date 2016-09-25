@@ -21,7 +21,9 @@ OAI-PMHの詳細な仕様は [OAI-PMH2.0日本語訳](https://www.nii.ac.jp/irp/
 
 OAI-PMHのアクセス先は以下のように、Enjuの稼働するサーバアドレスに `/oai/provider.xml` をつけたものになります。
 
- http://localhost:8080/oai/provider.xml?verb={_Verb_}
+```
+http://localhost:8080/oai/provider.xml?verb={_Verb_}
+```
 
 3-2 取得できるメタデータ形式 {#section3-2}
 ----------------------------
@@ -34,14 +36,18 @@ EnjuがOAI-PMHで提供するメタデータ形式は Dublin Core, junii2, DCNDL
 
 サーバ情報を取得するには Identify リクエストを送ります。
 
- http://localhost:8080/oai/provider.xml?verb=Identify
+```
+http://localhost:8080/oai/provider.xml?verb=Identify
+```
 
 3-4 対応メタデータ形式を確認する (ListMetadataFormats) {#section3-4}
 ------------------------------------------------------
 
 OAI-PMHで提供可能なメタデータ形式の一覧を取得するには ListMetadataFormats リクエストを送ります。
 
- http://localhost:8080/oai/provider.xml?verb=ListMetadataFormats
+```
+http://localhost:8080/oai/provider.xml?verb=ListMetadataFormats
+```
 
 3-5 書誌情報を取得する (ListRecords) {#section3-5}
 ------------------------------------
@@ -50,9 +56,14 @@ OAI-PMHで提供可能なメタデータ形式の一覧を取得するには Lis
 取得されるメタデータ形式として、`metadataPrefix` パラメータで指定します。
 
 DCNDLの場合:
- http://localhost:8080/oai/provider.xml?verb=ListRecords&metadataPrefix=dcndl
+```
+http://localhost:8080/oai/provider.xml?verb=ListRecords&metadataPrefix=dcndl
+```
+
 junii2の場合:
- http://localhost:8080/oai/provider.xml?verb=ListRecords&metadataPrefix=junii2
+```
+http://localhost:8080/oai/provider.xml?verb=ListRecords&metadataPrefix=junii2
+```
 
 一度に取得できるレコード件数は500件までです。
 必要に応じて、``resumptionToken``パラメータを使って複数回リクエストを送ることにより、Enju内の書誌情報レコードをすべて取得するハーベスティングを実現できます。
@@ -60,6 +71,8 @@ junii2の場合:
 そのほか、``from``, ``until`` パラメータを使って、更新日付を限定したレコード取得も可能です。
 
 更新日付によって限定したレコードの取得の例（2016年4月1日から2016年6月30日まで、DCNDL形式での取得）:
- http://localhost:8080/oai/provider.xml?verb=ListRecords&metadataPrefix=dcndl&from=2016-04-01&until=2016-06-30
+```
+http://localhost:8080/oai/provider.xml?verb=ListRecords&metadataPrefix=dcndl&from=2016-04-01&until=2016-06-30
+```
 
 {% include enju_webapi/1.2/toc.md %}
