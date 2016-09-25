@@ -81,9 +81,9 @@ version: 1.2
 
 </div>
 
-#### 3. config/initializers/enju_leaf.rb に以下の1行を挿入します。
+#### 3. app/models/user.rb の末尾に以下の1行を挿入します。
 
-        Manifestation.include(EnjuOai::OaiModel)
+	Manifestation.include(EnjuOai::OaiModel)
 
 #### 4. 「[8-2 最新ソースコードの取込み](enju_install_vm_8.html#section8-2)」を実行します。
 
