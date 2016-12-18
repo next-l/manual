@@ -112,8 +112,8 @@ version: 1.2
 #### 4. 以下のコマンドを実行します。
 
 	$ cd enju
-	$ rake enju_purchase_request_engine:install:migrations  
-	$ rake db:migrate RAILS_ENV=production # 必要に応じてRAILS_ENVを指定
+	$ bundle exec rake enju_purchase_request_engine:install:migrations  
+	$ bundle exec rake db:migrate RAILS_ENV=production # 必要に応じてRAILS_ENVを指定
 
 #### 5. app/controllers/application_controller.rbを以下のように編集します。
 
