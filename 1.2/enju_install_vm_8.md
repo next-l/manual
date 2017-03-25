@@ -19,7 +19,7 @@ Enjuは，以下の手順で，Enjuのソースコードが公開されている
 
 #### 1. vagrant@precise64:~$ に続いて以下のコマンドを入力します。
 
-	sudo stop enju_leaf
+	sudo systemctl stop enju_leaf.target
 
 vagrant のパスワード入力が求められたら，パスワードを打ち込んでください(画面には出力されません)。
 
@@ -39,7 +39,7 @@ vagrant のパスワード入力が求められたら，パスワードを打ち
 
 #### 1. vagrant@precise64:~$ または vagrant@precise64:~/enju$ に続いて以下のコマンドを入力します。
 
-	sudo start enju_leaf
+	sudo systemctl start enju_leaf.target
 
 vagrant のパスワード入力が求められたら，パスワードを打ち込んでください(画面には出力されません)。
 
