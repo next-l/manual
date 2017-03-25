@@ -221,7 +221,7 @@ VirtualBoxの画面にマウスカーソルをあわせてクリックするだ�
 
 初期ユーザー名「vagrant」に対するパスワードを変更します。
 
-#### 1. vagrant@precise64:~$ に続いて以下のコマンドを入力します。
+#### 1. vagrant@vagrant:~$ に続いて以下のコマンドを入力します。
 
 	passwd
 
@@ -263,7 +263,7 @@ end
 
 {::comment}
 
-#### 2. vagrant@precise64:~$ に続いて以下のコマンドを入力します。
+#### 2. vagrant@vagrant:~$ に続いて以下のコマンドを入力します。
 
 	ruby setip.rb IP_addr
 
@@ -291,7 +291,7 @@ Next-L Enjuが正しく起動したかどうかは，サーバ上だけではわ
 <div class="alert alert-info memo" markdown="1"> 
 【Memo】Enju_leaf 1.1.0.rc7 の仮想マシンの場合：
 
-#### 1. vagrant@precise64:~$ に続いて以下のコマンドを入力し、仮想マシンのIPアドレスを確認します。
+#### 1. vagrant@vagrant:~$ に続いて以下のコマンドを入力し、仮想マシンのIPアドレスを確認します。
 
 	ifconfig
 
@@ -316,7 +316,7 @@ etho (または eth1)のところに書かれている inet addr: の値をメ�
 
 Enju仮想マシンを終了(シャットダウン)させる場合には，正しい手順でのシャットダウンを行う必要があり，VirtualBoxをいきなり終了させたり，PCの電源ボタンを押すなどして強制終了させると，使用中のデータベースファイルが壊れて，再起動できなくなるなどの問題が発生する可能性があります。
 
-#### 1. vagrant@precise64:~/enju$ に続いて以下のコマンドを入力します。
+#### 1. vagrant@vagrant:~/enju$ に続いて以下のコマンドを入力します。
 
 	sudo shutdown -h now
 

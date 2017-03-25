@@ -17,7 +17,7 @@ Enjuは，以下の手順で，Enjuのソースコードが公開されている
 
 ### 8-1 Enjuの停止 {#section8-1}
 
-#### 1. vagrant@precise64:~$ に続いて以下のコマンドを入力します。
+#### 1. vagrant@vagrant:~$ に続いて以下のコマンドを入力します。
 
 	sudo systemctl stop enju_leaf.target
 
@@ -25,11 +25,11 @@ vagrant のパスワード入力が求められたら，パスワードを打ち
 
 ### 8-2 最新ソースコードの取り込み {#section8-2}
 
-#### 1. vagrant@precise64:~$ に続いて以下のコマンドを入力します。
+#### 1. vagrant@vagrant:~$ に続いて以下のコマンドを入力します。
 
 	cd enju
 
-#### 2. vagrant@precise64:~/enju$ に続いて以下のコマンドを入力します。
+#### 2. vagrant@vagrant:~/enju$ に続いて以下のコマンドを入力します。
 
 	bundle update
 
@@ -37,7 +37,7 @@ vagrant のパスワード入力が求められたら，パスワードを打ち
 
 ### 8-3 Enjuを再起動 {#section8-3}
 
-#### 1. vagrant@precise64:~$ または vagrant@precise64:~/enju$ に続いて以下のコマンドを入力します。
+#### 1. vagrant@vagrant:~$ または vagrant@vagrant:~/enju$ に続いて以下のコマンドを入力します。
 
 	sudo systemctl start enju_leaf.target
 
