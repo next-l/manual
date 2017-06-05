@@ -65,7 +65,7 @@ manifestation_id	original_title	creator	contributor	publisher	pub_date	statement
 
 ### 1-1-3 書誌と所蔵のTSVの項目 {#bib_tsv_export}
 
-次の項目が入っています(Enju Leaf 1.2.0)。
+次の項目が入っています(Enju Leaf 1.2.1)。
 
 <!-- 全件エクスポート（Librarian権限以上のみ）、
 検索結果一覧エクスポート、検索結果詳細エクスポートの出力項目は
@@ -85,6 +85,8 @@ manifestation_id	original_title	creator	contributor	publisher	pub_date	statement
 * manifestation_identifier：ローカル識別子
 * access_address: アクセスアドレス
 * note: 注記
+* extent: ページ数
+* dimensions: 大きさ
 * isbn： ISBN
 * subject:unknown: 件名（unknown）※入力データによっては出力されないこともあります。
 * subject:ndlsh: 件名（NDLSH）※入力データによっては出力されないこともあります。
