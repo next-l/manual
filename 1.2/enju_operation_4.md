@@ -410,7 +410,7 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 
 #### 5. 「資料は正常に作成されました。」と表示され、登録が完了します。
 
-![登録完了](../assets/images/1.1/image_operation_109_ndl.png)
+![登録完了](../assets/images/1.2/image_operation_109_ndl.png)
 
 <div class="alert alert-info memo" markdown="1">
 【Memo】
