@@ -163,7 +163,7 @@ Enjuでは、利用者カードと資料のバーコードを読み込むこと�
 * 右メニューの[延滞]リンクをたどると、延滞している資料の貸出履歴のみを表示します。
 * 予約ありの[はい]をたどると予約がはいっている資料のみを表示します。※Enju Leaf 1.1.0では、バグがあり、正常に動作しません（参照： [issue #982](https://github.com/next-l/enju_leaf/issues/982)）
 * 予約ありの[いいえ]をたどると予約がはいっていない資料のみを表示します。※Enju Leaf 1.1.0では、バグがあり、正常に動作しません（参照： [issue #982](https://github.com/next-l/enju_leaf/issues/982)）
-* [RSS]をたどると全利用者の貸出履歴の最新の10件をRSSでダウンロードできます（詳細 [#issue 984](https://github.com/next-l/enju_leaf/issues/984)）。
+* [RSS]をたどると全利用者の貸出履歴の最新の500件をRSSでダウンロードできます（詳細 [#issue 984](https://github.com/next-l/enju_leaf/issues/984)）。
 * [TSV]をたどると全利用者の貸出履歴を最新の500件をTSVでダウンロードできます。
 </div>
 
