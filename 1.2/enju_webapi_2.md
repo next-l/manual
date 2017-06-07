@@ -46,4 +46,36 @@ manifestation_id	original_title	creator	contributor	publisher	pub_date	statement
 
 [書誌と所蔵のTSVの項目](enju_webapi_1.html#bib_tsv_export)を参照してください。
 
+2-2 RDF/XML形式のデータを取得する {#section2-2}
+-------------------------------
+
+### 2-2-1 RDF/XML形式のデータ取得方法 {#section2-2-1}
+
+#### 1. 書き出しをしたい検索結果詳細画面を表示させます。
+
+#### 2. 検索結果詳細アドレス欄のURLの後ろに.rdfを追加します。
+
+<pre>
+例
+（変更前）：http://localhost:8080/manifestations/2
+（変更後）：http://localhost:8080/manifestations/2.rdf
+</pre>
+
+にします
+
+※ 検索結果詳細画面の右メニューの[RDF/XML]リンクをクリックした先のURLと同様です(詳細：利用者マニュアルの[「1-9-1 RDF/XML 形式で書き出し」](enju_user_1.html#section1-9-1)）。
+
+#### 3. この検索結果詳細画面がRDF/XML形式で表示されます。
+
+### 2-2-2 書誌のRDF/XML形式のデータの例 {#bib_rdf_example_simple}
+
+<pre>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"&gt;
+&lt;title&gt;Ruby on Rails入門 : 優しいRailsの育て方&lt;/title&gt;
+&lt;link&gt;http://localhost:8080/manifestations/1&lt;/link&gt;
+&lt;description&gt;秀和システム; 2006-08&lt;/description&gt;
+&lt;/rdf:RDF&gt;
+</pre>
+
 {% include enju_webapi/1.2/toc.md %}
