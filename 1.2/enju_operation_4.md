@@ -477,7 +477,7 @@ CiNii Books（<http://ci.nii.ac.jp/books/>）を検索した資料を
 
 #### 4. 「資料は正常に作成されました。」のメッセージが表示され、図書が登録されます。
 
-![原題のほか必要な項目を入力し登録](../assets/images/1.1/image_operation_100_2.png)
+![原題のほか必要な項目を入力し登録](../assets/images/1.2/image_operation_100_2.png)
 
 ### 4-2-8 図書の書誌を編集（修正）する {#section4-2-8}
 
