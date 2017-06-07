@@ -1159,7 +1159,7 @@ ISBNの代わりに、manifestation_idやmanifestation_identifierでも可能で
 
 ![要素を検証](../assets/images/1.1/image_operation_item_tsv_rm_001.png)
 
-####「削除」のあたりで右クリックし、「Edit as HTML」を選びます。
+#### 「削除」のあたりで右クリックし、「Edit as HTML」を選びます。
 
 ![Edit as HTML](../assets/images/1.1/image_operation_item_tsv_rm_003.png)
 
