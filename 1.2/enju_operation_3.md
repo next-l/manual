@@ -87,7 +87,7 @@ version: 1.2
 
 #### 3. 必要事項を入力して［利用者を登録する（取り消しはできません）］ボタンをクリックします。  
 
-![利用者を登録する](../assets/images/1.1/image_operation_033.png)
+![利用者を登録する](../assets/images/1.2/image_operation_033.png)
 
 <div class="alert alert-info memo" markdown="1">【Memo】「*」のマークが付いた項目は入力必須項目です。また、登録の取り消しはできません。取り消しを行いたい場合は、利用者の削除を行います。（参照：[3-4 利用者を削除する](#section3-4)）
 </div>
