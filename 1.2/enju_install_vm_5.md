@@ -162,8 +162,8 @@ version: 1.2
 #### 4. 以下のコマンドを実行します。
 
 	$ cd enju
-	$ rake enju_bookmark_engine:install:migrations  
-	$ rake db:migrate RAILS_ENV=production # 必要に応じてRAILS_ENVを指定
+	$ bundle exec rake enju_bookmark_engine:install:migrations  
+	$ bundle exec rake db:migrate RAILS_ENV=production # 必要に応じてRAILS_ENVを指定
 
 #### 5. app/helpers/application_helper.rbを以下のように編集します。
 
