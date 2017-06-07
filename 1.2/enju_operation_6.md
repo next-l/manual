@@ -184,7 +184,11 @@ Enjuでは、利用者カードと資料のバーコードを読み込むこと�
 
 #### 【Column】TSVの例
 
-![貸出中の資料の一覧](../assets/images/1.1/image_operation_181_2_tsv.png)
+<pre>
+username	item_identifier	title	checked_out_at	due_date	Checkout items (created_at: 2017-06-07 16:42:39 +0000)
+"user01"	"001002"	"パーフェクトRuby on Rails"	"2017-06-07 22:05:55 +0900"	"2017-06-21 23:59:59 +0900"
+"user01"	"001001"	"Ruby on Rails入門 : 優しいRailsの育て方"	"2017-06-07 21:51:22 +0900"	"2017-06-21 23:59:59 +0900"
+</pre>
 
 </div>
 
