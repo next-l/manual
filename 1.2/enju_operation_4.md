@@ -492,7 +492,7 @@ CiNii Books（<http://ci.nii.ac.jp/books/>）を検索した資料を
 <div class="alert alert-info memo" markdown="1">
 【Memo】ここで、本のタイトルのリンクをたどり、その先の資料の表示画面の右メニュー[編集]をクリックすることでも編集画面に移動します。
 
-![編集](../assets/images/1.1/image_operation_bib_ed_3.png)
+![編集](../assets/images/1.2/image_operation_bib_ed_3.png)
 </div>
 
 #### 3. 編集をし、［更新する］ボタンをクリックします。  
@@ -501,7 +501,7 @@ CiNii Books（<http://ci.nii.ac.jp/books/>）を検索した資料を
 
 #### 4. 「資料は正常に更新されました。」と表示され、書誌が更新されます。
 
-![更新されました](../assets/images/1.1/image_operation_bib_ed_5.png)
+![更新されました](../assets/images/1.2/image_operation_bib_ed_5.png)
 
 ### 4-2-9 TSVファイルを読み込んで更新する {#section4-2-9}
 
