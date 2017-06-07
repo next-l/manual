@@ -349,7 +349,7 @@ Enjuでは、図書館で行われるさまざまな催し物を登録し、カ�
 
 </div>
 
-<div class="alert alert-info memo" markdown="1">
+<div class="alert alert-success memo" markdown="1">
 
 【Column】 休館日や催し物のRSS {#section7_rss}
 ---------------------------------------------
@@ -358,7 +358,7 @@ Enjuでは、図書館で行われるさまざまな催し物を登録し、カ�
 
 </div>
 
-<div class="alert alert-info memo" markdown="1">
+<div class="alert alert-success memo" markdown="1">
 
 【Column】 休館日や催し物のTSV {#section7_tsv}
 ----------------------------------------------
@@ -371,7 +371,7 @@ library	name	note	start_at	end_at
 
 </div>
 
-<div class="alert alert-info memo" markdown="1">
+<div class="alert alert-success memo" markdown="1">
 
 【Column】 休館日や催し物のiCalendar {#section7_icalendar}
 ----------------------------------------------------------

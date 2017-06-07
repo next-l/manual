@@ -483,7 +483,7 @@ CiNii Books（<http://ci.nii.ac.jp/books/>）を検索した資料を
 
 ![編集](../assets/images/1.1/image_operation_bib_ed_2.png)
 
-<div class="alert alert-success memo" markdown="1">
+<div class="alert alert-info memo" markdown="1">
 【Memo】ここで、本のタイトルのリンクをたどり、その先の資料の表示画面の右メニュー[編集]をクリックすることでも編集画面に移動します。
 
 ![編集](../assets/images/1.1/image_operation_bib_ed_3.png)
@@ -977,7 +977,7 @@ CiNii Books（<http://ci.nii.ac.jp/books/>）を検索した資料を
 
 ![資料](../assets/images/1.2/image_operation_113.png)
 
-<div class="alert alert-success memo" markdown="1">
+<div class="alert alert-info memo" markdown="1">
 
 #### 資料のタイトルをクリックした先の画面の右メニューの［（新規作成）］をクリックしてもできます。 
 
