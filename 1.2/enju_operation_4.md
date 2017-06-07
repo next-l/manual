@@ -459,7 +459,13 @@ CiNii Books（<http://ci.nii.ac.jp/books/>）を検索した資料を
 
 ![原題のほか必要な項目を入力し登録](../assets/images/1.2/image_operation_100.png)
 
-<div class="alert alert-info memo" markdown="1">【Memo】「*」のマークが付いた項目は入力必須項目です。
+<div class="alert alert-info memo" markdown="1">
+【Memo】
+
+* 「*」のマークが付いた項目は入力必須項目です。
+* 「ページ数」と「最初のページ」「最後のページ」の両方を入力した場合、「資料の表示」に表示されるのは「ページ数」になります。
+* 「大きさ」と「高さ」の両方を入力した場合、「資料の表示」に表示されるのは「大きさ」になります。
+
 </div>
 
 <div class="alert alert-info memo" markdown="1">
