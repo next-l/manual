@@ -612,7 +612,12 @@ Next-L Enju Leaf 1.1.0 現在、未実装です( [issue #159](https://github.com
 
 【Column】TSVの例
 
-![TSVファイル](../assets/images/1.1/image_operation_210_tsv_d.png)
+<pre>
+username	item_identifier	title	checked_out_at	due_date	Overdue items (created_at: 2017-06-08 01:35:17 +0900)
+"akiyama"	"2101"	"本当にあった!特殊兵器大図鑑"	"2017-05-17 17:17:40 +0900"	"2017-05-17 23:59:59 +0900"
+"user1206"	"3117"	"天下人の茶"	"2017-02-23 10:27:29 +0900"	"2017-03-25 23:59:59 +0900"
+"yuka"	"567009"	"ドリーム・ギバー : 夢紡ぐ精霊たち"	"2015-12-20 11:54:10 +0900"	"2016-12-20 23:59:59 +0900"
+</pre>
 
 </div>
 
