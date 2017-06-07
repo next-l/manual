@@ -5,3 +5,5 @@ _site
 *.log
 *.aux
 *.toc
+Gemfile.lock
+.DS_Store
