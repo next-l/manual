@@ -111,4 +111,58 @@ manifestation_id	original_title	creator	contributor	publisher	pub_date	statement
 
 ※2 分類や件名で複数あるものは//で区切られて出力されます。
 
+1-2 RDF/XML形式のデータを取得する {#section1-2}
+------------------------------------
+
+### 1-2-1 RDF/XML形式のデータ取得方法 {#section1-2-1} 
+
+#### 1. 検索結果を表示します。
+
+#### 2. 検索結果のアドレス欄のURLのmanifestationsの後ろに.rdfを追加します。
+
+<pre>
+例
+（変更前）：http://localhost:8080/manifestations?utf8=%E2%9C%93&query=&commit=%E6%A4%9C%E7%B4%A2
+（変更後）：http://localhost:8080/manifestations.rdf?utf8=%E2%9C%93&query=&commit=%E6%A4%9C%E7%B4%A2
+</pre>
+
+にします
+
+※ 検索結果画面の右メニューの[RDF/XML]リンクをクリックした先のURLと同様です(詳細：利用者マニュアルの[「1-8-1 RDF/XML 形式で書き出し」](enju_user_1.html#section1-8-1)）。
+
+#### 3. この検索結果画面がRDF/XML形式で表示されます。 
+
+※現在、表示している検索結果のみを表示します。他の画面の検索結果は含みません。
+
+### 1-2-2 書誌と所蔵のRDF/XML形式のデータの例 {#bib_rdf_example}
+
+<pre>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"&gt;
+  &lt;channel rdf:about="http://localhost:8080/manifestations?format=rdf&amp;only_path=true&amp;query="&gt;
+    &lt;title&gt;検索語  による えんじゅ図書館 の資料の検索結果&lt;/title&gt;
+    &lt;link&gt;http://localhost:8080/manifestations?query=&lt;/link&gt;
+    &lt;description&gt;Next-L Enju, an open source integrated library system developed by Project Next-L&lt;/description&gt;
+    &lt;language&gt;ja&lt;/language&gt;
+    &lt;ttl&gt;60&lt;/ttl&gt;
+    &lt;items&gt;
+      &lt;rdf:Seq&gt;
+        &lt;rdf:li rdf:resource="http://localhost:8080/manifestations/2"/&gt;
+        &lt;rdf:li rdf:resource="http://localhost:8080/manifestations/1"/&gt;
+      &lt;/rdf:Seq&gt;
+    &lt;/items&gt;
+  &lt;/channel&gt;
+  &lt;item rdf:about="http://localhost:8080/manifestations/2"&gt;
+&lt;title&gt;パーフェクトRuby on Rails&lt;/title&gt;
+&lt;link&gt;http://localhost:8080/manifestations/2&lt;/link&gt;
+&lt;description&gt;技術評論社; 2014-07&lt;/description&gt;
+  &lt;/item&gt;
+  &lt;item rdf:about="http://localhost:8080/manifestations/1"&gt;
+&lt;title&gt;Ruby on Rails入門 : 優しいRailsの育て方&lt;/title&gt;
+&lt;link&gt;http://localhost:8080/manifestations/1&lt;/link&gt;
+&lt;description&gt;秀和システム; 2006-08&lt;/description&gt;
+  &lt;/item&gt;
+&lt;/rdf:RDF&gt;
+</pre>
+
 {% include enju_webapi/1.2/toc.md %}
