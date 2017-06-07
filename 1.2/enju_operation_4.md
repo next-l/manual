@@ -462,6 +462,13 @@ CiNii Books（<http://ci.nii.ac.jp/books/>）を検索した資料を
 <div class="alert alert-info memo" markdown="1">【Memo】「*」のマークが付いた項目は入力必須項目です。
 </div>
 
+<div class="alert alert-info memo" markdown="1">
+【Memo】著者については、入力し始めると、すでに登録されている著者の候補が出てくるので、同じものがあれば、そのメニューから選んで決定することができます。
+
+![著者名の自動補完方法](../assets/images/1.2/image_operation_author_auto.png)
+
+</div>
+
 #### 4. 「資料は正常に作成されました。」のメッセージが表示され、図書が登録されます。
 
 ![原題のほか必要な項目を入力し登録](../assets/images/1.1/image_operation_100_2.png)
