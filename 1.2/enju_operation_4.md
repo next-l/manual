@@ -1436,6 +1436,13 @@ https://github.com/next-l/enju_leaf/issues/867#issuecomment-147685332
 
 ![検収結果](../assets/images/1.1/image_operation_withdraw_005.png)
 
+<div class="alert alert-info memo" markdown="1">
+【Memo】次のようなエラーが出た場合は、「貸出中」の状態の本でないか確認してください。
+
+![貸出中の本を除籍しようとしてエラーが表示](../assets/images/1.2/image_operation_withdraw_005_err.png)
+
+</div>
+
 #### 5. [貸出状態]、[利用制限]、[更新時刻]が変わったことを確認できます。 
 
 ![所蔵情報の確認](../assets/images/1.1/image_operation_withdraw_007.png)
