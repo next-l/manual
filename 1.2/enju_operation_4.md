@@ -796,7 +796,7 @@ CiNii Books（<http://ci.nii.ac.jp/books/>）を検索した資料を
 <tr>
 	<td>extent</td>
 	<td>ページ数</td>
-	<td>文字列　※Version 1.1.0 ではTSVでのみ入力できますが表示やブラウザでの編集ができません。</td>
+	<td>文字列</td>
 	<td>xi, 125 pages</td>
 </tr>
 <tr>
