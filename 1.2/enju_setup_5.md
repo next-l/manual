@@ -69,19 +69,19 @@ Enjuの利用を始めるにあたり，形態・状態等に関するシステ�
 
 #### 4. 設定項目に必要事項を入力し、［登録する］ボタンをクリックして，設定内容を登録します。
 
-![資料の形態の設定](../assets/images/1.1/image_carrier_type_2.png)
+![資料の形態の設定](../assets/images/1.2/image_carrier_type_2.png)
 
 #### 5. 「資料の形態は正常に作成されました。」とメッセージが表示されます。貸出区分との関連付けを行うために右メニューの[編集]をクリックします（新規作成の場合、貸出区分との関連付けができないため）。
 
-![編集](../assets/images/1.1/image_carrier_type_3.png)
+![編集](../assets/images/1.2/image_carrier_type_3.png)
 
 #### 6. 資料の形態と貸出区分の関係の[追加]リンクをクリックします。
 
-![資料の形態と貸出区分の関係の追加](../assets/images/1.1/image_carrier_type_4_0.png)
+![資料の形態と貸出区分の関係の追加](../assets/images/1.2/image_carrier_type_4_0.png)
 
 #### 7. 貸出区分のメニューを選びます（例では、CDを選んでいます）。
 
-![資料の形態と貸出区分の関係](../assets/images/1.1/image_carrier_type_4.png)
+![資料の形態と貸出区分の関係](../assets/images/1.2/image_carrier_type_4.png)
 
 <div class="alert alert-info memo" markdown="1">
 【Memo】メニューに関連付けたい貸出区分がない場合は、貸出区分を新規作成します。作成方法は、「[3-5 貸出区分を設定する](enju_setup_3.html#section3-5)」を参照してください。
@@ -89,7 +89,7 @@ Enjuの利用を始めるにあたり，形態・状態等に関するシステ�
 
 #### 8. 貸出区分に先ほど選択した貸出区分が表示されているのを確認します（例ではCD）。これで、資料の形態が作成できました。
 
-![結果の確認](../assets/images/1.1/image_carrier_type_5.png)
+![結果の確認](../assets/images/1.2/image_carrier_type_5.png)
 
 <div class="alert alert-info memo" markdown="1">
 【Memo】資料の形態と貸出区分の関係づけについては、[図書館の管理]-->[システムの設定]-->図書館の[資料の形態と貸出区分の関係]リンクをたどった先でもできます（--> 詳細：「[3-7 資料の形態と貸出区分の関係を設定する](enju_setup_3.html#section3-7)」）。
