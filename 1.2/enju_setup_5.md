@@ -61,7 +61,7 @@ Enjuの利用を始めるにあたり，形態・状態等に関するシステ�
 
 #### 3. 右メニューの［資料の形態の新規作成］をクリックします。
 
-![資料の形態の設定](../assets/images/1.1/image_carrier_type_1.png)
+![資料の形態の設定](../assets/images/1.2/image_carrier_type_1.png)
 
 <div class="alert alert-info memo" markdown="1">
 【Memo】登録済みの資料の形態を修正したい場合は[編集]リンクをクリックします。順序を変更したい場合は、最左列の ![上矢印](../assets/images/1.1/arrow_up.png) や ![下矢印](../assets/images/1.1/arrow_down.png) をクリックすることで変更できます。
