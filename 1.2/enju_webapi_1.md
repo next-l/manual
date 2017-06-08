@@ -83,6 +83,7 @@ manifestation_id	original_title	creator	contributor	publisher	pub_date	statement
 * note: 注記
 * extent: ページ数
 * dimensions: 大きさ
+* carrier_type: 資料種別
 * isbn： ISBN
 * subject:unknown: 件名（unknown）※入力データによっては出力されないこともあります。
 * subject:ndlsh: 件名（NDLSH）※入力データによっては出力されないこともあります。
