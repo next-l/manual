@@ -328,7 +328,7 @@ ISBNコードから国立国会図書館のデータを参照して、資料を�
 
 #### 3. 「インポートのリクエストは正常に作成されました。」と表示され、登録が完了します。
 
-![登録完了](../assets/images/1.1/image_operation_109.png)
+![登録完了](../assets/images/1.2/image_operation_109.png)
 
 <div class="alert alert-info memo" markdown="1">
 【Memo】
