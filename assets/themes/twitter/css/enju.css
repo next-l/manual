@@ -65,6 +65,6 @@ input {
   div.navbar { display: none; }
   ul.toc { display: none; }
   img {
-    width: 65%
+    max-width: 65%
   }
 }
