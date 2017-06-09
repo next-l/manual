@@ -58,3 +58,16 @@ input {
   line-height: inherit !important;
 }
 
+#pagefooter {
+  display: none;
+}
+@media print {
+  @page {
+    size: A4 portrait;
+  }
+  div.navbar { display: none; }
+  ul.toc { display: none; }
+  img {
+    width: 65%
+  }
+}
