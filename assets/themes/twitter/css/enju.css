@@ -67,4 +67,7 @@ input {
   img {
     max-width: 65%
   }
+  body {
+    zoom: 0.8;
+  }
 }
