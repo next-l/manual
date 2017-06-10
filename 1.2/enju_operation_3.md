@@ -51,7 +51,7 @@ version: 1.2
 <tr><td></td><td>△</td><td>権限</td><td>User, Librarian, Administratorがあります。Administrator権限でログインしたときのみ権限の変更ができます。</td></tr>
 <tr><td>○</td><td>◎</td><td>フルネーム</td><td>利用者の氏名を入力します。表示に使われます（主に、図書館職員の管理用に用いられます）。</td></tr>
 <tr><td>○</td><td>◎</td><td>フルネーム（ヨミ）</td><td>利用者の氏名のヨミをカタカナで入力します。</td></tr>
-<tr><td>○</td><td>○</td><td>利用者グループ</td><td>貸出冊数や期間などの条件を設定した利用者グループです。利用者グループを選択します。例えば、一般利用者、在勤・在学利用者、団体利用者など。利用者グループの作成や詳細については、<a href="enju_setup_3.html#section3-4">設定マニュアルの「3-4 利用者グループを設定する」</a>を参照してください。</td></tr>
+<tr><td>○</td><td>○</td><td>利用者グループ</td><td>貸出冊数や期間などの条件を設定した利用者グループです。利用者グループを選択します。例えば、一般利用者、在勤・在学利用者、団体利用者など。利用者グループの作成や詳細については、<a href="enju_setup_3.html#section3-4">初期設定マニュアル「3-4 利用者グループを設定する」</a>を参照してください。</td></tr>
 <tr><td>○</td><td>○</td><td>利用者番号</td><td>利用者番号です。一般的には、利用者カードのバーコード番号などに利用します。</td></tr>
 <tr><td>○</td><td>○</td><td>図書館</td><td>利用者既定の図書館名を設定します。書誌詳細で請求記号の背ラベル表示の際に使用されます。Librarian権限以上の場合は、書誌・所蔵・イベント・利用者情報等のインポートファイルのデフォルト所属図書館の指定に利用されます。</td></tr>
 <tr><td></td><td>○</td><td>参照に必要な情報</td><td>プロフィールをどの権限の利用者にまで公開するかを指定します。</td></tr>
@@ -89,7 +89,7 @@ version: 1.2
 
 ![利用者を登録する](../assets/images/1.2/image_operation_033.png)
 
-<div class="alert alert-info memo" markdown="1">【Memo】「*」のマークが付いた項目は入力必須項目です。また、登録の取り消しはできません。取り消しを行いたい場合は、利用者の削除を行います。（参照：[3-4 利用者を削除する](#section3-4)）
+<div class="alert alert-info memo" markdown="1">【Memo】「*」のマークが付いた項目は入力必須項目です。また、登録の取り消しはできません。取り消しを行いたい場合は、利用者の削除を行います。（参照：[「3-4 利用者情報を削除する」](#section3-4)）
 </div>
 
 #### 4. 利用者が作成され、仮パスワードが発行されます。  
@@ -103,7 +103,7 @@ version: 1.2
 
 ### 3-2-1 TSVファイルの作成 {#section3-2-1}
 
-TSVファイルとは、項目をタブで区切ったテキストファイルです。サンプルファイルは、[user_import_file_sample.tsv](https://github.com/next-l/enju_leaf/blob/1.1/examples/user_import_file_sample.tsv)を参照してください。Enjuで利用するTSVファイルでは、1行目にそれぞれの項目に関わるフィールド名を指定します。フィールド名および値は原則として " " で囲みます。
+TSVファイルとは、項目をタブで区切ったテキストファイルです。サンプルファイルは、[https://github.com/next-l/enju_leaf/blob/1.1/examples/user_import_file_sample.tsv](https://github.com/next-l/enju_leaf/blob/1.1/examples/user_import_file_sample.tsv)を参照してください。Enjuで利用するTSVファイルでは、1行目にそれぞれの項目に関わるフィールド名を指定します。フィールド名および値は原則として " " で囲みます。
 フィールド名とその意味については次の通りです。
 
 #### ■利用者情報の項目
@@ -200,14 +200,14 @@ TSVファイルとは、項目をタブで区切ったテキストファイル�
 </tbody>
 </table>
 
-※1 利用者のグループの[名前]については初期設定マニュアルの「[3-4 利用者グループを設定する](enju_setup_3.html#section3-4)」を参照ください。
+※1 利用者のグループの[名前]については[初期設定マニュアル「3-4 利用者グループを設定する」](enju_setup_3.html#section3-4)を参照ください。
 
 ※2 環境によっては異なることがあります。
-使用できるものに何があるかは，[「初期設定マニュアル  7-1 システムの基本的な情報の表示」](enju_setup_7.html#section7-1)機能でわかります。
+使用できるものに何があるかは，[初期設定マニュアル「7-1 システムの基本的な情報の表示」](enju_setup_7.html#section7-1)機能でわかります。
 
-※3 注意：[モジュール enju_search_log をインストールした場合](enju_install_vm_5.html#section5-6)にのみ使用できます。インストールしていない場合は、無視されます。
+※3 注意：モジュール enju_search_log をインストールした場合（[インストールマニュアル 5-6節](enju_install_vm_5.html#section5-6)参照）にのみ使用できます。インストールしていない場合は、無視されます。
 
-※4 注意：[モジュール enju_bookmark をインストールした場合](enju_install_vm_5.html#section5-5)にのみ使用できます。インストールしていない場合は、無視されます。
+※4 注意：モジュール enju_bookmark をインストールした場合（[インストールマニュアル 5-5節](enju_install_vm_5.html#section5-5)参照）にのみ使用できます。インストールしていない場合は、無視されます。
 
 {::comment}
 ### ■個人情報に関わる項目
@@ -473,7 +473,7 @@ Enjuのカスタマイズをすることなく、必要な利用者情報を管�
 このファイルで、生年月日や住所などEnjuに入力していない情報で利用者の情報を検索して、本人確認のための利用者情報を調べることができますし、URLのリンクをたどれば、その利用者のページにたどりつけます。
 
 サンプルファイルは、
-[Next-L公式サイト](http://www.next-l.jp/?page=etc%5Ffiles&file=userinfo%5Flocalfile%5Fsample%2Exlsx&action=ATTACH)
+[Next-L公式サイト（http://www.next-l.jp/?page=etc%5Ffiles&file=userinfo%5Flocalfile%5Fsample%2Exlsx&action=ATTACH）](http://www.next-l.jp/?page=etc%5Ffiles&file=userinfo%5Flocalfile%5Fsample%2Exlsx&action=ATTACH)
 にありますので、参考にしてください。ここで用いている情報は架空のものです。
 
 例えば、「ユーザ名」が 「u550001」 であれば、以下のようなURLを書けば
@@ -548,7 +548,7 @@ Administrator権限のユーザーでログインしている場合は、
 
 ![エクスポートの表示](../assets/images/1.1/image_operation_export_user_4.png)
 
-#### 6. 今までのエクスポート結果の一覧が表示されます。[状態]を見ると処理結果がわかります。エクスポートが完了したものは[完了]と表示されます。[開始]のものは現在、実行中です。エクスポート完了時には[メッセージ機能](enju_operation_2.html#section2-3)にてお知らせします（「エクスポートが完了しました」というメッセージが送られてきます）。
+#### 6. 今までのエクスポート結果の一覧が表示されます。[状態]を見ると処理結果がわかります。エクスポートが完了したものは[完了]と表示されます。[開始]のものは現在、実行中です。エクスポート完了時には[メッセージ機能（2-3節参照）](enju_operation_2.html#section2-3)にてお知らせします（「エクスポートが完了しました」というメッセージが送られてきます）。
 
 ![エクスポート結果の一覧表示](../assets/images/1.1/image_operation_export_user_5.png)
 
