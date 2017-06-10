@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 第8章 Enjuのアップデート - Next-L Enju インストールマニュアル（VirtualBox編）
-title_short: 第8章 Enjuのアップデート
+title: 第8章 Enjuのアップデート及び停止・起動 - Next-L Enju インストールマニュアル（VirtualBox編）
+title_short: 第8章 Enjuのアップデート及び停止・起動
 group: enju_install_vm
 version: 1.2
 ---
@@ -10,7 +10,7 @@ version: 1.2
 {:toc}
 {::comment} update.md {:/comment}
 
-第8章 Enjuのアップデート {#section8}
+第8章 Enjuのアップデート及び停止・起動 {#section8}
 ====================================
 
 Enjuは，以下の手順で，Enjuのソースコードが公開されているGitHubから変更されたファイルを取り込み最新版にすることができます。

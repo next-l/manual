@@ -8,7 +8,7 @@ version: 1.2
 <div class="row-fluid">
 <div class="span4">
 <a href="enju_install_vm.html" class="btn btn-inverse btn-large">インストールマニュアル</a>
-{% include enju_install_vm/toc.md %}
+{% include enju_install_vm/toc_1.2.md %}
 </div>
 <div class="span4">
 <a href="enju_setup.html" class="btn btn-success btn-large">初期設定マニュアル</a>
