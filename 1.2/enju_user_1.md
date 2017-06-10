@@ -167,7 +167,7 @@ Enjuを利用した資料の検索方法には、演算子やフィールド名�
 
 #### 2. RDF/XML 形式のファイルがダウンロードできます。
 
-* [出力されるRDF/XMLの例](enju_webapi_1.html#bib_rdf_example)
+* [出力されるRDF/XMLの例（Web APIマニュアル1-2-2節参照）](enju_webapi_1.html#bib_rdf_example)
 
 ### 1-8-2 MOS 形式で書き出し {#section1-8-2}
 
@@ -321,8 +321,8 @@ Enjuを利用した資料の検索方法には、演算子やフィールド名�
 
 #### 2. TSV 形式のファイルがダウンロードできます。 {#bib_tsv}
 
-* [出力されるTSVの例](enju_webapi_1.html#bib_tsv_example)
-* [出力される項目の詳細](enju_webapi_1.html#bib_tsv_export)
+* [出力されるTSVの例（Web APIマニュアル1-1-2節参照）](enju_webapi_1.html#bib_tsv_example)
+* [出力される項目の詳細（Web APIマニュアル1-1-3参照）](enju_webapi_1.html#bib_tsv_export)
 
 1-9 検索結果詳細の書き出し {#section1-9}
 -----------------------------------------
@@ -336,7 +336,7 @@ Enjuを利用した資料の検索方法には、演算子やフィールド名�
 
 #### 2. RDF/XML 形式のファイルがダウンロードできます。
 
-* [出力されるRDF/XMLの例](enju_webapi_2.html#bib_rdf_example_simple)
+* [出力されるRDF/XMLの例（Web API マニュアル2-2-2節参照）](enju_webapi_2.html#bib_rdf_example_simple)
 
 ### 1-9-2 MOS 形式で書き出し {#section1-9-2}
 
@@ -408,8 +408,8 @@ Enjuを利用した資料の検索方法には、演算子やフィールド名�
 
 #### 2. TSV 形式のファイルがダウンロードできます。
 
-* [出力されるTSVの例](enju_webapi_2.html#bib_tsv_example_simple)
-* [出力される項目の詳細](enju_webapi_2.html#bib_tsv_export_simple)
+* [出力されるTSVの例（Web APIマニュアル2-1-2節参照）](enju_webapi_2.html#bib_tsv_example_simple)
+* [出力される項目の詳細（Web APIマニュアル2-1-3参照）](enju_webapi_2.html#bib_tsv_export_simple)
 
 1-10 検索結果詳細を電子メールで送る {#section1-10}
 ------------------------------------------------
@@ -417,7 +417,7 @@ Enjuを利用した資料の検索方法には、演算子やフィールド名�
 メールアドレスを登録しており、ログインしていると、
 検索結果詳細を電子メールで送ることができます。
 
-※　メールアドレスの登録方法は[「3-2メールアドレスや名前などを変更する」](https://next-l.github.io/manual/enju_user_3.html#section3-2)を参照してください。
+※　メールアドレスの登録方法は[「3-2メールアドレスや名前などを変更する」](enju_user_3.html#section3-2)を参照してください。
 
 #### 1. 電子メールで送りたい検索結果詳細画面を表示させます。[書誌情報を電子メールで送信する]リンクをクリックします
 
