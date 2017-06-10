@@ -118,7 +118,7 @@ Enjuを利用するには，まずシステムにログインします。
 
 ![Enjuログイン](../assets/images/1.1/image_initial_001.png)
 
-<div class="alert alert-warning memo">
+<div class="alert alert-info memo">
 【Memo】時間の経過にともなって自動ログアウトする機能は用意されていません。Administrator（管理者）は利用者の個人情報などを閲覧できる権限を持っているので，パソコンを共有する時や離席時などには，必ずログアウトしてください。
 </div>
 
