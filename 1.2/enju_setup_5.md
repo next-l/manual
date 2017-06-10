@@ -40,7 +40,7 @@ Enjuの利用を始めるにあたり，形態・状態等に関するシステ�
 
 * 参考文献：
   * RDA: "3.3.1.3 Recording Carrier Type"
-  * LCの ["Term and Code List for RDA Carrier Types"](http://www.loc.gov/standards/valuelist/rdacarrier.html)
+  * LCの ["Term and Code List for RDA Carrier Types"（http://www.loc.gov/standards/valuelist/rdacarrier.html）](http://www.loc.gov/standards/valuelist/rdacarrier.html)
 
 ### 5-1-1 設定項目 {#section5-1-1}
 
@@ -84,7 +84,7 @@ Enjuの利用を始めるにあたり，形態・状態等に関するシステ�
 ![資料の形態と貸出区分の関係](../assets/images/1.2/image_carrier_type_4.png)
 
 <div class="alert alert-info memo" markdown="1">
-【Memo】メニューに関連付けたい貸出区分がない場合は、貸出区分を新規作成します。作成方法は、「[3-5 貸出区分を設定する](enju_setup_3.html#section3-5)」を参照してください。
+【Memo】メニューに関連付けたい貸出区分がない場合は、貸出区分を新規作成します。作成方法は、[「3-5 貸出区分を設定する」](enju_setup_3.html#section3-5)を参照してください。
 </div>
 
 #### 8. 貸出区分に先ほど選択した貸出区分が表示されているのを確認します（例ではCD）。これで、資料の形態が作成できました。
@@ -102,7 +102,7 @@ Enjuの利用を始めるにあたり，形態・状態等に関するシステ�
 
 * 参考文献：
   * RDA："6.9.1.3 Recording Content Type"
-  * LCの ["Term and Code List for RDA Content Types"](http://www.loc.gov/standards/valuelist/rdacontent.html)
+  * LCの ["Term and Code List for RDA Content Types"（http://www.loc.gov/standards/valuelist/rdacontent.html）](http://www.loc.gov/standards/valuelist/rdacontent.html)
 
 
 ### 5-2-1 設定項目 {#section5-2-1}
@@ -210,7 +210,7 @@ Enjuの利用を始めるにあたり，形態・状態等に関するシステ�
 ------------------------------------
 
 システムの標準設定を変更する必要がでることは基本的にはありません。
-[人物・団体の新規作成や編集](enju_operation_4.html#section4-10)の際に表示される
+[人物・団体の新規作成や編集（運用マニュアル 4-10節参照）](enju_operation_4.html#section4-10)の際に表示される
 [人物・団体の種類]のメニューで表示される文言や、
 メニューの表示順序を変更したいときのみ編集の必要がでます。
 
