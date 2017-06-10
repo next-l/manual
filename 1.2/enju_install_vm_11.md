@@ -20,11 +20,11 @@ version: 1.2
 1. Next-L Enju Leaf 1.1.0.rc12以降の場合：
    * IPアドレス：localhost
       * または 127.0.0.1 
-      * または 「仮想マシンをインストールしたマシン自身のIPアドレス」(--> 参考：[3-1-3 IPアドレスの確認](enju_install_vm_3.html#section3-1-3)の 6. のIPv4のアドレス )
+      * または 「仮想マシンをインストールしたマシン自身のIPアドレス」(--> 参考：[「3-1-3 IPアドレスの確認」](enju_install_vm_3.html#section3-1-3)の 6. のIPv4のアドレス )
    * ポート番号：2222
 
 2. Next-L Enju Leaf 1.1.0.rc7の場合：
-   * IPアドレス：```ifconfig```で表示されるIPアドレス（--> [詳細へ](enju_install_vm_4.html#section4-5-rc7)）
+   * IPアドレス：```ifconfig```で表示されるIPアドレス（--> 詳細は[4-5節の【Memo】Enju_leaf 1.1.0.rc7 の仮想マシンの場合](enju_install_vm_4.html#section4-5-rc7)を参照）
    * ポート番号：22　（デフォルトのポート番号）
 
 ## Q. http://localhost:8080 にアクセスしたらすでに使われています？といったエラーがでて起動できません。
@@ -56,7 +56,7 @@ version: 1.2
 
 #### 5. ログアウトしてログインしなおしてください
 
-#### 6. Enjuを再起動してください（--> [詳細へ](enju_install_vm_8.html#section8-3)）
+#### 6. Enjuを再起動してください（--> 詳細は[8-3節](enju_install_vm_8.html#section8-3)を参照）
 
 <div class="alert alert-info memo">
 【Memo】バージョン1.1.0rc15現在、認証機能付きプロキシ設定には対応していません。
