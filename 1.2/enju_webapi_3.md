@@ -14,7 +14,7 @@ version: 1.2
 
 Enjuは資料の書誌情報全体をまとめて取得するOAI-PMIハーベスティングに対応しています。
 
-OAI-PMHの詳細な仕様は [OAI-PMH2.0日本語訳](https://www.nii.ac.jp/irp/archive/translation/oai-pmh2.0/) などをご覧ください。
+OAI-PMHの詳細な仕様は [OAI-PMH2.0日本語訳（https://www.nii.ac.jp/irp/archive/translation/oai-pmh2.0/）](https://www.nii.ac.jp/irp/archive/translation/oai-pmh2.0/) などをご覧ください。
 
 3-1 アクセス先（ベースURL） {#section3-1}
 --------------------------
