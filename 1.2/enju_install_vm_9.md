@@ -34,7 +34,7 @@ enjuのアップデートを試すときなどに使います。
 
 #### 1. 現在、使っている仮想マシンをシャットダウンします。
 
-[「Enju 仮想マシンのシャットダウン」](enju_install_vm_4.html#section4-6-1)を参照してください。
+[「4-6-1 Enju 仮想マシンのシャットダウン」](enju_install_vm_4.html#section4-6-1)を参照してください。
 
 #### 2. VirtualBox の現在使っている仮想マシンをクリックします。
 
@@ -82,7 +82,7 @@ enjuのアップデートを試すときなどに使います。
 
 #### 1. 現在、使っている仮想マシンをシャットダウンします。
 
-[「Enju 仮想マシンのシャットダウン」](enju_install_vm_4.html#section4-6-1)を参照してください。
+[「4-6-1 Enju 仮想マシンのシャットダウン」](enju_install_vm_4.html#section4-6-1)を参照してください。
 
 #### 2. VirtualBox の現在使っている仮想マシンをクリックします。
 
@@ -106,7 +106,7 @@ enjuのアップデートを試すときなどに使います。
 
 仮想マシン以外マシンにサーバーを移したいとき、例えば、Amazon EC2に移植したい、
 Macに移植したい、Cent OS に移植したいといった場合の方法です。
-こちらについては、[他のサーバへの移行](https://github.com/next-l/enju_leaf/wiki/Backup)を参照してください。
+こちらについては、[他のサーバへの移行（https://github.com/next-l/enju_leaf/wiki/Backup）](https://github.com/next-l/enju_leaf/wiki/Backup)を参照してください。
 
 ![データのみのバックアップのパターン](../assets/images/1.1/image_install_backup_pattern3.png)
 
