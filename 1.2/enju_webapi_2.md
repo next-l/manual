@@ -31,7 +31,8 @@ Enju は資料の検索結果詳細を好みのフォーマットで取得する
 
 にします
 
-※ 検索結果詳細画面の右メニューの[TSV]リンクをクリックした先のURLと同様です(詳細：利用者マニュアルの[「1-9-3 TSV 形式で書き出し」](enju_user_1.html#section1-9-3)）。
+※ 検索結果詳細画面の右メニューの[TSV]リンクをクリックした先のURLと同様です(詳細：[利用者マニュアル「1-9-3 TSV 形式で書き出し」](enju_user_1.html#section1-9-3)）。
+
 
 #### 3. この検索結果詳細画面がTSV形式で表示されます。
 
@@ -44,7 +45,7 @@ manifestation_id	original_title	creator	contributor	publisher	pub_date	statement
 
 ### 2-1-3 書誌と所蔵のTSVの項目 {#bib_tsv_export_simple}
 
-[書誌と所蔵のTSVの項目](enju_webapi_1.html#bib_tsv_export)を参照してください。
+[書誌と所蔵のTSVの項目（1-1-3節参照）](enju_webapi_1.html#bib_tsv_export)を参照してください。
 
 2-2 RDF/XML形式のデータを取得する {#section2-2}
 -------------------------------
@@ -63,7 +64,7 @@ manifestation_id	original_title	creator	contributor	publisher	pub_date	statement
 
 にします
 
-※ 検索結果詳細画面の右メニューの[RDF/XML]リンクをクリックした先のURLと同様です(詳細：利用者マニュアルの[「1-9-1 RDF/XML 形式で書き出し」](enju_user_1.html#section1-9-1)）。
+※ 検索結果詳細画面の右メニューの[RDF/XML]リンクをクリックした先のURLと同様です(詳細：[利用者マニュアル「1-9-1 RDF/XML 形式で書き出し」](enju_user_1.html#section1-9-1)）。
 
 #### 3. この検索結果詳細画面がRDF/XML形式で表示されます。
 
