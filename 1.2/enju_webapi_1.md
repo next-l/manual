@@ -41,7 +41,7 @@ Enju は検索結果一覧を好みのフォーマットで取得する機能が
 
 にします
 
-※ 検索結果画面の右メニューの[TSV]リンクをクリックした先のURLと同様です(詳細：利用者マニュアルの[「1-8-3 TSV 形式で書き出し」](enju_user_1.html#section1-8-3)）。
+※ 検索結果画面の右メニューの[TSV]リンクをクリックした先のURLと同様です(詳細：[利用者マニュアルの「1-8-3 TSV 形式で書き出し」](enju_user_1.html#section1-8-3)）。
 
 #### 3. この検索結果画面がTSV形式で表示されます。 
 
@@ -126,7 +126,7 @@ manifestation_id	original_title	creator	contributor	publisher	pub_date	statement
 
 にします
 
-※ 検索結果画面の右メニューの[RDF/XML]リンクをクリックした先のURLと同様です(詳細：利用者マニュアルの[「1-8-1 RDF/XML 形式で書き出し」](enju_user_1.html#section1-8-1)）。
+※ 検索結果画面の右メニューの[RDF/XML]リンクをクリックした先のURLと同様です(詳細：[利用者マニュアル「1-8-1 RDF/XML 形式で書き出し」](enju_user_1.html#section1-8-1)）。
 
 #### 3. この検索結果画面がRDF/XML形式で表示されます。 
 
