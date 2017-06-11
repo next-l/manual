@@ -10,4 +10,4 @@ version: 1.2
 
 本マニュアルの作成にあたっては，(株)三菱総合研究所の全面的な支援をいただきました。心より感謝いたします。
 
-{% include enju_install_vm/toc.md %}
+{% include enju_install_vm/toc_1.2.md %}
