@@ -202,7 +202,7 @@ NDLサーチ（国立国会図書館サーチ <http://iss.ndl.go.jp/>）で
 {::comment}
 
 
-#### 1. 「4-2 図書を登録する」の「[4-2-1 TSVファイルを読み込んで登録する](enju_operation_4.html#section4-2-1)」の手順に従い、TSVファイルを使った一括インポートを行います。
+#### 1. 「4-2 図書を登録する」の[「4-2-1 TSVファイルを読み込んで登録する」](enju_operation_4.html#section4-2-1)の手順に従い、TSVファイルを使った一括インポートを行います。
 
 <div class="alert alert-success memo" markdown="1">
 <h4 class="alert-heading">【Column】TSVファイルの作り方</h4>

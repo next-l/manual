@@ -49,8 +49,7 @@ Enjuでは、ブックマークの回数の統計を取ることができます�
 <div class="alert alert-info memo" markdown="1">
 【Memo】もし、[ブックマーク回数]がない場合は、[enju_bookmark]モジュールを
 インストール必要があります。
-インストール方法についてはインストールマニュアルの
-[「5-2 [enju_bookmark]モジュール（ブックマーク機能）」](enju_install_vm.html#section5-2)
+インストール方法については[インストールマニュアル「5-2 [enju_bookmark]モジュール（ブックマーク機能）」](enju_install_vm.html#section5-2)
 の章を参照ください。
 </div>
 
