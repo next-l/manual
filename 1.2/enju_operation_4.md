@@ -800,6 +800,12 @@ CiNii Books（<http://ci.nii.ac.jp/books/>）を検索した資料を
 	<td>xi, 125 pages</td>
 </tr>
 <tr>
+	<td>dimensions</td>
+	<td>大きさ</td>
+	<td>文字列</td>
+	<td>21cm</td>
+</tr>
+<tr>
 	<td>height</td>
 	<td>高さ（cm）</td>
 	<td>半角数字のみ</td>
