@@ -28,8 +28,9 @@ version: 1.2
 </div>
 </div>
 
-## マニュアル一括ダウンロード
+## 一括ダウンロード <i class="icon-download-alt"> </i>
 
-インストール、初期設定、運用、利用者、WebAPIマニュアルを1つのPDFにしたものをダウンロードできます。
+
+上記のインストール、初期設定、運用、利用者、WebAPIマニュアル全てを1つのPDFにしたものをダウンロードできます。
 
 * <a href="http://next-l.jp/?page=manual#download">マニュアル一括ダウンロード</a>
