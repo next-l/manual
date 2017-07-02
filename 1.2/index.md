@@ -27,3 +27,9 @@ version: 1.2
 {% include enju_webapi/1.2/toc.md %}
 </div>
 </div>
+
+## マニュアル一括ダウンロード
+
+インストール、初期設定、運用、利用者、WebAPIマニュアルを1つのPDFにしたものをダウンロードできます。
+
+* <a href="http://next-l.jp/?page=manual#download">マニュアル一括ダウンロード</a>
