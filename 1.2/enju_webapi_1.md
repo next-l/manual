@@ -67,6 +67,7 @@ manifestation_id	original_title	title_transcription	creator	contributor	publishe
 
 * manifestation_id: 書誌ID
 * original_title: 原題
+* title_transcription: タイトルのヨミ
 * creator: 著者
 * contributor: 協力者・編者
 * publisher: 出版者
