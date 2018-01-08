@@ -81,6 +81,8 @@ manifestation_id	original_title	title_transcription	creator	contributor	publishe
 * extent: ページ数
 * dimensions: 大きさ
 * carrier_type: 資料種別
+* edition: 版（数字）
+* edition_string: 版
 * volume_number: 巻（数字）
 * volume_number_string: 巻
 * issue_number: 号（数字）
