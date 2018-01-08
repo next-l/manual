@@ -78,7 +78,8 @@ manifestation_id	original_title	title_transcription	creator	contributor	publishe
 * manifestation_updated_at: 書誌情報更新日（エクスポートのみの項目）
 * manifestation_identifier：ローカル識別子
 * access_address: アクセスアドレス
-* note: 注記
+* description: 説明 ※改行は「\n」で表現されています
+* note: 注記 ※改行は「\n」で表現されています
 * extent: ページ数
 * dimensions: 大きさ
 * carrier_type: 資料種別
@@ -98,6 +99,7 @@ manifestation_id	original_title	title_transcription	creator	contributor	publishe
 * item_id: 所蔵データID(自動付与）
 * item_identifier: 所蔵情報ID
 * call_number: 請求記号
+* item_note: 注記（所蔵） ※改行は「\n」で表現されています
 * item_price: 購入価格（Administrator権限、Librarian権限のときのみ出力）
 * acquired_at: 受入日
 * accepted_at: 検収日（エクスポートのみの項目）
