@@ -81,6 +81,11 @@ manifestation_id	original_title	title_transcription	creator	contributor	publishe
 * extent: ページ数
 * dimensions: 大きさ
 * carrier_type: 資料種別
+* volume_number: 巻（数字）
+* volume_number_string: 巻
+* issue_number: 号（数字）
+* issue_number_string: 号
+* serial_number: 通号
 * isbn： ISBN
 * subject:unknown: 件名（unknown）※入力データによっては出力されないこともあります。
 * subject:ndlsh: 件名（NDLSH）※入力データによっては出力されないこともあります。
