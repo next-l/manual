@@ -58,7 +58,7 @@ manifestation_id	original_title	title_transcription	creator	contributor	publishe
 
 ### 1-1-3 書誌と所蔵のTSVの項目 {#bib_tsv_export}
 
-次の項目が入っています(Enju Leaf 1.2.1)。
+次の項目が入っています(Enju Leaf 1.2.2)。
 
 <!-- 全件エクスポート（Librarian権限以上のみ）、
 検索結果一覧エクスポート、検索結果詳細エクスポートの出力項目は
