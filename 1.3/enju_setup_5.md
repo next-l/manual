@@ -3,7 +3,7 @@ layout: page
 title: 第5章 各種形態や状態等に関するシステム設定を行う - Next-L Enju初期設定マニュアル
 title_short: 第5章 各種形態や状態等に関するシステム設定を行う
 group: enju_setup
-version: 1.2
+version: 1.3
 ---
 
 * Contents

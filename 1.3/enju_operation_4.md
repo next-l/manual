@@ -3,7 +3,7 @@ layout: page
 title: 第4章 図書の受入をする - Next-L Enju 運用マニュアル
 title_short: 第4章 図書の受入をする
 group: enju_operation
-version: 1.2
+version: 1.3
 ---
 
 * Contents

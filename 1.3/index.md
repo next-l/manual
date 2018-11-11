@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Enju Leaf マニュアル
-version: 1.2
+version: 1.3
 ---
 ## Enjuマニュアル一覧 <i class="icon-book"> </i>
 

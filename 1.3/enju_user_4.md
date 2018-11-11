@@ -3,7 +3,7 @@ layout: page
 title: 第4章 資料を予約する - Next-L Enju 利用者マニュアル
 title_short: 第4章 資料を予約する
 group: enju_user
-version: 1.2
+version: 1.3
 ---
 
 * Contents

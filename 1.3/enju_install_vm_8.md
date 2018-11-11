@@ -3,7 +3,7 @@ layout: page
 title: 第8章 Enjuのアップデート及び停止・起動 - Next-L Enju インストールマニュアル（VirtualBox編）
 title_short: 第8章 Enjuのアップデート及び停止・起動
 group: enju_install_vm
-version: 1.2
+version: 1.3
 ---
 
 * Contents

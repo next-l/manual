@@ -3,7 +3,7 @@ layout: page
 title: 第9章 蔵書点検機能を利用する - Next-L Enju 運用マニュアル
 title_short: 第9章 蔵書点検機能を利用する
 group: enju_operation
-version: 1.2
+version: 1.3
 ---
 
 {::comment}10-1,2  enju_operation/inventory.md {:/comment}

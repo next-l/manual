@@ -3,7 +3,7 @@ layout: page
 title: 第10章 その他（カスタマイズなど） - Next-L Enju インストールマニュアル（VirtualBox編）
 title_short: 第10章 その他（カスタマイズなど）
 group: enju_install_vm
-version: 1.2
+version: 1.3
 ---
 
 * Contents

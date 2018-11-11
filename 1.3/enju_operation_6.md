@@ -3,7 +3,7 @@ layout: page
 title: 第6章 貸出・返却・予約を処理する - Next-L Enju 運用マニュアル
 title_short: 第6章 貸出・返却・予約を処理する
 group: enju_operation
-version: 1.2
+version: 1.3
 ---
 
 * Contents

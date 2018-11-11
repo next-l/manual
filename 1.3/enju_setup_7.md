@@ -3,7 +3,7 @@ layout: page
 title: 第7章 その他 - Next-L Enju初期設定マニュアル
 title_short: 第7章 その他
 group: enju_setup
-version: 1.2
+version: 1.3
 ---
 
 * Contents

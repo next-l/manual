@@ -3,7 +3,7 @@ layout: page
 title: 第3章 書誌情報をまとめて取得する (OAI-PMH) - Next-L Enju Web APIマニュアル
 title_short: 第3章 OAI-PMH
 group: enju_webapi
-version: 1.2
+version: 1.3
 ---
 
 * Contents

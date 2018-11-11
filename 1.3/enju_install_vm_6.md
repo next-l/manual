@@ -3,7 +3,7 @@ layout: page
 title: 第6章 検索エンジンの設定 - Next-L Enju インストールマニュアル（VirtualBox編）
 title_short: 第6章 検索エンジンの設定
 group: enju_install_vm
-version: 1.2
+version: 1.3
 ---
 
 * Contents
