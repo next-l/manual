@@ -533,10 +533,15 @@ CiNii Books（<http://ci.nii.ac.jp/books/>）を検索した資料を
 
 <div class="alert alert-success memo" markdown="1">
 <h4 class="alert-heading">【Column】TSVファイルの作り方</h4>
-1行目に、それぞれの項目に関わるフィールド名を指定します。
-フィールド名とその意味については次の通りです。
 
 ### 4-2-10 TSVファイルの作り方（図書（書誌）） {#section4-2-10}
+
+TSVとは、Tab-Separated Valuesの略です。
+TSVファイルとは、それぞれのフィールドが、タブ（Tab）で区切られたプレインテキストファイルのことをさします。
+ファイル名に使う拡張子は、 .txt や .tsv のどちらでも良いです。
+
+1行目に、それぞれの項目に関わるフィールド名を指定します。
+フィールド名とその意味については次の通りです。
 
 <table class="table table-bordered table-condensed table-striped">
 <caption>図書のフィールド項目名と対応する内容</caption>
