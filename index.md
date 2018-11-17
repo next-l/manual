@@ -7,3 +7,4 @@ title: Enju Leaf マニュアル
 
 * [Enju Leaf バージョン 1.1](1.1/)
 * [Enju Leaf バージョン 1.2](1.2/)
+* [Enju Leaf バージョン 1.3](1.3/)
