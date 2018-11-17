@@ -743,7 +743,7 @@ TSVファイルとは、それぞれのフィールドが、タブ（Tab）で�
 <tr>
 	<td>isbn</td>
 	<td>ISBN</td>
-	<td>半角文字のみ、ハイフンあり/なし/9桁/13桁はどの形式でも受け付ける。国際標準逐次刊行物番号</td>
+	<td>半角文字のみ、ハイフンあり/なし/9桁/13桁はどの形式でも受け付ける。国際標準逐次刊行物番号。<a href="#tsv_id">（詳細）</a></td>
 	<td>9784274067105</td>
 </tr>
 <tr>
@@ -755,31 +755,31 @@ TSVファイルとは、それぞれのフィールドが、タブ（Tab）で�
 <tr>
 	<td>issn</td>
 	<td>ISSN</td>
-	<td>半角文字のみ, ハイフンはあってもなくてもよい。国際標準逐次刊行物番号</td>
+	<td>半角文字のみ, ハイフンはあってもなくてもよい。国際標準逐次刊行物番号。<a href="#tsv_id">（詳細）</a></td>
 	<td>0917-1436</td>
 </tr>
 <tr>
 	<td>jpno</td>
 	<td>JPNO</td>
-	<td>半角文字のみ. 全国書誌番号</td>
+	<td>半角文字のみ. 全国書誌番号。<a href="#tsv_id">（詳細）</a></td>
 	<td>21366221</td>
 </tr>
 <tr>
 	<td>lccn</td>
 	<td>LCCN</td>
-	<td>半角文字のみ. 米国議会図書館管理番号</td>
+	<td>半角文字のみ. 米国議会図書館管理番号。<a href="#tsv_id">（詳細）</a></td>
 	<td>1255667</td>
 </tr>
 <tr>
         <td>doi</td>
         <td>DOI</td>
-        <td>文字列，http://dx.doi.org/は記入しない</td>
+        <td>文字列，http://dx.doi.org/は記入しない。<a href="#tsv_id">（詳細）</a></td>
         <td>10.2964/jsik.23_219</td>
 </tr>
 <tr>
 	<td>ncid</td>
 	<td>NCID</td>
-	<td>半角文字のみ. NCID(NACSIS-CAT ID，NII書誌ID)</td>
+	<td>半角文字のみ. NCID(NACSIS-CAT ID，NII書誌ID)。<a href="#tsv_id">（詳細）</a></td>
 	<td>BA84620103</td>
 </tr>
 <tr>
@@ -886,6 +886,10 @@ TSVファイルとは、それぞれのフィールドが、タブ（Tab）で�
 </tr> -->
 </tbody>
 </table>
+
+##### isbn などの識別子 {#tsv_id}
+
+複数の識別子（ISBNなど）がある場合は、// で区切ります。どんな識別子があるかについては、[初期設定マニュアル「6-1 識別子の種類を設定する」](enju_setup_6.html#section6-1) を参照してください。注意！ISBNが複数ある場合、ISBNを用いて国立国会図書館のデータを参照して、 自動的に空白の項目が埋められることはありません。必ず、original_title等を記入しておく必要があります。
 
 ##### series_title_transcription {#tsv_series_title_transcription}
 
