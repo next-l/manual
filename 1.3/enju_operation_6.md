@@ -192,6 +192,34 @@ username	item_identifier	title	checked_out_at	due_date	Checkout items (created_a
 
 </div>
 
+<div class="alert alert-success memo" markdown="1">
+
+### 【Column】現在の貸出データを抽出する
+
+現在の貸出データ（今までの累計ではなく、今現在の貸し出し状況）を抽出する方法です。
+現在、Webブラウザから操作して現在の貸出データをまとめて出力する機能がないため、代替機能として、コンソールにログインしてコマンドで出力する方法を紹介しておきます。
+
+<pre>
+$ rake enju_circulation:export:checkout RAILS_ENV=production > output.txt
+</pre>
+
+とすると、output.txt ファイルに出力されます。
+（RAILS_ENV=production は、RAILS_ENV=development など必要に応じて修正してください）
+
+以下の項目が出力されます。
+
+- checked_out_at
+- checked_in_at
+- item_identifier
+- call_number
+- shelf
+- carrier_type
+- title
+- username
+- full_name
+      
+</div>
+
 ### 6-1-4 貸出の延長手続きをする {#section6-1-4}
 
 #### 1. 貸出の一覧で、貸出の延長手続きをしたい貸出項目の［貸出期間の延長］をクリックします。  
