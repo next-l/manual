@@ -114,7 +114,7 @@ manifestation_id	original_title	title_transcription	creator	contributor	publishe
 
 ※1 その他、書誌に登録されている識別子（例：jpno,ncid）は全て出力されます。
 
-※2 分類や件名で複数あるものは//で区切られて出力されます。
+※2 識別子や分類や件名で複数あるものは//で区切られて出力されます。
 
 1-2 RDF/XML形式のデータを取得する {#section1-2}
 ------------------------------------
