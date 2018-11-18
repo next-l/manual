@@ -210,15 +210,16 @@ $ rake enju_circulation:export:checkout RAILS_ENV=production > output.txt
 
 以下の項目が出力されます。
 
-- checked_out_at
-- checked_in_at
-- item_identifier
-- call_number
-- shelf
-- carrier_type
-- title
-- username
-- full_name
+- checked_out_at(貸出日)
+- due_date（返却期限）
+- item_identifier（所蔵情報ID）
+- call_number（請求記号）
+- shelf（本棚）
+- carrier_type（資料の形態）
+- title（原題）
+- username（ユーザ名）
+- full_name（フルネーム）
+-user_number（利用者番号）
       
 </div>
 
