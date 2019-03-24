@@ -190,7 +190,16 @@ username	item_identifier	title	checked_out_at	due_date	checked_in_at	(created_at
 "user01"	"001001"	"Ruby on Rails入門 : 優しいRailsの育て方"	"2017-06-07 21:51:22 +0900"	"2017-06-21 23:59:59 +0900"	"2017-06-10 22:25:22 +0900"
 </pre>
 
-注） バージョン 1.3.0 より、checked_in_at（返却日）が追加されました
+注） バージョン 1.3.0 より、checked_in_at（返却日）が追加されました。バージョン 1.3.0でusernameが表示されていないバグは1.3.1で修正されました。
+
+バージョン1.3.1で以下の項目が出力されます。
+
+* username（ユーザ名）
+* item_identifier（所蔵情報ID）
+* title（原題）
+* checked_out_at(貸出日)
+* due_date（返却期限）
+* checked_in_at（返却日）
 
 </div>
 
