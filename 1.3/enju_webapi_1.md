@@ -58,7 +58,7 @@ manifestation_id	original_title	title_transcription	creator	contributor	publishe
 
 ### 1-1-3 書誌と所蔵のTSVの項目 {#bib_tsv_export}
 
-次の項目が入っています(Enju Leaf 1.3.0)。
+次の項目が入っています(Enju Leaf 1.3.1)。
 
 <!-- 全件エクスポート（Librarian権限以上のみ）、
 検索結果一覧エクスポート、検索結果詳細エクスポートの出力項目は
@@ -107,7 +107,7 @@ manifestation_id	original_title	title_transcription	creator	contributor	publishe
 * budget_type: 予算種別（Administrator権限、Librarian権限のときのみ出力）
 * total_checkouts: 貸出回数（Administrator権限、Librarian権限のときのみ出力）
 * circulation_status: 貸出状態
-* use_restriction: 利用制限（Administrator権限、Librarian権限のときのみ出力 注：1.3.0現在guestアカウントでも出力されます）（参照： [issue #1366](https://github.com/next-l/enju_leaf/issues/1366)）
+* use_restriction: 利用制限（Administrator権限、Librarian権限のときのみ出力 注：1.3.0以前ではguestアカウントでも出力されます。1.3.1からは修正されています。）（参照： [issue #1366](https://github.com/next-l/enju_leaf/issues/1366)）
 * shelf: 本棚
 * library: 図書館
 * item_created_at: 所蔵情報作成日（エクスポートのみの項目）
