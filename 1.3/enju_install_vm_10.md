@@ -32,7 +32,7 @@ Enju 「条件を詳しく指定して検索」の画面をカスタマイズす
 
 #### 2. 以下のファイルをダウンロードし、中身を編集します。
 
-[https://github.com/next-l/enju_leaf/blob/1.2/app/views/page/advanced_search.html.erb](https://github.com/next-l/enju_leaf/blob/1.2/app/views/page/advanced_search.html.erb)
+[https://github.com/next-l/enju_leaf/blob/1.3/app/views/page/advanced_search.html.erb](https://github.com/next-l/enju_leaf/blob/1.3/app/views/page/advanced_search.html.erb)
 
 
 #### 3. インストールしてあるEnjuに、ディレクトリを作成します。
@@ -55,7 +55,7 @@ Enju トップの画面の検索フォームをカスタマイズする方法を
 
 #### 2. 以下のファイルをダウンロードし、中身を編集します。
 
-[https://github.com/next-l/enju_leaf/blob/1.2/app/views/page/_search_form.html.erb](https://github.com/next-l/enju_leaf/blob/1.2/app/views/page/_search_form.html.erb)
+[https://github.com/next-l/enju_leaf/blob/1.3/app/views/page/_search_form.html.erb](https://github.com/next-l/enju_leaf/blob/1.3/app/views/page/_search_form.html.erb)
 
 #### 3. インストールしてあるEnjuに、ディレクトリを作成します。
 
@@ -73,7 +73,7 @@ Enju 検索結果一覧画面の検索フォームをカスタマイズする方
 
 #### 2. 以下のファイルをダウンロードし、中身を編集します。
 
-<https://github.com/next-l/enju_biblio/blob/1.2/app/views/manifestations/_index_form.html.erb>
+<https://github.com/next-l/enju_biblio/blob/1.3/app/views/manifestations/_index_form.html.erb>
 
 #### 3. インストールしてあるEnjuに、ディレクトリを作成します。
 
@@ -81,7 +81,34 @@ Enju 検索結果一覧画面の検索フォームをカスタマイズする方
 
 #### 4. [10-2節](#section10-2) の 4. ～　6. と同様です。
 
-10-5 トップ画面やヘルプなどに表示する画像を置く {#section10-5}
+10-5 検索結果一覧画面に表示項目を追加する {#section10-5}
+--------------------------------------------------------
+
+Enju 検索結果一覧画面に表示される書誌情報や所蔵情報の表示内容をカスタマイズする方法を説明します。
+設定する画面がないため、これはサーバー上の作業をする必要があります。
+
+#### 1. [10-2節](#section10-2) の 1. と同様です
+
+#### 2. 以下のファイルをダウンロードし、中身を編集します。
+
+<https://github.com/next-l/enju_biblio/blob/1.3/app/views/manifestations/_manifestation.html.erb>
+
+例えば、件名などを追加表示したい場合は以下のようなコード片を挿入します:
+
+```ruby
+  <%- manifestation.subjects.each do |subject| -%>
+    <%= link_to "#{subject.subject_heading_type.display_name.localize}: #{subject.term}", manifestations_path(query: "subject_sm:\"#{subject.term}\"") -%>
+  <%- end -%>
+```
+
+#### 3. インストールしてあるEnjuに、ディレクトリを作成します。
+
+        $ mkdir -p app/views/manifestations
+
+#### 4. [10-2節](#section10-2) の 4. ～　6. と同様です。
+
+
+10-6 トップ画面やヘルプなどに表示する画像を置く {#section10-6}
 --------------------------------------------------------------
 
 #### 1. 置きたい画像を用意します。（ここでは例として logo.png とします）
@@ -113,7 +140,7 @@ Enju 検索結果一覧画面の検索フォームをカスタマイズする方
 ※ 画像ファイルをブラウザから置けるようにする機能を開発予定です（[詳細 #1133](https://github.com/next-l/enju_leaf/issues/1113)）。
 <!-- 関連 #1144 -->
  
-10-6 ヘッダーをカスタマイズする {#section10-6}
+10-6 ヘッダーをカスタマイズする {#section10-7}
 -----------------------------------------------------------------------
 
 ヘッダーをカスタマイズする方法を説明します。
@@ -131,7 +158,7 @@ Enju 検索結果一覧画面の検索フォームをカスタマイズする方
 
 #### 3. 以下のファイルをダウンロードし、中身を編集します。
 
-[https://raw.githubusercontent.com/next-l/enju_leaf/1.2/app/views/page/_header.html.erb](https://raw.githubusercontent.com/next-l/enju_leaf/1.2/app/views/page/_header.html.erb)
+[https://raw.githubusercontent.com/next-l/enju_leaf/1.3/app/views/page/_header.html.erb](https://raw.githubusercontent.com/next-l/enju_leaf/1.3/app/views/page/_header.html.erb)
 
 例えば、バナー画像をタイトルの代わりにつけたい場合は、以下の記述を変更します。
 
