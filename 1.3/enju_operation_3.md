@@ -475,7 +475,7 @@ Enjuのカスタマイズをすることなく、必要な利用者情報を管�
 このファイルで、生年月日や住所などEnjuに入力していない情報で利用者の情報を検索して、本人確認のための利用者情報を調べることができますし、URLのリンクをたどれば、その利用者のページにたどりつけます。
 
 サンプルファイルは、
-[Next-L公式サイト（http://www.next-l.jp/?page=etc%5Ffiles&file=userinfo%5Flocalfile%5Fsample%2Exlsx&action=ATTACH）](http://www.next-l.jp/?page=etc%5Ffiles&file=userinfo%5Flocalfile%5Fsample%2Exlsx&action=ATTACH)
+[Next-L公式サイト（https://www.next-l.jp/?page=etc%5Ffiles&file=userinfo%5Flocalfile%5Fsample%2Exlsx&action=ATTACH）](https://www.next-l.jp/?page=etc%5Ffiles&file=userinfo%5Flocalfile%5Fsample%2Exlsx&action=ATTACH)
 にありますので、参考にしてください。ここで用いている情報は架空のものです。
 
 例えば、「ユーザ名」が 「u550001」 であれば、以下のようなURLを書けば

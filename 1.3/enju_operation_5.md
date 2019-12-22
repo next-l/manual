@@ -85,7 +85,7 @@ Enjuへの雑誌登録を行う際はこれらの基本的な仕組みを理解�
 
 ### 5-1-1 NDLサーチを検索して登録する {#section5-1-1}
 
-NDLサーチ（国立国会図書館サーチ <http://iss.ndl.go.jp/>）で
+NDLサーチ（国立国会図書館サーチ <https://iss.ndl.go.jp/>）で
 検索した資料を登録することができます。
 
 #### 1. ［資料の受入］メニューから［NDLサーチ検索によるインポート］を選択します。
@@ -97,7 +97,7 @@ NDLサーチ（国立国会図書館サーチ <http://iss.ndl.go.jp/>）で
 <div class="alert alert-info memo">
 【Memo】
 多くヒットしてしまい選びにくいことが想定されますので、
-あらかじめ、NDLサーチ（国立国会図書館サーチ < [http://iss.ndl.go.jp/](http://iss.ndl.go.jp/) >）
+あらかじめ、NDLサーチ（国立国会図書館サーチ < [https://iss.ndl.go.jp/](https://iss.ndl.go.jp/) >）
 のサービス上で検索して、
 当該資料の「JP番号」を調べておき、
 その「JP番号」を使うとよいでしょう。

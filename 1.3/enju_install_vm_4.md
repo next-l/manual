@@ -22,7 +22,7 @@ Enjuのインストールに必要なパッケージは，すべてネットワ�
 
 Enjuは，以下のURLで最新版が提供されています。インストールする環境に合わせ，必要なパッケージをダウンロードします。
 
-* [http://www.next-l.jp/?page=VM](http://www.next-l.jp/?page=VM)
+* [https://www.next-l.jp/?page=VM](https://www.next-l.jp/?page=VM)
 
 ![Enjuパッケージの提供場所](../assets/images/1.1/image_install_016.png)
 

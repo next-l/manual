@@ -134,7 +134,7 @@ Enju 検索結果一覧画面に表示される書誌情報や所蔵情報の表
 以下のようなURLになりますのでこのURLを使って参照することができます。
 
 * app/assets/images/ 以下に、 custom フォルダを作成して、その下に logo.png を置いた場合
-    * URL例（デモサーバー）: http://enju.next-l.jp/assets/custom/logo.png
+    * URL例（デモサーバー）: https://enju.next-l.jp/assets/custom/logo.png
     * URL例（仮想マシン）: http://localhost:8080/assets/custom/logo.png
 
 ※ 画像ファイルをブラウザから置けるようにする機能を開発予定です（[詳細 #1133](https://github.com/next-l/enju_leaf/issues/1113)）。

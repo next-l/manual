@@ -40,7 +40,7 @@ Enjuの利用を始めるにあたり，形態・状態等に関するシステ�
 
 * 参考文献：
   * RDA: "3.3.1.3 Recording Carrier Type"
-  * LCの ["Term and Code List for RDA Carrier Types"（http://www.loc.gov/standards/valuelist/rdacarrier.html）](http://www.loc.gov/standards/valuelist/rdacarrier.html)
+  * LCの ["Term and Code List for RDA Carrier Types"（https://www.loc.gov/standards/valuelist/rdacarrier.html）](https://www.loc.gov/standards/valuelist/rdacarrier.html)
 
 ### 5-1-1 設定項目 {#section5-1-1}
 
@@ -103,7 +103,7 @@ Enjuの利用を始めるにあたり，形態・状態等に関するシステ�
 
 * 参考文献：
   * RDA："6.9.1.3 Recording Content Type"
-  * LCの ["Term and Code List for RDA Content Types"（http://www.loc.gov/standards/valuelist/rdacontent.html）](http://www.loc.gov/standards/valuelist/rdacontent.html)
+  * LCの ["Term and Code List for RDA Content Types"（https://www.loc.gov/standards/valuelist/rdacontent.html）](https://www.loc.gov/standards/valuelist/rdacontent.html)
 
 
 ### 5-2-1 設定項目 {#section5-2-1}
