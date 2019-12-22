@@ -117,7 +117,7 @@ Enjuの利用を始めるにあたり，図書館のシステム設定として�
 * [ログイン画面でのメッセージ]と[フッターのメッセージ]はHTMLやmarkdownを使って、文字装飾したり、リンクをつけたり、画像を表示させたりすることができます。
 * 画像をEnjuに置く方法は[インストールマニュアル「10-5 トップ画面やヘルプなどに表示する画像を置く」](enju_install_vm_10.html#section10-5)を参照してください。
 * 画像を表示させるmarkdown記述の例：<code>![ロゴ](http://localhost:8080/assets/logo.html)</code>
-* リンクのmarkdown記述の例: <code>[Porject NextL](http://www.next-l.jp/)</code>
+* リンクのmarkdown記述の例: <code>[Porject NextL](https://www.next-l.jp/)</code>
 
 </div>
 
@@ -139,7 +139,7 @@ Enjuの利用を始めるにあたり，図書館のシステム設定として�
 * 名前*：図書館の名称を入力します。TSVファイルを使った所蔵のインポートなどに図書館を表す名前として使用します。
 * 短縮表示名：短縮した名称を入力します。短縮して表示したい箇所で使用される表示名です。
 * 表示名*：画面に表示する名称を入力します。一般的にはこちらの表示名を使用します。
-* ISIL*：[図書館及び関連組織のための国際標準識別子（http://www.ndl.go.jp/jp/library/isil/）](http://www.ndl.go.jp/jp/library/isil/)を入力します。
+* ISIL*：[図書館及び関連組織のための国際標準識別子（https://www.ndl.go.jp/jp/library/isil/）](https://www.ndl.go.jp/jp/library/isil/)を入力します。
 * 国と地域：▼をクリックし，リストから選択します。
 * 郵便番号*：図書館の所在地の郵便番号を入力します。
 * 都道府県*：図書館の所在地の都道府県名を入力します。Google Map で地図表示をする際にも利用されます。
@@ -596,25 +596,25 @@ $ rails g geocoder:config
 ![検索エンジンの設定](../assets/images/1.1/image_search_engine_input.png)
 
 <div class="alert alert-info memo">
-【Memo】CiNii Booksの登録例（検索語がflowerであれば：http://ci.nii.ac.jp/books/search?q=flower&format=html というリクエストになる）を示しています。
+【Memo】CiNii Booksの登録例（検索語がflowerであれば：https://ci.nii.ac.jp/books/search?q=flower&format=html というリクエストになる）を示しています。
 </div>
 
 #### 5. 以下はその他の検索エンジンの設定例です。
 
 * 名前: NDL Search
-    * URL: http://iss.ndl.go.jp/
-    * ベースURL: http://iss.ndl.go.jp/books
+    * URL: https://iss.ndl.go.jp/
+    * ベースURL: https://iss.ndl.go.jp/books
     * HTTPメソッド: get
     * クエリパラメータ: any
 * 名前: amazon.co.jp
-    * URL: http://www.amazon.co.jp/
-    * ベースURL: http://www.amazon.co.jp/s?
+    * URL: https://www.amazon.co.jp/
+    * ベースURL: https://www.amazon.co.jp/s?
     * HTTPメソッド: get
     * クエリパラメータ: field-keywords
     * 追加のパラメータ: url=search-alias=aps
 * 名前: CiNii Books
-    * URL: http://ci.nii.ac.jp/books/
-    * ベースURL: http://ci.nii.ac.jp/books/opensearch/search
+    * URL: https://ci.nii.ac.jp/books/
+    * ベースURL: https://ci.nii.ac.jp/books/opensearch/search
     * HTTPメソッド: get
     * クエリパラメータ: q
     * 追加のパラメータ: format=html
