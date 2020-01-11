@@ -364,7 +364,7 @@ ISBNコードから国立国会図書館のデータを参照して、資料を�
 
 ### 4-2-4 NDLサーチを検索して1件ずつ登録する {#section4-2-4}
 
-NDLサーチ（国立国会図書館サーチ <http://iss.ndl.go.jp/>）で検索した資料を登録することができます。
+NDLサーチ（国立国会図書館サーチ <https://iss.ndl.go.jp/>）で検索した資料を登録することができます。
 ISBNが不明な場合やISBNで登録でできなかった場合などに使用します。
 （ISBNで登録できない例：9784834005288）
 
@@ -380,7 +380,7 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 【Memo】
 任意のキーワードで検索することもできますが、
 多くヒットしてしまい選びにくいことが想定されますので、
-あらかじめ、NDLサーチ（国立国会図書館サーチ <http://iss.ndl.go.jp/>）
+あらかじめ、NDLサーチ（国立国会図書館サーチ <https://iss.ndl.go.jp/>）
 のサービス上で検索して、
 当該資料の「JP番号」を調べておき、
 その「JP番号」を使うとよいでしょう。
@@ -421,7 +421,7 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 
 ### 4-2-5 米国議会図書館を検索して1件ずつ登録する {#section4-2-5}
 
-米国議会図書館（<http://catalog.loc.gov/>）の蔵書を検索した資料を
+米国議会図書館（<https://catalog.loc.gov/>）の蔵書を検索した資料を
 登録することができます。ISBNやキーワードなどで検索できます。
 
 注意：この機能は標準ではインストールされていないため使えません。
@@ -436,7 +436,7 @@ ISBNが不明な場合やISBNで登録でできなかった場合などに使用
 
 ### 4-2-6 CiNii Booksを検索して1件ずつ登録する {#section4-2-6}
 
-CiNii Books（<http://ci.nii.ac.jp/books/>）を検索した資料を
+CiNii Books（<https://ci.nii.ac.jp/books/>）を検索した資料を
 登録することができます。ISBNやキーワードなどで検索できます。
 
 注意：この機能は標準ではインストールされていないため使えません。
@@ -760,7 +760,7 @@ CiNii Books（<http://ci.nii.ac.jp/books/>）を検索した資料を
 <tr>
         <td>doi</td>
         <td>DOI</td>
-        <td>文字列，http://dx.doi.org/は記入しない</td>
+        <td>文字列，https://doi.org/ は記入しない</td>
         <td>10.2964/jsik.23_219</td>
 </tr>
 <tr>
@@ -833,7 +833,7 @@ CiNii Books（<http://ci.nii.ac.jp/books/>）を検索した資料を
 	<td>access_address</td>
 	<td>アクセスアドレス</td>
 	<td>半角文字のみ</td>
-	<td>http://www.amazon.co.jp/dp/4274067106/</td>
+	<td>https://www.amazon.co.jp/dp/4274067106/</td>
 </tr>
 <tr>
 	<td>fulltext_content</td>
@@ -1267,7 +1267,7 @@ ISBNの代わりに、manifestation_idやmanifestation_identifierでも可能で
 	<td>item_url</td>
 	<td>URL（item）</td>
 	<td>文字列</td>
-	<td>http://www.amazon.co.jp/dp/4274067106/</td>
+	<td>https://www.amazon.co.jp/dp/4274067106/</td>
 </tr>
 <tr>
 	<td>required_role</td>

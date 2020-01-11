@@ -22,7 +22,7 @@ Enjuのインストールに必要なパッケージは，すべてネットワ�
 
 Enjuは，以下のURLで最新版が提供されています。インストールする環境に合わせ，必要なパッケージをダウンロードします。
 
-* [http://www.next-l.jp/?page=VM](http://www.next-l.jp/?page=VM)
+* [https://www.next-l.jp/?page=VM](https://www.next-l.jp/?page=VM)
 
 ![Enjuパッケージの提供場所](../assets/images/1.1/image_install_016.png)
 
@@ -245,7 +245,7 @@ Rails.application.configure do
 
   # SMTPサーバの設定。不要な設定はコメントアウトできます
   # 設定例は以下も参照してください
-  # http://railsguides.jp/action_mailer_basics.html#gmail用のaction-mailer設定
+  # https://railsguides.jp/action_mailer_basics.html#gmail用のaction-mailer設定
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
     address: 'yoursmtpserver.example.jp',
@@ -282,7 +282,7 @@ Next-L Enjuが正しく起動したかどうかは，サーバ上だけではわ
 
 #### 2. ブラウザからアクセスします。Windows上でWebブラウザを立ち上げます。
 
-#### 3. アドレス欄に```http://localhost:8080```と入力してください（ブラウザによっては ```localhost:8080``` でも可）。うまくいかないばあいは、 [「3-1-3 IPアドレスの確認」](enju_install_vm_3.html#section3-1-3) の 6. で確認した「IPv4のアドレス」（例：```192.168.11.9```）でも確認してみてください。その場合は```http:://IPv4のアドレス:8080```（例：```http://192.168.11.9:8080```）と入力します。 ※ 注意！ Enju_Leaf 1.1.0.rc7版の仮想マシンではやり方が異なりますので注意してください。
+#### 3. アドレス欄に```http://localhost:8080```と入力してください（ブラウザによっては ```localhost:8080``` でも可）。うまくいかないばあいは、 [「3-1-3 IPアドレスの確認」](enju_install_vm_3.html#section3-1-3) の 6. で確認した「IPv4のアドレス」（例：```192.168.11.9```）でも確認してみてください。その場合は```http://IPv4のアドレス:8080```（例：```http://192.168.11.9:8080```）と入力します。 ※ 注意！ Enju_Leaf 1.1.0.rc7版の仮想マシンではやり方が異なりますので注意してください。
 
 ![ブラウザで起動の確認](../assets/images/1.1/image_install_078_4.png)
 

@@ -33,4 +33,4 @@ version: 1.2
 
 上記のインストール、初期設定、運用、利用者、WebAPIマニュアル全てを1つのPDFにしたものをダウンロードできます。
 
-* <a href="http://next-l.jp/?page=manual#download">マニュアル一括ダウンロード</a>
+* <a href="https://next-l.jp/?page=manual#download">マニュアル一括ダウンロード</a>

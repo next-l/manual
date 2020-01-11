@@ -773,7 +773,7 @@ TSVファイルとは、それぞれのフィールドが、タブ（Tab）で�
 <tr>
         <td>doi</td>
         <td>DOI</td>
-        <td>文字列，http://dx.doi.org/は記入しない。<a href="#tsv_id">（詳細）</a></td>
+        <td>文字列，https://doi.org/は記入しない。<a href="#tsv_id">（詳細）</a></td>
         <td>10.2964/jsik.23_219</td>
 </tr>
 <tr>
