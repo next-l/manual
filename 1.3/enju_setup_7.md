@@ -34,6 +34,16 @@ version: 1.3
 
 ![システムの基本的な情報の表示結果](../assets/images/1.1/image_initial_systemdisp03.png)
 
+<div class="alert alert-info memo" markdown="1">
+【Memo】
+* リリース前のパッケージを使用している場合にはコミットのハッシュを表示します。
+
+![システムの基本的な情報のコミットのハッシュを表示](../assets/images/1.3/image_initial_systemdisp03-hash.png)
+
+</div>
+
+#### 4. リリース前のパッケージを使用している場合。
+
 7-2 非同期処理の状態確認機能（Resque） {#section7-2}
 --------------------------------------------------------
 
