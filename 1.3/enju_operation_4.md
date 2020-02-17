@@ -1033,7 +1033,7 @@ TSVファイルとは、それぞれのフィールドが、タブ（Tab）で�
 
 #### 4. 「所蔵情報は正常に作成されました。」のメッセージが表示され、所蔵情報が登録されます。
 
-![所蔵情報が正常に作成](../assets/images/1.1/image_operation_121_2.png)
+![所蔵情報が正常に作成](../assets/images/1.3/image_operation_121_2.png)
 
 <div class="alert alert-info memo" markdown="1">
 
@@ -1064,7 +1064,7 @@ TSVファイルとは、それぞれのフィールドが、タブ（Tab）で�
 
 #### 4. 右メニューの［編集］をクリックします。
 
-![所蔵情報の編集](../assets/images/1.1/image_operation_114_u.png)
+![所蔵情報の編集](../assets/images/1.3/image_operation_114_u.png)
 
 <div class="alert alert-info memo" markdown="1">
 
@@ -1091,7 +1091,7 @@ TSVファイルとは、それぞれのフィールドが、タブ（Tab）で�
 
 #### 6. 「所蔵情報は正常に更新されました。」のメッセージが表示され、所蔵情報が登録されます。
 
-![所蔵情報が正常に更新](../assets/images/1.1/image_operation_121_2_u.png)
+![所蔵情報が正常に更新](../assets/images/1.3/image_operation_121_2_u.png)
 
 ### 4-3-3 所蔵情報を一覧表示する {#section4-3-3}
 
