@@ -244,7 +244,7 @@ $ rake enju_circulation:export:checkout RAILS_ENV=production > output.txt
 
 #### 2. 貸出期限日などを編集して、［更新する］ボタンをクリックします。  
 
-![貸出を更新](../assets/images/1.2/image_operation_185.png)
+![貸出を更新](../assets/images/1.3/image_operation_185.png)
 
 <div class="alert alert-info memo" markdown="1">
 
@@ -258,7 +258,7 @@ $ rake enju_circulation:export:checkout RAILS_ENV=production > output.txt
 
 #### 3. 「貸出は正常に更新されました。」のメッセージが表示され、貸出期間が延長されます。
 
-![貸出が更新されました](../assets/images/1.2/image_operation_186.png)
+![貸出が更新されました](../assets/images/1.3/image_operation_186.png)
 
 <div class="alert alert-info memo" markdown="1">
 
