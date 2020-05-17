@@ -58,60 +58,60 @@ manifestation_id	original_title	title_transcription	creator	contributor	publishe
 
 ### 1-1-3 書誌と所蔵のTSVの項目 {#bib_tsv_export}
 
-次の項目が入っています(Enju Leaf 1.3.1)。
+次の項目が入っています(Enju Leaf 1.3.4)。
 
 <!-- 全件エクスポート（Librarian権限以上のみ）、
 検索結果一覧エクスポート、検索結果詳細エクスポートの出力項目は
 1.2.0ではところ共通です。 
 -->
 
-* manifestation_id: 書誌ID
-* original_title: 原題
-* title_transcription: タイトルのヨミ
-* creator: 著者
-* contributor: 協力者・編者
-* publisher: 出版者
-* pub_date: 出版日
-* statement_of_responsibility: 責任表示
-* manifestation_price: 販売価格
-* manifestation_created_at: 書誌情報作成日（エクスポートのみの項目）
-* manifestation_updated_at: 書誌情報更新日（エクスポートのみの項目）
-* manifestation_identifier：ローカル識別子
-* access_address: アクセスアドレス
-* description: 説明 ※改行は「\n」で表現されています
-* note: 注記 ※改行は「\n」で表現されています
-* extent: ページ数
-* dimensions: 大きさ
-* carrier_type: 資料種別
-* edition: 版（数字）
-* edition_string: 版
-* volume_number: 巻（数字）
-* volume_number_string: 巻
-* issue_number: 号（数字）
-* issue_number_string: 号
-* serial_number: 通号
-* isbn： ISBN
-* subject:unknown: 件名（unknown）※入力データによっては出力されないこともあります。
-* subject:ndlsh: 件名（NDLSH）※入力データによっては出力されないこともあります。
-* （入力データによってはほかにも subject:　からはじまるものがあります）
-* classification:ndc9: 分類（NDC）※入力データによっては出力されないこともあります。
-* （入力データによってはほかにも classification:　からはじまるものがあります）
-* item_id: 所蔵データID(自動付与）
-* item_identifier: 所蔵情報ID
-* call_number: 請求記号
-* item_note: 注記（所蔵） ※改行は「\n」で表現されています
-* item_price: 購入価格（Administrator権限、Librarian権限のときのみ出力）
-* acquired_at: 受入日
-* accepted_at: 検収日（エクスポートのみの項目）
-* bookstore: 書店 （Administrator権限、Librarian権限のときのみ出力）
-* budget_type: 予算種別（Administrator権限、Librarian権限のときのみ出力）
-* total_checkouts: 貸出回数（Administrator権限、Librarian権限のときのみ出力）
-* circulation_status: 貸出状態
-* use_restriction: 利用制限（Administrator権限、Librarian権限のときのみ出力 注：1.3.0以前ではguestアカウントでも出力されます。1.3.1からは修正されています。）（参照： [issue #1366](https://github.com/next-l/enju_leaf/issues/1366)）
-* shelf: 本棚
-* library: 図書館
-* item_created_at: 所蔵情報作成日（エクスポートのみの項目）
-* item_updated_at: 所蔵情報更新日（エクスポートのみの項目）
+|項目ID|項目名|備考|閲覧権限|
+|:-----|:----:|:--:|-------:|
+| manifestation_id|書誌ID|||
+| original_title|原題|||
+| title_transcription|タイトルのヨミ|||
+| creator|著者|||
+| contributor|協力者・編者|||
+| publisher|出版者|||
+| pub_date|出版日|||
+| statement_of_responsibility|責任表示|||
+| manifestation_price|販売価格|||
+| manifestation_created_at|書誌情報作成日|エクスポートのみの項目||
+| manifestation_updated_at|書誌情報更新日|エクスポートのみの項目||
+| manifestation_identifier：ローカル識別子|||
+| access_address|アクセスアドレス|||
+| description|説明|※改行は「\n」で表現されています||
+| note|注記|※改行は「\n」で表現されています||
+| extent|ページ数|||
+| dimensions|大きさ|||
+| carrier_type|資料種別|||
+| edition|版（数字）|||
+| edition_string|版|||
+| volume_number|巻（数字）|||
+| volume_number_string|巻|||
+| issue_number|号（数字）|||
+| issue_number_string|号|||
+| serial_number|通号|||
+| isbn： ISBN|||
+| subject:unknown|件名（unknown）|※入力データによっては出力されないこともあります。||
+| subject:ndlsh|件名（NDLSH）|※入力データによっては出力されないこともあります。<br>（入力データによってはほかにも subject:　からはじまるものがあります）||
+| classification:ndc9|分類（NDC）|※入力データによっては出力されないこともあります。<br>（入力データによってはほかにも classification:　からはじまるものがあります）||
+| item_id|所蔵データID(自動付与）|||
+| item_identifier|所蔵情報ID|||
+| call_number|請求記号|||
+| item_note|注記（所蔵）|※改行は「\n」で表現されています||
+| item_price|購入価格||Administrator権限、Librarian権限のときのみ出力|
+| acquired_at|受入日|||
+| accepted_at|検収日|エクスポートのみの項目||
+| bookstore|書店||Administrator権限、Librarian権限のときのみ出力）|
+| budget_type|予算種別||Administrator権限、Librarian権限のときのみ出力）|
+| total_checkouts|貸出回数||Administrator権限、Librarian権限のときのみ出力）|
+| circulation_status|貸出状態|||
+| use_restriction|利用制限||Administrator権限、Librarian権限のときのみ出力 注：1.3.0以前ではguestアカウントでも出力されます。1.3.1からは修正されています。）（参照： [issue #1366](https://github.com/next-l/enju_leaf/issues/1366)）|
+| shelf|本棚|||
+| library|図書館|||
+| item_created_at|所蔵情報作成日|エクスポートのみの項目）||
+| item_updated_at|所蔵情報更新日|エクスポートのみの項目）||
 
 ※1 その他、書誌に登録されている識別子（例：jpno,ncid）は全て出力されます。
 
