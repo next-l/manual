@@ -65,8 +65,9 @@ manifestation_id	original_title	title_transcription	creator	contributor	publishe
 1.2.0ではところ共通です。 
 -->
 
+{:class="table table-bordered"}
 |項目ID|項目名|備考|閲覧権限|
-|:-----|:----:|:--:|-------:|
+|:-----|:-----|:---|:-------|
 | manifestation_id|書誌ID|||
 | original_title|原題|||
 | title_transcription|タイトルのヨミ|||
