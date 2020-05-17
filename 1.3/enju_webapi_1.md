@@ -79,7 +79,7 @@ manifestation_id	original_title	title_transcription	creator	contributor	publishe
 | manifestation_price|販売価格|||
 | manifestation_created_at|書誌情報作成日|エクスポートのみの項目||
 | manifestation_updated_at|書誌情報更新日|エクスポートのみの項目||
-| manifestation_identifier：ローカル識別子|||
+| manifestation_identifier|ローカル識別子|||
 | access_address|アクセスアドレス|||
 | description|説明|※改行は「\n」で表現されています||
 | note|注記|※改行は「\n」で表現されています||
@@ -104,15 +104,15 @@ manifestation_id	original_title	title_transcription	creator	contributor	publishe
 | item_price|購入価格||Administrator権限、Librarian権限のときのみ出力|
 | acquired_at|受入日|||
 | accepted_at|検収日|エクスポートのみの項目||
-| bookstore|書店||Administrator権限、Librarian権限のときのみ出力）|
-| budget_type|予算種別||Administrator権限、Librarian権限のときのみ出力）|
-| total_checkouts|貸出回数||Administrator権限、Librarian権限のときのみ出力）|
+| bookstore|書店||Administrator権限、Librarian権限のときのみ出力|
+| budget_type|予算種別||Administrator権限、Librarian権限のときのみ出力|
+| total_checkouts|貸出回数||Administrator権限、Librarian権限のときのみ出力|
 | circulation_status|貸出状態|||
 | use_restriction|利用制限||Administrator権限、Librarian権限のときのみ出力 注：1.3.0以前ではguestアカウントでも出力されます。1.3.1からは修正されています。）（参照： [issue #1366](https://github.com/next-l/enju_leaf/issues/1366)）|
 | shelf|本棚|||
 | library|図書館|||
-| item_created_at|所蔵情報作成日|エクスポートのみの項目）||
-| item_updated_at|所蔵情報更新日|エクスポートのみの項目）||
+| item_created_at|所蔵情報作成日|エクスポートのみの項目||
+| item_updated_at|所蔵情報更新日|エクスポートのみの項目||
 
 ※1 その他、書誌に登録されている識別子（例：jpno,ncid）は全て出力されます。
 
