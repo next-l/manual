@@ -113,8 +113,8 @@ manifestation_id	original_title	title_transcription	creator	contributor	publishe
 | library|図書館|||
 | item_created_at|所蔵情報作成日|エクスポートのみの項目||
 | item_updated_at|所蔵情報更新日|エクスポートのみの項目||
-| manifestation:custom1|カスタム項目|※設定に応じて "custom1" の部分には項目コードが入ります||
-| item:custom1|カスタム項目|※設定に応じて "custom1" の部分には項目コードが入ります||
+| manifestation:custom1|カスタム項目|※設定に応じて "custom1" の部分には項目コードが入ります|Administrator権限、Librarian権限のときのみ出力|
+| item:custom1|カスタム項目|※設定に応じて "custom1" の部分には項目コードが入ります|Administrator権限、Librarian権限のときのみ出力|
 
 ※1 その他、書誌に登録されている識別子（例：jpno,ncid）は全て出力されます。
 
