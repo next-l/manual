@@ -174,4 +174,4 @@ manifestation_id	original_title	title_transcription	creator	contributor	publishe
 &lt;/rdf:RDF&gt;
 </pre>
 
-{% include enju_webapi/1.2/toc.md %}
+{% include enju_webapi/1.3/toc.md %}

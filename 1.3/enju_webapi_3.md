@@ -75,4 +75,4 @@ http://localhost:8080/oai/provider.xml?verb=ListRecords&metadataPrefix=junii2
 http://localhost:8080/oai/provider.xml?verb=ListRecords&metadataPrefix=dcndl&from=2016-04-01&until=2016-06-30
 ```
 
-{% include enju_webapi/1.2/toc.md %}
+{% include enju_webapi/1.3/toc.md %}
