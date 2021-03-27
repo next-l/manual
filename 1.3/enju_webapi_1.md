@@ -195,7 +195,7 @@ manifestation_id	original_title	title_transcription	creator	contributor	publishe
 
 ※現在、表示している検索結果のみを表示します。他の画面の検索結果は含みません。
 
-### 1-3-2 書誌と所蔵のRDF/XML形式のデータの例 {#bib-json-example}
+### 1-3-3 書誌と所蔵のJSON形式のデータの例 {#bib-json-example}
 
 ```json
 {
@@ -253,5 +253,40 @@ manifestation_id	original_title	title_transcription	creator	contributor	publishe
   } ]
 }
 ```
+### 1-3-3 書誌と所蔵のJSON形式の項目 {#section1-3-3}
+
+JSON形式は以下のキーと値のペアから構成されます。
+
+{:class="table table-bordered"}
+|項目ID|項目名|備考|
+|:-----|:-----|:---|
+|total_count|ヒット件数||
+|results|検索結果レコード|配列として各書誌情報が出力される|
+
+各レコードの書誌情報は以下のキーと値のペアから構成されます。
+
+{:class="table table-bordered"}
+|項目ID|項目名|備考|
+|:-----|:-----|:---|
+|id|書誌ID||
+|original_title|タイトル||
+|title_alternative|別タイトル||
+|title_transcription|タイトル（読み）||
+|title_alternative_transcription|別タイトル（読み）||
+|pub_date|出版日||
+|statement_of_responsibility|責任表示||
+|creators|著者|配列として表現|
+|contributors|貢献者|配列として表現|
+|publishers|出版者|配列として表現|
+|publication_place|出版地||
+|extent|ページ数||
+|dimentions|大きさ||
+|identifiers|識別子||
+|subjects|件名||
+|classifications|分類||
+|access_address|URL||
+|items|所蔵レコード|配列として表現|
+|created_at|作成日時||
+|updated_at|更新日時||
 
 {% include enju_webapi/1.3/toc.md %}
