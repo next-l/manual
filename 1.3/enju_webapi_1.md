@@ -27,7 +27,7 @@ Enju は検索結果一覧を好みのフォーマットで取得する機能が
 1-1 TSVを取得する {#section1-1}
 ------------------------------------
 
-### 1-1-1 TSV取得方法 {#section1-1-1} 
+### 1-1-1 TSV取得方法 {#section1-1-1}
 
 #### 1. 検索結果を表示します。
 
@@ -123,7 +123,7 @@ manifestation_id	original_title	title_transcription	creator	contributor	publishe
 1-2 RDF/XML形式のデータを取得する {#section1-2}
 ------------------------------------
 
-### 1-2-1 RDF/XML形式のデータ取得方法 {#section1-2-1} 
+### 1-2-1 RDF/XML形式のデータ取得方法 {#section1-2-1}
 
 #### 1. 検索結果を表示します。
 
@@ -173,5 +173,85 @@ manifestation_id	original_title	title_transcription	creator	contributor	publishe
   &lt;/item&gt;
 &lt;/rdf:RDF&gt;
 </pre>
+
+1-3 JSON形式のデータを取得する {#section1-3}
+------------------------------------
+
+### 1-3-1 JSON形式のデータ取得方法 {#section1-3-1}
+
+#### 1. 検索結果を表示します。
+
+#### 2. 検索結果のアドレス欄のURLのmanifestationsの後ろに.jsonを追加します。
+
+<pre>
+例
+（変更前）：http://localhost:8080/manifestations?utf8=%E2%9C%93&query=&commit=%E6%A4%9C%E7%B4%A2
+（変更後）：http://localhost:8080/manifestations.json?utf8=%E2%9C%93&query=&commit=%E6%A4%9C%E7%B4%A2
+</pre>
+
+にします
+
+#### 3. この検索結果画面に表示されている書誌情報がJSON形式で表示されます。 
+
+※現在、表示している検索結果のみを表示します。他の画面の検索結果は含みません。
+
+### 1-3-2 書誌と所蔵のRDF/XML形式のデータの例 {#bib-json-example}
+
+```json
+{
+  total_count: 51,
+  results: [ {
+    id: 12825,
+    original_title: "Ruby on Rails 5超入門",
+    title_alternative: null,
+    title_transcription: "ルビー オン レイルズ ファイヴ チョウニュウモン",
+    title_alternative_transcription: null,
+    pub_date: "2016",
+    statement_of_responsibility: "掌田津耶乃 著",
+    creators: [ { full_name: "掌田, 津耶乃" } ],
+    contributors: [ ],
+    publishers: [ { full_name: "秀和システム" } ],
+    publication_place: "東京",
+    extent: "542p",
+    dimensions: "24cm",
+    identifiers: [
+      { identifier_type: "isbn", body: "9784798048321" },
+      { identifier_type: "iss_itemno", body: "R100000002-I027769223-00" },
+      { identifier_type: "jpno", body: "22839928" }
+    ],
+    subjects: [ { subject_heading_type: "ndlsh", term: "ウェブアプリケーション" } ],
+    classfifications: [ { classification_type: "ndc9", term: "547.483" } ],
+    access_address: null,
+    items: [ { item_identifier: "098567", shelf: "一般書架" } ],
+    created_at: "2019-07-28T14:38:16.570+09:00",
+    updated_at: "2019-07-28T14:39:16.317+09:00"
+  }, {
+    id: 12661,
+    original_title: "はじめてのRuby on Rails 3 : 「Webアプリケーション」作りに定番の「フレームワーク」を使う!",
+    title_alternative: "",
+    title_transcription: "ハジメテ ノ Ruby on Rails 3 : Web アプリケーション ズクリ ニ テイバン ノ フレームワーク オ ツカウ",
+    title_alternative_transcription: null,
+    pub_date: "2010-11",
+    statement_of_responsibility: "清水美樹 著",
+    creators: [ { full_name: "清水, 美樹" } ],
+    contributors: [ ],
+    publishers: [ { full_name: "工学社" } ],
+    publication_place: "東京",
+    extent: "303p",
+    dimensions: "21cm + CD-ROM1枚 12cm",
+    identifiers: [
+      { identifier_type: "isbn", body: "9784777515639" },
+      { identifier_type: "iss_itemno", body: "R100000002-I000011044291-00" },
+      { identifier_type: "jpno", body: "21852544" }
+    ],
+    subjects: [ ],
+    classfifications: [ { classification_type: "ndc9", term: "547.483" } ],
+    access_address: "",
+    items: [ ],
+    created_at: "2019-01-26T12:01:53.107+09:00",
+    updated_at: "2019-07-28T14:38:18.179+09:00"
+  } ]
+}
+```
 
 {% include enju_webapi/1.3/toc.md %}
