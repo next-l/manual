@@ -186,4 +186,38 @@ Enju 検索結果一覧画面に表示される書誌情報や所蔵情報の表
 
 #### 5. [10-2節](#section10-2) の 4. ～　6. と同様です。
 
+10-8 Sitemapsを設定する {#section10-8}
+-----------------------------------------------------------------------
+
+以下のコマンドを実行し、設定ファイル config/sitemap.rb を作成します。
+
+``` sh
+$ bundle exec rake sitemap:install
+```
+
+config/sitemap.rb を編集します。
+
+``` ruby
+# ホスト名を変更
+SitemapGenerator::Sitemap.default_host = "http://enju.example.jp"
+
+SitemapGenerator::Sitemap.create do
+  # 中略
+  # 以下の3行を追加
+  Manifestation.find_each do |manifestation|
+    add manifestation_path(manifestation), lastmod: manifestation.updated_at
+  end
+end
+```
+
+最後に、以下のコマンドでサイトマップを作成・更新します。ファイルは public/sitemap.xml.gz に作成されます。定期的にサイトマップを更新する場合、以下のコマンドをcronなどに登録してください。
+
+``` sh
+$ bundle exec rake sitemap:create RAILS_ENV=production
+```
+
+サイトマップは以下のようなURLでアクセスできます。
+
+http://enju.example.jp/sitemap.xml.gz
+
 {% include enju_install_vm/toc.md %}
