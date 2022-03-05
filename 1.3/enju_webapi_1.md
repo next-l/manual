@@ -195,7 +195,7 @@ manifestation_id	original_title	title_transcription	creator	contributor	publishe
 
 ※現在、表示している検索結果のみを表示します。他の画面の検索結果は含みません。
 
-### 1-3-3 書誌と所蔵のJSON形式のデータの例 {#bib-json-example}
+### 1-3-3 書誌と所蔵のJSON形式のデータの例 {#bib_json_example}
 
 ```json
 {
@@ -253,7 +253,7 @@ manifestation_id	original_title	title_transcription	creator	contributor	publishe
   } ]
 }
 ```
-### 1-3-3 書誌と所蔵のJSON形式の項目 {#section1-3-3}
+### 1-3-3 書誌と所蔵のJSON形式の項目 {#bib_json_export}
 
 JSON形式は以下のキーと値のペアから構成されます。
 

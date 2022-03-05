@@ -324,6 +324,19 @@ Enjuを利用した資料の検索方法には、演算子やフィールド名�
 * [出力されるTSVの例（Web APIマニュアル1-1-2節参照）](enju_webapi_1.html#bib_tsv_example)
 * [出力される項目の詳細（Web APIマニュアル1-1-3参照）](enju_webapi_1.html#bib_tsv_export)
 
+### 1-8-4 JSON 形式で書き出し {#section1-8-4}
+
+#### 1. 書き出しをしたい検索結果画面を表示させます。[JSON]リンクをクリックします
+
+![TSV](../assets/images/1.3/search_result_json_1.png)
+
+※　現在、画面でみえている結果の分だけが書き出しができます。
+
+#### 2. JSON 形式のファイルがダウンロードできます。 {#bib_json}
+
+* [出力されるJSONの例（Web APIマニュアル「書誌と所蔵のJSON形式のデータの例」参照）](enju_webapi_1.html#bib_json_example)
+* [出力される項目の詳細（Web APIマニュアル「書誌と所蔵のJSON形式の項目」参照）](enju_webapi_1.html#bib_json_export)
+
 1-9 検索結果詳細の書き出し {#section1-9}
 -----------------------------------------
 
