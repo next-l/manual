@@ -415,9 +415,29 @@ TSV形式のデータファイル（TSVファイル）とは、
         <td>int</td>
         <td>予約ID</td></tr>
       <tr>
+        <td>state</td>
+        <td>utf8</td>
+        <td>状態（retained（取置済み）、requested（受付済み）etc）</td></tr>
+      <tr>
+        <td>maniestation_id</td>
+        <td>ascii</td>
+        <td>書誌ID</td></tr>
+      <tr>
         <td>title</td>
         <td>utf8</td>
         <td>予約資料のタイトル</td></tr>
+      <tr>
+        <td>creator</td>
+        <td>utf8</td>
+        <td>著者</td></tr>
+      <tr>
+        <td>publisher</td>
+        <td>utf8</td>
+        <td>出版者</td></tr>
+      <tr>
+        <td>pub_date</td>
+        <td>ascii(yyyy)</td>
+        <td>出版年</td></tr>
       <tr>
         <td>isbn</td>
         <td>ascii</td>
@@ -431,9 +451,17 @@ TSV形式のデータファイル（TSVファイル）とは、
         <td>utf8</td>
         <td>取置資料の請求記号（取置済みの場合のみ表示）</td></tr>
       <tr>
+        <td>user_number</td>
+        <td>ascii</td>
+        <td>利用者番号</td></tr>
+      <tr>
         <td>username</td>
         <td>ascii</td>
         <td>利用者名</td></tr>
+      <tr>
+        <td>library</td>
+        <td>ascii</td>
+        <td>受け取り館</td></tr>
       <tr>
         <td>created_at</td>
         <td>ISO8601</td>
@@ -442,52 +470,12 @@ TSV形式のデータファイル（TSVファイル）とは、
         <td>expired_at</td>
         <td>ISO8601</td>
         <td>有効期限（例：2014-06-24 15:00:00 +0900）</td></tr>
-      <tr>
-        <td>state</td>
-        <td>utf8</td>
-        <td>状態（取置済み、受付済みetc）</td></tr>
     </tbody>
   </table>
 
-  <table class="table table-bordered table-condensed table-striped">
-    <caption>予約一覧のエクスポートTSVの例</caption>
-    <thead>
-      <tr>
-	<th>id</th>
-	<th>title</th>
-	<th>isbn</th>
-	<th>item_identifier</th>
-	<th>call_number</th>
-	<th>username</th>	
-	<th>created_at</th>	
-	<th>expired_at</th>
-	<th>state</th></tr>
-    </thead>
-    <tbody>
-      <tr>
-	<td>2</td>
-	<td>ゼロから学ぶ統計解析</td>
-	<td>9784061546561</td>
-	<td>003</td>
-	<td>417||K||お</td>
-	<td>nabeta</td>
-	<td>2014-06-02 16:26:48 +0900</td>
-	<td>2014-06-10 00:00:00 +0900</td>
-	<td>取置済み</td></tr>
-      <tr>
-	<td>1</td>
-	<td>キーワード検索がわかる</td>
-	<td>9784480063854</td>
-	<td></td>
-	<td></td>
-	<td>yegusa</td>
-	<td>2014-06-02 16:16:31 +0900</td>
-	<td>2014-06-10 00:00:00 +0900</td>
-	<td>受付済み</td></tr>
-      </tbody>
-    </table>
+予約一覧のエクスポートTSVの例
 
-![TSVデータ](../assets/images/1.1/image_operation_200_tsv.png)
+![TSVデータ](../assets/images/1.3/image_operation_200_tsv.png)
 
 ### 【Column】予約の一覧のRSSの例
 
