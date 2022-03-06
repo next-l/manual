@@ -1482,9 +1482,9 @@ https://github.com/next-l/enju_leaf/issues/867#issuecomment-147685332
 ![検収結果](../assets/images/1.1/image_operation_withdraw_005.png)
 
 <div class="alert alert-info memo" markdown="1">
-【Memo】次のようなエラーが出た場合は、「貸出中」の状態の本でないか確認してください。
+【Memo】「貸出中」や「取り置き中」などのように除籍してはいけない状態だった場合、「更新する」をクリック後に次のようなエラーが表示されます（以下の例は予約されている資料の場合のエラーです）。エラーが出た場合は、資料の状態を除籍ができる処理をしてください（貸出中なら返却処理をするなど）。
 
-![貸出中の本を除籍しようとしてエラーが表示](../assets/images/1.2/image_operation_withdraw_005_err.png)
+![予約中の本を除籍しようとしてエラーが表示](../assets/images/1.3/image_operation_withdraw_005_err.png)
 
 </div>
 
@@ -1503,6 +1503,14 @@ https://github.com/next-l/enju_leaf/issues/867#issuecomment-147685332
 #### 2. 貸出状態を「除籍済み」に変更し、利用制限を「貸出不可」に変更し、「更新する」をクリックします。
 
 ![貸出状態と利用制限を修正](../assets/images/1.1/image_operation_132.png)
+
+<div class="alert alert-info memo" markdown="1">
+【Memo】「貸出中」や「取り置き中」などのように除籍してはいけない状態だった場合、「更新する」をクリック後に次のようなエラーが表示されます（以下の例は予約されている資料の場合のエラーです）。エラーが出た場合は、資料の状態を除籍ができる処理をしてください（貸出中なら返却処理をするなど）。
+
+![予約中の本を除籍しようとしてエラーが表示](../assets/images/1.3/image_operation_withdraw_005_err.png)
+
+</div>
+
 
 ### 4-5-3 TSVファイルを読み込んで更新する {#section4-5-3}
 
