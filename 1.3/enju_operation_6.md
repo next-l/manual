@@ -169,6 +169,17 @@ Enjuでは、利用者カードと資料のバーコードを読み込むこと�
 * [TSV]をたどると全利用者の貸出履歴の最新の500件をTSVでダウンロードできます。
 </div>
 
+<div class="alert alert-success memo" markdown="1">
+
+【Column】予約が入っている貸出履歴の例
+
+* 予約が入っている資料の場合は、予約の人数が表示されます。
+
+![予約が入っている貸出履歴の例](../assets/images/1.3/image_operation_reserved_rec.png)
+
+</div>
+
+
 #### 3. ログインユーザ自身の貸出履歴のみが表示されます。
 
 ![貸出履歴の一覧](../assets/images/1.1/image_operation_181_2.png)
