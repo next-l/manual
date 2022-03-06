@@ -71,7 +71,7 @@ manifestation_id	original_title	title_transcription	creator	contributor	publishe
 | manifestation_id|書誌ID|||
 | original_title|原題|||
 | title_transcription|タイトルのヨミ|||
-| creator|著者|||
+| creator|著者|著者の役割があった場合は、役割付きで出力される（詳細：「[TSVファイルの作り方のcreator](enju_operation_4.html#tsv_creator)」を参照）||
 | contributor|協力者・編者|||
 | publisher|出版者|||
 | pub_date|出版日|||
