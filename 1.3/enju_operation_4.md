@@ -1165,8 +1165,8 @@ ISBNの代わりに、manifestation_idやmanifestation_identifierでも可能で
 
 #### 1. TSVファイルを用意します。
 
-更新したい所蔵情報の 所蔵情報ID（item_identifier） とともに、
-更新したいフィールドの内容が記述されたファイルを作成します。
+更新したい所蔵情報の 所蔵情報ID（item_identifier）もしくは所蔵データID（item_id システムが自動付与するIDで所蔵情報の表示のURLに使用されるもの） とともに、
+更新したいフィールドの内容が記述されたファイルを作成します。注：item_identifierとitem_idが同時に指定されていた場合、item_identifierが優先されます。
 
 #### 2. [「4-2-1 TSVファイルを読み込んで登録する」](#section4-2-1)の 1. 以降と同じ手順を実行し、3. の時に、[更新]を選ぶと所蔵情報が更新できます。
 
