@@ -46,14 +46,13 @@ Enju は検索結果一覧を好みのフォーマットで取得する機能が
 #### 3. この検索結果画面がTSV形式で表示されます。 
 
 ※現在、表示している検索結果のみを表示します。他の画面の検索結果は含みません。
+※Enju Leaf1.3.3以前は、改行は \n に変換されていましたが、Enju Leaf1.3.4以降では改行はそのままとなりますので、改行がはいったデータがある場合、Excelへのインポートでは次の列になってしまうことに注意(Googleスプレッドシートなどでは問題なくできます)。
 
 ### 1-1-2 書誌と所蔵のTSVの例 {#bib_tsv_example}
 
 <pre>
-manifestation_id	original_title	title_transcription	creator	contributor	publisher	pub_date	statement_of_responsibility	manifestation_price	manifestation_created_at	manifestation_updated_at	manifestation_identifier	access_address	description	note	extent	dimensions	carrier_type	edition	edition_string	volume_number	volume_number_string	issue_number	issue_number_string	serial_number	isbn	issn	jpno	doi	iss_itemno	lccn	subject:unknown	subject:ndlsh	subject:bsh	subject:lcsh	classification:ndc9	classification:ddc	classification:ndc8	classification:ndc10	item_id	item_identifier	call_number	item_note	item_price	acquired_at	accepted_at	bookstore	budget_type	total_checkouts	circulation_status	shelf	library	item_created_at	item_updated_at
-3	パーフェクトRuby on Rails	パーフェクト ルビー オン レイルズ	すがわら, まさのり, 1982-//前島, 真一//近藤, 宇智朗		技術評論社	2014-07	すがわらまさのり, 前島真一, 近藤宇智朗, 橋立友宏 著	2880	2018-01-08 21:27:20 +0900	2018-01-08 21:27:57 +0900	http://iss.ndl.go.jp/books/R100000002-I025470389-00				431p	23cm	volume								9784774165165		22426486		R100000002-I025470389-00		""	ウェブアプリケーション	""	""	547.483	""	""	""	3	001003	547|ス	""						0	Available On Shelf	first_shelf	yours	2018-01-08 21:27:57 +0900	2018-01-08 21:27:57 +0900
-2	はじめてのRuby on Rails 3 : 「Webアプリケーション」作りに定番の「フレームワーク」を使う!	ハジメテ ノ Ruby on Rails 3 : Web アプリケーション ズクリ ニ テイバン ノ フレームワーク オ ツカウ	清水, 美樹		工学社	2010-11	清水美樹 著	2300	2018-01-08 21:26:09 +0900	2018-01-08 21:27:23 +0900	http://iss.ndl.go.jp/books/R100000002-I000011044291-00				303p	21cm + CD-ROM1枚 12cm	volume								9784777515639		21852544		R100000002-I000011044291-00						547.483	""	""	""	2	001002	547|シ	""						0	Available On Shelf	first_shelf	yours	2018-01-08 21:26:47 +0900	2018-01-08 21:26:47 +0900
-1	Ruby on Rails 5超入門	ルビー オン レイルズ ファイヴ チョウニュウモン	掌田, 津耶乃		秀和システム	2016-12	掌田津耶乃 著	2700	2018-01-08 21:24:02 +0900	2018-01-08 21:26:10 +0900	http://iss.ndl.go.jp/books/R100000002-I027769223-00				542p	24cm	volume								9784798048321		22839928		R100000002-I027769223-00						547.483	""	""	""	1	001001	547|シ	""						0	Available On Shelf	first_shelf	yours	2018-01-08 21:25:34 +0900	2018-01-08 21:25:34 +0900
+manifestation_id	original_title	title_alternative	title_transcription	statement_of_responsibility	serial	manifestation_identifier	creator	contributor	publisher	pub_date	year_of_publication	publication_place	manifestation_created_at	manifestation_updated_at	carrier_type	content_type	frequency	language	isbn	issn	volume_number	volume_number_string	edition	edition_string	issue_number	issue_number_string	serial_number	extent	start_page	end_page	dimensions	height	width	depth	price	access_address	manifestation_required_role	abstract	description	note	identifier:isbn	identifier:issn	identifier:jpno	identifier:doi	identifier:iss_itemno	identifier:lccn	identifier:ncid	identifier:loc_identifier	identifier:issn_l	identifier:epi	series_statement_id	series_statement_original_title	series_statement_title_subseries	series_statement_title_subseries_transcription	series_statement_title_transcription	series_statement_creator	series_statement_volume_number	series_statement_series_master	series_statement_root_manifestation_id	series_statement_manifestation_id	series_statement_position	series_statement_note	series_statement_created_at	series_statement_updated_at	manifestation_memo	manifestation:momiji1	manifestation:kentei	subject:unknown	subject:ndlsh	subject:bsh	subject:lcsh	classification:ndc9	classification:ddc	classification:ndc8	classification:ndc10	jpno	ncid	item_id	item_identifier	binding_item_identifier	call_number	shelf	item_note	accepted_at	acquired_at	item_created_at	item_updated_at	bookstore	budget_type	item_required_role	item_price	item_memo	item:mimoza1	use_restriction	circulation_status	checkout_type	total_checkouts
+79	図書館と情報技術 : 情報検索基礎能力試験の過去問題と解説収録		トショカン ト ジョウホウ ギジュツ : ジョウホウ ケンサク キソ ノウリョク シケン ノ カコ モンダイ ト カイセツ シュウロク	岡紀子, 田中邦英 著		http://iss.ndl.go.jp/books/R100000002-I024356997-00	岡, 紀子//田中, 邦英	""	樹村房	2013-01-01 00:00:00 +0900	2013	東京	2022-01-11 19:15:26 +0900	2022-01-11 19:17:53 +0900	volume	text	unknown	Japanese	9784883672240	""								199p	1	199	26cm	26			2100		Guest				9784883672240	""	22230911	""	R100000002-I024356997-00	""	""	""	""	""	""	""	""	""	""	""	""	""	""	""	""	""	""	""				""	図書館--オートメーション	""	""	013.8	""	""	""	22230911		62	24228035			first_shelf	""	2022-01-11 19:15:58 +0900		2022-01-11 19:15:48 +0900	2022-01-11 19:17:53 +0900			Guest		""		Limited Circulation, Normal Loan Period	Available On Shelf	book	0
 </pre>
 
 ### 1-1-3 書誌と所蔵のTSVの項目 {#bib_tsv_export}
@@ -81,8 +80,8 @@ manifestation_id	original_title	title_transcription	creator	contributor	publishe
 | manifestation_updated_at|書誌情報更新日|エクスポートのみの項目||
 | manifestation_identifier|ローカル識別子|||
 | access_address|アクセスアドレス|||
-| description|説明|※改行は「\n」で表現されています||
-| note|注記|※改行は「\n」で表現されています||
+| description|説明|||
+| note|注記|||
 | extent|ページ数|||
 | dimensions|大きさ|||
 | carrier_type|資料種別|||
@@ -100,7 +99,7 @@ manifestation_id	original_title	title_transcription	creator	contributor	publishe
 | item_id|所蔵データID(自動付与）|||
 | item_identifier|所蔵情報ID|||
 | call_number|請求記号|||
-| item_note|注記（所蔵）|※改行は「\n」で表現されています||
+| item_note|注記（所蔵）|||
 | item_price|購入価格||Administrator権限、Librarian権限のときのみ出力|
 | acquired_at|受入日|||
 | accepted_at|検収日|エクスポートのみの項目||
