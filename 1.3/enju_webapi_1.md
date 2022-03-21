@@ -114,8 +114,8 @@ manifestation_id	original_title	title_alternative	title_transcription	statement_
 | item_updated_at|所蔵情報更新日|エクスポートのみの項目||
 | manifestation:custom1|カスタム項目|※設定に応じて "custom1" の部分には項目コードが入ります|Administrator権限、Librarian権限のときのみ出力|
 | item:custom1|カスタム項目|※設定に応じて "custom1" の部分には項目コードが入ります|Administrator権限、Librarian権限のときのみ出力|
-| manifestation_memo|業務メモ|※書誌|Administrator権限、Librarian権限のときのみ出力|
-| item_memo|業務メモ|※所蔵|Administrator権限、Librarian権限のときのみ出力|
+| manifestation_memo|業務メモ|※書誌|Administrator権限、Librarian権限のときのみ出力。Enju Leaf 1.3.6より出力|
+| item_memo|業務メモ|※所蔵|Administrator権限、Librarian権限のときのみ出力。Enju Leaf 1.3.6より出力|
 
 ※1 その他、書誌に登録されている識別子（例：jpno,ncid）は全て出力されます。
 
