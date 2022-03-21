@@ -80,6 +80,7 @@ manifestation_id	original_title	title_alternative	title_transcription	statement_
 | manifestation_updated_at|書誌情報更新日|エクスポートのみの項目||
 | manifestation_identifier|ローカル識別子|||
 | access_address|アクセスアドレス|||
+| abstract|内容細目|Enju Leaf 1.3.6より出力||
 | description|説明|||
 | note|注記|||
 | extent|ページ数|||
