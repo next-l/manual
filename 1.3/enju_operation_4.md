@@ -881,6 +881,12 @@ TSVファイルとは、それぞれのフィールドが、タブ（Tab）で�
 	<td>版表示は奥付より。\n付属資料: CD-ROM（1枚, 12cm）</td>
 </tr>
 <tr>
+	<td>manifestation_memo</td>
+	<td>業務メモ（書誌）</td>
+	<td>文字列。Enju Leaf 1.3.6よりインポート可能。<a href="#tsv_mmemo">（詳細）</a></td>
+	<td></td>
+</tr>
+<tr>
 	<td>dummy</td>
 	<td>インポート省略</td>
 	<td>文字列。この列に入力されていると、その行全体をインポート対象から除外します。</td>
@@ -987,6 +993,11 @@ TSVファイルとは、それぞれのフィールドが、タブ（Tab）で�
 * Librarian（図書館員）
 * User（図書館利用者）
 * Guest （誰でも）
+
+##### manifestation_memo {#tsv_mmemo}
+
+Administrator権限、Librarian権限のときのみ出力する項目です。
+一般利用者には見せないが、業務上必要なデータを残したい場合などに使用します。
 
 <!--
 参照： https://github.com/next-l/enju_leaf/issues/337
@@ -1345,6 +1356,12 @@ ISBNの代わりに、manifestation_idやmanifestation_identifierでも可能で
 	<td>100502</td>
 </tr>
 <tr>
+	<td>item_memo</td>
+	<td>業務メモ（所蔵）</td>
+	<td>文字列。Enju Leaf 1.3.6よりインポート可能。<a href="#tsv_imemo">（詳細）</a></td>
+	<td></td>
+</tr>
+<tr>
 	<td>dummy</td>
 	<td>インポート省略</td>
 	<td>文字列（ここになにかあれば無視する行）</td>
@@ -1391,6 +1408,11 @@ ISBNの代わりに、manifestation_idやmanifestation_identifierでも可能で
 * Librarian（図書館員アカウント）
 * User（図書館利用者アカウント）
 * Guest （誰でも：ログイン不要）
+
+##### item_memo {#tsv_imemo}
+
+Administrator権限、Librarian権限のときのみ出力する項目です。
+一般利用者には見せないが、業務上必要なデータを残したい場合などに使用します。
 
 </div>
 
