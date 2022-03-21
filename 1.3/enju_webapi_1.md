@@ -93,7 +93,7 @@ manifestation_id	original_title	title_alternative	title_transcription	statement_
 | issue_number|号（数字）|||
 | issue_number_string|号|||
 | serial_number|通号|||
-| isbn： ISBN|||
+| isbn|ISBN||
 | subject:unknown|件名（unknown）|※入力データによっては出力されないこともあります。||
 | subject:ndlsh|件名（NDLSH）|※入力データによっては出力されないこともあります。<br>（入力データによってはほかにも subject:　からはじまるものがあります）||
 | classification:ndc9|分類（NDC）|※入力データによっては出力されないこともあります。<br>（入力データによってはほかにも classification:　からはじまるものがあります）||
