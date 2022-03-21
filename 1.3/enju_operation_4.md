@@ -871,14 +871,14 @@ TSVファイルとは、それぞれのフィールドが、タブ（Tab）で�
 <tr>
 	<td>description</td>
 	<td>説明</td>
-	<td>文字列。改行は「\n」とする。</td>
-	<td>本書は、統計学の理論を簡潔に解説しながら、Rの手順・アウトプットの解釈を丁寧に行う。\n具体的には...</td>
+	<td>文字列。Enju Leaf 1.3.3以前の場合、改行は「\n」とする。</td>
+	<td>本書は、統計学の理論を簡潔に解説しながら、Rの手順・アウトプットの解釈を丁寧に行う。具体的には...</td>
 </tr>
 <tr>
 	<td>note</td>
 	<td>注記</td>
-	<td>文字列。改行は「\n」とする。</td>
-	<td>版表示は奥付より。\n付属資料: CD-ROM（1枚, 12cm）</td>
+	<td>文字列。Enju Leaf 1.3.3以前の場合、改行は「\n」とする。</td>
+	<td>版表示は奥付より。付属資料: CD-ROM（1枚, 12cm）</td>
 </tr>
 <tr>
 	<td>manifestation_memo</td>
@@ -1346,8 +1346,8 @@ ISBNの代わりに、manifestation_idやmanifestation_identifierでも可能で
 <tr>
 	<td>item_note</td>
 	<td>注記（item)</td>
-	<td>文字列。改行は「\n」とする。</td>
-	<td>汚れあり。\n水濡れあり。</td>
+	<td>文字列。Enju Leaf 1.3.3以前の場合、改行は「\n」とする。</td>
+	<td>汚れあり。水濡れあり。</td>
 </tr>
 <tr>
 	<td>item_identifier</td>
