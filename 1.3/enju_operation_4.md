@@ -869,6 +869,12 @@ TSVファイルとは、それぞれのフィールドが、タブ（Tab）で�
 	<td>Guest</td>
 </tr>
 <tr>
+	<td>abstract</td>
+	<td>内容細目</td>
+	<td>文字列。Enju Leaf 1.3.6よりインポート可能。</td>
+	<td>1. サイタ<br/>2. ヒラク</td>
+</tr>
+<tr>
 	<td>description</td>
 	<td>説明</td>
 	<td>文字列。Enju Leaf 1.3.3以前の場合、改行は「\n」とする。</td>
