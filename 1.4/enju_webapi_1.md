@@ -35,8 +35,8 @@ Enju は検索結果一覧を好みのフォーマットで取得する機能が
 
 <pre>
 例
-（変更前）：http://localhost:8080/manifestations?utf8=%E2%9C%93&query=&commit=%E6%A4%9C%E7%B4%A2
-（変更後）：http://localhost:8080/manifestations.txt?utf8=%E2%9C%93&query=&commit=%E6%A4%9C%E7%B4%A2
+（変更前）：http://localhost:3000/manifestations?utf8=%E2%9C%93&query=&commit=%E6%A4%9C%E7%B4%A2
+（変更後）：http://localhost:3000/manifestations.txt?utf8=%E2%9C%93&query=&commit=%E6%A4%9C%E7%B4%A2
 </pre>
 
 にします
@@ -183,8 +183,8 @@ manifestation_id	original_title	title_alternative	title_transcription	statement_
 
 <pre>
 例
-（変更前）：http://localhost:8080/manifestations?utf8=%E2%9C%93&query=&commit=%E6%A4%9C%E7%B4%A2
-（変更後）：http://localhost:8080/manifestations.rdf?utf8=%E2%9C%93&query=&commit=%E6%A4%9C%E7%B4%A2
+（変更前）：http://localhost:3000/manifestations?utf8=%E2%9C%93&query=&commit=%E6%A4%9C%E7%B4%A2
+（変更後）：http://localhost:3000/manifestations.rdf?utf8=%E2%9C%93&query=&commit=%E6%A4%9C%E7%B4%A2
 </pre>
 
 にします
@@ -200,27 +200,27 @@ manifestation_id	original_title	title_alternative	title_transcription	statement_
 <pre>
 &lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"&gt;
-  &lt;channel rdf:about="http://localhost:8080/manifestations?format=rdf&amp;only_path=true&amp;query="&gt;
+  &lt;channel rdf:about="http://localhost:3000/manifestations?format=rdf&amp;only_path=true&amp;query="&gt;
     &lt;title&gt;検索語  による えんじゅ図書館 の資料の検索結果&lt;/title&gt;
-    &lt;link&gt;http://localhost:8080/manifestations?query=&lt;/link&gt;
+    &lt;link&gt;http://localhost:3000/manifestations?query=&lt;/link&gt;
     &lt;description&gt;Next-L Enju, an open source integrated library system developed by Project Next-L&lt;/description&gt;
     &lt;language&gt;ja&lt;/language&gt;
     &lt;ttl&gt;60&lt;/ttl&gt;
     &lt;items&gt;
       &lt;rdf:Seq&gt;
-        &lt;rdf:li rdf:resource="http://localhost:8080/manifestations/2"/&gt;
-        &lt;rdf:li rdf:resource="http://localhost:8080/manifestations/1"/&gt;
+        &lt;rdf:li rdf:resource="http://localhost:3000/manifestations/2"/&gt;
+        &lt;rdf:li rdf:resource="http://localhost:3000/manifestations/1"/&gt;
       &lt;/rdf:Seq&gt;
     &lt;/items&gt;
   &lt;/channel&gt;
-  &lt;item rdf:about="http://localhost:8080/manifestations/2"&gt;
+  &lt;item rdf:about="http://localhost:3000/manifestations/2"&gt;
 &lt;title&gt;パーフェクトRuby on Rails&lt;/title&gt;
-&lt;link&gt;http://localhost:8080/manifestations/2&lt;/link&gt;
+&lt;link&gt;http://localhost:3000/manifestations/2&lt;/link&gt;
 &lt;description&gt;技術評論社; 2014-07&lt;/description&gt;
   &lt;/item&gt;
-  &lt;item rdf:about="http://localhost:8080/manifestations/1"&gt;
+  &lt;item rdf:about="http://localhost:3000/manifestations/1"&gt;
 &lt;title&gt;Ruby on Rails入門 : 優しいRailsの育て方&lt;/title&gt;
-&lt;link&gt;http://localhost:8080/manifestations/1&lt;/link&gt;
+&lt;link&gt;http://localhost:3000/manifestations/1&lt;/link&gt;
 &lt;description&gt;秀和システム; 2006-08&lt;/description&gt;
   &lt;/item&gt;
 &lt;/rdf:RDF&gt;
@@ -237,8 +237,8 @@ manifestation_id	original_title	title_alternative	title_transcription	statement_
 
 <pre>
 例
-（変更前）：http://localhost:8080/manifestations?utf8=%E2%9C%93&query=&commit=%E6%A4%9C%E7%B4%A2
-（変更後）：http://localhost:8080/manifestations.json?utf8=%E2%9C%93&query=&commit=%E6%A4%9C%E7%B4%A2
+（変更前）：http://localhost:3000/manifestations?utf8=%E2%9C%93&query=&commit=%E6%A4%9C%E7%B4%A2
+（変更後）：http://localhost:3000/manifestations.json?utf8=%E2%9C%93&query=&commit=%E6%A4%9C%E7%B4%A2
 </pre>
 
 にします
@@ -341,4 +341,4 @@ JSON形式は以下のキーと値のペアから構成されます。
 |created_at|作成日時||
 |updated_at|更新日時||
 
-{% include enju_webapi/1.3/toc.md %}
+{% include enju_webapi/1.4/toc.md %}

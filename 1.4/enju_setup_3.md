@@ -116,7 +116,7 @@ Enjuの利用を始めるにあたり，図書館のシステム設定として�
 
 * [ログイン画面でのメッセージ]と[フッターのメッセージ]はHTMLやmarkdownを使って、文字装飾したり、リンクをつけたり、画像を表示させたりすることができます。
 * 画像をEnjuに置く方法は[インストールマニュアル「10-5 トップ画面やヘルプなどに表示する画像を置く」](enju_install_vm_10.html#section10-5)を参照してください。
-* 画像を表示させるmarkdown記述の例：<code>![ロゴ](http://localhost:8080/assets/logo.html)</code>
+* 画像を表示させるmarkdown記述の例：<code>![ロゴ](http://localhost:3000/assets/logo.html)</code>
 * リンクのmarkdown記述の例: <code>[Porject NextL](https://www.next-l.jp/)</code>
 
 </div>
