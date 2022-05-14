@@ -220,4 +220,4 @@ $ bundle exec rake sitemap:create RAILS_ENV=production
 
 http://enju.example.jp/sitemap.xml.gz
 
-{% include enju_install_vm/toc.md %}
+{% include enju_install_vm/toc_1.4.md %}

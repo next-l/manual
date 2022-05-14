@@ -79,4 +79,4 @@ Dockerを使ったEnjuのインストールは以下の手順で行います。
 6. Enjuコンテナの動作確認
 7. Enjuコンテナのネットワーク設定
 8. Enjuコンテナの起動
-{% include enju_install_vm/toc.md %}
+{% include enju_install_vm/toc_1.4.md %}

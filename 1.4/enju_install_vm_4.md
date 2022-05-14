@@ -122,5 +122,5 @@ Enjuコンテナをシャットダウンするタイミングは，図書館の�
 
 これで，再度Enjuが利用できるようになりました。
 
-{% include enju_install_vm/toc.md %}
+{% include enju_install_vm/toc_1.4.md %}
 

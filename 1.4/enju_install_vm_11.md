@@ -112,4 +112,4 @@ TSVインポートに使えるファイルサイズは、標準設定では、1M
 
 {:/comment}
 
-{% include enju_install_vm/toc.md %}
+{% include enju_install_vm/toc_1.4.md %}

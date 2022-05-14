@@ -40,5 +40,5 @@ Enjuは，以下の手順で，Enjuのソースコードが公開されている
 
 	docker compose up -d
 
-{% include enju_install_vm/toc.md %}
+{% include enju_install_vm/toc_1.4.md %}
 

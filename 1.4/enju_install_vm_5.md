@@ -194,5 +194,5 @@ version: 1.4
 
 （その他のモジュールについては、後日公開します。）
 
-{% include enju_install_vm/toc.md %}
+{% include enju_install_vm/toc_1.4.md %}
 

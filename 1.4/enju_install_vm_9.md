@@ -58,4 +58,4 @@ Macに移設したい、CentOS に移設したいといった場合の方法で�
 
 {::comment}別ファイル名候補：backup.md{:/comment}
 
-{% include enju_install_vm/toc.md %}
+{% include enju_install_vm/toc_1.4.md %}
