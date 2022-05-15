@@ -15,34 +15,32 @@ version: 1.4
 
 ## Q. Dockerでプロキシ環境でも使用できる方法をおしえてください。
 
-#### 1. https へのアクセスは可能である必要があります。
+1. https へのアクセスは可能である必要があります。
+1. ~/enju/.envに以下の2行を追加してください。プロキシのホスト名とポートは適宜変更してください。EnjuがNDLサーチ検索など外部のサービスにアクセスするための設定です。
+    ```
+    export http_proxy=http://proxy.example.com:8080
+    export https_proxy=$http_proxy
+    ```
 
-#### 2. ~/enju/.envに以下の2行を追加してください。プロキシのホスト名とポートは適宜変更してください。EnjuがNDLサーチ検索など外部のサービスにアクセスするための設定です。
+1. ~/.profileに以下の2行を追加してください。プロキシのホスト名とポートは適宜変更してください。rubygems.orgからgemを取得するための設定です。
+    ```
+    export http_proxy=http://proxy.example.com:8080
+    export https_proxy=$http_proxy
+    ```
 
-	export http_proxy=http://proxy.example.com:8080
-	export https_proxy=$http_proxy
+1. ~/.gitconfig（無ければこのファイルを作成する） に以下を記入してください。プロキシのホスト名とポートは適宜変更してください。gitでプロキシを使用するための設定です。
 
-#### 3. ~/.profileに以下の2行を追加してください。プロキシのホスト名とポートは適宜変更してください。rubygems.orgからgemを取得するための設定です。
+    ```
+    [https]
+      proxy = http://proxy.example.com:8080
+    [http]
+      proxy = http://proxy.example.com:8080
+    [url "https://"]
+      insteadOf = git://
+    ```
 
-	export http_proxy=http://proxy.example.com:8080
-	export https_proxy=$http_proxy
-
-#### 4. ~/.gitconfig（無ければこのファイルを作成する） に以下を記入してください。プロキシのホスト名とポートは適宜変更してください。gitでプロキシを使用するための設定です。
-
-	[https]
-		proxy = http://proxy.example.com:8080
-	[http]
-		proxy = http://proxy.example.com:8080
-	[url "https://"]
-		insteadOf = git://
-
-#### 5. ログアウトしてログインしなおしてください
-
-#### 6. Enjuを再起動してください（--> 詳細は[8-3節](enju_install_vm_8.html#section8-3)を参照）
-
-<div class="alert alert-info memo">
-【Memo】バージョン1.1.0rc15現在、認証機能付きプロキシ設定には対応していません。
-</div>
+1. 開いている端末を閉じて、もう一度端末を開いてください。
+1. Enjuを再起動してください。（--> 詳細は[8-3節](enju_install_vm_8.html#section8-3)を参照）
 
 {::comment}
 
@@ -65,34 +63,34 @@ TSVインポートに使えるファイルサイズは、標準設定では、1M
 
 #### 1. 設定ファイルのバックアップをとる（念のため）
 
-	$ sudo cp /etc/nginx/nginx.conf /etc/nginx/nginx.conf.old
+  $ sudo cp /etc/nginx/nginx.conf /etc/nginx/nginx.conf.old
 
 #### 2. 設定ファイルを編集する。
 
-	$ sudo vi /etc/nginx/nginx.conf
+  $ sudo vi /etc/nginx/nginx.conf
 
 として編集する。
 
-	http {
-		...
-	}
+  http {
+    ...
+  }
 
 の部分に、一行足して
 
-	http {
-		...
-		client_max_body_size 20M;
-	}
+  http {
+    ...
+    client_max_body_size 20M;
+  }
 
 とします。
 
 #### 3. Webサーバーを再起動する。
 
-	$ sudo /etc/init.d/nginx restart
+  $ sudo /etc/init.d/nginx restart
 
 #### 4. OK が表示されるのを確認する。されなければ、 2. の編集を再度行い、3. 以降を実行する。
 
-	　　* Restarting nginx nginx                                                [ OK ]
+  　　* Restarting nginx nginx                                                [ OK ]
 
 ## Q. 504 Gateway Timeout というエラーメッセージが表示されて画面が表示されません。
 
