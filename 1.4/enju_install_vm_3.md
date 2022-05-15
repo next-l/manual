@@ -171,10 +171,4 @@ DockerはDocker社のWebサイトからダウンロードします。
 
 (TBD)
 
-{::comment}
-<div class="alert alert-info memo">
-【Memo】フォルダーをはじめとする設定項目は任意ですが，デフォルトのままインストールを実行しても構いません。
-</div>
-{/::comment}
-
 {% include enju_install_vm/toc_1.4.md %}

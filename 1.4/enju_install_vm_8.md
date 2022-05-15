@@ -17,28 +17,30 @@ Enjuは，以下の手順で，Enjuのソースコードが公開されている
 
 ### 8-1 Enjuの停止 {#section8-1}
 
-#### 1. 以下のコマンドを入力します。
-
-	docker compose down
+1. 以下のコマンドを入力します。
+```
+$ docker compose down
+```
 
 ### 8-2 最新ソースコードの取り込み {#section8-2}
 
-#### 1. 以下のコマンドを入力します。
-
-	cd enju_leaf
-
-#### 2. 以下のコマンドを入力します。
-
-	git pull
-  docker compose pull
-
-各種の処理が行われ，メッセージが出力されます。作業にはしばらく時間かかります。
+1. 以下のコマンドを入力します。
+```
+$ cd enju_leaf
+```
+2. 以下のコマンドを入力します。
+```
+$ git pull
+$ docker compose pull
+$ docker compose build
+```
 
 ### 8-3 Enjuを（再）起動 {#section8-3}
 
-#### 1. 以下のコマンドを入力します。
-
-	docker compose up -d
+1. 以下のコマンドを入力します。
+```
+$ docker compose up -d
+```
 
 {% include enju_install_vm/toc_1.4.md %}
 
