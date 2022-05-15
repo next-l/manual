@@ -87,12 +87,11 @@ Enju 検索結果一覧画面に表示される書誌情報や所蔵情報の表
 1. [10-2節](#section10-2) の 1. 〜 2. と同様に、Enjuを停止します。
 1. `app/views/manifestations/_manifestation.html.erb`を編集します。
 例えば、件名などを追加表示したい場合は以下のようなコード片を挿入します:
-
-```ruby
-  <%- manifestation.subjects.each do |subject| -%>
-    <%= link_to "#{subject.subject_heading_type.display_name.localize}: #{subject.term}", manifestations_path(query: "subject_sm:\"#{subject.term}\"") -%>
-  <%- end -%>
-```
+    ```ruby
+    <%- manifestation.subjects.each do |subject| -%>
+      <%= link_to "#{subject.subject_heading_type.display_name.localize}: #{subject.term}", manifestations_path(query: "subject_sm:\"#{subject.term}\"") -%>
+    <%- end -%>
+    ```
 
 1. [10-2節](#section10-2) の 4. と同様に、Enjuを起動します。
 
