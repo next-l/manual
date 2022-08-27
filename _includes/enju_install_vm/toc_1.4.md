@@ -11,7 +11,7 @@
 <li><a {% if page_filename == 'enju_install_vm_5.html' %} class="active" {% endif %} href="enju_install_vm_5.html">第5章 モジュールの追加</a></li>
 <li><a {% if page_filename == 'enju_install_vm_6.html' %} class="active" {% endif %} href="enju_install_vm_6.html">第6章 検索エンジンの設定</a></li>
 <li><a {% if page_filename == 'enju_install_vm_7.html' %} class="active" {% endif %} href="enju_install_vm_7.html">第7章 他のコンピュータからの利用設定</a></li>
-<li><a {% if page_filename == 'enju_install_vm_8.html' %} class="active" {% endif %} href="enju_install_vm_8.html">第8章 Enjuのアップデート及び停止・起動</a></li>
+<li><a {% if page_filename == 'enju_install_vm_8.html' %} class="active" {% endif %} href="enju_install_vm_8.html">第8章 Enjuのアップデート</a></li>
 <li><a {% if page_filename == 'enju_install_vm_9.html' %} class="active" {% endif %} href="enju_install_vm_9.html">第9章 データのバックアップ</a></li>
 <li><a {% if page_filename == 'enju_install_vm_10.html' %} class="active" {% endif %} href="enju_install_vm_10.html">第10章 その他（カスタマイズなど）</a></li>
 <li><a {% if page_filename == 'enju_install_vm_11.html' %} class="active" {% endif %} href="enju_install_vm_11.html">第11章 トラブルシューティング</a></li>

@@ -13,4 +13,4 @@ version: 1.4
 
 {::comment}別ファイル名候補：setup_other_computer.md{:/comment}
 
-{% include enju_install_vm/toc.md %}
+{% include enju_install_vm/toc_1.4.md %}

@@ -28,22 +28,22 @@ Enjuサーバは，外部からネットワーク経由でアクセスするこ�
 Enju 「条件を詳しく指定して検索」の画面をカスタマイズする方法を説明します。
 設定する画面がないため、これはサーバー上の作業をする必要があります。
 
-#### 1. 念のため[「8-1 Enjuの停止」](enju_install_vm_8.html#section8-1)を実行します。
-
-#### 2. 以下のファイルをダウンロードし、中身を編集します。
-
-[https://github.com/next-l/enju_leaf/blob/1.3/app/views/page/advanced_search.html.erb](https://github.com/next-l/enju_leaf/blob/1.3/app/views/page/advanced_search.html.erb)
-
-
-#### 3. インストールしてあるEnjuに、ディレクトリを作成します。
-
-        $ mkdir -p app/views/page
-
-#### 4. 2のファイルを3で作成したディレクトリにコピーします
-
-#### 5. [「8-3 Enjuを再起動」](enju_install_vm_8.html#section8-3)を実行します。
-
-#### 6. 画面を確認します。修正が必要なら 4.のファイルを修正し、5と6 の手順を行います。
+1. Enjuをインストールしたディレクトリに移動します。
+    ```
+    cd enju_leaf
+    ```
+1. Enjuを停止します。
+    ```
+    docker compose down
+    ```
+1. 以下のファイルの中身を編集して保存します。
+    ```
+    app/views/page/advanced_search.html.erb
+    ```
+1. Enjuを再起動し、詳細検索画面をリロードして確認します。修正が必要なら 2. と3. の手順を行います。
+    ```
+    docker compose up -d
+    ```
 
 10-3 トップの画面の検索フォームをカスタマイズする {#section10-3}
 -----------------------------------------------------------------------
@@ -51,17 +51,22 @@ Enju 「条件を詳しく指定して検索」の画面をカスタマイズす
 Enju トップの画面の検索フォームをカスタマイズする方法を説明します。
 設定する画面がないため、これはサーバー上の作業をする必要があります。
 
-#### 1. [10-2節](#section10-2) の 1. と同様です
-
-#### 2. 以下のファイルをダウンロードし、中身を編集します。
-
-[https://github.com/next-l/enju_leaf/blob/1.3/app/views/page/_search_form.html.erb](https://github.com/next-l/enju_leaf/blob/1.3/app/views/page/_search_form.html.erb)
-
-#### 3. インストールしてあるEnjuに、ディレクトリを作成します。
-
-        $ mkdir -p app/views/page
-
-#### 4. [10-2節](#section10-2) の 4. ～　6. と同様です。
+1. Enjuをインストールしたディレクトリに移動します。
+    ```
+    cd enju_leaf
+    ```
+1. Enjuを停止します。
+    ```
+    docker compose down
+    ```
+1. 以下のファイルの中身を編集して保存します。
+    ```
+    app/views/page/_search_form.html.erb
+    ```
+1. Enjuを再起動し、詳細検索画面をリロードして確認します。修正が必要なら 2. と3. の手順を行います。
+    ```
+    docker compose up -d
+    ```
 
 10-4 検索結果一覧画面の検索フォームをカスタマイズする {#section10-4}
 -----------------------------------------------------------------------
@@ -69,17 +74,9 @@ Enju トップの画面の検索フォームをカスタマイズする方法を
 Enju 検索結果一覧画面の検索フォームをカスタマイズする方法を説明します。
 設定する画面がないため、これはサーバー上の作業をする必要があります。
 
-#### 1. [10-2節](#section10-2) の 1. と同様です
-
-#### 2. 以下のファイルをダウンロードし、中身を編集します。
-
-<https://github.com/next-l/enju_biblio/blob/1.3/app/views/manifestations/_index_form.html.erb>
-
-#### 3. インストールしてあるEnjuに、ディレクトリを作成します。
-
-        $ mkdir -p app/views/manifestations
-
-#### 4. [10-2節](#section10-2) の 4. ～　6. と同様です。
+1. [10-2節](#section10-2) の 1. 〜 2. と同様に、Enjuを停止します。
+1. `app/views/manifestations/_index_form.html.erb`を編集します。
+1. [10-2節](#section10-2) の 4. と同様に、Enjuを起動します。
 
 10-5 検索結果一覧画面に表示項目を追加する {#section10-5}
 --------------------------------------------------------
@@ -87,33 +84,23 @@ Enju 検索結果一覧画面の検索フォームをカスタマイズする方
 Enju 検索結果一覧画面に表示される書誌情報や所蔵情報の表示内容をカスタマイズする方法を説明します。
 設定する画面がないため、これはサーバー上の作業をする必要があります。
 
-#### 1. [10-2節](#section10-2) の 1. と同様です
-
-#### 2. 以下のファイルをダウンロードし、中身を編集します。
-
-<https://github.com/next-l/enju_biblio/blob/1.3/app/views/manifestations/_manifestation.html.erb>
-
+1. [10-2節](#section10-2) の 1. 〜 2. と同様に、Enjuを停止します。
+1. `app/views/manifestations/_manifestation.html.erb`を編集します。
 例えば、件名などを追加表示したい場合は以下のようなコード片を挿入します:
+    ```ruby
+    <%- manifestation.subjects.each do |subject| -%>
+      <%= link_to "#{subject.subject_heading_type.display_name.localize}: #{subject.term}", manifestations_path(query: "subject_sm:\"#{subject.term}\"") -%>
+    <%- end -%>
+    ```
 
-```ruby
-  <%- manifestation.subjects.each do |subject| -%>
-    <%= link_to "#{subject.subject_heading_type.display_name.localize}: #{subject.term}", manifestations_path(query: "subject_sm:\"#{subject.term}\"") -%>
-  <%- end -%>
-```
-
-#### 3. インストールしてあるEnjuに、ディレクトリを作成します。
-
-        $ mkdir -p app/views/manifestations
-
-#### 4. [10-2節](#section10-2) の 4. ～　6. と同様です。
+1. [10-2節](#section10-2) の 4. と同様に、Enjuを起動します。
 
 
 10-6 トップ画面やヘルプなどに表示する画像を置く {#section10-6}
 --------------------------------------------------------------
 
-#### 1. 置きたい画像を用意します。（ここでは例として logo.png とします）
-
-#### 2. インストールしてあるEnju の app/assets/images/ 以下に画像ファイルを置きます。※ custom フォルダを作成し、その下にファイルを置くことを推奨します。
+1. 置きたい画像を用意します。（ここでは例として logo.png とします）
+1. インストールしてあるEnju の app/assets/images/ 以下に画像ファイルを置きます。※ custom フォルダを作成し、その下にファイルを置くことを推奨します。
 
 <div class="alert alert-info memo" markdown="1">
 
@@ -125,11 +112,11 @@ Enju 検索結果一覧画面に表示される書誌情報や所蔵情報の表
 
 </div>
 
-#### 3. 以下のコマンドを実行します。
+1. 以下のコマンドを実行します。
 
         $ bundle exec rake assets:precompile
 
-#### 4. 参照するURLについて
+1. 参照するURLについて
 
 以下のようなURLになりますのでこのURLを使って参照することができます。
 
@@ -148,18 +135,14 @@ Enju 検索結果一覧画面に表示される書誌情報や所蔵情報の表
 たとえば、バナー画像を使いたい場合などは、
 サーバー上の作業をする必要があります。
 
-#### 1. [10-2節](#section10-2) の 1. と同様です。
-
-#### 2. バナー画像があれば、画像ファイルをEnju に置きます。
+1. [10-2節](#section10-2) の 1. 〜 2. と同様に、Enjuを停止します。
+1. バナー画像があれば、画像ファイルをEnju に置きます。
 
 * 画像ファイルを置く方法は、[「10-5　トップ画面やヘルプなどに表示する画像を置く」](#section10-5)を参照してください。
 * 説明で使う例として：置いたファイル：custom/logo.png 
 * バナー画像の大きさは 横：640ピクセル 縦：65ピクセル　にするとちょうどよいです。大きすぎるとはみ出て表示されます。
 
-#### 3. 以下のファイルをダウンロードし、中身を編集します。
-
-[https://raw.githubusercontent.com/next-l/enju_leaf/1.3/app/views/page/_header.html.erb](https://raw.githubusercontent.com/next-l/enju_leaf/1.3/app/views/page/_header.html.erb)
-
+1. `app/views/page/_header.html.erb`を編集します。
 例えば、バナー画像をタイトルの代わりにつけたい場合は、以下の記述を変更します。
 
         <h1><%= link_to image_tag('custom/logo.png'), root_path %></h1>
@@ -180,44 +163,19 @@ Enju 検索結果一覧画面に表示される書誌情報や所蔵情報の表
 
 {:/comment}
 
-#### 4. インストールしてあるEnjuに、ディレクトリを作成します。
-
-        $ mkdir -p app/views/page
-
-#### 5. [10-2節](#section10-2) の 4. ～　6. と同様です。
+1. [10-2節](#section10-2) の 4. と同様です。
 
 10-8 Sitemapsを設定する {#section10-8}
 -----------------------------------------------------------------------
 
-以下のコマンドを実行し、設定ファイル config/sitemap.rb を作成します。
+以下のコマンドでサイトマップを作成・更新します。ファイルは`public/sitemap.xml.gz`に作成されます。定期的にサイトマップを更新する場合、以下のコマンドをcronなどに登録してください。
 
-``` sh
-$ bundle exec rake sitemap:install
-```
-
-config/sitemap.rb を編集します。
-
-``` ruby
-# ホスト名を変更
-SitemapGenerator::Sitemap.default_host = "http://enju.example.jp"
-
-SitemapGenerator::Sitemap.create do
-  # 中略
-  # 以下の3行を追加
-  Manifestation.find_each do |manifestation|
-    add manifestation_path(manifestation), lastmod: manifestation.updated_at
-  end
-end
-```
-
-最後に、以下のコマンドでサイトマップを作成・更新します。ファイルは public/sitemap.xml.gz に作成されます。定期的にサイトマップを更新する場合、以下のコマンドをcronなどに登録してください。
-
-``` sh
-$ bundle exec rake sitemap:create RAILS_ENV=production
+```sh
+docker compose run --rm web rake sitemap:create
 ```
 
 サイトマップは以下のようなURLでアクセスできます。
 
-http://enju.example.jp/sitemap.xml.gz
+https://enju.example.jp/sitemap.xml.gz
 
-{% include enju_install_vm/toc.md %}
+{% include enju_install_vm/toc_1.4.md %}

@@ -133,4 +133,4 @@ Docker DesktopをDocker社のWebサイトからダウンロードします。次
 
 前項でダウンロードしたファイルを実行し，Docker Desktopをインストールします。
 
-{% include enju_install_vm/toc.md %}
+{% include enju_install_vm/toc_1.4.md %}

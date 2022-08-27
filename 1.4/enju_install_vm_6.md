@@ -177,4 +177,4 @@ solr/conf ディレクトリーの中に schema.xml というXMLファイルが�
 
 なお，異体字対策については，検索機能でなくデータ側で頑張る方針もあります。異体字の範囲はほどほどにとどめ，書誌情報に異表記を積極的に追加して再現率を上げるやり方です。
 
-{% include enju_install_vm/toc.md %}
+{% include enju_install_vm/toc_1.4.md %}

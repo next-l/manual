@@ -8,4 +8,4 @@ version: 1.4
 
 {% include enju_introduction.md %} {::comment}第1章 Enju概要{:/comment}
 
-{% include enju_install_vm/toc.md %}
+{% include enju_install_vm/toc_1.4.md %}
