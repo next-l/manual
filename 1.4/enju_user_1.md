@@ -222,7 +222,7 @@ Enjuを利用した資料の検索方法には、演算子やフィールド名�
 &lt;recordInfo&gt;
   &lt;recordCreationDate&gt;2015-12-05 12:34:42 +0900&lt;/recordCreationDate&gt;
   &lt;recordChangeDate&gt;2015-12-06 17:33:23 +0900&lt;/recordChangeDate&gt;
-  &lt;recordIdentifier&gt;http://localhost:3000/manifestations/3&lt;/recordIdentifier&gt;
+  &lt;recordIdentifier&gt;http://localhost:8080/manifestations/3&lt;/recordIdentifier&gt;
 &lt;/recordInfo&gt;
 &lt;titleInfo&gt;
   &lt;title&gt;レッスン&lt;/title&gt;
@@ -270,7 +270,7 @@ Enjuを利用した資料の検索方法には、演算子やフィールド名�
 &lt;recordInfo&gt;
   &lt;recordCreationDate&gt;2015-11-29 12:08:23 +0900&lt;/recordCreationDate&gt;
   &lt;recordChangeDate&gt;2015-12-10 01:42:21 +0900&lt;/recordChangeDate&gt;
-  &lt;recordIdentifier&gt;http://localhost:3000/manifestations/2&lt;/recordIdentifier&gt;
+  &lt;recordIdentifier&gt;http://localhost:8080/manifestations/2&lt;/recordIdentifier&gt;
 &lt;/recordInfo&gt;
 &lt;titleInfo&gt;
   &lt;title&gt;はじめてのRuby on Rails : 話題の「Webアプリケーション・フレームワーク」が使える! : instant rails&lt;/title&gt;
@@ -306,7 +306,7 @@ Enjuを利用した資料の検索方法には、演算子やフィールド名�
 &lt;recordInfo&gt;
   &lt;recordCreationDate&gt;2015-11-29 12:05:32 +0900&lt;/recordCreationDate&gt;
   &lt;recordChangeDate&gt;2015-12-14 23:50:35 +0900&lt;/recordChangeDate&gt;
-  &lt;recordIdentifier&gt;http://localhost:3000/manifestations/1&lt;/recordIdentifier&gt;
+  &lt;recordIdentifier&gt;http://localhost:8080/manifestations/1&lt;/recordIdentifier&gt;
 &lt;/recordInfo&gt;
 &lt;/modsCollection&gt;
 </pre>
@@ -408,7 +408,7 @@ Enjuを利用した資料の検索方法には、演算子やフィールド名�
 &lt;recordInfo&gt;
   &lt;recordCreationDate&gt;2015-11-29 12:08:23 +0900&lt;/recordCreationDate&gt;
   &lt;recordChangeDate&gt;2015-12-10 01:42:21 +0900&lt;/recordChangeDate&gt;
-  &lt;recordIdentifier&gt;http://localhost:3000/manifestations/2&lt;/recordIdentifier&gt;
+  &lt;recordIdentifier&gt;http://localhost:8080/manifestations/2&lt;/recordIdentifier&gt;
 &lt;/recordInfo&gt;
 &lt;/mods&gt;
 </pre>

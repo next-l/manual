@@ -25,8 +25,8 @@ Enju は資料の検索結果詳細を好みのフォーマットで取得する
 
 <pre>
 例
-（変更前）：http://localhost:3000/manifestations/5
-（変更後）：http://localhost:3000/manifestations/5.txt
+（変更前）：http://localhost:8080/manifestations/5
+（変更後）：http://localhost:8080/manifestations/5.txt
 </pre>
 
 にします
@@ -58,8 +58,8 @@ manifestation_id	original_title	title_transcription	creator	contributor	publishe
 
 <pre>
 例
-（変更前）：http://localhost:3000/manifestations/2
-（変更後）：http://localhost:3000/manifestations/2.rdf
+（変更前）：http://localhost:8080/manifestations/2
+（変更後）：http://localhost:8080/manifestations/2.rdf
 </pre>
 
 にします
@@ -74,7 +74,7 @@ manifestation_id	original_title	title_transcription	creator	contributor	publishe
 &lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"&gt;
 &lt;title&gt;Ruby on Rails入門 : 優しいRailsの育て方&lt;/title&gt;
-&lt;link&gt;http://localhost:3000/manifestations/1&lt;/link&gt;
+&lt;link&gt;http://localhost:8080/manifestations/1&lt;/link&gt;
 &lt;description&gt;秀和システム; 2006-08&lt;/description&gt;
 &lt;/rdf:RDF&gt;
 </pre>

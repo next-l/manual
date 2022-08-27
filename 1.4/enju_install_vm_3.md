@@ -127,54 +127,10 @@ Docker用に用意された Next-L Enjuは，バーチャライゼーション�
 
 ### 3-2-1 Dockerのダウンロード {#section3-2-1}
 
-DockerはDocker社のWebサイトからダウンロードします。
-
-#### 1. 次のWebページで［Downloads］をクリックします。 [https://www.docker.com/products/docker-desktop/](https://www.docker.com/products/docker-desktop/)
-
-(TBD)
-
-{::comment}
-#### 2. 「Docker 4.3.6 for Windows hosts」の横の［x86/amd64］のリンクをクリックするとダウンロードが開始します。(この図では4.3.6となっていますが、これはDockerのバージョンを示しています。どんどん新しいものが出ますので、ダウンロードする際にこれより数字が大きくなっている（例：5.4.6）ことがありますが、気にせずダウンロードしてください。)保存する場所がどこであるのかわかりにくいことがあるので注意してください。
-
-![［x86/amd64］のリンクをクリック](../assets/images/1.1/image_install_009.png)
-{:/comment}
+Docker DesktopをDocker社のWebサイトからダウンロードします。次のWebページで［Downloads］をクリックします。 [https://www.docker.com/products/docker-desktop/](https://www.docker.com/products/docker-desktop/)
 
 ### 3-2-2 Dockerのインストール {#section3-2-2}
 
-前項でダウンロードしたファイルを実行し，Dockerをインストールします。
-
-#### 1. ダウンロードしたファイルを実行します。ウィザードに従ってDockerをインストールのための設定を開始します。「Next」をクリックします。
-
-(TBD)
-
-#### 2. 特に変更する必要はありませんので，このまま「Next」をクリックします
-
-(TBD)
-
-#### 3. 特に変更する必要はありませんので，このまま「Next」をクリックします
-
-(TBD)
-
-#### 4. (以降のセットアップ時にネットワークが一時的に切れる警告です。)「Yes」をクリックします
-
-(TBD)
-
-#### 5. インストールを開始します。「Install」をクリックします。
-
-(TBD)
-
-#### 6. インストールが終了しました。「Finish」をクリックします。
-
-(TBD)
-
-#### 7. Dockerが起動しました
-
-(TBD)
-
-{::comment}
-<div class="alert alert-info memo">
-【Memo】フォルダーをはじめとする設定項目は任意ですが，デフォルトのままインストールを実行しても構いません。
-</div>
-{/::comment}
+前項でダウンロードしたファイルを実行し，Docker Desktopをインストールします。
 
 {% include enju_install_vm/toc.md %}
