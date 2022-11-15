@@ -9,7 +9,8 @@ version: 1.4
 第7章 他のコンピュータからの利用設定 {#section7}
 ================================================
 
-後日公開します。
+以下のWebサイトをごらんください。  
+https://github.com/next-l/enju_leaf/wiki/Production
 
 {::comment}別ファイル名候補：setup_other_computer.md{:/comment}
 

@@ -33,6 +33,8 @@ $ cd enju_leaf
 $ git pull
 $ docker compose pull
 $ docker compose build
+$ docker compose run --rm web rake db:migrate
+$ docker compose run --rm web rake assets:precompile
 ```
 
 ### 8-3 Enjuを（再）起動 {#section8-3}

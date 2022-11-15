@@ -18,6 +18,10 @@ version: 1.4
 
 Enjuのインストールに必要なパッケージは，すべてネットワーク上で提供されます。
 
+```
+$ git clone https://github.com/next-l/enju_leaf.git
+```
+
 4-2 Dockerの起動 {#section4-2}
 ----------------------------------
 
@@ -31,7 +35,8 @@ Dockerを起動します。
 Enjuコンテナを起動します。
 
 ```
-$ docker compose up
+$ cd enju_leaf
+$ docker compose up -d
 ```
 
 4-4 Enjuの起動確認 {#section4-4}
